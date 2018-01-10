@@ -2,7 +2,7 @@
 
 Snippets for every WordPress function, class and constant complete with argument type hints and brief descriptions.
 
-*	Version: 1.0.0
+*	Version: 1.0.2
 *	WordPress API: 4.9.1
 *	Documentation: [WordPressToolbox.io](https://wordpresstoolbox.io/vscode)
 *	License: MIT
@@ -25,7 +25,7 @@ Reach me on Twitter: [@wordpresstoolbx](https://twitter.com/wordpresstoolbx)
 
 ## Release Notes
 
-### 1.0.1
+### 1.0.2
 
 Minor updates to README.md.
 
