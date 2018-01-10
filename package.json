@@ -1,7 +1,7 @@
 {
     "name": "wordpress-toolbox",
-    "displayName": "WordPressToolbox.io",
-    "description": "The ultimate WordPress snippet collection for Visual Studio Code.",
+    "displayName": "WordPress Toolbox",
+    "description": "The ultimate WordPress snippet collection for Visual Studio Code. WordPress 4.9.1 API",
     "version": "1.0.0",
     "publisher": "wordpresstoolbox",
     "engines": {
@@ -10,10 +10,22 @@
     "categories": [
         "Snippets"
     ],
+    "keywords": ["wordpress", "wp"],
     "contributes": {
         "snippets": [{
             "language": "php",
             "path": "./snippets/snippets.json"
         }]
+    },
+    "icon": "images/wordpresstoolbox-icon.png",
+    "license": "MIT",
+    "homepage": "https://www.wordpresstoolbox.io/vscode",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/jason-pomerleau/vscode-wordpress-toolbox"
+    },
+    "bugs": {
+        "url": "https://github.com/jason-pomerleau/vscode-wordpress-toolbox/issues",
+        "email": "jason@jasonpomerleau.com"
     }
 }

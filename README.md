@@ -9,7 +9,7 @@ Snippets for every WordPress function, class and constant complete with argument
 
 ## Features
 
-*	Make fewer documentation checks with argument type hints
+*	Fewer documentation checks with argument type hints
 *	Easy completion with tab stops in all the right places
 *	3,037 Functions
 *   389 Classes
@@ -18,6 +18,10 @@ Snippets for every WordPress function, class and constant complete with argument
 ## Requirements
 
 These snippets are bound to the PHP language context. Your cursor will need to be inside a set of <?php  ?> tags.
+
+## Problems? Comments?
+
+Reach me on Twitter: [@wordpresstoolbx](https://twitter.com/wordpresstoolbx)
 
 ## Release Notes
 
