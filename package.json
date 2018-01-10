@@ -1,0 +1,19 @@
+{
+    "name": "wordpress-toolbox",
+    "displayName": "WordPressToolbox.io",
+    "description": "The ultimate WordPress snippet collection for Visual Studio Code.",
+    "version": "1.0.0",
+    "publisher": "wordpresstoolbox",
+    "engines": {
+        "vscode": "^1.19.0"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "contributes": {
+        "snippets": [{
+            "language": "php",
+            "path": "./snippets/snippets.json"
+        }]
+    }
+}
