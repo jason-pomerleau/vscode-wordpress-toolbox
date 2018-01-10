@@ -1,4 +1,4 @@
-# wordpress-toolbox README
+# The ultimate WordPress snippet collection for Visual Studio Code
 
 Snippets for every WordPress function, class and constant complete with argument type hints and brief descriptions.
 
@@ -17,13 +17,17 @@ Snippets for every WordPress function, class and constant complete with argument
 
 ## Requirements
 
-These snippets are bound to the PHP language context. Your cursor will need to be inside a set of <?php  ?> tags.
+These snippets are bound to the PHP language context. Your cursor will need to be inside a set of PHP tags.
 
 ## Problems? Comments?
 
 Reach me on Twitter: [@wordpresstoolbx](https://twitter.com/wordpresstoolbx)
 
 ## Release Notes
+
+### 1.0.1
+
+Minor updates to README.md.
 
 ### 1.0.0
 
