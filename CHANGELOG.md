@@ -1,6 +1,10 @@
 # Change Log
 All notable changes to the "wordpress-toolbox" extension will be documented in this file.
 
+## [1.0.4] - 2018-01-13
+### Fixed
+- Minor text updates to README and package.json.
+
 ## [1.0.3] - 2018-01-13
 ### Fixed
 - Resolved an issue that showed 2 null type hints in scenarios where a function's first argument is optional.
