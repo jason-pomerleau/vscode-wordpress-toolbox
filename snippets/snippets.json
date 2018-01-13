@@ -5681,7 +5681,7 @@
     },
     "Function: _wp_put_post_revision": {
         "prefix": "_wp_put_post_revision",
-        "body": "_wp_put_post_revision( ${1:\\$post:integer|WP_Post|array|null|null}, ${2:\\$autosave:boolean} )",
+        "body": "_wp_put_post_revision( ${1:\\$post:integer|WP_Post|array|null}, ${2:\\$autosave:boolean} )",
         "description": "Inserts post data into the posts table as a post revision."
     },
     "Function: _wp_register_meta_args_whitelist": {
@@ -7006,7 +7006,7 @@
     },
     "Function: count_users": {
         "prefix": "count_users",
-        "body": "count_users( ${1:\\$strategy:string}, ${2:\\$site_id:integer|null|null} )",
+        "body": "count_users( ${1:\\$strategy:string}, ${2:\\$site_id:integer|null} )",
         "description": "Count number of users who have each of the user roles."
     },
     "Function: create_empty_blog": {
@@ -7311,7 +7311,7 @@
     },
     "Function: display_setup_form": {
         "prefix": "display_setup_form",
-        "body": "display_setup_form( ${1:\\$error:string|null|null} )",
+        "body": "display_setup_form( ${1:\\$error:string|null} )",
         "description": "Display installer setup form."
     },
     "Function: display_space_usage": {
@@ -7456,12 +7456,12 @@
     },
     "Function: doing_action": {
         "prefix": "doing_action",
-        "body": "doing_action( ${1:\\$action:string|null|null} )",
+        "body": "doing_action( ${1:\\$action:string|null} )",
         "description": "Retrieve the name of an action currently being processed."
     },
     "Function: doing_filter": {
         "prefix": "doing_filter",
-        "body": "doing_filter( ${1:\\$filter:null|string|null} )",
+        "body": "doing_filter( ${1:\\$filter:null|string} )",
         "description": "Retrieve the name of a filter currently being processed."
     },
     "Function: dolly_css": {
@@ -8061,7 +8061,7 @@
     },
     "Function: get_blog_count": {
         "prefix": "get_blog_count",
-        "body": "get_blog_count( ${1:\\$network_id:integer|null|null} )",
+        "body": "get_blog_count( ${1:\\$network_id:integer|null} )",
         "description": "The number of active sites on your installation."
     },
     "Function: get_blog_details": {
@@ -8346,7 +8346,7 @@
     },
     "Function: get_comment_link": {
         "prefix": "get_comment_link",
-        "body": "get_comment_link( ${1:\\$comment:WP_Comment|integer|null|null}, ${2:\\$args:array} )",
+        "body": "get_comment_link( ${1:\\$comment:WP_Comment|integer|null}, ${2:\\$args:array} )",
         "description": "Retrieve the link to a given comment."
     },
     "Function: get_comment_meta": {
@@ -8726,7 +8726,7 @@
     },
     "Function: get_home_url": {
         "prefix": "get_home_url",
-        "body": "get_home_url( ${1:\\$blog_id:integer|null}, ${2:\\$path:string}, ${3:\\$scheme:string|null|null} )",
+        "body": "get_home_url( ${1:\\$blog_id:integer|null}, ${2:\\$path:string}, ${3:\\$scheme:string|null} )",
         "description": "Retrieves the URL for a given site where the front end is accessible."
     },
     "Function: get_html_split_regex": {
@@ -8941,7 +8941,7 @@
     },
     "Function: get_network": {
         "prefix": "get_network",
-        "body": "get_network( ${1:\\$network:WP_Network|integer|null|null} )",
+        "body": "get_network( ${1:\\$network:WP_Network|integer|null} )",
         "description": "Retrieves network data given a network ID or network object."
     },
     "Function: get_network_option": {
@@ -9091,7 +9091,7 @@
     },
     "Function: get_page_templates": {
         "prefix": "get_page_templates",
-        "body": "get_page_templates( ${1:\\$post:WP_Post|null|null}, ${2:\\$post_type:string} )",
+        "body": "get_page_templates( ${1:\\$post:WP_Post|null}, ${2:\\$post_type:string} )",
         "description": "Get the Page Templates available in this theme"
     },
     "Function: get_page_uri": {
@@ -9176,7 +9176,7 @@
     },
     "Function: get_post": {
         "prefix": "get_post",
-        "body": "get_post( ${1:\\$post:integer|WP_Post|null|null}, ${2:\\$output:string}, ${3:\\$filter:string} )",
+        "body": "get_post( ${1:\\$post:integer|WP_Post|null}, ${2:\\$output:string}, ${3:\\$filter:string} )",
         "description": "Retrieves post data given a post ID or post object."
     },
     "Function: get_post_ancestors": {
@@ -9226,7 +9226,7 @@
     },
     "Function: get_post_format": {
         "prefix": "get_post_format",
-        "body": "get_post_format( ${1:\\$post:integer|object|null|null} )",
+        "body": "get_post_format( ${1:\\$post:integer|object|null} )",
         "description": "Retrieve the format slug for a post"
     },
     "Function: get_post_format_link": {
@@ -9346,7 +9346,7 @@
     },
     "Function: get_post_type": {
         "prefix": "get_post_type",
-        "body": "get_post_type( ${1:\\$post:integer|WP_Post|null|null} )",
+        "body": "get_post_type( ${1:\\$post:integer|WP_Post|null} )",
         "description": "Retrieves the post type of the current post or of a given post."
     },
     "Function: get_post_type_archive_feed_link": {
@@ -9616,7 +9616,7 @@
     },
     "Function: get_site": {
         "prefix": "get_site",
-        "body": "get_site( ${1:\\$site:WP_Site|integer|null|null} )",
+        "body": "get_site( ${1:\\$site:WP_Site|integer|null} )",
         "description": "Retrieves site data given a site ID or site object."
     },
     "Function: get_site_allowed_themes": {
@@ -9626,7 +9626,7 @@
     },
     "Function: get_site_by_path": {
         "prefix": "get_site_by_path",
-        "body": "get_site_by_path( ${1:\\$domain:string}, ${2:\\$path:string}, ${3:\\$segments:integer|null|null} )",
+        "body": "get_site_by_path( ${1:\\$domain:string}, ${2:\\$path:string}, ${3:\\$segments:integer|null} )",
         "description": "Retrieves the closest matching site object by its domain and path."
     },
     "Function: get_site_icon_url": {
@@ -10256,7 +10256,7 @@
     },
     "Function: get_user_count": {
         "prefix": "get_user_count",
-        "body": "get_user_count( ${1:\\$network_id:integer|null|null} )",
+        "body": "get_user_count( ${1:\\$network_id:integer|null} )",
         "description": "The number of active users in your installation."
     },
     "Function: get_user_details": {
@@ -10441,7 +10441,7 @@
     },
     "Function: has_post_format": {
         "prefix": "has_post_format",
-        "body": "has_post_format( ${1:\\$format:string|array}, ${2:\\$post:object|integer|null|null} )",
+        "body": "has_post_format( ${1:\\$format:string|array}, ${2:\\$post:object|integer|null} )",
         "description": "Check if a post has any of the given formats, or any format."
     },
     "Function: has_post_thumbnail": {
@@ -10516,7 +10516,7 @@
     },
     "Function: home_url": {
         "prefix": "home_url",
-        "body": "home_url( ${1:\\$path:string}, ${2:\\$scheme:string|null|null} )",
+        "body": "home_url( ${1:\\$path:string}, ${2:\\$scheme:string|null} )",
         "description": "Retrieves the URL for the current site where the front end is accessible."
     },
     "Function: html_type_rss": {
@@ -10791,7 +10791,7 @@
     },
     "Function: is_allowed_http_origin": {
         "prefix": "is_allowed_http_origin",
-        "body": "is_allowed_http_origin( ${1:\\$origin:null|string|null} )",
+        "body": "is_allowed_http_origin( ${1:\\$origin:null|string} )",
         "description": "Determines if the HTTP origin is an authorized one."
     },
     "Function: is_archive": {
@@ -11061,7 +11061,7 @@
     },
     "Function: is_protected_meta": {
         "prefix": "is_protected_meta",
-        "body": "is_protected_meta( ${1:\\$meta_key:string}, ${2:\\$meta_type:string|null|null} )",
+        "body": "is_protected_meta( ${1:\\$meta_key:string}, ${2:\\$meta_type:string|null} )",
         "description": "Determine whether a meta key is protected."
     },
     "Function: is_random_header_image": {
@@ -12186,7 +12186,7 @@
     },
     "Function: post_password_required": {
         "prefix": "post_password_required",
-        "body": "post_password_required( ${1:\\$post:integer|WP_Post|null|null} )",
+        "body": "post_password_required( ${1:\\$post:integer|WP_Post|null} )",
         "description": "Whether post requires password and correct password has been provided."
     },
     "Function: post_permalink": {
@@ -13301,7 +13301,7 @@
     },
     "Function: set_url_scheme": {
         "prefix": "set_url_scheme",
-        "body": "set_url_scheme( ${1:\\$url:string}, ${2:\\$scheme:string|null|null} )",
+        "body": "set_url_scheme( ${1:\\$url:string}, ${2:\\$scheme:string|null} )",
         "description": "Sets the scheme for a URL."
     },
     "Function: set_user_setting": {
@@ -14841,7 +14841,7 @@
     },
     "Function: update_blog_status": {
         "prefix": "update_blog_status",
-        "body": "update_blog_status( ${1:\\$blog_id:integer}, ${2:\\$pref:string}, ${3:\\$value:string}, ${4:\\$deprecated:null|null} )",
+        "body": "update_blog_status( ${1:\\$blog_id:integer}, ${2:\\$pref:string}, ${3:\\$value:string}, ${4:\\$deprecated:null} )",
         "description": "Update a blog details field."
     },
     "Function: update_category_cache": {
@@ -15016,7 +15016,7 @@
     },
     "Function: update_user_status": {
         "prefix": "update_user_status",
-        "body": "update_user_status( ${1:\\$id:integer}, ${2:\\$pref:string}, ${3:\\$value:integer}, ${4:\\$deprecated:null|null} )",
+        "body": "update_user_status( ${1:\\$id:integer}, ${2:\\$pref:string}, ${3:\\$value:integer}, ${4:\\$deprecated:null} )",
         "description": "Update the status of a user in the database."
     },
     "Function: update_usermeta": {
@@ -17176,7 +17176,7 @@
     },
     "Function: wp_get_post_revisions": {
         "prefix": "wp_get_post_revisions",
-        "body": "wp_get_post_revisions( ${1:\\$post_id:integer|WP_Post}, ${2:\\$args:array|null|null} )",
+        "body": "wp_get_post_revisions( ${1:\\$post_id:integer|WP_Post}, ${2:\\$args:array|null} )",
         "description": "Returns all revisions of specified post."
     },
     "Function: wp_get_post_tags": {
@@ -17301,7 +17301,7 @@
     },
     "Function: wp_get_users_with_no_role": {
         "prefix": "wp_get_users_with_no_role",
-        "body": "wp_get_users_with_no_role( ${1:\\$site_id:integer|null|null} )",
+        "body": "wp_get_users_with_no_role( ${1:\\$site_id:integer|null} )",
         "description": "Get the user IDs of all users with no role on this site."
     },
     "Function: wp_get_video_extensions": {
@@ -17516,7 +17516,7 @@
     },
     "Function: wp_is_large_network": {
         "prefix": "wp_is_large_network",
-        "body": "wp_is_large_network( ${1:\\$using:string}, ${2:\\$network_id:integer|null|null} )",
+        "body": "wp_is_large_network( ${1:\\$using:string}, ${2:\\$network_id:integer|null} )",
         "description": "Whether or not we have a large network."
     },
     "Function: wp_is_mobile": {
@@ -17961,12 +17961,12 @@
     },
     "Function: wp_maybe_update_network_site_counts": {
         "prefix": "wp_maybe_update_network_site_counts",
-        "body": "wp_maybe_update_network_site_counts( ${1:\\$network_id:integer|null|null} )",
+        "body": "wp_maybe_update_network_site_counts( ${1:\\$network_id:integer|null} )",
         "description": "Update the count of sites for the current network."
     },
     "Function: wp_maybe_update_network_user_counts": {
         "prefix": "wp_maybe_update_network_user_counts",
-        "body": "wp_maybe_update_network_user_counts( ${1:\\$network_id:integer|null|null} )",
+        "body": "wp_maybe_update_network_user_counts( ${1:\\$network_id:integer|null} )",
         "description": "Update the network-wide users count."
     },
     "Function: wp_media_attach_action": {
@@ -18101,7 +18101,7 @@
     },
     "Function: wp_new_user_notification": {
         "prefix": "wp_new_user_notification",
-        "body": "wp_new_user_notification( ${1:\\$user_id:integer}, ${2:\\$deprecated:null|null}, ${3:\\$notify:string} )",
+        "body": "wp_new_user_notification( ${1:\\$user_id:integer}, ${2:\\$deprecated:null}, ${3:\\$notify:string} )",
         "description": "Email login credentials to a newly-registered user."
     },
     "Function: wp_next_scheduled": {
@@ -19151,7 +19151,7 @@
     },
     "Function: wp_trash_post_comments": {
         "prefix": "wp_trash_post_comments",
-        "body": "wp_trash_post_comments( ${1:\\$post:integer|WP_Post|null|null} )",
+        "body": "wp_trash_post_comments( ${1:\\$post:integer|WP_Post|null} )",
         "description": "Moves comments for a post to the trash."
     },
     "Function: wp_trim_excerpt": {
@@ -19241,7 +19241,7 @@
     },
     "Function: wp_untrash_post_comments": {
         "prefix": "wp_untrash_post_comments",
-        "body": "wp_untrash_post_comments( ${1:\\$post:integer|WP_Post|null|null} )",
+        "body": "wp_untrash_post_comments( ${1:\\$post:integer|WP_Post|null} )",
         "description": "Restore comments for a post from the trash."
     },
     "Function: wp_update_attachment_metadata": {
@@ -19296,17 +19296,17 @@
     },
     "Function: wp_update_network_counts": {
         "prefix": "wp_update_network_counts",
-        "body": "wp_update_network_counts( ${1:\\$network_id:integer|null|null} )",
+        "body": "wp_update_network_counts( ${1:\\$network_id:integer|null} )",
         "description": "Update the network-wide counts for the current network."
     },
     "Function: wp_update_network_site_counts": {
         "prefix": "wp_update_network_site_counts",
-        "body": "wp_update_network_site_counts( ${1:\\$network_id:integer|null|null} )",
+        "body": "wp_update_network_site_counts( ${1:\\$network_id:integer|null} )",
         "description": "Update the network-wide site count."
     },
     "Function: wp_update_network_user_counts": {
         "prefix": "wp_update_network_user_counts",
-        "body": "wp_update_network_user_counts( ${1:\\$network_id:integer|null|null} )",
+        "body": "wp_update_network_user_counts( ${1:\\$network_id:integer|null} )",
         "description": "Update the network-wide user count."
     },
     "Function: wp_update_plugin": {
