@@ -2,10 +2,10 @@
 
 Snippets for every WordPress function, class and constant, complete with argument type hints and brief descriptions.
 
-*	WordPress API Support: 4.9.1
-	-	3,037 Functions
-	-	389 Classes
-	-	558 Constants
+*	WordPress API Support: *4.9.1*
+	-	*3,037* Functions
+	-	*389* Classes
+	-	*558* Constants
 *	Documentation: [wordpresstoolbox.io/vscode](https://wordpresstoolbox.io/vscode)
 
 ## Features
