@@ -13591,7 +13591,7 @@
     },
     "Function: term_description": {
         "prefix": "term_description",
-        "body": "term_description( ${1:\\$term:integer}, ${2:\\$taxonomy:string} )",
+        "body": "term_description( ${1:\\$term:integer}, ${2:\\$deprecated:null} )",
         "description": "Retrieve term description."
     },
     "Function: term_exists": {
