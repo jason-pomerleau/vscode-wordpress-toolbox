@@ -1,8 +1,15 @@
 # Change Log
-All notable changes to the "wordpress-toolbox" extension will be documented in this file.
+
+## [1.1.1] - 2018-02-05
+### Updated
+- Updated snippets to WordPress 4.9.3 release.
+
+## [1.1.0] - 2018-01-17
+### Updated
+- Updated snippets to WordPress 4.9.2 release.
 
 ## [1.0.4] - 2018-01-13
-### Fixed
+### Updated
 - Minor text updates to README and package.json.
 
 ## [1.0.3] - 2018-01-13
@@ -10,7 +17,7 @@ All notable changes to the "wordpress-toolbox" extension will be documented in t
 - Resolved an issue that showed 2 null type hints in scenarios where a function's first argument is optional.
 
 ## [1.0.2] - 2018-01-10
-### Fixed
+### Updated
 - Minor updates to README.
 
 ## [1.0.0] - 2018-01-10

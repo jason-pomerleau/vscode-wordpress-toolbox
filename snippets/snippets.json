@@ -1864,31 +1864,6 @@
         "body": "ABSPATH",
         "description": ""
     },
-    "Constant: ABSPATH": {
-        "prefix": "ABSPATH",
-        "body": "ABSPATH",
-        "description": ""
-    },
-    "Constant: ABSPATH": {
-        "prefix": "ABSPATH",
-        "body": "ABSPATH",
-        "description": ""
-    },
-    "Constant: ABSPATH": {
-        "prefix": "ABSPATH",
-        "body": "ABSPATH",
-        "description": ""
-    },
-    "Constant: ABSPATH": {
-        "prefix": "ABSPATH",
-        "body": "ABSPATH",
-        "description": ""
-    },
-    "Constant: ADMIN_COOKIE_PATH": {
-        "prefix": "ADMIN_COOKIE_PATH",
-        "body": "ADMIN_COOKIE_PATH",
-        "description": ""
-    },
     "Constant: ADMIN_COOKIE_PATH": {
         "prefix": "ADMIN_COOKIE_PATH",
         "body": "ADMIN_COOKIE_PATH",
@@ -1974,19 +1949,9 @@
         "body": "COOKIE_DOMAIN",
         "description": ""
     },
-    "Constant: COOKIE_DOMAIN": {
-        "prefix": "COOKIE_DOMAIN",
-        "body": "COOKIE_DOMAIN",
-        "description": ""
-    },
     "Constant: COOKIEHASH": {
         "prefix": "COOKIEHASH",
         "body": "COOKIEHASH",
-        "description": ""
-    },
-    "Constant: COOKIEPATH": {
-        "prefix": "COOKIEPATH",
-        "body": "COOKIEPATH",
         "description": ""
     },
     "Constant: COOKIEPATH": {
@@ -2024,16 +1989,6 @@
         "body": "DB_HOST",
         "description": "MySQL hostname"
     },
-    "Constant: DB_HOST": {
-        "prefix": "DB_HOST",
-        "body": "DB_HOST",
-        "description": ""
-    },
-    "Constant: DB_NAME": {
-        "prefix": "DB_NAME",
-        "body": "DB_NAME",
-        "description": ""
-    },
     "Constant: DB_NAME": {
         "prefix": "DB_NAME",
         "body": "DB_NAME",
@@ -2044,35 +1999,15 @@
         "body": "DB_PASSWORD",
         "description": "MySQL database password"
     },
-    "Constant: DB_PASSWORD": {
-        "prefix": "DB_PASSWORD",
-        "body": "DB_PASSWORD",
-        "description": ""
-    },
     "Constant: DB_USER": {
         "prefix": "DB_USER",
         "body": "DB_USER",
         "description": "MySQL database username"
     },
-    "Constant: DB_USER": {
-        "prefix": "DB_USER",
-        "body": "DB_USER",
-        "description": ""
-    },
     "Constant: DOING_AJAX": {
         "prefix": "DOING_AJAX",
         "body": "DOING_AJAX",
         "description": "Executing Ajax process."
-    },
-    "Constant: DOING_AJAX": {
-        "prefix": "DOING_AJAX",
-        "body": "DOING_AJAX",
-        "description": ""
-    },
-    "Constant: DOING_AUTOSAVE": {
-        "prefix": "DOING_AUTOSAVE",
-        "body": "DOING_AUTOSAVE",
-        "description": ""
     },
     "Constant: DOING_AUTOSAVE": {
         "prefix": "DOING_AUTOSAVE",
@@ -3154,11 +3089,6 @@
         "body": "FS_TIMEOUT",
         "description": ""
     },
-    "Constant: FS_TIMEOUT": {
-        "prefix": "FS_TIMEOUT",
-        "body": "FS_TIMEOUT",
-        "description": ""
-    },
     "Constant: FTP_ASCII": {
         "prefix": "FTP_ASCII",
         "body": "FTP_ASCII",
@@ -3269,11 +3199,6 @@
         "body": "GETID3_TEMP_DIR",
         "description": ""
     },
-    "Constant: GETID3_TEMP_DIR": {
-        "prefix": "GETID3_TEMP_DIR",
-        "body": "GETID3_TEMP_DIR",
-        "description": ""
-    },
     "Constant: H264_AVC_SEQUENCE_HEADER": {
         "prefix": "H264_AVC_SEQUENCE_HEADER",
         "body": "H264_AVC_SEQUENCE_HEADER",
@@ -3349,49 +3274,9 @@
         "body": "IFRAME_REQUEST",
         "description": ""
     },
-    "Constant: IFRAME_REQUEST": {
-        "prefix": "IFRAME_REQUEST",
-        "body": "IFRAME_REQUEST",
-        "description": ""
-    },
-    "Constant: IFRAME_REQUEST": {
-        "prefix": "IFRAME_REQUEST",
-        "body": "IFRAME_REQUEST",
-        "description": ""
-    },
-    "Constant: IFRAME_REQUEST": {
-        "prefix": "IFRAME_REQUEST",
-        "body": "IFRAME_REQUEST",
-        "description": ""
-    },
-    "Constant: IFRAME_REQUEST": {
-        "prefix": "IFRAME_REQUEST",
-        "body": "IFRAME_REQUEST",
-        "description": ""
-    },
-    "Constant: IFRAME_REQUEST": {
-        "prefix": "IFRAME_REQUEST",
-        "body": "IFRAME_REQUEST",
-        "description": ""
-    },
-    "Constant: IFRAME_REQUEST": {
-        "prefix": "IFRAME_REQUEST",
-        "body": "IFRAME_REQUEST",
-        "description": ""
-    },
-    "Constant: IFRAME_REQUEST": {
-        "prefix": "IFRAME_REQUEST",
-        "body": "IFRAME_REQUEST",
-        "description": ""
-    },
     "Constant: IMG_JPG": {
         "prefix": "IMG_JPG",
         "body": "IMG_JPG",
-        "description": ""
-    },
-    "Constant: IS_PROFILE_PAGE": {
-        "prefix": "IS_PROFILE_PAGE",
-        "body": "IS_PROFILE_PAGE",
         "description": ""
     },
     "Constant: IS_PROFILE_PAGE": {
@@ -3879,11 +3764,6 @@
         "body": "RANDOM_COMPAT_READ_BUFFER",
         "description": ""
     },
-    "Constant: RANDOM_COMPAT_READ_BUFFER": {
-        "prefix": "RANDOM_COMPAT_READ_BUFFER",
-        "body": "RANDOM_COMPAT_READ_BUFFER",
-        "description": ""
-    },
     "Constant: REST_API_VERSION": {
         "prefix": "REST_API_VERSION",
         "body": "REST_API_VERSION",
@@ -3898,11 +3778,6 @@
         "prefix": "RSS",
         "body": "RSS",
         "description": "RSS feed constant."
-    },
-    "Constant: SCRIPT_DEBUG": {
-        "prefix": "SCRIPT_DEBUG",
-        "body": "SCRIPT_DEBUG",
-        "description": ""
     },
     "Constant: SCRIPT_DEBUG": {
         "prefix": "SCRIPT_DEBUG",
@@ -3963,11 +3838,6 @@
         "prefix": "SERVICES_JSON_USE_TO_JSON",
         "body": "SERVICES_JSON_USE_TO_JSON",
         "description": "Behavior switch for Services_JSON::decode()"
-    },
-    "Constant: SHORTINIT": {
-        "prefix": "SHORTINIT",
-        "body": "SHORTINIT",
-        "description": ""
     },
     "Constant: SHORTINIT": {
         "prefix": "SHORTINIT",
@@ -4329,11 +4199,6 @@
         "body": "SITECOOKIEPATH",
         "description": ""
     },
-    "Constant: SITECOOKIEPATH": {
-        "prefix": "SITECOOKIEPATH",
-        "body": "SITECOOKIEPATH",
-        "description": ""
-    },
     "Constant: STYLESHEETPATH": {
         "prefix": "STYLESHEETPATH",
         "body": "STYLESHEETPATH",
@@ -4389,21 +4254,6 @@
         "body": "WP_ADMIN",
         "description": ""
     },
-    "Constant: WP_ADMIN": {
-        "prefix": "WP_ADMIN",
-        "body": "WP_ADMIN",
-        "description": ""
-    },
-    "Constant: WP_ADMIN": {
-        "prefix": "WP_ADMIN",
-        "body": "WP_ADMIN",
-        "description": ""
-    },
-    "Constant: WP_ADMIN": {
-        "prefix": "WP_ADMIN",
-        "body": "WP_ADMIN",
-        "description": ""
-    },
     "Constant: WP_BLOG_ADMIN": {
         "prefix": "WP_BLOG_ADMIN",
         "body": "WP_BLOG_ADMIN",
@@ -4412,11 +4262,6 @@
     "Constant: WP_CACHE": {
         "prefix": "WP_CACHE",
         "body": "WP_CACHE",
-        "description": ""
-    },
-    "Constant: WP_CONTENT_DIR": {
-        "prefix": "WP_CONTENT_DIR",
-        "body": "WP_CONTENT_DIR",
         "description": ""
     },
     "Constant: WP_CONTENT_DIR": {
@@ -4438,11 +4283,6 @@
         "prefix": "WP_DEBUG",
         "body": "WP_DEBUG",
         "description": "For developers: WordPress debugging mode."
-    },
-    "Constant: WP_DEBUG": {
-        "prefix": "WP_DEBUG",
-        "body": "WP_DEBUG",
-        "description": ""
     },
     "Constant: WP_DEBUG_DISPLAY": {
         "prefix": "WP_DEBUG_DISPLAY",
@@ -4472,27 +4312,7 @@
     "Constant: WP_INSTALLING": {
         "prefix": "WP_INSTALLING",
         "body": "WP_INSTALLING",
-        "description": ""
-    },
-    "Constant: WP_INSTALLING": {
-        "prefix": "WP_INSTALLING",
-        "body": "WP_INSTALLING",
-        "description": "We are upgrading WordPress."
-    },
-    "Constant: WP_INSTALLING": {
-        "prefix": "WP_INSTALLING",
-        "body": "WP_INSTALLING",
-        "description": "We are installing."
-    },
-    "Constant: WP_INSTALLING": {
-        "prefix": "WP_INSTALLING",
-        "body": "WP_INSTALLING",
         "description": "We are installing WordPress."
-    },
-    "Constant: WP_INSTALLING_NETWORK": {
-        "prefix": "WP_INSTALLING_NETWORK",
-        "body": "WP_INSTALLING_NETWORK",
-        "description": ""
     },
     "Constant: WP_INSTALLING_NETWORK": {
         "prefix": "WP_INSTALLING_NETWORK",
@@ -4514,11 +4334,6 @@
         "body": "WP_LOAD_IMPORTERS",
         "description": ""
     },
-    "Constant: WP_LOAD_IMPORTERS": {
-        "prefix": "WP_LOAD_IMPORTERS",
-        "body": "WP_LOAD_IMPORTERS",
-        "description": ""
-    },
     "Constant: WP_MAIL_INTERVAL": {
         "prefix": "WP_MAIL_INTERVAL",
         "body": "WP_MAIL_INTERVAL",
@@ -4532,11 +4347,6 @@
     "Constant: WP_MEMORY_LIMIT": {
         "prefix": "WP_MEMORY_LIMIT",
         "body": "WP_MEMORY_LIMIT",
-        "description": ""
-    },
-    "Constant: WP_NETWORK_ADMIN": {
-        "prefix": "WP_NETWORK_ADMIN",
-        "body": "WP_NETWORK_ADMIN",
         "description": ""
     },
     "Constant: WP_NETWORK_ADMIN": {
@@ -4584,30 +4394,10 @@
         "body": "WP_USER_ADMIN",
         "description": ""
     },
-    "Constant: WP_USER_ADMIN": {
-        "prefix": "WP_USER_ADMIN",
-        "body": "WP_USER_ADMIN",
-        "description": ""
-    },
     "Constant: WPINC": {
         "prefix": "WPINC",
         "body": "WPINC",
         "description": "Stores the location of the WordPress directory of functions, classes, and core content."
-    },
-    "Constant: WPINC": {
-        "prefix": "WPINC",
-        "body": "WPINC",
-        "description": ""
-    },
-    "Constant: WPINC": {
-        "prefix": "WPINC",
-        "body": "WPINC",
-        "description": ""
-    },
-    "Constant: WPINC": {
-        "prefix": "WPINC",
-        "body": "WPINC",
-        "description": ""
     },
     "Constant: WPMU_ACCEL_REDIRECT": {
         "prefix": "WPMU_ACCEL_REDIRECT",
@@ -4904,6 +4694,16 @@
         "body": "_filter_query_attachment_filenames( ${1:\\$clauses:array} )",
         "description": "Filter the SQL clauses of an attachment query to include filenames."
     },
+    "Function: _find_post_by_old_date": {
+        "prefix": "_find_post_by_old_date",
+        "body": "_find_post_by_old_date( ${1:\\$post_type:string} )",
+        "description": "Find the post ID for redirecting an old date."
+    },
+    "Function: _find_post_by_old_slug": {
+        "prefix": "_find_post_by_old_slug",
+        "body": "_find_post_by_old_slug( ${1:\\$post_type:string} )",
+        "description": "Find the post ID for redirecting an old slug."
+    },
     "Function: _fix_attachment_links": {
         "prefix": "_fix_attachment_links",
         "body": "_fix_attachment_links( ${1:\\$post:integer|object} )",
@@ -5146,7 +4946,7 @@
     },
     "Function: _oembed_create_xml": {
         "prefix": "_oembed_create_xml",
-        "body": "_oembed_create_xml( ${1:\\$data:array}, ${2:\\$node:\SimpleXMLElement|null} )",
+        "body": "_oembed_create_xml( ${1:\\$data:array}, ${2:\\$node:SimpleXMLElement|null} )",
         "description": "Creates an XML string from a given array."
     },
     "Function: _oembed_filter_feed_content": {
@@ -5156,7 +4956,7 @@
     },
     "Function: _oembed_rest_pre_serve_request": {
         "prefix": "_oembed_rest_pre_serve_request",
-        "body": "_oembed_rest_pre_serve_request( ${1:\\$served:boolean}, ${2:\\$result:\WP_HTTP_ResponseInterface}, ${3:\\$request:WP_REST_Request}, ${4:\\$server:WP_REST_Server} )",
+        "body": "_oembed_rest_pre_serve_request( ${1:\\$served:boolean}, ${2:\\$result:WP_HTTP_ResponseInterface}, ${3:\\$request:WP_REST_Request}, ${4:\\$server:WP_REST_Server} )",
         "description": "Hooks into the REST API output to print XML instead of JSON."
     },
     "Function: _pad_term_counts": {
@@ -8136,7 +7936,7 @@
     },
     "Function: get_bookmark": {
         "prefix": "get_bookmark",
-        "body": "get_bookmark( ${1:\\$bookmark:integer|\stdClass}, ${2:\\$output:string}, ${3:\\$filter:string} )",
+        "body": "get_bookmark( ${1:\\$bookmark:integer|stdClass}, ${2:\\$output:string}, ${3:\\$filter:string} )",
         "description": "Retrieve Bookmark data"
     },
     "Function: get_bookmark_field": {
@@ -8561,7 +8361,7 @@
     },
     "Function: get_edit_bookmark_link": {
         "prefix": "get_edit_bookmark_link",
-        "body": "get_edit_bookmark_link( ${1:\\$link:integer|\stdClass} )",
+        "body": "get_edit_bookmark_link( ${1:\\$link:integer|stdClass} )",
         "description": "Displays the edit bookmark link."
     },
     "Function: get_edit_comment_link": {
@@ -8633,11 +8433,6 @@
         "prefix": "get_feed_link",
         "body": "get_feed_link( ${1:\\$feed:string} )",
         "description": "Retrieves the permalink for the feed type."
-    },
-    "Function: get_file": {
-        "prefix": "get_file",
-        "body": "get_file( ${1:\\$path:} )",
-        "description": ""
     },
     "Function: get_file": {
         "prefix": "get_file",
@@ -8811,7 +8606,7 @@
     },
     "Function: get_link_to_edit": {
         "prefix": "get_link_to_edit",
-        "body": "get_link_to_edit( ${1:\\$link:integer|\stdClass} )",
+        "body": "get_link_to_edit( ${1:\\$link:integer|stdClass} )",
         "description": "Retrieves link data based on its ID."
     },
     "Function: get_linkcatname": {
@@ -11494,11 +11289,6 @@
         "body": "maybe_add_column( ${1:\\$table_name:string}, ${2:\\$column_name:string}, ${3:\\$create_ddl:string} )",
         "description": "Add column to database table, if column doesn&#039;t already exist in table."
     },
-    "Function: maybe_add_column": {
-        "prefix": "maybe_add_column",
-        "body": "maybe_add_column( ${1:\\$table_name:string}, ${2:\\$column_name:string}, ${3:\\$create_ddl:string} )",
-        "description": "Adds column to a database table if it doesn&#039;t already exist."
-    },
     "Function: maybe_add_existing_user_to_blog": {
         "prefix": "maybe_add_existing_user_to_blog",
         "body": "maybe_add_existing_user_to_blog(  )",
@@ -11513,11 +11303,6 @@
         "prefix": "maybe_create_table",
         "body": "maybe_create_table( ${1:\\$table_name:string}, ${2:\\$create_ddl:string} )",
         "description": "Creates a table in the database if it doesn&#039;t already exist."
-    },
-    "Function: maybe_create_table": {
-        "prefix": "maybe_create_table",
-        "body": "maybe_create_table( ${1:\\$table_name:string}, ${2:\\$create_ddl:string} )",
-        "description": "Create database table, if it doesn&#039;t already exist."
     },
     "Function: maybe_disable_automattic_widgets": {
         "prefix": "maybe_disable_automattic_widgets",
@@ -12397,37 +12182,7 @@
     "Function: random_bytes": {
         "prefix": "random_bytes",
         "body": "random_bytes( ${1:\\$bytes:integer} )",
-        "description": "If the libsodium PHP extension is loaded, we&#039;ll use it above any other solution."
-    },
-    "Function: random_bytes": {
-        "prefix": "random_bytes",
-        "body": "random_bytes( ${1:\\$length:} )",
-        "description": "We don&#039;t have any more options, so let&#039;s throw an exception right now and hope the developer won&#039;t let it fail silently."
-    },
-    "Function: random_bytes": {
-        "prefix": "random_bytes",
-        "body": "random_bytes( ${1:\\$bytes:integer} )",
-        "description": "If the libsodium PHP extension is loaded, we&#039;ll use it above any other solution."
-    },
-    "Function: random_bytes": {
-        "prefix": "random_bytes",
-        "body": "random_bytes( ${1:\\$bytes:integer} )",
-        "description": "Powered by ext/mcrypt (and thankfully NOT libmcrypt)"
-    },
-    "Function: random_bytes": {
-        "prefix": "random_bytes",
-        "body": "random_bytes( ${1:\\$bytes:integer} )",
-        "description": "Since openssl_random_pseudo_bytes() uses openssl&#039;s RAND_pseudo_bytes() API, which has been marked as deprecated by the OpenSSL team, this is our last resort before failure."
-    },
-    "Function: random_bytes": {
-        "prefix": "random_bytes",
-        "body": "random_bytes( ${1:\\$bytes:integer} )",
         "description": "Unless open_basedir is enabled, use /dev/urandom for random numbers in accordance with best practices"
-    },
-    "Function: random_bytes": {
-        "prefix": "random_bytes",
-        "body": "random_bytes( ${1:\\$bytes:integer} )",
-        "description": "Windows with PHP &lt; 5.3.0 will not have the function openssl_random_pseudo_bytes() available, so let&#039;s use CAPICOM to work around this deficiency."
     },
     "Function: random_int": {
         "prefix": "random_int",
@@ -13016,7 +12771,7 @@
     },
     "Function: sanitize_bookmark": {
         "prefix": "sanitize_bookmark",
-        "body": "sanitize_bookmark( ${1:\\$bookmark:\stdClass|array}, ${2:\\$context:string} )",
+        "body": "sanitize_bookmark( ${1:\\$bookmark:stdClass|array}, ${2:\\$context:string} )",
         "description": "Sanitizes all bookmark fields"
     },
     "Function: sanitize_bookmark_field": {
@@ -13166,7 +12921,7 @@
     },
     "Function: saveDomDocument": {
         "prefix": "saveDomDocument",
-        "body": "saveDomDocument( ${1:\\$doc:\DOMDocument}, ${2:\\$filename:string} )",
+        "body": "saveDomDocument( ${1:\\$doc:DOMDocument}, ${2:\\$filename:string} )",
         "description": "Saves the XML document into a file"
     },
     "Function: screen_icon": {
@@ -15256,7 +15011,7 @@
     },
     "Function: walk_nav_menu_tree": {
         "prefix": "walk_nav_menu_tree",
-        "body": "walk_nav_menu_tree( ${1:\\$items:array}, ${2:\\$depth:integer}, ${3:\\$r:\stdClass} )",
+        "body": "walk_nav_menu_tree( ${1:\\$items:array}, ${2:\\$depth:integer}, ${3:\\$r:stdClass} )",
         "description": "Retrieve the HTML list content for nav menu items."
     },
     "Function: walk_page_dropdown_tree": {
@@ -16073,6 +15828,11 @@
         "prefix": "wp_check_filetype_and_ext",
         "body": "wp_check_filetype_and_ext( ${1:\\$file:string}, ${2:\\$filename:string}, ${3:\\$mimes:array|null} )",
         "description": "Attempt to determine the real file type of a file."
+    },
+    "Function: wp_check_for_changed_dates": {
+        "prefix": "wp_check_for_changed_dates",
+        "body": "wp_check_for_changed_dates( ${1:\\$post_id:integer}, ${2:\\$post:WP_Post}, ${3:\\$post_before:WP_Post} )",
+        "description": "Check for changed dates for published post objects and save the old date."
     },
     "Function: wp_check_for_changed_slugs": {
         "prefix": "wp_check_for_changed_slugs",
