@@ -3404,11 +3404,6 @@
         "body": "NONCE_SALT",
         "description": ""
     },
-    "Constant: object": {
-        "prefix": "object",
-        "body": "object",
-        "description": ""
-    },
     "Constant: OBJECT": {
         "prefix": "OBJECT",
         "body": "OBJECT",
@@ -11287,7 +11282,7 @@
     "Function: maybe_add_column": {
         "prefix": "maybe_add_column",
         "body": "maybe_add_column( ${1:\\$table_name:string}, ${2:\\$column_name:string}, ${3:\\$create_ddl:string} )",
-        "description": "Add column to database table, if column doesn&#039;t already exist in table."
+        "description": "Adds column to a database table if it doesn&#039;t already exist."
     },
     "Function: maybe_add_existing_user_to_blog": {
         "prefix": "maybe_add_existing_user_to_blog",
