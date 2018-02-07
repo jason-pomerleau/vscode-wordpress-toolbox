@@ -1,18 +1,14 @@
 # The ultimate WordPress snippet collection for Visual Studio Code
 
-Snippets for every WordPress function, class and constant, complete with argument type hints and brief descriptions.
-
+*	Snippets for every WordPress function, class and constant, with argument type hints and brief descriptions.
+*	Easy function completion with tab stops in all the right places.
 *	WordPress API Support: **4.9.4**
 	-	**3,005** Functions
 	-	**371** Classes
 	-	**515** Constants
-*	Documentation: [wordpresstoolbox.io/vscode](https://wordpresstoolbox.io/vscode)
-*	A better WordPress Plugin Directory: [wordpresstoolbox.io/plugins](https://wordpresstoolbox.io/plugins)
-
-## Features
-
-*	Spend less time checking documentation with argument type hints for all functions
-*	Easy function completion with tab stops in all the right places
+*	Docs: [wordpresstoolbox.io/vscode](https://www.wordpresstoolbox.io/vscode)
+*	Love this extension? More great tools for WordPress developers:
+	-	[Plugin Explorer](https://www.wordpresstoolbox.io/plugins) - You'll never use the official WordPress plugin directory again. Instantly see the most popular/best-rated plugins for a given term. Filter results by ratings, popularity and more.
 
 ## Requirements
 
@@ -20,4 +16,4 @@ These snippets are bound to the PHP language context. Your cursor will need to b
 
 ## Problems? Comments?
 
-Reach me on Twitter: [@j_pomer](https://twitter.com/j_pomer)
+Reach me on Twitter: [@wordpresstoolbx](https://twitter.com/wordpresstoolbx)
