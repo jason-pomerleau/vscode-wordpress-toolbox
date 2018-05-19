@@ -2,13 +2,13 @@
 
 *	Snippets for every WordPress function, class and constant, with argument type hints and brief descriptions.
 *	Easy function completion with tab stops in all the right places.
-*	WordPress API Support: **4.9.4**
-	-	**3,005** Functions
-	-	**371** Classes
-	-	**515** Constants
-*	Docs: [wordpresstoolbox.io/vscode](https://www.wordpresstoolbox.io/vscode)
+*	WordPress API Support: **4.9.6**
+	-	**3,057** Functions
+	-	**376** Classes
+	-	**516** Constants
+*	Docs: [wordpresstoolbox.io/vscode](https://www.wordpresstoolbox.io/vscode/)
 *	Love this extension? More great tools for WordPress developers:
-	-	[Plugin Explorer](https://www.wordpresstoolbox.io/plugins) - You'll never use the official WordPress plugin directory again. Instantly see the most popular/best-rated plugins for a given term. Filter results by ratings, popularity and more.
+	-	[Plugin Explorer](https://www.wordpresstoolbox.io/plugins/) - You'll never use the official WordPress plugin directory again. Instantly see the most popular/best-rated plugins for a given term. Filter results by ratings, popularity and more.
 
 ## Requirements
 

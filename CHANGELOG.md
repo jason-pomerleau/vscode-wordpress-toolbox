@@ -1,5 +1,9 @@
 # Change Log
 
+## [1.1.4] - 2018-05-19
+### Updated
+- Updated snippets to WordPress 4.9.6 release.
+
 ## [1.1.2] - 2018-02-06
 ### Updated
 - Updated snippets to WordPress 4.9.4 release.

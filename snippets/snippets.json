@@ -1489,6 +1489,26 @@
         "body": "WP_Posts_List_Table",
         "description": "Core class used to implement displaying posts in a list table."
     },
+    "Class: WP_Privacy_Data_Export_Requests_Table": {
+        "prefix": "WP_Privacy_Data_Export_Requests_Table",
+        "body": "WP_Privacy_Data_Export_Requests_Table",
+        "description": "WP_Privacy_Data_Export_Requests_Table class."
+    },
+    "Class: WP_Privacy_Data_Removal_Requests_Table": {
+        "prefix": "WP_Privacy_Data_Removal_Requests_Table",
+        "body": "WP_Privacy_Data_Removal_Requests_Table",
+        "description": "WP_Privacy_Data_Removal_Requests_Table class."
+    },
+    "Class: WP_Privacy_Policy_Content": {
+        "prefix": "WP_Privacy_Policy_Content",
+        "body": "WP_Privacy_Policy_Content",
+        "description": "WP_Privacy_Policy_Content class."
+    },
+    "Class: WP_Privacy_Requests_Table": {
+        "prefix": "WP_Privacy_Requests_Table",
+        "body": "WP_Privacy_Requests_Table",
+        "description": "WP_Privacy_Requests_Table class."
+    },
     "Class: WP_Query": {
         "prefix": "WP_Query",
         "body": "WP_Query",
@@ -1723,6 +1743,11 @@
         "prefix": "WP_User_Query",
         "body": "WP_User_Query",
         "description": "Core class used for querying users."
+    },
+    "Class: WP_User_Request": {
+        "prefix": "WP_User_Request",
+        "body": "WP_User_Request",
+        "description": "WP_User_Request class."
     },
     "Class: WP_User_Search": {
         "prefix": "WP_User_Search",
@@ -3404,6 +3429,11 @@
         "body": "NONCE_SALT",
         "description": ""
     },
+    "Constant: object": {
+        "prefix": "object",
+        "body": "object",
+        "description": ""
+    },
     "Constant: OBJECT": {
         "prefix": "OBJECT",
         "body": "OBJECT",
@@ -4307,7 +4337,7 @@
     "Constant: WP_INSTALLING": {
         "prefix": "WP_INSTALLING",
         "body": "WP_INSTALLING",
-        "description": "We are installing WordPress."
+        "description": "We are upgrading WordPress."
     },
     "Constant: WP_INSTALLING_NETWORK": {
         "prefix": "WP_INSTALLING_NETWORK",
@@ -5449,6 +5479,26 @@
         "body": "_wp_oembed_get_object(  )",
         "description": "Returns the initialized WP_oEmbed object."
     },
+    "Function: _wp_personal_data_cleanup_requests": {
+        "prefix": "_wp_personal_data_cleanup_requests",
+        "body": "_wp_personal_data_cleanup_requests(  )",
+        "description": "Cleans up failed and expired requests before displaying the list table."
+    },
+    "Function: _wp_personal_data_export_page": {
+        "prefix": "_wp_personal_data_export_page",
+        "body": "_wp_personal_data_export_page(  )",
+        "description": "Personal data export."
+    },
+    "Function: _wp_personal_data_handle_actions": {
+        "prefix": "_wp_personal_data_handle_actions",
+        "body": "_wp_personal_data_handle_actions(  )",
+        "description": "Handle list table actions."
+    },
+    "Function: _wp_personal_data_removal_page": {
+        "prefix": "_wp_personal_data_removal_page",
+        "body": "_wp_personal_data_removal_page(  )",
+        "description": "Personal data anonymization."
+    },
     "Function: _wp_post_revision_data": {
         "prefix": "_wp_post_revision_data",
         "body": "_wp_post_revision_data( ${1:\\$post:array|WP_Post}, ${2:\\$autosave:boolean} )",
@@ -5473,6 +5523,51 @@
         "prefix": "_wp_preview_terms_filter",
         "body": "_wp_preview_terms_filter( ${1:\\$terms:array}, ${2:\\$post_id:integer}, ${3:\\$taxonomy:string} )",
         "description": "Filters terms lookup to set the post format."
+    },
+    "Function: _wp_privacy_account_request_confirmed": {
+        "prefix": "_wp_privacy_account_request_confirmed",
+        "body": "_wp_privacy_account_request_confirmed( ${1:\\$request_id:integer} )",
+        "description": "Update log when privacy request is confirmed."
+    },
+    "Function: _wp_privacy_account_request_confirmed_message": {
+        "prefix": "_wp_privacy_account_request_confirmed_message",
+        "body": "_wp_privacy_account_request_confirmed_message( ${1:\\$request_id:integer} )",
+        "description": "Return request confirmation message HTML."
+    },
+    "Function: _wp_privacy_action_request_types": {
+        "prefix": "_wp_privacy_action_request_types",
+        "body": "_wp_privacy_action_request_types(  )",
+        "description": "Get all user privacy request types."
+    },
+    "Function: _wp_privacy_completed_request": {
+        "prefix": "_wp_privacy_completed_request",
+        "body": "_wp_privacy_completed_request( ${1:\\$request_id:integer} )",
+        "description": "Marks a request as completed by the admin and logs the current timestamp."
+    },
+    "Function: _wp_privacy_hook_requests_page": {
+        "prefix": "_wp_privacy_hook_requests_page",
+        "body": "_wp_privacy_hook_requests_page(  )",
+        "description": "Add requests pages."
+    },
+    "Function: _wp_privacy_resend_request": {
+        "prefix": "_wp_privacy_resend_request",
+        "body": "_wp_privacy_resend_request( ${1:\\$request_id:integer} )",
+        "description": "Resend an existing request and return the result."
+    },
+    "Function: _wp_privacy_send_erasure_fulfillment_notification": {
+        "prefix": "_wp_privacy_send_erasure_fulfillment_notification",
+        "body": "_wp_privacy_send_erasure_fulfillment_notification( ${1:\\$request_id:integer} )",
+        "description": "Notify the user when their erasure request is fulfilled."
+    },
+    "Function: _wp_privacy_send_request_confirmation_notification": {
+        "prefix": "_wp_privacy_send_request_confirmation_notification",
+        "body": "_wp_privacy_send_request_confirmation_notification( ${1:\\$request_id:integer} )",
+        "description": "Notify the site administrator via email when a request is confirmed."
+    },
+    "Function: _wp_privacy_statuses": {
+        "prefix": "_wp_privacy_statuses",
+        "body": "_wp_privacy_statuses(  )",
+        "description": "Return statuses for privacy requests."
     },
     "Function: _wp_put_post_revision": {
         "prefix": "_wp_put_post_revision",
@@ -9234,6 +9329,11 @@
         "body": "get_previous_posts_page_link(  )",
         "description": "Retrieves the previous posts page link."
     },
+    "Function: get_privacy_policy_url": {
+        "prefix": "get_privacy_policy_url",
+        "body": "get_privacy_policy_url(  )",
+        "description": "Retrieves the URL to the privacy policy page."
+    },
     "Function: get_private_posts_cap_sql": {
         "prefix": "get_private_posts_cap_sql",
         "body": "get_private_posts_cap_sql( ${1:\\$post_type:string|array} )",
@@ -9873,6 +9973,11 @@
         "prefix": "get_the_posts_pagination",
         "body": "get_the_posts_pagination( ${1:\\$args:array} )",
         "description": "Retrieves a paginated navigation to next/previous set of posts, when applicable."
+    },
+    "Function: get_the_privacy_policy_link": {
+        "prefix": "get_the_privacy_policy_link",
+        "body": "get_the_privacy_policy_link( ${1:\\$before:string}, ${2:\\$after:string} )",
+        "description": "Returns the privacy policy link with formatting, when applicable."
     },
     "Function: get_the_tag_list": {
         "prefix": "get_the_tag_list",
@@ -10644,6 +10749,11 @@
         "body": "is_comments_popup(  )",
         "description": "Whether the current URL is within the comments popup window."
     },
+    "Function: is_countable": {
+        "prefix": "is_countable",
+        "body": "is_countable( ${1:\\$var:mixed} )",
+        "description": "Polyfill for is_countable() function added in PHP 7.3."
+    },
     "Function: is_customize_preview": {
         "prefix": "is_customize_preview",
         "body": "is_customize_preview(  )",
@@ -10708,6 +10818,11 @@
         "prefix": "is_info",
         "body": "is_info( ${1:\\$sc:} )",
         "description": ""
+    },
+    "Function: is_iterable": {
+        "prefix": "is_iterable",
+        "body": "is_iterable( ${1:\\$var:mixed} )",
+        "description": "Polyfill for is_iterable() function added in PHP 7.1."
     },
     "Function: is_lighttpd_before_150": {
         "prefix": "is_lighttpd_before_150",
@@ -11282,7 +11397,7 @@
     "Function: maybe_add_column": {
         "prefix": "maybe_add_column",
         "body": "maybe_add_column( ${1:\\$table_name:string}, ${2:\\$column_name:string}, ${3:\\$create_ddl:string} )",
-        "description": "Adds column to a database table if it doesn&#039;t already exist."
+        "description": "Add column to database table, if column doesn&#039;t already exist in table."
     },
     "Function: maybe_add_existing_user_to_blog": {
         "prefix": "maybe_add_existing_user_to_blog",
@@ -12176,8 +12291,38 @@
     },
     "Function: random_bytes": {
         "prefix": "random_bytes",
+        "body": "random_bytes( ${1:\\$length:} )",
+        "description": "We don&#039;t have any more options, so let&#039;s throw an exception right now and hope the developer won&#039;t let it fail silently."
+    },
+    "Function: random_bytes": {
+        "prefix": "random_bytes",
         "body": "random_bytes( ${1:\\$bytes:integer} )",
         "description": "Unless open_basedir is enabled, use /dev/urandom for random numbers in accordance with best practices"
+    },
+    "Function: random_bytes": {
+        "prefix": "random_bytes",
+        "body": "random_bytes( ${1:\\$bytes:integer} )",
+        "description": "If the libsodium PHP extension is loaded, we&#039;ll use it above any other solution."
+    },
+    "Function: random_bytes": {
+        "prefix": "random_bytes",
+        "body": "random_bytes( ${1:\\$bytes:integer} )",
+        "description": "Windows with PHP &lt; 5.3.0 will not have the function openssl_random_pseudo_bytes() available, so let&#039;s use CAPICOM to work around this deficiency."
+    },
+    "Function: random_bytes": {
+        "prefix": "random_bytes",
+        "body": "random_bytes( ${1:\\$bytes:integer} )",
+        "description": "Powered by ext/mcrypt (and thankfully NOT libmcrypt)"
+    },
+    "Function: random_bytes": {
+        "prefix": "random_bytes",
+        "body": "random_bytes( ${1:\\$bytes:integer} )",
+        "description": "If the libsodium PHP extension is loaded, we&#039;ll use it above any other solution."
+    },
+    "Function: random_bytes": {
+        "prefix": "random_bytes",
+        "body": "random_bytes( ${1:\\$bytes:integer} )",
+        "description": "Since openssl_random_pseudo_bytes() uses openssl&#039;s RAND_pseudo_bytes() API, which has been marked as deprecated by the OpenSSL team, this is our last resort before failure."
     },
     "Function: random_int": {
         "prefix": "random_int",
@@ -13654,6 +13799,11 @@
         "body": "the_posts_pagination( ${1:\\$args:array} )",
         "description": "Displays a paginated navigation to next/previous set of posts, when applicable."
     },
+    "Function: the_privacy_policy_link": {
+        "prefix": "the_privacy_policy_link",
+        "body": "the_privacy_policy_link( ${1:\\$before:string}, ${2:\\$after:string} )",
+        "description": "Displays the privacy policy link with formatting, when applicable."
+    },
     "Function: the_search_query": {
         "prefix": "the_search_query",
         "body": "the_search_query(  )",
@@ -15074,6 +15224,11 @@
         "body": "wp_add_post_tags( ${1:\\$post_id:integer}, ${2:\\$tags:string|array} )",
         "description": "Add tags to a post."
     },
+    "Function: wp_add_privacy_policy_content": {
+        "prefix": "wp_add_privacy_policy_content",
+        "body": "wp_add_privacy_policy_content( ${1:\\$plugin_name:string}, ${2:\\$policy_text:string} )",
+        "description": "Helper function for adding content to the postbox shown when editing the privacy policy."
+    },
     "Function: wp_add_trashed_suffix_to_post_name_for_post": {
         "prefix": "wp_add_trashed_suffix_to_post_name_for_post",
         "body": "wp_add_trashed_suffix_to_post_name_for_post( ${1:\\$post:WP_Post} )",
@@ -15609,6 +15764,16 @@
         "body": "wp_ajax_wp_link_ajax(  )",
         "description": "Ajax handler for internal linking."
     },
+    "Function: wp_ajax_wp_privacy_erase_personal_data": {
+        "prefix": "wp_ajax_wp_privacy_erase_personal_data",
+        "body": "wp_ajax_wp_privacy_erase_personal_data(  )",
+        "description": "Ajax handler for erasing personal data."
+    },
+    "Function: wp_ajax_wp_privacy_export_personal_data": {
+        "prefix": "wp_ajax_wp_privacy_export_personal_data",
+        "body": "wp_ajax_wp_privacy_export_personal_data(  )",
+        "description": "Ajax handler for exporting a user&#039;s personal data."
+    },
     "Function: wp_ajax_wp_remove_post_lock": {
         "prefix": "wp_ajax_wp_remove_post_lock",
         "body": "wp_ajax_wp_remove_post_lock(  )",
@@ -15939,6 +16104,16 @@
         "body": "wp_comment_trashnotice(  )",
         "description": "Output &#039;undo move to trash&#039; text for comments"
     },
+    "Function: wp_comments_personal_data_eraser": {
+        "prefix": "wp_comments_personal_data_eraser",
+        "body": "wp_comments_personal_data_eraser( ${1:\\$email_address:string}, ${2:\\$page:integer} )",
+        "description": "Erases personal data associated with an email address from the comments table."
+    },
+    "Function: wp_comments_personal_data_exporter": {
+        "prefix": "wp_comments_personal_data_exporter",
+        "body": "wp_comments_personal_data_exporter( ${1:\\$email_address:string}, ${2:\\$page:integer} )",
+        "description": "Finds and exports personal data associated with an email address from the comments table."
+    },
     "Function: wp_constrain_dimensions": {
         "prefix": "wp_constrain_dimensions",
         "body": "wp_constrain_dimensions( ${1:\\$current_width:integer}, ${2:\\$current_height:integer}, ${3:\\$max_width:integer}, ${4:\\$max_height:integer} )",
@@ -16028,6 +16203,11 @@
         "prefix": "wp_create_user",
         "body": "wp_create_user( ${1:\\$username:string}, ${2:\\$password:string}, ${3:\\$email:string} )",
         "description": "A simpler way of inserting a user into the database."
+    },
+    "Function: wp_create_user_request": {
+        "prefix": "wp_create_user_request",
+        "body": "wp_create_user_request( ${1:\\$email_address:string}, ${2:\\$action_name:string}, ${3:\\$request_data:array} )",
+        "description": "Create and log a user request to perform a specific action."
     },
     "Function: wp_credits": {
         "prefix": "wp_credits",
@@ -16624,6 +16804,11 @@
         "body": "wp_generate_tag_cloud( ${1:\\$tags:array}, ${2:\\$args:string|array} )",
         "description": "Generates a tag cloud (heatmap) from provided data."
     },
+    "Function: wp_generate_user_request_key": {
+        "prefix": "wp_generate_user_request_key",
+        "body": "wp_generate_user_request_key( ${1:\\$request_id:integer} )",
+        "description": "Returns a confirmation key for a user action and stores the hashed version for future comparison."
+    },
     "Function: wp_generate_uuid4": {
         "prefix": "wp_generate_uuid4",
         "body": "wp_generate_uuid4(  )",
@@ -17053,6 +17238,11 @@
         "prefix": "wp_get_user_contact_methods",
         "body": "wp_get_user_contact_methods( ${1:\\$user:WP_User|null} )",
         "description": "Set up the user contact methods."
+    },
+    "Function: wp_get_user_request_data": {
+        "prefix": "wp_get_user_request_data",
+        "body": "wp_get_user_request_data( ${1:\\$request_id:integer} )",
+        "description": "Return data about a user request."
     },
     "Function: wp_get_users_with_no_role": {
         "prefix": "wp_get_users_with_no_role",
@@ -17734,6 +17924,11 @@
         "body": "wp_media_insert_url_form( ${1:\\$default_view:string} )",
         "description": "Creates the form for external url"
     },
+    "Function: wp_media_personal_data_exporter": {
+        "prefix": "wp_media_personal_data_exporter",
+        "body": "wp_media_personal_data_exporter( ${1:\\$email_address:string}, ${2:\\$page:integer} )",
+        "description": "Finds and exports attachments associated with an email address."
+    },
     "Function: wp_media_upload_handler": {
         "prefix": "wp_media_upload_handler",
         "body": "wp_media_upload_handler(  )",
@@ -18164,6 +18359,56 @@
         "body": "wp_print_update_row_templates(  )",
         "description": "Prints the JavaScript templates for update and deletion rows in list tables."
     },
+    "Function: wp_privacy_anonymize_data": {
+        "prefix": "wp_privacy_anonymize_data",
+        "body": "wp_privacy_anonymize_data( ${1:\\$type:string}, ${2:\\$data:string} )",
+        "description": "Return uniform &quot;anonymous&quot; data by type."
+    },
+    "Function: wp_privacy_anonymize_ip": {
+        "prefix": "wp_privacy_anonymize_ip",
+        "body": "wp_privacy_anonymize_ip( ${1:\\$ip_addr:string}, ${2:\\$ipv6_fallback:boolean} )",
+        "description": "Return an anonymized IPv4 or IPv6 address."
+    },
+    "Function: wp_privacy_delete_old_export_files": {
+        "prefix": "wp_privacy_delete_old_export_files",
+        "body": "wp_privacy_delete_old_export_files(  )",
+        "description": "Cleans up export files older than three days old."
+    },
+    "Function: wp_privacy_exports_dir": {
+        "prefix": "wp_privacy_exports_dir",
+        "body": "wp_privacy_exports_dir(  )",
+        "description": "Returns the directory used to store personal data export files."
+    },
+    "Function: wp_privacy_exports_url": {
+        "prefix": "wp_privacy_exports_url",
+        "body": "wp_privacy_exports_url(  )",
+        "description": "Returns the URL of the directory used to store personal data export files."
+    },
+    "Function: wp_privacy_generate_personal_data_export_file": {
+        "prefix": "wp_privacy_generate_personal_data_export_file",
+        "body": "wp_privacy_generate_personal_data_export_file( ${1:\\$request_id:integer} )",
+        "description": "Generate the personal data export file."
+    },
+    "Function: wp_privacy_generate_personal_data_export_group_html": {
+        "prefix": "wp_privacy_generate_personal_data_export_group_html",
+        "body": "wp_privacy_generate_personal_data_export_group_html( ${1:\\$group_data:array} )",
+        "description": "Generate a single group for the personal data export report."
+    },
+    "Function: wp_privacy_process_personal_data_erasure_page": {
+        "prefix": "wp_privacy_process_personal_data_erasure_page",
+        "body": "wp_privacy_process_personal_data_erasure_page( ${1:\\$response:array}, ${2:\\$eraser_index:integer}, ${3:\\$email_address:string}, ${4:\\$page:integer}, ${5:\\$request_id:integer} )",
+        "description": "Mark erasure requests as completed after processing is finished."
+    },
+    "Function: wp_privacy_process_personal_data_export_page": {
+        "prefix": "wp_privacy_process_personal_data_export_page",
+        "body": "wp_privacy_process_personal_data_export_page( ${1:\\$response:array}, ${2:\\$exporter_index:integer}, ${3:\\$email_address:string}, ${4:\\$page:integer}, ${5:\\$request_id:integer}, ${6:\\$send_as_email:boolean}, ${7:\\$exporter_key:string} )",
+        "description": "Intercept personal data exporter page ajax responses in order to assemble the personal data export file."
+    },
+    "Function: wp_privacy_send_personal_data_export_email": {
+        "prefix": "wp_privacy_send_personal_data_export_email",
+        "body": "wp_privacy_send_personal_data_export_email( ${1:\\$request_id:integer} )",
+        "description": "Send an email to the user with a link to the personal data export file"
+    },
     "Function: wp_protect_special_option": {
         "prefix": "wp_protect_special_option",
         "body": "wp_protect_special_option( ${1:\\$option:string} )",
@@ -18249,6 +18494,21 @@
         "body": "wp_register( ${1:\\$before:string}, ${2:\\$after:string}, ${3:\\$echo:boolean} )",
         "description": "Display the Registration or Admin link."
     },
+    "Function: wp_register_comment_personal_data_eraser": {
+        "prefix": "wp_register_comment_personal_data_eraser",
+        "body": "wp_register_comment_personal_data_eraser( ${1:\\$erasers:array} )",
+        "description": "Registers the personal data eraser for comments."
+    },
+    "Function: wp_register_comment_personal_data_exporter": {
+        "prefix": "wp_register_comment_personal_data_exporter",
+        "body": "wp_register_comment_personal_data_exporter( ${1:\\$exporters:array} )",
+        "description": "Registers the personal data exporter for comments."
+    },
+    "Function: wp_register_media_personal_data_exporter": {
+        "prefix": "wp_register_media_personal_data_exporter",
+        "body": "wp_register_media_personal_data_exporter( ${1:\\$exporters:array} )",
+        "description": "Registers the personal data exporter for media"
+    },
     "Function: wp_register_plugin_realpath": {
         "prefix": "wp_register_plugin_realpath",
         "body": "wp_register_plugin_realpath( ${1:\\$file:string} )",
@@ -18268,6 +18528,11 @@
         "prefix": "wp_register_style",
         "body": "wp_register_style( ${1:\\$handle:string}, ${2:\\$src:string}, ${3:\\$deps:array}, ${4:\\$ver:string|boolean|null}, ${5:\\$media:string} )",
         "description": "Register a CSS stylesheet."
+    },
+    "Function: wp_register_user_personal_data_exporter": {
+        "prefix": "wp_register_user_personal_data_exporter",
+        "body": "wp_register_user_personal_data_exporter( ${1:\\$exporters:array} )",
+        "description": "Registers the personal data exporter for users."
     },
     "Function: wp_register_widget_control": {
         "prefix": "wp_register_widget_control",
@@ -18494,6 +18759,11 @@
         "body": "wp_save_post_revision( ${1:\\$post_id:integer} )",
         "description": "Creates a revision for the current version of a post."
     },
+    "Function: wp_schedule_delete_old_privacy_export_files": {
+        "prefix": "wp_schedule_delete_old_privacy_export_files",
+        "body": "wp_schedule_delete_old_privacy_export_files(  )",
+        "description": "Schedule a `WP_Cron` job to delete expired export files."
+    },
     "Function: wp_schedule_event": {
         "prefix": "wp_schedule_event",
         "body": "wp_schedule_event( ${1:\\$timestamp:integer}, ${2:\\$recurrence:string}, ${3:\\$hook:string}, ${4:\\$args:array} )",
@@ -18554,6 +18824,11 @@
         "body": "wp_send_new_user_notifications( ${1:\\$user_id:integer}, ${2:\\$notify:string} )",
         "description": "Initiates email notifications related to the creation of new users."
     },
+    "Function: wp_send_user_request": {
+        "prefix": "wp_send_user_request",
+        "body": "wp_send_user_request( ${1:\\$request_id:string} )",
+        "description": "Send a confirmation request email to confirm an action."
+    },
     "Function: wp_set_all_user_settings": {
         "prefix": "wp_set_all_user_settings",
         "body": "wp_set_all_user_settings( ${1:\\$user_settings:array} )",
@@ -18566,7 +18841,7 @@
     },
     "Function: wp_set_comment_cookies": {
         "prefix": "wp_set_comment_cookies",
-        "body": "wp_set_comment_cookies( ${1:\\$comment:WP_Comment}, ${2:\\$user:object} )",
+        "body": "wp_set_comment_cookies( ${1:\\$comment:WP_Comment}, ${2:\\$user:WP_User}, ${3:\\$cookies_consent:boolean} )",
         "description": "Sets the cookies used to store an unauthenticated commentator&#039;s identity. Typically used to recall previous comments by this commentator that are still held in moderation."
     },
     "Function: wp_set_comment_status": {
@@ -19124,6 +19399,16 @@
         "body": "wp_upload_dir( ${1:\\$time:string|null}, ${2:\\$create_dir:boolean}, ${3:\\$refresh_cache:boolean} )",
         "description": "Get an array containing the current upload directory&#039;s path and url."
     },
+    "Function: wp_user_personal_data_exporter": {
+        "prefix": "wp_user_personal_data_exporter",
+        "body": "wp_user_personal_data_exporter( ${1:\\$email_address:string} )",
+        "description": "Finds and exports personal data associated with an email address from the user and user_meta table."
+    },
+    "Function: wp_user_request_action_description": {
+        "prefix": "wp_user_request_action_description",
+        "body": "wp_user_request_action_description( ${1:\\$action_name:string} )",
+        "description": "Get action description from the name and return a string."
+    },
     "Function: wp_user_settings": {
         "prefix": "wp_user_settings",
         "body": "wp_user_settings(  )",
@@ -19153,6 +19438,11 @@
         "prefix": "wp_validate_redirect",
         "body": "wp_validate_redirect( ${1:\\$location:string}, ${2:\\$default:string} )",
         "description": "Validates a URL for use in a redirect."
+    },
+    "Function: wp_validate_user_request_key": {
+        "prefix": "wp_validate_user_request_key",
+        "body": "wp_validate_user_request_key( ${1:\\$request_id:string}, ${2:\\$key:string} )",
+        "description": "Validate a user request by comparing the key with the request&#039;s key."
     },
     "Function: wp_verify_nonce": {
         "prefix": "wp_verify_nonce",
