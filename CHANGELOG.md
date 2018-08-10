@@ -1,5 +1,13 @@
 # Change Log
 
+## [1.1.6] - 2018-08-10
+### Updated
+- Fixed outdated WP version number in README.md, from 4.9.6. to 4.9.8
+
+## [1.1.5] - 2018-08-10
+### Updated
+- Updated snippets to WordPress 4.9.8 release.
+
 ## [1.1.4] - 2018-05-19
 ### Updated
 - Updated snippets to WordPress 4.9.6 release.
