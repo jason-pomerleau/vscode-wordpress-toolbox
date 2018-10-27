@@ -1,7 +1,8 @@
 # The ultimate WordPress snippet collection for Visual Studio Code
 
-*	Snippets for every WordPress function, class and constant, with argument type hints and brief descriptions.
-*	Easy function completion with tab stops in all the right places.
+*	Snippets for every WordPress function, class and constant.
+*	Easy function completion with argument type hints and tab stops in all the right places.
+*	**New in 1.2.0**: Emmet-style abbreviations for all functions. For example, type `gtp` for the `get_template_part` function. (2 letter minimum)
 *	WordPress API Support: **4.9.8**
 	-	**3,062** Functions
 	-	**385** Classes

@@ -1,5 +1,9 @@
 # Change Log
 
+## [1.2.0] - 2018-10-27
+### Updated
+- Added Emmet-style prefixes to all functions. For example, instead of typing `get_template_part` to find that snippet, you can now type `gtp` in addition to the full function name.
+
 ## [1.1.6] - 2018-08-10
 ### Updated
 - Fixed outdated WP version number in README.md, from 4.9.6. to 4.9.8

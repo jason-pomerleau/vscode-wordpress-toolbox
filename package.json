@@ -2,7 +2,7 @@
     "name": "wordpress-toolbox",
     "displayName": "WordPress Toolbox",
     "description": "The ultimate WordPress snippet collection for Visual Studio Code.",
-    "version": "1.1.6",
+    "version": "1.2.0",
     "publisher": "wordpresstoolbox",
     "engines": {
         "vscode": "^1.19.0"
