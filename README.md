@@ -2,10 +2,10 @@
 
 *	Snippets for every WordPress function, class and constant.
 *	Easy function completion with argument type hints and tab stops in all the right places.
-*	**New in 1.2.0**: Emmet-style abbreviations for all functions. For example, type `gtp` for the `get_template_part` function. (2 letter minimum)
-*	WordPress API Support: **4.9.8**
-	-	**3,062** Functions
-	-	**385** Classes
+*	Emmet-style abbreviations for all functions. For example, type `gtp` for the `get_template_part` function. (2 letter minimum)
+*	WordPress API Support: **5.0.1**
+	-	**3,126** Functions
+	-	**390** Classes
 	-	**516** Constants
 *	Docs: [wpinsights.io/vscode](https://www.wpinsights.io/vscode/)
 *	Love this extension? More great tools for WordPress developers:
