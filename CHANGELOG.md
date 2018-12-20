@@ -1,5 +1,9 @@
 # Change Log
 
+## [1.2.2] - 2018-12-20
+### Updated
+- Updated snippets to WordPress 5.0.2 release.
+
 ## [1.2.1] - 2018-12-14
 ### Updated
 - Updated snippets to WordPress 5.0.1 release.

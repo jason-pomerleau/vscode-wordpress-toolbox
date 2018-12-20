@@ -2082,12 +2082,12 @@
 	"Constant: DB_HOST": {
         "prefix": "DB_HOST",
         "body": "DB_HOST",
-        "description": "MySQL hostname"
+        "description": ""
     },
 	"Constant: DB_NAME": {
         "prefix": "DB_NAME",
         "body": "DB_NAME",
-        "description": "The name of the database for WordPress"
+        "description": ""
     },
 	"Constant: DB_PASSWORD": {
         "prefix": "DB_PASSWORD",
@@ -2097,7 +2097,7 @@
 	"Constant: DB_USER": {
         "prefix": "DB_USER",
         "body": "DB_USER",
-        "description": "MySQL database username"
+        "description": ""
     },
 	"Constant: DOING_AJAX": {
         "prefix": "DOING_AJAX",
@@ -3377,7 +3377,7 @@
 	"Constant: IS_PROFILE_PAGE": {
         "prefix": "IS_PROFILE_PAGE",
         "body": "IS_PROFILE_PAGE",
-        "description": "This is a profile page."
+        "description": ""
     },
 	"Constant: JSON_PRETTY_PRINT": {
         "prefix": "JSON_PRETTY_PRINT",
@@ -4377,7 +4377,7 @@
 	"Constant: WP_DEBUG": {
         "prefix": "WP_DEBUG",
         "body": "WP_DEBUG",
-        "description": "For developers: WordPress debugging mode."
+        "description": ""
     },
 	"Constant: WP_DEBUG_DISPLAY": {
         "prefix": "WP_DEBUG_DISPLAY",
@@ -4407,7 +4407,7 @@
 	"Constant: WP_INSTALLING": {
         "prefix": "WP_INSTALLING",
         "body": "WP_INSTALLING",
-        "description": "We are upgrading WordPress."
+        "description": ""
     },
 	"Constant: WP_INSTALLING_NETWORK": {
         "prefix": "WP_INSTALLING_NETWORK",
@@ -10425,16 +10425,6 @@
         "body": "grant_super_admin( ${1:\\$user_id:integer} )",
         "description": "Grants Super Admin privileges."
 	},
-		"ƒ: gutenberg_draft_or_post_title": {
-        "prefix": ["gutenberg_draft_or_post_title","gdopt"],
-        "body": "gutenberg_draft_or_post_title( ${1:\\$post:integer|WP_Post} )",
-        "description": "Get the post title."
-	},
-		"ƒ: gutenberg_render_block_core_latest_comments": {
-        "prefix": ["gutenberg_render_block_core_latest_comments","grbclc"],
-        "body": "gutenberg_render_block_core_latest_comments( ${1:\\$attributes:array} )",
-        "description": "Renders the `core/latest-comments` block on server."
-	},
 		"ƒ: gzip_compression": {
         "prefix": ["gzip_compression","gc"],
         "body": "gzip_compression(  )",
@@ -11478,7 +11468,12 @@
 		"ƒ: load_script_textdomain": {
         "prefix": ["load_script_textdomain","lst"],
         "body": "load_script_textdomain( ${1:\\$handle:string}, ${2:\\$domain:string}, ${3:\\$path:string|null} )",
-        "description": "Load the script translated strings."
+        "description": "Loads the script translated strings."
+	},
+		"ƒ: load_script_translations": {
+        "prefix": ["load_script_translations","lst"],
+        "body": "load_script_translations( ${1:\\$file:string|false}, ${2:\\$handle:string}, ${3:\\$domain:string} )",
+        "description": "Loads the translation data for the given script handle and text domain."
 	},
 		"ƒ: load_template": {
         "prefix": ["load_template","lt"],
@@ -12473,7 +12468,7 @@
 		"ƒ: random_bytes": {
         "prefix": ["random_bytes","rb"],
         "body": "random_bytes( ${1:\\$bytes:integer} )",
-        "description": "Windows with PHP &lt; 5.3.0 will not have the function openssl_random_pseudo_bytes() available, so let&#039;s use CAPICOM to work around this deficiency."
+        "description": "If the libsodium PHP extension is loaded, we&#039;ll use it above any other solution."
 	},
 		"ƒ: random_int": {
         "prefix": ["random_int","ri"],
@@ -12864,6 +12859,11 @@
         "prefix": ["render_block_core_categories","rbcc"],
         "body": "render_block_core_categories( ${1:\\$attributes:array} )",
         "description": "Renders the `core/categories` block on server."
+	},
+		"ƒ: render_block_core_latest_comments": {
+        "prefix": ["render_block_core_latest_comments","rbclc"],
+        "body": "render_block_core_latest_comments( ${1:\\$attributes:array} )",
+        "description": "Renders the `core/latest-comments` block on server."
 	},
 		"ƒ: render_block_core_latest_posts": {
         "prefix": ["render_block_core_latest_posts","rbclp"],
@@ -14410,6 +14410,11 @@
         "body": "twentynineteen_setup(  )",
         "description": "Sets up theme defaults and registers support for various WordPress features."
 	},
+		"ƒ: twentynineteen_skip_link_focus_fix": {
+        "prefix": ["twentynineteen_skip_link_focus_fix","tslff"],
+        "body": "twentynineteen_skip_link_focus_fix(  )",
+        "description": "Fix skip link focus in IE11."
+	},
 		"ƒ: twentynineteen_switch_theme": {
         "prefix": ["twentynineteen_switch_theme","tst"],
         "body": "twentynineteen_switch_theme(  )",
@@ -14433,7 +14438,7 @@
 		"ƒ: twentyseventeen_block_editor_styles": {
         "prefix": ["twentyseventeen_block_editor_styles","tbes"],
         "body": "twentyseventeen_block_editor_styles(  )",
-        "description": "Enqueue editor styles for Gutenberg"
+        "description": "Enqueue styles for the block-based editor."
 	},
 		"ƒ: twentyseventeen_body_classes": {
         "prefix": ["twentyseventeen_body_classes","tbc"],
@@ -14673,7 +14678,7 @@
 		"ƒ: twentysixteen_block_editor_styles": {
         "prefix": ["twentysixteen_block_editor_styles","tbes"],
         "body": "twentysixteen_block_editor_styles(  )",
-        "description": "Enqueue editor styles for Gutenberg"
+        "description": "Enqueue styles for the block-based editor."
 	},
 		"ƒ: twentysixteen_body_classes": {
         "prefix": ["twentysixteen_body_classes","tbc"],
@@ -18044,6 +18049,11 @@
         "prefix": ["wp_kses_version","wkv"],
         "body": "wp_kses_version(  )",
         "description": "This function returns kses&#039; version number."
+	},
+		"ƒ: wp_latest_comments_draft_or_post_title": {
+        "prefix": ["wp_latest_comments_draft_or_post_title","wlcdopt"],
+        "body": "wp_latest_comments_draft_or_post_title( ${1:\\$post:integer|WP_Post} )",
+        "description": "Get the post title."
 	},
 		"ƒ: wp_link_category_checklist": {
         "prefix": ["wp_link_category_checklist","wlcc"],
