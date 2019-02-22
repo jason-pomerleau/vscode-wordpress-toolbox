@@ -1,5 +1,9 @@
 # Change Log
 
+## [1.3.1] - 2019-02-22
+### Updated
+- Updated snippets to WordPress 5.1 release.
+
 ## [1.3.0] - 2019-01-09
 ### Updated
 - Updated snippets to WordPress 5.0.3 release. Removed functions, classes and constants from default themes and plugins from collection.
