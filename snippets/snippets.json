@@ -7125,6 +7125,11 @@
         "body": "doing_filter( ${1:\\$filter:null|string} )",
         "description": "Retrieve the name of a filter currently being processed."
 	},
+		"ƒ: dolly_css": {
+        "prefix": ["dolly_css","dc"],
+        "body": "dolly_css(  )",
+        "description": ""
+	},
 		"ƒ: domain_exists": {
         "prefix": ["domain_exists","de"],
         "body": "domain_exists( ${1:\\$domain:string}, ${2:\\$path:string}, ${3:\\$network_id:integer} )",
@@ -10209,6 +10214,16 @@
         "prefix": ["heartbeat_autosave","ha"],
         "body": "heartbeat_autosave( ${1:\\$response:array}, ${2:\\$data:array} )",
         "description": "Autosave with heartbeat"
+	},
+		"ƒ: hello_dolly": {
+        "prefix": ["hello_dolly","hd"],
+        "body": "hello_dolly(  )",
+        "description": ""
+	},
+		"ƒ: hello_dolly_get_lyric": {
+        "prefix": ["hello_dolly_get_lyric","hdgl"],
+        "body": "hello_dolly_get_lyric(  )",
+        "description": ""
 	},
 		"ƒ: home_url": {
         "prefix": ["home_url","hu"],
@@ -15910,6 +15925,11 @@
         "body": "wp_die( ${1:\\$message:string|WP_Error}, ${2:\\$title:string|integer}, ${3:\\$args:string|array|integer} )",
         "description": "Kill WordPress execution and display HTML message with error message."
 	},
+		"ƒ: wp_direct_php_update_button": {
+        "prefix": ["wp_direct_php_update_button","wdpub"],
+        "body": "wp_direct_php_update_button(  )",
+        "description": "Display a button directly linking to a PHP update process."
+	},
 		"ƒ: wp_doc_link_parse": {
         "prefix": ["wp_doc_link_parse","wdlp"],
         "body": "wp_doc_link_parse( ${1:\\$content:string} )",
@@ -16369,6 +16389,11 @@
         "prefix": ["wp_get_default_update_php_url","wgdupu"],
         "body": "wp_get_default_update_php_url(  )",
         "description": "Gets the default URL to learn more about updating the PHP version the site is running on."
+	},
+		"ƒ: wp_get_direct_php_update_url": {
+        "prefix": ["wp_get_direct_php_update_url","wgdpuu"],
+        "body": "wp_get_direct_php_update_url(  )",
+        "description": "Gets the URL for directly updating the PHP version the site is running on."
 	},
 		"ƒ: wp_get_document_title": {
         "prefix": ["wp_get_document_title","wgdt"],
