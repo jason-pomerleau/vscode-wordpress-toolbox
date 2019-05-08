@@ -1,5 +1,9 @@
 # Change Log
 
+## [1.3.4] - 2019-05-08
+### Updated
+- Updated snippets to WordPress 5.1 release.
+
 ## [1.3.3] - 2019-03-13
 ### Updated
 - Fix invalid escape sequence in snippets JSON.

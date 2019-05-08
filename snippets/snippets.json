@@ -279,6 +279,266 @@
         "body": "NOOP_Translations",
         "description": "Provides the same interface as Translations, but doesn&#039;t do anything"
     },
+    "Class: ParagonIE_Sodium_Compat": {
+        "prefix": "ParagonIE_Sodium_Compat",
+        "body": "ParagonIE_Sodium_Compat",
+        "description": ""
+    },
+    "Class: ParagonIE_Sodium_Core32_BLAKE2b": {
+        "prefix": "ParagonIE_Sodium_Core32_BLAKE2b",
+        "body": "ParagonIE_Sodium_Core32_BLAKE2b",
+        "description": "Class ParagonIE_Sodium_Core_BLAKE2b"
+    },
+    "Class: ParagonIE_Sodium_Core32_ChaCha20": {
+        "prefix": "ParagonIE_Sodium_Core32_ChaCha20",
+        "body": "ParagonIE_Sodium_Core32_ChaCha20",
+        "description": "Class ParagonIE_Sodium_Core32_ChaCha20"
+    },
+    "Class: ParagonIE_Sodium_Core32_ChaCha20_Ctx": {
+        "prefix": "ParagonIE_Sodium_Core32_ChaCha20_Ctx",
+        "body": "ParagonIE_Sodium_Core32_ChaCha20_Ctx",
+        "description": "Class ParagonIE_Sodium_Core32_ChaCha20_Ctx"
+    },
+    "Class: ParagonIE_Sodium_Core32_ChaCha20_IetfCtx": {
+        "prefix": "ParagonIE_Sodium_Core32_ChaCha20_IetfCtx",
+        "body": "ParagonIE_Sodium_Core32_ChaCha20_IetfCtx",
+        "description": "Class ParagonIE_Sodium_Core32_ChaCha20_IetfCtx"
+    },
+    "Class: ParagonIE_Sodium_Core32_Curve25519": {
+        "prefix": "ParagonIE_Sodium_Core32_Curve25519",
+        "body": "ParagonIE_Sodium_Core32_Curve25519",
+        "description": "Class ParagonIE_Sodium_Core32_Curve25519"
+    },
+    "Class: ParagonIE_Sodium_Core32_Curve25519_Fe": {
+        "prefix": "ParagonIE_Sodium_Core32_Curve25519_Fe",
+        "body": "ParagonIE_Sodium_Core32_Curve25519_Fe",
+        "description": "Class ParagonIE_Sodium_Core32_Curve25519_Fe"
+    },
+    "Class: ParagonIE_Sodium_Core32_Curve25519_Ge_Cached": {
+        "prefix": "ParagonIE_Sodium_Core32_Curve25519_Ge_Cached",
+        "body": "ParagonIE_Sodium_Core32_Curve25519_Ge_Cached",
+        "description": "Class ParagonIE_Sodium_Core32_Curve25519_Ge_Cached"
+    },
+    "Class: ParagonIE_Sodium_Core32_Curve25519_Ge_P1p1": {
+        "prefix": "ParagonIE_Sodium_Core32_Curve25519_Ge_P1p1",
+        "body": "ParagonIE_Sodium_Core32_Curve25519_Ge_P1p1",
+        "description": "Class ParagonIE_Sodium_Core32_Curve25519_Ge_P1p1"
+    },
+    "Class: ParagonIE_Sodium_Core32_Curve25519_Ge_P2": {
+        "prefix": "ParagonIE_Sodium_Core32_Curve25519_Ge_P2",
+        "body": "ParagonIE_Sodium_Core32_Curve25519_Ge_P2",
+        "description": "Class ParagonIE_Sodium_Core32_Curve25519_Ge_P2"
+    },
+    "Class: ParagonIE_Sodium_Core32_Curve25519_Ge_P3": {
+        "prefix": "ParagonIE_Sodium_Core32_Curve25519_Ge_P3",
+        "body": "ParagonIE_Sodium_Core32_Curve25519_Ge_P3",
+        "description": "Class ParagonIE_Sodium_Core32_Curve25519_Ge_P3"
+    },
+    "Class: ParagonIE_Sodium_Core32_Curve25519_Ge_Precomp": {
+        "prefix": "ParagonIE_Sodium_Core32_Curve25519_Ge_Precomp",
+        "body": "ParagonIE_Sodium_Core32_Curve25519_Ge_Precomp",
+        "description": "Class ParagonIE_Sodium_Core32_Curve25519_Ge_Precomp"
+    },
+    "Class: ParagonIE_Sodium_Core32_Curve25519_H": {
+        "prefix": "ParagonIE_Sodium_Core32_Curve25519_H",
+        "body": "ParagonIE_Sodium_Core32_Curve25519_H",
+        "description": "Class ParagonIE_Sodium_Core32_Curve25519_H"
+    },
+    "Class: ParagonIE_Sodium_Core32_Ed25519": {
+        "prefix": "ParagonIE_Sodium_Core32_Ed25519",
+        "body": "ParagonIE_Sodium_Core32_Ed25519",
+        "description": "Class ParagonIE_Sodium_Core32_Ed25519"
+    },
+    "Class: ParagonIE_Sodium_Core32_HChaCha20": {
+        "prefix": "ParagonIE_Sodium_Core32_HChaCha20",
+        "body": "ParagonIE_Sodium_Core32_HChaCha20",
+        "description": "Class ParagonIE_Sodium_Core_HChaCha20"
+    },
+    "Class: ParagonIE_Sodium_Core32_HSalsa20": {
+        "prefix": "ParagonIE_Sodium_Core32_HSalsa20",
+        "body": "ParagonIE_Sodium_Core32_HSalsa20",
+        "description": "Class ParagonIE_Sodium_Core32_HSalsa20"
+    },
+    "Class: ParagonIE_Sodium_Core32_Int32": {
+        "prefix": "ParagonIE_Sodium_Core32_Int32",
+        "body": "ParagonIE_Sodium_Core32_Int32",
+        "description": "Class ParagonIE_Sodium_Core32_Int32"
+    },
+    "Class: ParagonIE_Sodium_Core32_Int64": {
+        "prefix": "ParagonIE_Sodium_Core32_Int64",
+        "body": "ParagonIE_Sodium_Core32_Int64",
+        "description": "Class ParagonIE_Sodium_Core32_Int64"
+    },
+    "Class: ParagonIE_Sodium_Core32_Poly1305": {
+        "prefix": "ParagonIE_Sodium_Core32_Poly1305",
+        "body": "ParagonIE_Sodium_Core32_Poly1305",
+        "description": "Class ParagonIE_Sodium_Core32_Poly1305"
+    },
+    "Class: ParagonIE_Sodium_Core32_Poly1305_State": {
+        "prefix": "ParagonIE_Sodium_Core32_Poly1305_State",
+        "body": "ParagonIE_Sodium_Core32_Poly1305_State",
+        "description": "Class ParagonIE_Sodium_Core32_Poly1305_State"
+    },
+    "Class: ParagonIE_Sodium_Core32_Salsa20": {
+        "prefix": "ParagonIE_Sodium_Core32_Salsa20",
+        "body": "ParagonIE_Sodium_Core32_Salsa20",
+        "description": "Class ParagonIE_Sodium_Core32_Salsa20"
+    },
+    "Class: ParagonIE_Sodium_Core32_SipHash": {
+        "prefix": "ParagonIE_Sodium_Core32_SipHash",
+        "body": "ParagonIE_Sodium_Core32_SipHash",
+        "description": "Class ParagonIE_SodiumCompat_Core32_SipHash"
+    },
+    "Class: ParagonIE_Sodium_Core32_Util": {
+        "prefix": "ParagonIE_Sodium_Core32_Util",
+        "body": "ParagonIE_Sodium_Core32_Util",
+        "description": "Class ParagonIE_Sodium_Core_Util"
+    },
+    "Class: ParagonIE_Sodium_Core32_X25519": {
+        "prefix": "ParagonIE_Sodium_Core32_X25519",
+        "body": "ParagonIE_Sodium_Core32_X25519",
+        "description": "Class ParagonIE_Sodium_Core32_X25519"
+    },
+    "Class: ParagonIE_Sodium_Core32_XChaCha20": {
+        "prefix": "ParagonIE_Sodium_Core32_XChaCha20",
+        "body": "ParagonIE_Sodium_Core32_XChaCha20",
+        "description": "Class ParagonIE_Sodium_Core32_XChaCha20"
+    },
+    "Class: ParagonIE_Sodium_Core32_XSalsa20": {
+        "prefix": "ParagonIE_Sodium_Core32_XSalsa20",
+        "body": "ParagonIE_Sodium_Core32_XSalsa20",
+        "description": "Class ParagonIE_Sodium_Core32_XSalsa20"
+    },
+    "Class: ParagonIE_Sodium_Core_BLAKE2b": {
+        "prefix": "ParagonIE_Sodium_Core_BLAKE2b",
+        "body": "ParagonIE_Sodium_Core_BLAKE2b",
+        "description": "Class ParagonIE_Sodium_Core_BLAKE2b"
+    },
+    "Class: ParagonIE_Sodium_Core_ChaCha20": {
+        "prefix": "ParagonIE_Sodium_Core_ChaCha20",
+        "body": "ParagonIE_Sodium_Core_ChaCha20",
+        "description": "Class ParagonIE_Sodium_Core_ChaCha20"
+    },
+    "Class: ParagonIE_Sodium_Core_ChaCha20_Ctx": {
+        "prefix": "ParagonIE_Sodium_Core_ChaCha20_Ctx",
+        "body": "ParagonIE_Sodium_Core_ChaCha20_Ctx",
+        "description": "Class ParagonIE_Sodium_Core_ChaCha20_Ctx"
+    },
+    "Class: ParagonIE_Sodium_Core_ChaCha20_IetfCtx": {
+        "prefix": "ParagonIE_Sodium_Core_ChaCha20_IetfCtx",
+        "body": "ParagonIE_Sodium_Core_ChaCha20_IetfCtx",
+        "description": "Class ParagonIE_Sodium_Core_ChaCha20_IetfCtx"
+    },
+    "Class: ParagonIE_Sodium_Core_Curve25519": {
+        "prefix": "ParagonIE_Sodium_Core_Curve25519",
+        "body": "ParagonIE_Sodium_Core_Curve25519",
+        "description": "Class ParagonIE_Sodium_Core_Curve25519"
+    },
+    "Class: ParagonIE_Sodium_Core_Curve25519_Fe": {
+        "prefix": "ParagonIE_Sodium_Core_Curve25519_Fe",
+        "body": "ParagonIE_Sodium_Core_Curve25519_Fe",
+        "description": "Class ParagonIE_Sodium_Core_Curve25519_Fe"
+    },
+    "Class: ParagonIE_Sodium_Core_Curve25519_Ge_Cached": {
+        "prefix": "ParagonIE_Sodium_Core_Curve25519_Ge_Cached",
+        "body": "ParagonIE_Sodium_Core_Curve25519_Ge_Cached",
+        "description": "Class ParagonIE_Sodium_Core_Curve25519_Ge_Cached"
+    },
+    "Class: ParagonIE_Sodium_Core_Curve25519_Ge_P1p1": {
+        "prefix": "ParagonIE_Sodium_Core_Curve25519_Ge_P1p1",
+        "body": "ParagonIE_Sodium_Core_Curve25519_Ge_P1p1",
+        "description": "Class ParagonIE_Sodium_Core_Curve25519_Ge_P1p1"
+    },
+    "Class: ParagonIE_Sodium_Core_Curve25519_Ge_P2": {
+        "prefix": "ParagonIE_Sodium_Core_Curve25519_Ge_P2",
+        "body": "ParagonIE_Sodium_Core_Curve25519_Ge_P2",
+        "description": "Class ParagonIE_Sodium_Core_Curve25519_Ge_P2"
+    },
+    "Class: ParagonIE_Sodium_Core_Curve25519_Ge_P3": {
+        "prefix": "ParagonIE_Sodium_Core_Curve25519_Ge_P3",
+        "body": "ParagonIE_Sodium_Core_Curve25519_Ge_P3",
+        "description": "Class ParagonIE_Sodium_Core_Curve25519_Ge_P3"
+    },
+    "Class: ParagonIE_Sodium_Core_Curve25519_Ge_Precomp": {
+        "prefix": "ParagonIE_Sodium_Core_Curve25519_Ge_Precomp",
+        "body": "ParagonIE_Sodium_Core_Curve25519_Ge_Precomp",
+        "description": "Class ParagonIE_Sodium_Core_Curve25519_Ge_Precomp"
+    },
+    "Class: ParagonIE_Sodium_Core_Curve25519_H": {
+        "prefix": "ParagonIE_Sodium_Core_Curve25519_H",
+        "body": "ParagonIE_Sodium_Core_Curve25519_H",
+        "description": "Class ParagonIE_Sodium_Core_Curve25519_H"
+    },
+    "Class: ParagonIE_Sodium_Core_Ed25519": {
+        "prefix": "ParagonIE_Sodium_Core_Ed25519",
+        "body": "ParagonIE_Sodium_Core_Ed25519",
+        "description": "Class ParagonIE_Sodium_Core_Ed25519"
+    },
+    "Class: ParagonIE_Sodium_Core_HChaCha20": {
+        "prefix": "ParagonIE_Sodium_Core_HChaCha20",
+        "body": "ParagonIE_Sodium_Core_HChaCha20",
+        "description": "Class ParagonIE_Sodium_Core_HChaCha20"
+    },
+    "Class: ParagonIE_Sodium_Core_HSalsa20": {
+        "prefix": "ParagonIE_Sodium_Core_HSalsa20",
+        "body": "ParagonIE_Sodium_Core_HSalsa20",
+        "description": "Class ParagonIE_Sodium_Core_HSalsa20"
+    },
+    "Class: ParagonIE_Sodium_Core_Poly1305": {
+        "prefix": "ParagonIE_Sodium_Core_Poly1305",
+        "body": "ParagonIE_Sodium_Core_Poly1305",
+        "description": "Class ParagonIE_Sodium_Core_Poly1305"
+    },
+    "Class: ParagonIE_Sodium_Core_Poly1305_State": {
+        "prefix": "ParagonIE_Sodium_Core_Poly1305_State",
+        "body": "ParagonIE_Sodium_Core_Poly1305_State",
+        "description": "Class ParagonIE_Sodium_Core_Poly1305_State"
+    },
+    "Class: ParagonIE_Sodium_Core_Salsa20": {
+        "prefix": "ParagonIE_Sodium_Core_Salsa20",
+        "body": "ParagonIE_Sodium_Core_Salsa20",
+        "description": "Class ParagonIE_Sodium_Core_Salsa20"
+    },
+    "Class: ParagonIE_Sodium_Core_SipHash": {
+        "prefix": "ParagonIE_Sodium_Core_SipHash",
+        "body": "ParagonIE_Sodium_Core_SipHash",
+        "description": "Class ParagonIE_SodiumCompat_Core_SipHash"
+    },
+    "Class: ParagonIE_Sodium_Core_Util": {
+        "prefix": "ParagonIE_Sodium_Core_Util",
+        "body": "ParagonIE_Sodium_Core_Util",
+        "description": "Class ParagonIE_Sodium_Core_Util"
+    },
+    "Class: ParagonIE_Sodium_Core_X25519": {
+        "prefix": "ParagonIE_Sodium_Core_X25519",
+        "body": "ParagonIE_Sodium_Core_X25519",
+        "description": "Class ParagonIE_Sodium_Core_X25519"
+    },
+    "Class: ParagonIE_Sodium_Core_XChaCha20": {
+        "prefix": "ParagonIE_Sodium_Core_XChaCha20",
+        "body": "ParagonIE_Sodium_Core_XChaCha20",
+        "description": "Class ParagonIE_Sodium_Core_XChaCha20"
+    },
+    "Class: ParagonIE_Sodium_Core_XSalsa20": {
+        "prefix": "ParagonIE_Sodium_Core_XSalsa20",
+        "body": "ParagonIE_Sodium_Core_XSalsa20",
+        "description": "Class ParagonIE_Sodium_Core_XSalsa20"
+    },
+    "Class: ParagonIE_Sodium_Crypto": {
+        "prefix": "ParagonIE_Sodium_Crypto",
+        "body": "ParagonIE_Sodium_Crypto",
+        "description": "Class ParagonIE_Sodium_Crypto"
+    },
+    "Class: ParagonIE_Sodium_Crypto32": {
+        "prefix": "ParagonIE_Sodium_Crypto32",
+        "body": "ParagonIE_Sodium_Crypto32",
+        "description": "Class ParagonIE_Sodium_Crypto"
+    },
+    "Class: ParagonIE_Sodium_File": {
+        "prefix": "ParagonIE_Sodium_File",
+        "body": "ParagonIE_Sodium_File",
+        "description": "Class ParagonIE_Sodium_File"
+    },
     "Class: PasswordHash": {
         "prefix": "PasswordHash",
         "body": "PasswordHash",
@@ -809,6 +1069,11 @@
         "body": "Snoopy",
         "description": ""
     },
+    "Class: SodiumException": {
+        "prefix": "SodiumException",
+        "body": "SodiumException",
+        "description": "Class SodiumException"
+    },
     "Class: Text_Diff": {
         "prefix": "Text_Diff",
         "body": "Text_Diff",
@@ -1234,6 +1499,11 @@
         "body": "WP_Date_Query",
         "description": "Class for generating SQL clauses that filter a primary query according to date."
     },
+    "Class: WP_Debug_Data": {
+        "prefix": "WP_Debug_Data",
+        "body": "WP_Debug_Data",
+        "description": "Class for providing debug data based on a users WordPress environment."
+    },
     "Class: WP_Dependencies": {
         "prefix": "WP_Dependencies",
         "body": "WP_Dependencies",
@@ -1249,6 +1519,11 @@
         "body": "WP_Error",
         "description": "WordPress Error class."
     },
+    "Class: WP_Fatal_Error_Handler": {
+        "prefix": "WP_Fatal_Error_Handler",
+        "body": "WP_Fatal_Error_Handler",
+        "description": "Core class used as the default shutdown handler for fatal errors."
+    },
     "Class: WP_Feed_Cache": {
         "prefix": "WP_Feed_Cache",
         "body": "WP_Feed_Cache",
@@ -1262,7 +1537,7 @@
     "Class: WP_Filesystem_Base": {
         "prefix": "WP_Filesystem_Base",
         "body": "WP_Filesystem_Base",
-        "description": "Base WordPress Filesystem class for which Filesystem implementations extend"
+        "description": "Base WordPress Filesystem class which Filesystem implementations extend."
     },
     "Class: WP_Filesystem_Direct": {
         "prefix": "WP_Filesystem_Direct",
@@ -1459,6 +1734,11 @@
         "body": "WP_oEmbed_Controller",
         "description": "oEmbed API endpoint controller."
     },
+    "Class: WP_Paused_Extensions_Storage": {
+        "prefix": "WP_Paused_Extensions_Storage",
+        "body": "WP_Paused_Extensions_Storage",
+        "description": "Core class used for storing paused extensions."
+    },
     "Class: WP_Plugin_Install_List_Table": {
         "prefix": "WP_Plugin_Install_List_Table",
         "body": "WP_Plugin_Install_List_Table",
@@ -1513,6 +1793,31 @@
         "prefix": "WP_Query",
         "body": "WP_Query",
         "description": "The WordPress Query class."
+    },
+    "Class: WP_Recovery_Mode": {
+        "prefix": "WP_Recovery_Mode",
+        "body": "WP_Recovery_Mode",
+        "description": "Core class used to implement Recovery Mode."
+    },
+    "Class: WP_Recovery_Mode_Cookie_Service": {
+        "prefix": "WP_Recovery_Mode_Cookie_Service",
+        "body": "WP_Recovery_Mode_Cookie_Service",
+        "description": "Core class used to set, validate, and clear cookies that identify a Recovery Mode session."
+    },
+    "Class: WP_Recovery_Mode_Email_Service": {
+        "prefix": "WP_Recovery_Mode_Email_Service",
+        "body": "WP_Recovery_Mode_Email_Service",
+        "description": "Core class used to send an email with a link to begin Recovery Mode."
+    },
+    "Class: WP_Recovery_Mode_Key_Service": {
+        "prefix": "WP_Recovery_Mode_Key_Service",
+        "body": "WP_Recovery_Mode_Key_Service",
+        "description": "Core class used to generate and validate keys used to enter Recovery Mode."
+    },
+    "Class: WP_Recovery_Mode_Link_Service": {
+        "prefix": "WP_Recovery_Mode_Link_Service",
+        "body": "WP_Recovery_Mode_Link_Service",
+        "description": "Core class used to generate and handle recovery mode links."
     },
     "Class: WP_REST_Attachments_Controller": {
         "prefix": "WP_REST_Attachments_Controller",
@@ -1688,6 +1993,16 @@
         "prefix": "WP_Site",
         "body": "WP_Site",
         "description": "Core class used for interacting with a multisite site."
+    },
+    "Class: WP_Site_Health": {
+        "prefix": "WP_Site_Health",
+        "body": "WP_Site_Health",
+        "description": "Class for looking up a site&#039;s health based on a user&#039;s WordPress environment."
+    },
+    "Class: WP_Site_Health_Auto_Updates": {
+        "prefix": "WP_Site_Health_Auto_Updates",
+        "body": "WP_Site_Health_Auto_Updates",
+        "description": "Class for testing automatic updates in the WordPress code."
     },
     "Class: WP_Site_Icon": {
         "prefix": "WP_Site_Icon",
@@ -2042,7 +2357,7 @@
 	"Constant: DB_USER": {
         "prefix": "DB_USER",
         "body": "DB_USER",
-        "description": ""
+        "description": "MySQL database username"
     },
 	"Constant: DOING_AJAX": {
         "prefix": "DOING_AJAX",
@@ -3444,14 +3759,14 @@
         "body": "NONCE_SALT",
         "description": ""
     },
-	"Constant: OBJECT": {
-        "prefix": "OBJECT",
-        "body": "OBJECT",
-        "description": ""
-    },
 	"Constant: object": {
         "prefix": "object",
         "body": "object",
+        "description": ""
+    },
+	"Constant: OBJECT": {
+        "prefix": "OBJECT",
+        "body": "OBJECT",
         "description": ""
     },
 	"Constant: OBJECT_K": {
@@ -3802,6 +4117,11 @@
 	"Constant: RANDOM_COMPAT_READ_BUFFER": {
         "prefix": "RANDOM_COMPAT_READ_BUFFER",
         "body": "RANDOM_COMPAT_READ_BUFFER",
+        "description": ""
+    },
+	"Constant: RECOVERY_MODE_COOKIE": {
+        "prefix": "RECOVERY_MODE_COOKIE",
+        "body": "RECOVERY_MODE_COOKIE",
         "description": ""
     },
 	"Constant: REST_API_VERSION": {
@@ -4239,6 +4559,11 @@
         "body": "SITECOOKIEPATH",
         "description": ""
     },
+	"Constant: SODIUM_{$constant}": {
+        "prefix": "SODIUM_{$constant}",
+        "body": "SODIUM_{$constant}",
+        "description": ""
+    },
 	"Constant: STYLESHEETPATH": {
         "prefix": "STYLESHEETPATH",
         "body": "STYLESHEETPATH",
@@ -4322,7 +4647,7 @@
 	"Constant: WP_DEBUG": {
         "prefix": "WP_DEBUG",
         "body": "WP_DEBUG",
-        "description": ""
+        "description": "For developers: WordPress debugging mode."
     },
 	"Constant: WP_DEBUG_DISPLAY": {
         "prefix": "WP_DEBUG_DISPLAY",
@@ -4352,7 +4677,7 @@
 	"Constant: WP_INSTALLING": {
         "prefix": "WP_INSTALLING",
         "body": "WP_INSTALLING",
-        "description": ""
+        "description": "We are installing."
     },
 	"Constant: WP_INSTALLING_NETWORK": {
         "prefix": "WP_INSTALLING_NETWORK",
@@ -4414,10 +4739,20 @@
         "body": "WP_REPAIRING",
         "description": ""
     },
+	"Constant: WP_SANDBOX_SCRAPING": {
+        "prefix": "WP_SANDBOX_SCRAPING",
+        "body": "WP_SANDBOX_SCRAPING",
+        "description": ""
+    },
 	"Constant: WP_SETUP_CONFIG": {
         "prefix": "WP_SETUP_CONFIG",
         "body": "WP_SETUP_CONFIG",
         "description": "We are blissfully unaware of anything."
+    },
+	"Constant: WP_START_TIMESTAMP": {
+        "prefix": "WP_START_TIMESTAMP",
+        "body": "WP_START_TIMESTAMP",
+        "description": ""
     },
 	"Constant: WP_UNINSTALL_PLUGIN": {
         "prefix": "WP_UNINSTALL_PLUGIN",
@@ -4573,7 +4908,7 @@
 		"ƒ: _ajax_wp_die_handler": {
         "prefix": ["_ajax_wp_die_handler","awdh"],
         "body": "_ajax_wp_die_handler( ${1:\\$message:string}, ${2:\\$title:string}, ${3:\\$args:string|array} )",
-        "description": "Kill WordPress ajax execution."
+        "description": "Kills WordPress execution and displays Ajax response with an error message."
 	},
 		"ƒ: _autop_newline_preservation_helper": {
         "prefix": ["_autop_newline_preservation_helper","anph"],
@@ -4663,7 +4998,7 @@
 		"ƒ: _default_wp_die_handler": {
         "prefix": ["_default_wp_die_handler","dwdh"],
         "body": "_default_wp_die_handler( ${1:\\$message:string|WP_Error}, ${2:\\$title:string}, ${3:\\$args:string|array} )",
-        "description": "Kills WordPress execution and display HTML message with error message."
+        "description": "Kills WordPress execution and displays HTML page with an error message."
 	},
 		"ƒ: _delete_attachment_theme_mod": {
         "prefix": ["_delete_attachment_theme_mod","datm"],
@@ -4724,6 +5059,11 @@
         "prefix": ["_ex","e"],
         "body": "_ex( ${1:\\$text:string}, ${2:\\$context:string}, ${3:\\$domain:string} )",
         "description": "Display translated string with gettext context."
+	},
+		"ƒ: _excerpt_render_inner_columns_blocks": {
+        "prefix": ["_excerpt_render_inner_columns_blocks","ericb"],
+        "body": "_excerpt_render_inner_columns_blocks( ${1:\\$columns:array}, ${2:\\$allowed_blocks:array} )",
+        "description": "Render inner blocks from the `core/columns` block for generating an excerpt."
 	},
 		"ƒ: _fetch_remote_file": {
         "prefix": ["_fetch_remote_file","frf"],
@@ -4845,6 +5185,11 @@
         "body": "_get_term_children( ${1:\\$term_id:integer}, ${2:\\$terms:array}, ${3:\\$taxonomy:string}, ${4:\\$ancestors:array} )",
         "description": "Get the subset of $terms that are descendants of $term_id."
 	},
+		"ƒ: _get_term_hierarchy": {
+        "prefix": ["_get_term_hierarchy","gth"],
+        "body": "_get_term_hierarchy( ${1:\\$taxonomy:string} )",
+        "description": "Retrieves children of taxonomy as Term IDs."
+	},
 		"ƒ: _get_widget_id_base": {
         "prefix": ["_get_widget_id_base","gwib"],
         "body": "_get_widget_id_base( ${1:\\$id:string} )",
@@ -4878,7 +5223,12 @@
 		"ƒ: _json_wp_die_handler": {
         "prefix": ["_json_wp_die_handler","jwdh"],
         "body": "_json_wp_die_handler( ${1:\\$message:string}, ${2:\\$title:string}, ${3:\\$args:string|array} )",
-        "description": "Kill WordPress execution and display JSON message with error message."
+        "description": "Kills WordPress execution and displays JSON response with an error message."
+	},
+		"ƒ: _jsonp_wp_die_handler": {
+        "prefix": ["_jsonp_wp_die_handler","jwdh"],
+        "body": "_jsonp_wp_die_handler( ${1:\\$message:string}, ${2:\\$title:string}, ${3:\\$args:string|array} )",
+        "description": "Kills WordPress execution and displays JSONP response with an error message."
 	},
 		"ƒ: _links_add_base": {
         "prefix": ["_links_add_base","lab"],
@@ -5138,7 +5488,7 @@
 		"ƒ: _restore_wpautop_hook": {
         "prefix": ["_restore_wpautop_hook","rwh"],
         "body": "_restore_wpautop_hook( ${1:\\$content:string} )",
-        "description": "If do_blocks() needs to remove wp_autop() from the `the_content` filter, this re-adds it afterwards, for subsequent `the_content` usage."
+        "description": "If do_blocks() needs to remove wpautop() from the `the_content` filter, this re-adds it afterwards, for subsequent `the_content` usage."
 	},
 		"ƒ: _sanitize_text_fields": {
         "prefix": ["_sanitize_text_fields","stf"],
@@ -5153,7 +5503,7 @@
 		"ƒ: _scalar_wp_die_handler": {
         "prefix": ["_scalar_wp_die_handler","swdh"],
         "body": "_scalar_wp_die_handler( ${1:\\$message:string}, ${2:\\$title:string}, ${3:\\$args:string|array} )",
-        "description": "Kill WordPress execution."
+        "description": "Kills WordPress execution and displays an error message."
 	},
 		"ƒ: _search_terms_tidy": {
         "prefix": ["_search_terms_tidy","stt"],
@@ -5388,7 +5738,7 @@
 		"ƒ: _wp_die_process_input": {
         "prefix": ["_wp_die_process_input","wdpi"],
         "body": "_wp_die_process_input( ${1:\\$message:string}, ${2:\\$title:string}, ${3:\\$args:string|array} )",
-        "description": "Processes arguments passed to {@see wp_die()} consistently for its handlers."
+        "description": "Processes arguments passed to wp_die() consistently for its handlers."
 	},
 		"ƒ: _wp_emoji_list": {
         "prefix": ["_wp_emoji_list","wel"],
@@ -5660,10 +6010,15 @@
         "body": "_x( ${1:\\$text:string}, ${2:\\$context:string}, ${3:\\$domain:string} )",
         "description": "Retrieve translated string with gettext context."
 	},
+		"ƒ: _xml_wp_die_handler": {
+        "prefix": ["_xml_wp_die_handler","xwdh"],
+        "body": "_xml_wp_die_handler( ${1:\\$message:string}, ${2:\\$title:string}, ${3:\\$args:string|array} )",
+        "description": "Kills WordPress execution and displays XML response with an error message."
+	},
 		"ƒ: _xmlrpc_wp_die_handler": {
         "prefix": ["_xmlrpc_wp_die_handler","xwdh"],
         "body": "_xmlrpc_wp_die_handler( ${1:\\$message:string}, ${2:\\$title:string}, ${3:\\$args:string|array} )",
-        "description": "Kill WordPress execution and display XML message with error message."
+        "description": "Kills WordPress execution and displays XML response with an error message."
 	},
 		"ƒ: absint": {
         "prefix": ["absint"],
@@ -6683,7 +7038,7 @@
 		"ƒ: current_theme_supports": {
         "prefix": ["current_theme_supports","cts"],
         "body": "current_theme_supports( ${1:\\$feature:string} )",
-        "description": "Checks a theme&#039;s support for a given feature"
+        "description": "Checks a theme&#039;s support for a given feature."
 	},
 		"ƒ: current_time": {
         "prefix": ["current_time","ct"],
@@ -7125,11 +7480,6 @@
         "body": "doing_filter( ${1:\\$filter:null|string} )",
         "description": "Retrieve the name of a filter currently being processed."
 	},
-		"ƒ: dolly_css": {
-        "prefix": ["dolly_css","dc"],
-        "body": "dolly_css(  )",
-        "description": ""
-	},
 		"ƒ: domain_exists": {
         "prefix": ["domain_exists","de"],
         "body": "domain_exists( ${1:\\$domain:string}, ${2:\\$path:string}, ${3:\\$network_id:integer} )",
@@ -7137,7 +7487,7 @@
 	},
 		"ƒ: download_url": {
         "prefix": ["download_url","du"],
-        "body": "download_url( ${1:\\$url:string}, ${2:\\$timeout:integer} )",
+        "body": "download_url( ${1:\\$url:string}, ${2:\\$timeout:integer}, ${3:\\$signature_verification:boolean} )",
         "description": "Downloads a URL to a local temporary file using the WordPress HTTP API."
 	},
 		"ƒ: drop_index": {
@@ -7475,6 +7825,11 @@
         "body": "gd_edit_image_support( ${1:\\$mime_type:string} )",
         "description": "Check if the installed version of GD supports particular image type"
 	},
+		"ƒ: generate_postdata": {
+        "prefix": ["generate_postdata","gp"],
+        "body": "generate_postdata( ${1:\\$post:WP_Post|object|integer} )",
+        "description": "Generates post data."
+	},
 		"ƒ: generate_random_password": {
         "prefix": ["generate_random_password","grp"],
         "body": "generate_random_password( ${1:\\$len:integer} )",
@@ -7597,7 +7952,7 @@
 	},
 		"ƒ: get_archives_link": {
         "prefix": ["get_archives_link","gal"],
-        "body": "get_archives_link( ${1:\\$url:string}, ${2:\\$text:string}, ${3:\\$format:string}, ${4:\\$before:string}, ${5:\\$after:string} )",
+        "body": "get_archives_link( ${1:\\$url:string}, ${2:\\$text:string}, ${3:\\$format:string}, ${4:\\$before:string}, ${5:\\$after:string}, ${6:\\$selected:boolean} )",
         "description": "Retrieve archive link content based on predefined or custom code."
 	},
 		"ƒ: get_attached_file": {
@@ -8227,7 +8582,7 @@
 	},
 		"ƒ: get_dirsize": {
         "prefix": ["get_dirsize","gd"],
-        "body": "get_dirsize( ${1:\\$directory:string} )",
+        "body": "get_dirsize( ${1:\\$directory:string}, ${2:\\$max_execution_time:integer|null} )",
         "description": "Get the size of a directory."
 	},
 		"ƒ: get_dropins": {
@@ -8309,6 +8664,11 @@
         "prefix": ["get_extended","ge"],
         "body": "get_extended( ${1:\\$post:string} )",
         "description": "Get extended entry info (&lt;!--more--&gt;)."
+	},
+		"ƒ: get_feed_build_date": {
+        "prefix": ["get_feed_build_date","gfbd"],
+        "body": "get_feed_build_date( ${1:\\$format:} )",
+        "description": ""
 	},
 		"ƒ: get_feed_link": {
         "prefix": ["get_feed_link","gfl"],
@@ -9130,6 +9490,11 @@
         "body": "get_previous_posts_page_link(  )",
         "description": "Retrieves the previous posts page link."
 	},
+		"ƒ: get_privacy_policy_template": {
+        "prefix": ["get_privacy_policy_template","gppt"],
+        "body": "get_privacy_policy_template(  )",
+        "description": "Retrieve path of Privacy Policy page template in current or parent template."
+	},
 		"ƒ: get_privacy_policy_url": {
         "prefix": ["get_privacy_policy_url","gppu"],
         "body": "get_privacy_policy_url(  )",
@@ -9247,7 +9612,7 @@
 	},
 		"ƒ: get_search_form": {
         "prefix": ["get_search_form","gsf"],
-        "body": "get_search_form( ${1:\\$echo:boolean} )",
+        "body": "get_search_form( ${1:\\$args:array} )",
         "description": "Display search form."
 	},
 		"ƒ: get_search_link": {
@@ -9622,7 +9987,7 @@
 	},
 		"ƒ: get_the_author_meta": {
         "prefix": ["get_the_author_meta","gtam"],
-        "body": "get_the_author_meta( ${1:\\$field:string}, ${2:\\$user_id:integer} )",
+        "body": "get_the_author_meta( ${1:\\$field:string}, ${2:\\$user_id:integer|false} )",
         "description": "Retrieves the requested data of the author of the current post."
 	},
 		"ƒ: get_the_author_msn": {
@@ -9687,7 +10052,7 @@
 	},
 		"ƒ: get_the_content": {
         "prefix": ["get_the_content","gtc"],
-        "body": "get_the_content( ${1:\\$more_link_text:string|null}, ${2:\\$strip_teaser:boolean} )",
+        "body": "get_the_content( ${1:\\$more_link_text:string|null}, ${2:\\$strip_teaser:boolean}, ${3:\\$post:WP_Post|object|integer|null} )",
         "description": "Retrieve the post content."
 	},
 		"ƒ: get_the_content_feed": {
@@ -10215,16 +10580,6 @@
         "body": "heartbeat_autosave( ${1:\\$response:array}, ${2:\\$data:array} )",
         "description": "Autosave with heartbeat"
 	},
-		"ƒ: hello_dolly": {
-        "prefix": ["hello_dolly","hd"],
-        "body": "hello_dolly(  )",
-        "description": ""
-	},
-		"ƒ: hello_dolly_get_lyric": {
-        "prefix": ["hello_dolly_get_lyric","hdgl"],
-        "body": "hello_dolly_get_lyric(  )",
-        "description": ""
-	},
 		"ƒ: home_url": {
         "prefix": ["home_url","hu"],
         "body": "home_url( ${1:\\$path:string}, ${2:\\$scheme:string|null} )",
@@ -10750,6 +11105,11 @@
         "body": "is_paged(  )",
         "description": "Determines whether the query is for paged results and not for the first page."
 	},
+		"ƒ: is_php_version_compatible": {
+        "prefix": ["is_php_version_compatible","ipvc"],
+        "body": "is_php_version_compatible( ${1:\\$required:string} )",
+        "description": "Checks compatibility with the current PHP version."
+	},
 		"ƒ: is_plugin_active": {
         "prefix": ["is_plugin_active","ipa"],
         "body": "is_plugin_active( ${1:\\$plugin:string} )",
@@ -10770,6 +11130,11 @@
         "body": "is_plugin_page(  )",
         "description": "Determines whether the current admin page is generated by a plugin."
 	},
+		"ƒ: is_plugin_paused": {
+        "prefix": ["is_plugin_paused","ipp"],
+        "body": "is_plugin_paused( ${1:\\$plugin:string} )",
+        "description": "Determines whether a plugin is technically active but was paused while loading."
+	},
 		"ƒ: is_post_type_archive": {
         "prefix": ["is_post_type_archive","ipta"],
         "body": "is_post_type_archive( ${1:\\$post_types:string|array} )",
@@ -10789,6 +11154,21 @@
         "prefix": ["is_preview","ip"],
         "body": "is_preview(  )",
         "description": "Determines whether the query is for a post or page preview."
+	},
+		"ƒ: is_privacy_policy": {
+        "prefix": ["is_privacy_policy","ipp"],
+        "body": "is_privacy_policy(  )",
+        "description": "Determines whether the query is for the Privacy Policy page."
+	},
+		"ƒ: is_protected_ajax_action": {
+        "prefix": ["is_protected_ajax_action","ipaa"],
+        "body": "is_protected_ajax_action(  )",
+        "description": "Determines whether we are currently handling an AJAX action that should be protected against WSODs."
+	},
+		"ƒ: is_protected_endpoint": {
+        "prefix": ["is_protected_endpoint","ipe"],
+        "body": "is_protected_endpoint(  )",
+        "description": "Determines whether we are currently on an endpoint that should be protected against WSODs."
 	},
 		"ƒ: is_protected_meta": {
         "prefix": ["is_protected_meta","ipm"],
@@ -10920,6 +11300,11 @@
         "body": "is_textdomain_loaded( ${1:\\$domain:string} )",
         "description": "Whether there are translations for the text domain."
 	},
+		"ƒ: is_theme_paused": {
+        "prefix": ["is_theme_paused","itp"],
+        "body": "is_theme_paused( ${1:\\$theme:string} )",
+        "description": "Determines whether a theme is technically active but was paused while loading."
+	},
 		"ƒ: is_time": {
         "prefix": ["is_time","it"],
         "body": "is_time(  )",
@@ -10969,6 +11354,11 @@
         "prefix": ["is_wp_error","iwe"],
         "body": "is_wp_error( ${1:\\$thing:mixed} )",
         "description": "Check whether variable is a WordPress Error."
+	},
+		"ƒ: is_wp_version_compatible": {
+        "prefix": ["is_wp_version_compatible","iwvc"],
+        "body": "is_wp_version_compatible( ${1:\\$required:string} )",
+        "description": "Checks compatibility with the current WordPress version."
 	},
 		"ƒ: is_wpmu_sitewide_plugin": {
         "prefix": ["is_wpmu_sitewide_plugin","iwsp"],
@@ -11137,7 +11527,7 @@
 	},
 		"ƒ: load_plugin_textdomain": {
         "prefix": ["load_plugin_textdomain","lpt"],
-        "body": "load_plugin_textdomain( ${1:\\$domain:string}, ${2:\\$deprecated:string}, ${3:\\$plugin_rel_path:string} )",
+        "body": "load_plugin_textdomain( ${1:\\$domain:string}, ${2:\\$deprecated:string|false}, ${3:\\$plugin_rel_path:string|false} )",
         "description": "Loads a plugin&#039;s translated strings."
 	},
 		"ƒ: load_script_textdomain": {
@@ -11243,7 +11633,7 @@
 		"ƒ: maybe_add_column": {
         "prefix": ["maybe_add_column","mac"],
         "body": "maybe_add_column( ${1:\\$table_name:string}, ${2:\\$column_name:string}, ${3:\\$create_ddl:string} )",
-        "description": "Adds column to a database table if it doesn&#039;t already exist."
+        "description": "Add column to database table, if column doesn&#039;t already exist in table."
 	},
 		"ƒ: maybe_add_existing_user_to_blog": {
         "prefix": ["maybe_add_existing_user_to_blog","maeutb"],
@@ -11518,7 +11908,7 @@
 		"ƒ: mysql_to_rfc3339": {
         "prefix": ["mysql_to_rfc3339","mtr"],
         "body": "mysql_to_rfc3339( ${1:\\$date_string:string} )",
-        "description": "Parses and formats a MySQL datetime (Y-m-d H:i:s) for ISO8601 (Y-m-d\\TH:i:s)."
+        "description": "Parses and formats a MySQL datetime (Y-m-d H:i:s) for ISO8601 (Y-m-d H:i:s)."
 	},
 		"ƒ: network_admin_url": {
         "prefix": ["network_admin_url","nau"],
@@ -11714,6 +12104,16 @@
         "prefix": ["path_join","pj"],
         "body": "path_join( ${1:\\$base:string}, ${2:\\$path:string} )",
         "description": "Join two filesystem paths together."
+	},
+		"ƒ: paused_plugins_notice": {
+        "prefix": ["paused_plugins_notice","ppn"],
+        "body": "paused_plugins_notice(  )",
+        "description": "Renders an admin notice in case some plugins have been paused due to errors."
+	},
+		"ƒ: paused_themes_notice": {
+        "prefix": ["paused_themes_notice","ptn"],
+        "body": "paused_themes_notice(  )",
+        "description": "Renders an admin notice in case some themes have been paused due to errors."
 	},
 		"ƒ: PclZipUtilCopyBlock": {
         "prefix": ["PclZipUtilCopyBlock"],
@@ -11927,8 +12327,8 @@
 	},
 		"ƒ: post_exists": {
         "prefix": ["post_exists","pe"],
-        "body": "post_exists( ${1:\\$title:string}, ${2:\\$content:string}, ${3:\\$date:string} )",
-        "description": "Determine if a post exists based on title, content, and date"
+        "body": "post_exists( ${1:\\$title:string}, ${2:\\$content:string}, ${3:\\$date:string}, ${4:\\$type:string} )",
+        "description": "Determines if a post exists based on title, content, date and type."
 	},
 		"ƒ: post_form_autocomplete_off": {
         "prefix": ["post_form_autocomplete_off","pfao"],
@@ -12007,7 +12407,7 @@
 	},
 		"ƒ: postbox_classes": {
         "prefix": ["postbox_classes","pc"],
-        "body": "postbox_classes( ${1:\\$id:string}, ${2:\\$page:string} )",
+        "body": "postbox_classes( ${1:\\$box_id:string}, ${2:\\$screen_id:string} )",
         "description": "Returns the list of classes to be used by a meta box."
 	},
 		"ƒ: posts_nav_link": {
@@ -12153,7 +12553,7 @@
 		"ƒ: random_bytes": {
         "prefix": ["random_bytes","rb"],
         "body": "random_bytes( ${1:\\$bytes:integer} )",
-        "description": "Powered by ext/mcrypt (and thankfully NOT libmcrypt)"
+        "description": "Windows with PHP &lt; 5.3.0 will not have the function openssl_random_pseudo_bytes() available, so let&#039;s use CAPICOM to work around this deficiency."
 	},
 		"ƒ: random_int": {
         "prefix": ["random_int","ri"],
@@ -12187,7 +12587,7 @@
 	},
 		"ƒ: recurse_dirsize": {
         "prefix": ["recurse_dirsize","rd"],
-        "body": "recurse_dirsize( ${1:\\$directory:string}, ${2:\\$exclude:string|null} )",
+        "body": "recurse_dirsize( ${1:\\$directory:string}, ${2:\\$exclude:string|array|null}, ${3:\\$max_execution_time:integer|null} )",
         "description": "Get the size of a directory recursively."
 	},
 		"ƒ: redirect_canonical": {
@@ -12240,6 +12640,11 @@
         "body": "register_block_core_archives(  )",
         "description": "Register archives block."
 	},
+		"ƒ: register_block_core_calendar": {
+        "prefix": ["register_block_core_calendar","rbcc"],
+        "body": "register_block_core_calendar(  )",
+        "description": "Registers the `core/calendar` block on server."
+	},
 		"ƒ: register_block_core_categories": {
         "prefix": ["register_block_core_categories","rbcc"],
         "body": "register_block_core_categories(  )",
@@ -12250,10 +12655,25 @@
         "body": "register_block_core_latest_posts(  )",
         "description": "Registers the `core/latest-posts` block on server."
 	},
+		"ƒ: register_block_core_rss": {
+        "prefix": ["register_block_core_rss","rbcr"],
+        "body": "register_block_core_rss(  )",
+        "description": "Registers the `core/rss` block on server."
+	},
+		"ƒ: register_block_core_search": {
+        "prefix": ["register_block_core_search","rbcs"],
+        "body": "register_block_core_search(  )",
+        "description": "Registers the `core/search` block on the server."
+	},
 		"ƒ: register_block_core_shortcode": {
         "prefix": ["register_block_core_shortcode","rbcs"],
         "body": "register_block_core_shortcode(  )",
         "description": "Registers the `core/shortcode` block on server."
+	},
+		"ƒ: register_block_core_tag_cloud": {
+        "prefix": ["register_block_core_tag_cloud","rbctc"],
+        "body": "register_block_core_tag_cloud(  )",
+        "description": "Registers the `core/tag-cloud` block on server."
 	},
 		"ƒ: register_block_type": {
         "prefix": ["register_block_type","rbt"],
@@ -12535,6 +12955,11 @@
         "body": "render_block_core_block( ${1:\\$attributes:array} )",
         "description": "Renders the `core/block` block on server."
 	},
+		"ƒ: render_block_core_calendar": {
+        "prefix": ["render_block_core_calendar","rbcc"],
+        "body": "render_block_core_calendar( ${1:\\$attributes:array} )",
+        "description": "Renders the `core/calendar` block on server."
+	},
 		"ƒ: render_block_core_categories": {
         "prefix": ["render_block_core_categories","rbcc"],
         "body": "render_block_core_categories( ${1:\\$attributes:array} )",
@@ -12550,10 +12975,25 @@
         "body": "render_block_core_latest_posts( ${1:\\$attributes:array} )",
         "description": "Renders the `core/latest-posts` block on server."
 	},
+		"ƒ: render_block_core_rss": {
+        "prefix": ["render_block_core_rss","rbcr"],
+        "body": "render_block_core_rss( ${1:\\$attributes:array} )",
+        "description": "Renders the `core/rss` block on server."
+	},
+		"ƒ: render_block_core_search": {
+        "prefix": ["render_block_core_search","rbcs"],
+        "body": "render_block_core_search( ${1:\\$attributes:array} )",
+        "description": "Dynamically renders the `core/search` block."
+	},
 		"ƒ: render_block_core_shortcode": {
         "prefix": ["render_block_core_shortcode","rbcs"],
         "body": "render_block_core_shortcode( ${1:\\$attributes:array}, ${2:\\$content:string} )",
         "description": "Performs wpautop() on the shortcode block content."
+	},
+		"ƒ: render_block_core_tag_cloud": {
+        "prefix": ["render_block_core_tag_cloud","rbctc"],
+        "body": "render_block_core_tag_cloud( ${1:\\$attributes:array} )",
+        "description": "Renders the `core/tag-cloud` block on server."
 	},
 		"ƒ: request_filesystem_credentials": {
         "prefix": ["request_filesystem_credentials","rfc"],
@@ -12769,6 +13209,16 @@
         "prefix": ["restore_previous_locale","rpl"],
         "body": "restore_previous_locale(  )",
         "description": "Restores the translations according to the previous locale."
+	},
+		"ƒ: resume_plugin": {
+        "prefix": ["resume_plugin","rp"],
+        "body": "resume_plugin( ${1:\\$plugin:string}, ${2:\\$redirect:string} )",
+        "description": "Tries to resume a single plugin."
+	},
+		"ƒ: resume_theme": {
+        "prefix": ["resume_theme","rt"],
+        "body": "resume_theme( ${1:\\$theme:string}, ${2:\\$redirect:string} )",
+        "description": "Tries to resume a single theme."
 	},
 		"ƒ: retrieve_password": {
         "prefix": ["retrieve_password","rp"],
@@ -13255,6 +13705,361 @@
         "body": "smilies_init(  )",
         "description": "Convert smiley code to the icon graphic file equivalent."
 	},
+		"ƒ: sodium_bin2hex": {
+        "prefix": ["sodium_bin2hex","sb"],
+        "body": "sodium_bin2hex( ${1:\\$string:string} )",
+        "description": ""
+	},
+		"ƒ: sodium_compare": {
+        "prefix": ["sodium_compare","sc"],
+        "body": "sodium_compare( ${1:\\$a:string}, ${2:\\$b:string} )",
+        "description": ""
+	},
+		"ƒ: sodium_crypto_aead_aes256gcm_decrypt": {
+        "prefix": ["sodium_crypto_aead_aes256gcm_decrypt","scaad"],
+        "body": "sodium_crypto_aead_aes256gcm_decrypt( ${1:\\$message:string}, ${2:\\$assocData:string}, ${3:\\$nonce:string}, ${4:\\$key:string} )",
+        "description": ""
+	},
+		"ƒ: sodium_crypto_aead_aes256gcm_encrypt": {
+        "prefix": ["sodium_crypto_aead_aes256gcm_encrypt","scaae"],
+        "body": "sodium_crypto_aead_aes256gcm_encrypt( ${1:\\$message:string}, ${2:\\$assocData:string}, ${3:\\$nonce:string}, ${4:\\$key:string} )",
+        "description": ""
+	},
+		"ƒ: sodium_crypto_aead_aes256gcm_is_available": {
+        "prefix": ["sodium_crypto_aead_aes256gcm_is_available","scaaia"],
+        "body": "sodium_crypto_aead_aes256gcm_is_available(  )",
+        "description": ""
+	},
+		"ƒ: sodium_crypto_aead_chacha20poly1305_decrypt": {
+        "prefix": ["sodium_crypto_aead_chacha20poly1305_decrypt","scacd"],
+        "body": "sodium_crypto_aead_chacha20poly1305_decrypt( ${1:\\$message:string}, ${2:\\$assocData:string}, ${3:\\$nonce:string}, ${4:\\$key:string} )",
+        "description": ""
+	},
+		"ƒ: sodium_crypto_aead_chacha20poly1305_encrypt": {
+        "prefix": ["sodium_crypto_aead_chacha20poly1305_encrypt","scace"],
+        "body": "sodium_crypto_aead_chacha20poly1305_encrypt( ${1:\\$message:string}, ${2:\\$assocData:string}, ${3:\\$nonce:string}, ${4:\\$key:string} )",
+        "description": ""
+	},
+		"ƒ: sodium_crypto_aead_chacha20poly1305_ietf_decrypt": {
+        "prefix": ["sodium_crypto_aead_chacha20poly1305_ietf_decrypt","scacid"],
+        "body": "sodium_crypto_aead_chacha20poly1305_ietf_decrypt( ${1:\\$message:string}, ${2:\\$assocData:string}, ${3:\\$nonce:string}, ${4:\\$key:string} )",
+        "description": ""
+	},
+		"ƒ: sodium_crypto_aead_chacha20poly1305_ietf_encrypt": {
+        "prefix": ["sodium_crypto_aead_chacha20poly1305_ietf_encrypt","scacie"],
+        "body": "sodium_crypto_aead_chacha20poly1305_ietf_encrypt( ${1:\\$message:string}, ${2:\\$assocData:string}, ${3:\\$nonce:string}, ${4:\\$key:string} )",
+        "description": ""
+	},
+		"ƒ: sodium_crypto_aead_chacha20poly1305_ietf_keygen": {
+        "prefix": ["sodium_crypto_aead_chacha20poly1305_ietf_keygen","scacik"],
+        "body": "sodium_crypto_aead_chacha20poly1305_ietf_keygen(  )",
+        "description": ""
+	},
+		"ƒ: sodium_crypto_aead_chacha20poly1305_keygen": {
+        "prefix": ["sodium_crypto_aead_chacha20poly1305_keygen","scack"],
+        "body": "sodium_crypto_aead_chacha20poly1305_keygen(  )",
+        "description": ""
+	},
+		"ƒ: sodium_crypto_aead_xchacha20poly1305_ietf_decrypt": {
+        "prefix": ["sodium_crypto_aead_xchacha20poly1305_ietf_decrypt","scaxid"],
+        "body": "sodium_crypto_aead_xchacha20poly1305_ietf_decrypt( ${1:\\$message:string}, ${2:\\$assocData:string}, ${3:\\$nonce:string}, ${4:\\$key:string} )",
+        "description": ""
+	},
+		"ƒ: sodium_crypto_aead_xchacha20poly1305_ietf_encrypt": {
+        "prefix": ["sodium_crypto_aead_xchacha20poly1305_ietf_encrypt","scaxie"],
+        "body": "sodium_crypto_aead_xchacha20poly1305_ietf_encrypt( ${1:\\$message:string}, ${2:\\$assocData:string}, ${3:\\$nonce:string}, ${4:\\$key:string} )",
+        "description": ""
+	},
+		"ƒ: sodium_crypto_aead_xchacha20poly1305_ietf_keygen": {
+        "prefix": ["sodium_crypto_aead_xchacha20poly1305_ietf_keygen","scaxik"],
+        "body": "sodium_crypto_aead_xchacha20poly1305_ietf_keygen(  )",
+        "description": ""
+	},
+		"ƒ: sodium_crypto_auth": {
+        "prefix": ["sodium_crypto_auth","sca"],
+        "body": "sodium_crypto_auth( ${1:\\$message:string}, ${2:\\$key:string} )",
+        "description": ""
+	},
+		"ƒ: sodium_crypto_auth_keygen": {
+        "prefix": ["sodium_crypto_auth_keygen","scak"],
+        "body": "sodium_crypto_auth_keygen(  )",
+        "description": ""
+	},
+		"ƒ: sodium_crypto_auth_verify": {
+        "prefix": ["sodium_crypto_auth_verify","scav"],
+        "body": "sodium_crypto_auth_verify( ${1:\\$mac:string}, ${2:\\$message:string}, ${3:\\$key:string} )",
+        "description": ""
+	},
+		"ƒ: sodium_crypto_box": {
+        "prefix": ["sodium_crypto_box","scb"],
+        "body": "sodium_crypto_box( ${1:\\$message:string}, ${2:\\$nonce:string}, ${3:\\$kp:string} )",
+        "description": ""
+	},
+		"ƒ: sodium_crypto_box_keypair": {
+        "prefix": ["sodium_crypto_box_keypair","scbk"],
+        "body": "sodium_crypto_box_keypair(  )",
+        "description": ""
+	},
+		"ƒ: sodium_crypto_box_keypair_from_secretkey_and_publickey": {
+        "prefix": ["sodium_crypto_box_keypair_from_secretkey_and_publickey","scbkfsap"],
+        "body": "sodium_crypto_box_keypair_from_secretkey_and_publickey( ${1:\\$sk:string}, ${2:\\$pk:string} )",
+        "description": ""
+	},
+		"ƒ: sodium_crypto_box_open": {
+        "prefix": ["sodium_crypto_box_open","scbo"],
+        "body": "sodium_crypto_box_open( ${1:\\$message:string}, ${2:\\$nonce:string}, ${3:\\$kp:string} )",
+        "description": ""
+	},
+		"ƒ: sodium_crypto_box_publickey": {
+        "prefix": ["sodium_crypto_box_publickey","scbp"],
+        "body": "sodium_crypto_box_publickey( ${1:\\$keypair:string} )",
+        "description": ""
+	},
+		"ƒ: sodium_crypto_box_publickey_from_secretkey": {
+        "prefix": ["sodium_crypto_box_publickey_from_secretkey","scbpfs"],
+        "body": "sodium_crypto_box_publickey_from_secretkey( ${1:\\$sk:string} )",
+        "description": ""
+	},
+		"ƒ: sodium_crypto_box_seal": {
+        "prefix": ["sodium_crypto_box_seal","scbs"],
+        "body": "sodium_crypto_box_seal( ${1:\\$message:string}, ${2:\\$publicKey:string} )",
+        "description": ""
+	},
+		"ƒ: sodium_crypto_box_seal_open": {
+        "prefix": ["sodium_crypto_box_seal_open","scbso"],
+        "body": "sodium_crypto_box_seal_open( ${1:\\$message:string}, ${2:\\$kp:string} )",
+        "description": ""
+	},
+		"ƒ: sodium_crypto_box_secretkey": {
+        "prefix": ["sodium_crypto_box_secretkey","scbs"],
+        "body": "sodium_crypto_box_secretkey( ${1:\\$keypair:string} )",
+        "description": ""
+	},
+		"ƒ: sodium_crypto_box_seed_keypair": {
+        "prefix": ["sodium_crypto_box_seed_keypair","scbsk"],
+        "body": "sodium_crypto_box_seed_keypair( ${1:\\$seed:string} )",
+        "description": ""
+	},
+		"ƒ: sodium_crypto_generichash": {
+        "prefix": ["sodium_crypto_generichash","scg"],
+        "body": "sodium_crypto_generichash( ${1:\\$message:string}, ${2:\\$key:string|null}, ${3:\\$outLen:integer} )",
+        "description": ""
+	},
+		"ƒ: sodium_crypto_generichash_final": {
+        "prefix": ["sodium_crypto_generichash_final","scgf"],
+        "body": "sodium_crypto_generichash_final( ${1:\\$ctx:string|null}, ${2:\\$outputLength:integer} )",
+        "description": ""
+	},
+		"ƒ: sodium_crypto_generichash_init": {
+        "prefix": ["sodium_crypto_generichash_init","scgi"],
+        "body": "sodium_crypto_generichash_init( ${1:\\$key:string|null}, ${2:\\$outLen:integer} )",
+        "description": ""
+	},
+		"ƒ: sodium_crypto_generichash_keygen": {
+        "prefix": ["sodium_crypto_generichash_keygen","scgk"],
+        "body": "sodium_crypto_generichash_keygen(  )",
+        "description": ""
+	},
+		"ƒ: sodium_crypto_generichash_update": {
+        "prefix": ["sodium_crypto_generichash_update","scgu"],
+        "body": "sodium_crypto_generichash_update( ${1:\\$ctx:string|null}, ${2:\\$message:string} )",
+        "description": ""
+	},
+		"ƒ: sodium_crypto_kx": {
+        "prefix": ["sodium_crypto_kx","sck"],
+        "body": "sodium_crypto_kx( ${1:\\$my_secret:string}, ${2:\\$their_public:string}, ${3:\\$client_public:string}, ${4:\\$server_public:string} )",
+        "description": ""
+	},
+		"ƒ: sodium_crypto_pwhash": {
+        "prefix": ["sodium_crypto_pwhash","scp"],
+        "body": "sodium_crypto_pwhash( ${1:\\$outlen:integer}, ${2:\\$passwd:string}, ${3:\\$salt:string}, ${4:\\$opslimit:integer}, ${5:\\$memlimit:integer}, ${6:\\$algo:integer|null} )",
+        "description": ""
+	},
+		"ƒ: sodium_crypto_pwhash_scryptsalsa208sha256": {
+        "prefix": ["sodium_crypto_pwhash_scryptsalsa208sha256","scps"],
+        "body": "sodium_crypto_pwhash_scryptsalsa208sha256( ${1:\\$outlen:integer}, ${2:\\$passwd:string}, ${3:\\$salt:string}, ${4:\\$opslimit:integer}, ${5:\\$memlimit:integer} )",
+        "description": ""
+	},
+		"ƒ: sodium_crypto_pwhash_scryptsalsa208sha256_str": {
+        "prefix": ["sodium_crypto_pwhash_scryptsalsa208sha256_str","scpss"],
+        "body": "sodium_crypto_pwhash_scryptsalsa208sha256_str( ${1:\\$passwd:string}, ${2:\\$opslimit:integer}, ${3:\\$memlimit:integer} )",
+        "description": ""
+	},
+		"ƒ: sodium_crypto_pwhash_scryptsalsa208sha256_str_verify": {
+        "prefix": ["sodium_crypto_pwhash_scryptsalsa208sha256_str_verify","scpssv"],
+        "body": "sodium_crypto_pwhash_scryptsalsa208sha256_str_verify( ${1:\\$passwd:string}, ${2:\\$hash:string} )",
+        "description": ""
+	},
+		"ƒ: sodium_crypto_pwhash_str": {
+        "prefix": ["sodium_crypto_pwhash_str","scps"],
+        "body": "sodium_crypto_pwhash_str( ${1:\\$passwd:string}, ${2:\\$opslimit:integer}, ${3:\\$memlimit:integer} )",
+        "description": ""
+	},
+		"ƒ: sodium_crypto_pwhash_str_verify": {
+        "prefix": ["sodium_crypto_pwhash_str_verify","scpsv"],
+        "body": "sodium_crypto_pwhash_str_verify( ${1:\\$passwd:string}, ${2:\\$hash:string} )",
+        "description": ""
+	},
+		"ƒ: sodium_crypto_scalarmult": {
+        "prefix": ["sodium_crypto_scalarmult","scs"],
+        "body": "sodium_crypto_scalarmult( ${1:\\$n:string}, ${2:\\$p:string} )",
+        "description": ""
+	},
+		"ƒ: sodium_crypto_scalarmult_base": {
+        "prefix": ["sodium_crypto_scalarmult_base","scsb"],
+        "body": "sodium_crypto_scalarmult_base( ${1:\\$n:string} )",
+        "description": ""
+	},
+		"ƒ: sodium_crypto_secretbox": {
+        "prefix": ["sodium_crypto_secretbox","scs"],
+        "body": "sodium_crypto_secretbox( ${1:\\$message:string}, ${2:\\$nonce:string}, ${3:\\$key:string} )",
+        "description": ""
+	},
+		"ƒ: sodium_crypto_secretbox_keygen": {
+        "prefix": ["sodium_crypto_secretbox_keygen","scsk"],
+        "body": "sodium_crypto_secretbox_keygen(  )",
+        "description": ""
+	},
+		"ƒ: sodium_crypto_secretbox_open": {
+        "prefix": ["sodium_crypto_secretbox_open","scso"],
+        "body": "sodium_crypto_secretbox_open( ${1:\\$message:string}, ${2:\\$nonce:string}, ${3:\\$key:string} )",
+        "description": ""
+	},
+		"ƒ: sodium_crypto_shorthash": {
+        "prefix": ["sodium_crypto_shorthash","scs"],
+        "body": "sodium_crypto_shorthash( ${1:\\$message:string}, ${2:\\$key:string} )",
+        "description": ""
+	},
+		"ƒ: sodium_crypto_shorthash_keygen": {
+        "prefix": ["sodium_crypto_shorthash_keygen","scsk"],
+        "body": "sodium_crypto_shorthash_keygen(  )",
+        "description": ""
+	},
+		"ƒ: sodium_crypto_sign": {
+        "prefix": ["sodium_crypto_sign","scs"],
+        "body": "sodium_crypto_sign( ${1:\\$message:string}, ${2:\\$sk:string} )",
+        "description": ""
+	},
+		"ƒ: sodium_crypto_sign_detached": {
+        "prefix": ["sodium_crypto_sign_detached","scsd"],
+        "body": "sodium_crypto_sign_detached( ${1:\\$message:string}, ${2:\\$sk:string} )",
+        "description": ""
+	},
+		"ƒ: sodium_crypto_sign_ed25519_pk_to_curve25519": {
+        "prefix": ["sodium_crypto_sign_ed25519_pk_to_curve25519","scseptc"],
+        "body": "sodium_crypto_sign_ed25519_pk_to_curve25519( ${1:\\$pk:string} )",
+        "description": ""
+	},
+		"ƒ: sodium_crypto_sign_ed25519_sk_to_curve25519": {
+        "prefix": ["sodium_crypto_sign_ed25519_sk_to_curve25519","scsestc"],
+        "body": "sodium_crypto_sign_ed25519_sk_to_curve25519( ${1:\\$sk:string} )",
+        "description": ""
+	},
+		"ƒ: sodium_crypto_sign_keypair": {
+        "prefix": ["sodium_crypto_sign_keypair","scsk"],
+        "body": "sodium_crypto_sign_keypair(  )",
+        "description": ""
+	},
+		"ƒ: sodium_crypto_sign_open": {
+        "prefix": ["sodium_crypto_sign_open","scso"],
+        "body": "sodium_crypto_sign_open( ${1:\\$signedMessage:string}, ${2:\\$pk:string} )",
+        "description": ""
+	},
+		"ƒ: sodium_crypto_sign_publickey": {
+        "prefix": ["sodium_crypto_sign_publickey","scsp"],
+        "body": "sodium_crypto_sign_publickey( ${1:\\$keypair:string} )",
+        "description": ""
+	},
+		"ƒ: sodium_crypto_sign_publickey_from_secretkey": {
+        "prefix": ["sodium_crypto_sign_publickey_from_secretkey","scspfs"],
+        "body": "sodium_crypto_sign_publickey_from_secretkey( ${1:\\$sk:string} )",
+        "description": ""
+	},
+		"ƒ: sodium_crypto_sign_secretkey": {
+        "prefix": ["sodium_crypto_sign_secretkey","scss"],
+        "body": "sodium_crypto_sign_secretkey( ${1:\\$keypair:string} )",
+        "description": ""
+	},
+		"ƒ: sodium_crypto_sign_seed_keypair": {
+        "prefix": ["sodium_crypto_sign_seed_keypair","scssk"],
+        "body": "sodium_crypto_sign_seed_keypair( ${1:\\$seed:string} )",
+        "description": ""
+	},
+		"ƒ: sodium_crypto_sign_verify_detached": {
+        "prefix": ["sodium_crypto_sign_verify_detached","scsvd"],
+        "body": "sodium_crypto_sign_verify_detached( ${1:\\$signature:string}, ${2:\\$message:string}, ${3:\\$pk:string} )",
+        "description": ""
+	},
+		"ƒ: sodium_crypto_stream": {
+        "prefix": ["sodium_crypto_stream","scs"],
+        "body": "sodium_crypto_stream( ${1:\\$len:integer}, ${2:\\$nonce:string}, ${3:\\$key:string} )",
+        "description": ""
+	},
+		"ƒ: sodium_crypto_stream_keygen": {
+        "prefix": ["sodium_crypto_stream_keygen","scsk"],
+        "body": "sodium_crypto_stream_keygen(  )",
+        "description": ""
+	},
+		"ƒ: sodium_crypto_stream_xor": {
+        "prefix": ["sodium_crypto_stream_xor","scsx"],
+        "body": "sodium_crypto_stream_xor( ${1:\\$message:string}, ${2:\\$nonce:string}, ${3:\\$key:string} )",
+        "description": ""
+	},
+		"ƒ: sodium_hex2bin": {
+        "prefix": ["sodium_hex2bin","sh"],
+        "body": "sodium_hex2bin( ${1:\\$string:string} )",
+        "description": ""
+	},
+		"ƒ: sodium_increment": {
+        "prefix": ["sodium_increment","si"],
+        "body": "sodium_increment( ${1:\\$string:&amp;string} )",
+        "description": ""
+	},
+		"ƒ: sodium_library_version_major": {
+        "prefix": ["sodium_library_version_major","slvm"],
+        "body": "sodium_library_version_major(  )",
+        "description": ""
+	},
+		"ƒ: sodium_library_version_minor": {
+        "prefix": ["sodium_library_version_minor","slvm"],
+        "body": "sodium_library_version_minor(  )",
+        "description": ""
+	},
+		"ƒ: sodium_memcmp": {
+        "prefix": ["sodium_memcmp","sm"],
+        "body": "sodium_memcmp( ${1:\\$a:string}, ${2:\\$b:string} )",
+        "description": ""
+	},
+		"ƒ: sodium_memzero": {
+        "prefix": ["sodium_memzero","sm"],
+        "body": "sodium_memzero( ${1:\\$str:} )",
+        "description": ""
+	},
+		"ƒ: sodium_randombytes_buf": {
+        "prefix": ["sodium_randombytes_buf","srb"],
+        "body": "sodium_randombytes_buf( ${1:\\$amount:integer} )",
+        "description": ""
+	},
+		"ƒ: sodium_randombytes_random16": {
+        "prefix": ["sodium_randombytes_random16","srr"],
+        "body": "sodium_randombytes_random16(  )",
+        "description": ""
+	},
+		"ƒ: sodium_randombytes_uniform": {
+        "prefix": ["sodium_randombytes_uniform","sru"],
+        "body": "sodium_randombytes_uniform( ${1:\\$upperLimit:integer} )",
+        "description": ""
+	},
+		"ƒ: sodium_version_string": {
+        "prefix": ["sodium_version_string","svs"],
+        "body": "sodium_version_string(  )",
+        "description": ""
+	},
+		"ƒ: sodiumCompatAutoloader": {
+        "prefix": ["sodiumCompatAutoloader"],
+        "body": "sodiumCompatAutoloader( ${1:\\$class:string} )",
+        "description": "Sodium_Compat autoloader."
+	},
 		"ƒ: sort_menu": {
         "prefix": ["sort_menu","sm"],
         "body": "sort_menu( ${1:\\$a:array}, ${2:\\$b:array} )",
@@ -13437,7 +14242,7 @@
 	},
 		"ƒ: the_author": {
         "prefix": ["the_author","ta"],
-        "body": "the_author( ${1:\\$deprecated:string}, ${2:\\$deprecated_echo:string} )",
+        "body": "the_author( ${1:\\$deprecated:string}, ${2:\\$deprecated_echo:boolean} )",
         "description": "Display the name of the author of the current post."
 	},
 		"ƒ: the_author_aim": {
@@ -13487,7 +14292,7 @@
 	},
 		"ƒ: the_author_meta": {
         "prefix": ["the_author_meta","tam"],
-        "body": "the_author_meta( ${1:\\$field:string}, ${2:\\$user_id:integer} )",
+        "body": "the_author_meta( ${1:\\$field:string}, ${2:\\$user_id:integer|false} )",
         "description": "Outputs the field from the user&#039;s DB object. Defaults to current post&#039;s author."
 	},
 		"ƒ: the_author_msn": {
@@ -13872,7 +14677,7 @@
 	},
 		"ƒ: translate_user_role": {
         "prefix": ["translate_user_role","tur"],
-        "body": "translate_user_role( ${1:\\$name:string} )",
+        "body": "translate_user_role( ${1:\\$name:string}, ${2:\\$domain:string} )",
         "description": "Translates role name."
 	},
 		"ƒ: translate_with_context": {
@@ -14445,6 +15250,11 @@
         "body": "validate_plugin( ${1:\\$plugin:string} )",
         "description": "Validate the plugin path."
 	},
+		"ƒ: validate_plugin_requirements": {
+        "prefix": ["validate_plugin_requirements","vpr"],
+        "body": "validate_plugin_requirements( ${1:\\$plugin:string} )",
+        "description": "Validate the plugin requirements for WP version and PHP version."
+	},
 		"ƒ: validate_user_form": {
         "prefix": ["validate_user_form","vuf"],
         "body": "validate_user_form(  )",
@@ -14464,6 +15274,11 @@
         "prefix": ["verify_file_md5","vfm"],
         "body": "verify_file_md5( ${1:\\$filename:string}, ${2:\\$expected_md5:string} )",
         "description": "Calculates and compares the MD5 of a file to its expected value."
+	},
+		"ƒ: verify_file_signature": {
+        "prefix": ["verify_file_signature","vfs"],
+        "body": "verify_file_signature( ${1:\\$filename:string}, ${2:\\$signatures:string|array}, ${3:\\$filename_for_errors:string} )",
+        "description": "Verifies the contents of a file against its ED25519 signature."
 	},
 		"ƒ: walk_category_dropdown_tree": {
         "prefix": ["walk_category_dropdown_tree","wcdt"],
@@ -14614,6 +15429,11 @@
         "prefix": ["wp_admin_bar_new_content_menu","wabncm"],
         "body": "wp_admin_bar_new_content_menu( ${1:\\$wp_admin_bar:WP_Admin_Bar} )",
         "description": "Add &quot;Add New&quot; menu."
+	},
+		"ƒ: wp_admin_bar_recovery_mode_menu": {
+        "prefix": ["wp_admin_bar_recovery_mode_menu","wabrmm"],
+        "body": "wp_admin_bar_recovery_mode_menu( ${1:\\$wp_admin_bar:WP_Admin_Bar} )",
+        "description": "Add a link to exit recovery mode when Recovery Mode is active."
 	},
 		"ƒ: wp_admin_bar_render": {
         "prefix": ["wp_admin_bar_render","wabr"],
@@ -14849,6 +15669,36 @@
         "prefix": ["wp_ajax_get_tagcloud","wagt"],
         "body": "wp_ajax_get_tagcloud(  )",
         "description": "Ajax handler for getting a tagcloud."
+	},
+		"ƒ: wp_ajax_health_check_background_updates": {
+        "prefix": ["wp_ajax_health_check_background_updates","wahcbu"],
+        "body": "wp_ajax_health_check_background_updates(  )",
+        "description": "Ajax handler for site health checks on background updates."
+	},
+		"ƒ: wp_ajax_health_check_dotorg_communication": {
+        "prefix": ["wp_ajax_health_check_dotorg_communication","wahcdc"],
+        "body": "wp_ajax_health_check_dotorg_communication(  )",
+        "description": "Ajax handler for site health checks on server communication."
+	},
+		"ƒ: wp_ajax_health_check_get_sizes": {
+        "prefix": ["wp_ajax_health_check_get_sizes","wahcgs"],
+        "body": "wp_ajax_health_check_get_sizes(  )",
+        "description": "Ajax handler for site health check to get directories and database sizes."
+	},
+		"ƒ: wp_ajax_health_check_is_in_debug_mode": {
+        "prefix": ["wp_ajax_health_check_is_in_debug_mode","wahciidm"],
+        "body": "wp_ajax_health_check_is_in_debug_mode(  )",
+        "description": "Ajax handler for site health checks on debug mode."
+	},
+		"ƒ: wp_ajax_health_check_loopback_requests": {
+        "prefix": ["wp_ajax_health_check_loopback_requests","wahclr"],
+        "body": "wp_ajax_health_check_loopback_requests(  )",
+        "description": "Ajax handler for site health checks on loopback requests."
+	},
+		"ƒ: wp_ajax_health_check_site_status_result": {
+        "prefix": ["wp_ajax_health_check_site_status_result","wahcssr"],
+        "body": "wp_ajax_health_check_site_status_result(  )",
+        "description": "Ajax handler for site health check to update the result status."
 	},
 		"ƒ: wp_ajax_heartbeat": {
         "prefix": ["wp_ajax_heartbeat","wah"],
@@ -15184,6 +16034,11 @@
         "prefix": ["wp_blacklist_check","wbc"],
         "body": "wp_blacklist_check( ${1:\\$author:string}, ${2:\\$email:string}, ${3:\\$url:string}, ${4:\\$comment:string}, ${5:\\$user_ip:string}, ${6:\\$user_agent:string} )",
         "description": "Does comment contain blacklisted characters or words."
+	},
+		"ƒ: wp_body_open": {
+        "prefix": ["wp_body_open","wbo"],
+        "body": "wp_body_open(  )",
+        "description": "Fire the wp_body_open action."
 	},
 		"ƒ: wp_cache_add": {
         "prefix": ["wp_cache_add","wca"],
@@ -15923,7 +16778,7 @@
 		"ƒ: wp_die": {
         "prefix": ["wp_die","wd"],
         "body": "wp_die( ${1:\\$message:string|WP_Error}, ${2:\\$title:string|integer}, ${3:\\$args:string|array|integer} )",
-        "description": "Kill WordPress execution and display HTML message with error message."
+        "description": "Kills WordPress execution and displays HTML page with an error message."
 	},
 		"ƒ: wp_direct_php_update_button": {
         "prefix": ["wp_direct_php_update_button","wdpub"],
@@ -16149,6 +17004,11 @@
         "prefix": ["wp_filter_object_list","wfol"],
         "body": "wp_filter_object_list( ${1:\\$list:array}, ${2:\\$args:array}, ${3:\\$operator:string}, ${4:\\$field:boolean|string} )",
         "description": "Filters a list of objects, based on a set of key =&gt; value arguments."
+	},
+		"ƒ: wp_filter_oembed_iframe_title_attribute": {
+        "prefix": ["wp_filter_oembed_iframe_title_attribute","wfoita"],
+        "body": "wp_filter_oembed_iframe_title_attribute( ${1:\\$result:string}, ${2:\\$data:object}, ${3:\\$url:string} )",
+        "description": "Filters the given oEmbed HTML to make sure iframes have a title attribute."
 	},
 		"ƒ: wp_filter_oembed_result": {
         "prefix": ["wp_filter_oembed_result","wfor"],
@@ -16405,6 +17265,11 @@
         "body": "wp_get_ext_types(  )",
         "description": "Retrieves the list of common file extensions and their types."
 	},
+		"ƒ: wp_get_extension_error_description": {
+        "prefix": ["wp_get_extension_error_description","wgeed"],
+        "body": "wp_get_extension_error_description( ${1:\\$error:array} )",
+        "description": "Get a human readable description of an extension&#039;s error."
+	},
 		"ƒ: wp_get_http": {
         "prefix": ["wp_get_http","wgh"],
         "body": "wp_get_http( ${1:\\$url:string}, ${2:\\$file_path:string|boolean}, ${3:\\$red:integer} )",
@@ -16504,6 +17369,11 @@
         "prefix": ["wp_get_password_hint","wgph"],
         "body": "wp_get_password_hint(  )",
         "description": "Gets the text suggesting how to create strong passwords."
+	},
+		"ƒ: wp_get_plugin_error": {
+        "prefix": ["wp_get_plugin_error","wgpe"],
+        "body": "wp_get_plugin_error( ${1:\\$plugin:string} )",
+        "description": "Gets the error that was recorded for a paused plugin."
 	},
 		"ƒ: wp_get_plugin_file_editable_extensions": {
         "prefix": ["wp_get_plugin_file_editable_extensions","wgpfee"],
@@ -16655,6 +17525,11 @@
         "body": "wp_get_theme( ${1:\\$stylesheet:string|null}, ${2:\\$theme_root:string|null} )",
         "description": "Gets a WP_Theme object for a theme."
 	},
+		"ƒ: wp_get_theme_error": {
+        "prefix": ["wp_get_theme_error","wgte"],
+        "body": "wp_get_theme_error( ${1:\\$theme:string} )",
+        "description": "Gets the error that was recorded for a paused theme."
+	},
 		"ƒ: wp_get_theme_file_editable_extensions": {
         "prefix": ["wp_get_theme_file_editable_extensions","wgtfee"],
         "body": "wp_get_theme_file_editable_extensions( ${1:\\$theme:WP_Theme} )",
@@ -16679,6 +17554,11 @@
         "prefix": ["wp_get_update_data","wgud"],
         "body": "wp_get_update_data(  )",
         "description": "Collect counts and UI strings for available updates"
+	},
+		"ƒ: wp_get_update_php_annotation": {
+        "prefix": ["wp_get_update_php_annotation","wgupa"],
+        "body": "wp_get_update_php_annotation(  )",
+        "description": "Returns the default annotation for the web hosting altering the &quot;Update PHP&quot; page URL."
 	},
 		"ƒ: wp_get_update_php_url": {
         "prefix": ["wp_get_update_php_url","wgupu"],
@@ -16920,6 +17800,11 @@
         "body": "wp_installing( ${1:\\$is_installing:boolean|null} )",
         "description": "Check or set whether WordPress is in &quot;installation&quot; mode."
 	},
+		"ƒ: wp_is_fatal_error_handler_enabled": {
+        "prefix": ["wp_is_fatal_error_handler_enabled","wifehe"],
+        "body": "wp_is_fatal_error_handler_enabled(  )",
+        "description": "Checks whether the fatal error handler is enabled."
+	},
 		"ƒ: wp_is_file_mod_allowed": {
         "prefix": ["wp_is_file_mod_allowed","wifma"],
         "body": "wp_is_file_mod_allowed( ${1:\\$context:string} )",
@@ -16934,6 +17819,11 @@
         "prefix": ["wp_is_json_request","wijr"],
         "body": "wp_is_json_request(  )",
         "description": "Checks whether current request is a JSON request, or is expecting a JSON response."
+	},
+		"ƒ: wp_is_jsonp_request": {
+        "prefix": ["wp_is_jsonp_request","wijr"],
+        "body": "wp_is_jsonp_request(  )",
+        "description": "Checks whether current request is a JSONP request, or is expecting a JSONP response."
 	},
 		"ƒ: wp_is_large_network": {
         "prefix": ["wp_is_large_network","wiln"],
@@ -16960,6 +17850,11 @@
         "body": "wp_is_post_revision( ${1:\\$post:integer|WP_Post} )",
         "description": "Determines if the specified post is a revision."
 	},
+		"ƒ: wp_is_recovery_mode": {
+        "prefix": ["wp_is_recovery_mode","wirm"],
+        "body": "wp_is_recovery_mode(  )",
+        "description": "Is WordPress in Recovery Mode."
+	},
 		"ƒ: wp_is_site_initialized": {
         "prefix": ["wp_is_site_initialized","wisi"],
         "body": "wp_is_site_initialized( ${1:\\$site_id:integer|WP_Site} )",
@@ -16979,6 +17874,11 @@
         "prefix": ["wp_is_writable","wiw"],
         "body": "wp_is_writable( ${1:\\$path:string} )",
         "description": "Determine if a directory is writable."
+	},
+		"ƒ: wp_is_xml_request": {
+        "prefix": ["wp_is_xml_request","wixr"],
+        "body": "wp_is_xml_request(  )",
+        "description": "Checks whether current request is an XML request, or is expecting an XML response."
 	},
 		"ƒ: wp_iso_descrambler": {
         "prefix": ["wp_iso_descrambler","wid"],
@@ -17370,6 +18270,11 @@
         "body": "wp_maybe_grant_install_languages_cap( ${1:\\$allcaps:array} )",
         "description": "Filters the user capabilities to grant the &#039;install_languages&#039; capability as necessary."
 	},
+		"ƒ: wp_maybe_grant_resume_extensions_caps": {
+        "prefix": ["wp_maybe_grant_resume_extensions_caps","wmgrec"],
+        "body": "wp_maybe_grant_resume_extensions_caps( ${1:\\$allcaps:array} )",
+        "description": "Filters the user capabilities to grant the &#039;resume_plugins&#039; and &#039;resume_themes&#039; capabilities as necessary."
+	},
 		"ƒ: wp_maybe_load_embeds": {
         "prefix": ["wp_maybe_load_embeds","wmle"],
         "body": "wp_maybe_load_embeds(  )",
@@ -17695,6 +18600,16 @@
         "body": "wp_password_change_notification( ${1:\\$user:WP_User} )",
         "description": "Notify the blog admin of a user changing password, normally via email."
 	},
+		"ƒ: wp_paused_plugins": {
+        "prefix": ["wp_paused_plugins","wpp"],
+        "body": "wp_paused_plugins(  )",
+        "description": "Get the instance for storing paused plugins."
+	},
+		"ƒ: wp_paused_themes": {
+        "prefix": ["wp_paused_themes","wpt"],
+        "body": "wp_paused_themes(  )",
+        "description": "Get the instance for storing paused extensions."
+	},
 		"ƒ: wp_playlist_scripts": {
         "prefix": ["wp_playlist_scripts","wps"],
         "body": "wp_playlist_scripts( ${1:\\$type:string} )",
@@ -17965,6 +18880,16 @@
         "body": "wp_read_video_metadata( ${1:\\$file:string} )",
         "description": "Retrieve metadata from a video file&#039;s ID3 tags"
 	},
+		"ƒ: wp_recovery_mode": {
+        "prefix": ["wp_recovery_mode","wrm"],
+        "body": "wp_recovery_mode(  )",
+        "description": "Access the WordPress Recovery Mode instance."
+	},
+		"ƒ: wp_recovery_mode_nag": {
+        "prefix": ["wp_recovery_mode_nag","wrmn"],
+        "body": "wp_recovery_mode_nag(  )",
+        "description": "Displays a notice when the user is in recovery mode."
+	},
 		"ƒ: wp_redirect": {
         "prefix": ["wp_redirect","wr"],
         "body": "wp_redirect( ${1:\\$location:string}, ${2:\\$status:integer}, ${3:\\$x_redirect_by:string} )",
@@ -18009,6 +18934,11 @@
         "prefix": ["wp_register_comment_personal_data_exporter","wrcpde"],
         "body": "wp_register_comment_personal_data_exporter( ${1:\\$exporters:array} )",
         "description": "Registers the personal data exporter for comments."
+	},
+		"ƒ: wp_register_fatal_error_handler": {
+        "prefix": ["wp_register_fatal_error_handler","wrfeh"],
+        "body": "wp_register_fatal_error_handler(  )",
+        "description": "Registers the shutdown handler for fatal errors."
 	},
 		"ƒ: wp_register_media_personal_data_exporter": {
         "prefix": ["wp_register_media_personal_data_exporter","wrmpde"],
@@ -18505,6 +19435,16 @@
         "body": "wp_site_icon(  )",
         "description": "Display site icon meta tags."
 	},
+		"ƒ: wp_skip_paused_plugins": {
+        "prefix": ["wp_skip_paused_plugins","wspp"],
+        "body": "wp_skip_paused_plugins( ${1:\\$plugins:array} )",
+        "description": "Filters a given list of plugins, removing any paused plugins from it."
+	},
+		"ƒ: wp_skip_paused_themes": {
+        "prefix": ["wp_skip_paused_themes","wspt"],
+        "body": "wp_skip_paused_themes( ${1:\\$themes:array} )",
+        "description": "Filters a given list of themes, removing any paused themes from it."
+	},
 		"ƒ: wp_slash": {
         "prefix": ["wp_slash","ws"],
         "body": "wp_slash( ${1:\\$value:string|array} )",
@@ -18732,13 +19672,18 @@
 	},
 		"ƒ: wp_trim_excerpt": {
         "prefix": ["wp_trim_excerpt","wte"],
-        "body": "wp_trim_excerpt( ${1:\\$text:string} )",
+        "body": "wp_trim_excerpt( ${1:\\$text:string}, ${2:\\$post:WP_Post|object|integer|null} )",
         "description": "Generates an excerpt from the content, if needed."
 	},
 		"ƒ: wp_trim_words": {
         "prefix": ["wp_trim_words","wtw"],
         "body": "wp_trim_words( ${1:\\$text:string}, ${2:\\$num_words:integer}, ${3:\\$more:string|null} )",
         "description": "Trims text to a certain number of words."
+	},
+		"ƒ: wp_trusted_keys": {
+        "prefix": ["wp_trusted_keys","wtk"],
+        "body": "wp_trusted_keys(  )",
+        "description": "Retrieve the list of signing keys trusted by WordPress."
 	},
 		"ƒ: wp_underscore_audio_template": {
         "prefix": ["wp_underscore_audio_template","wuat"],
@@ -18902,7 +19847,7 @@
 	},
 		"ƒ: wp_update_php_annotation": {
         "prefix": ["wp_update_php_annotation","wupa"],
-        "body": "wp_update_php_annotation(  )",
+        "body": "wp_update_php_annotation( ${1:\\$before:string}, ${2:\\$after:string} )",
         "description": "Prints the default annotation for the web host altering the &quot;Update PHP&quot; page URL."
 	},
 		"ƒ: wp_update_plugin": {
