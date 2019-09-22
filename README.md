@@ -5,9 +5,9 @@ By [wpdevtools.io](https://www.wpdevtools.io/)
 *	Snippets for every WordPress function, class and constant.
 *	Easy auto-completion with type hints and tab stops in all the right places.
 *	Emmet-style abbreviations for all functions. For example, type `gtp` for the `get_template_part` function. (2 letter minimum)
-*	WordPress Release: **5.2**
+*	WordPress Release: **5.2.3**
 	-	**3,092** Functions
-	-	**464** Classes
+	-	**446** Classes
 	-	**516** Constants
 
 ## More great tools for WordPress developers
@@ -19,7 +19,3 @@ By [wpdevtools.io](https://www.wpdevtools.io/)
 ## Requirements
 
 These snippets are bound to the PHP language context. Your cursor will need to be inside a set of PHP tags.
-
-## Comments? Need Help?
-
-Reach me on Twitter: [@wpdevtools_io](https://twitter.com/wpdevtools_io)

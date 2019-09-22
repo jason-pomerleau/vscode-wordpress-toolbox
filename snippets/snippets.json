@@ -2342,7 +2342,7 @@
 	"Constant: DB_HOST": {
         "prefix": "DB_HOST",
         "body": "DB_HOST",
-        "description": "MySQL hostname"
+        "description": ""
     },
 	"Constant: DB_NAME": {
         "prefix": "DB_NAME",
@@ -2352,7 +2352,7 @@
 	"Constant: DB_PASSWORD": {
         "prefix": "DB_PASSWORD",
         "body": "DB_PASSWORD",
-        "description": "MySQL database password"
+        "description": ""
     },
 	"Constant: DB_USER": {
         "prefix": "DB_USER",
@@ -2362,7 +2362,7 @@
 	"Constant: DOING_AJAX": {
         "prefix": "DOING_AJAX",
         "body": "DOING_AJAX",
-        "description": ""
+        "description": "Executing Ajax process."
     },
 	"Constant: DOING_AUTOSAVE": {
         "prefix": "DOING_AUTOSAVE",
@@ -3637,7 +3637,7 @@
 	"Constant: IS_PROFILE_PAGE": {
         "prefix": "IS_PROFILE_PAGE",
         "body": "IS_PROFILE_PAGE",
-        "description": ""
+        "description": "This is a profile page."
     },
 	"Constant: JSON_PRETTY_PRINT": {
         "prefix": "JSON_PRETTY_PRINT",
@@ -4647,7 +4647,7 @@
 	"Constant: WP_DEBUG": {
         "prefix": "WP_DEBUG",
         "body": "WP_DEBUG",
-        "description": "For developers: WordPress debugging mode."
+        "description": ""
     },
 	"Constant: WP_DEBUG_DISPLAY": {
         "prefix": "WP_DEBUG_DISPLAY",
@@ -4677,7 +4677,7 @@
 	"Constant: WP_INSTALLING": {
         "prefix": "WP_INSTALLING",
         "body": "WP_INSTALLING",
-        "description": "We are installing."
+        "description": "We are installing WordPress."
     },
 	"Constant: WP_INSTALLING_NETWORK": {
         "prefix": "WP_INSTALLING_NETWORK",
@@ -4959,11 +4959,6 @@
         "prefix": ["_config_wp_siteurl","cws"],
         "body": "_config_wp_siteurl( ${1:\\$url:string} )",
         "description": "Retrieve the WordPress site URL."
-	},
-		"ƒ: _convert_urlencoded_to_entities": {
-        "prefix": ["_convert_urlencoded_to_entities","cute"],
-        "body": "_convert_urlencoded_to_entities( ${1:\\$match:array} )",
-        "description": "Preview fix for JavaScript bug with foreign languages."
 	},
 		"ƒ: _copy_image_file": {
         "prefix": ["_copy_image_file","cif"],
@@ -11633,7 +11628,7 @@
 		"ƒ: maybe_add_column": {
         "prefix": ["maybe_add_column","mac"],
         "body": "maybe_add_column( ${1:\\$table_name:string}, ${2:\\$column_name:string}, ${3:\\$create_ddl:string} )",
-        "description": "Add column to database table, if column doesn&#039;t already exist in table."
+        "description": "Adds column to a database table if it doesn&#039;t already exist."
 	},
 		"ƒ: maybe_add_existing_user_to_blog": {
         "prefix": ["maybe_add_existing_user_to_blog","maeutb"],
@@ -11648,7 +11643,7 @@
 		"ƒ: maybe_create_table": {
         "prefix": ["maybe_create_table","mct"],
         "body": "maybe_create_table( ${1:\\$table_name:string}, ${2:\\$create_ddl:string} )",
-        "description": "Create database table, if it doesn&#039;t already exist."
+        "description": "Creates a table in the database if it doesn&#039;t already exist."
 	},
 		"ƒ: maybe_disable_automattic_widgets": {
         "prefix": ["maybe_disable_automattic_widgets","mdaw"],
@@ -12553,7 +12548,7 @@
 		"ƒ: random_bytes": {
         "prefix": ["random_bytes","rb"],
         "body": "random_bytes( ${1:\\$bytes:integer} )",
-        "description": "Windows with PHP &lt; 5.3.0 will not have the function openssl_random_pseudo_bytes() available, so let&#039;s use CAPICOM to work around this deficiency."
+        "description": "Unless open_basedir is enabled, use /dev/urandom for random numbers in accordance with best practices"
 	},
 		"ƒ: random_int": {
         "prefix": ["random_int","ri"],
@@ -14012,7 +14007,7 @@
 	},
 		"ƒ: sodium_increment": {
         "prefix": ["sodium_increment","si"],
-        "body": "sodium_increment( ${1:\\$string:&amp;string} )",
+        "body": "sodium_increment( ${1:\\$string:string} )",
         "description": ""
 	},
 		"ƒ: sodium_library_version_major": {
@@ -14032,7 +14027,7 @@
 	},
 		"ƒ: sodium_memzero": {
         "prefix": ["sodium_memzero","sm"],
-        "body": "sodium_memzero( ${1:\\$str:} )",
+        "body": "sodium_memzero( ${1:\\$str:string} )",
         "description": ""
 	},
 		"ƒ: sodium_randombytes_buf": {
@@ -18274,6 +18269,11 @@
         "prefix": ["wp_maybe_grant_resume_extensions_caps","wmgrec"],
         "body": "wp_maybe_grant_resume_extensions_caps( ${1:\\$allcaps:array} )",
         "description": "Filters the user capabilities to grant the &#039;resume_plugins&#039; and &#039;resume_themes&#039; capabilities as necessary."
+	},
+		"ƒ: wp_maybe_grant_site_health_caps": {
+        "prefix": ["wp_maybe_grant_site_health_caps","wmgshc"],
+        "body": "wp_maybe_grant_site_health_caps( ${1:\\$allcaps:array}, ${2:\\$caps:array}, ${3:\\$args:array}, ${4:\\$user:WP_User} )",
+        "description": "Filters the user capabilities to grant the &#039;view_site_health_checks&#039; capabilities as necessary."
 	},
 		"ƒ: wp_maybe_load_embeds": {
         "prefix": ["wp_maybe_load_embeds","wmle"],

@@ -1,8 +1,12 @@
 # Change Log
 
+## [1.3.5] - 2019-09-22
+### Updated
+- Updated snippets to WordPress 5.2.3 release.
+
 ## [1.3.4] - 2019-05-08
 ### Updated
-- Updated snippets to WordPress 5.1 release.
+- Updated snippets to WordPress 5.2 release.
 
 ## [1.3.3] - 2019-03-13
 ### Updated
