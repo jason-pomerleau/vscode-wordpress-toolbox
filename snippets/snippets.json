@@ -14,6 +14,31 @@
         "body": "_WP_List_Table_Compat",
         "description": "Helper class to be used only by back compat functions"
     },
+    "Class: Akismet": {
+        "prefix": "Akismet",
+        "body": "Akismet",
+        "description": ""
+    },
+    "Class: Akismet_Admin": {
+        "prefix": "Akismet_Admin",
+        "body": "Akismet_Admin",
+        "description": ""
+    },
+    "Class: Akismet_CLI": {
+        "prefix": "Akismet_CLI",
+        "body": "Akismet_CLI",
+        "description": "Filter spam comments."
+    },
+    "Class: Akismet_REST_API": {
+        "prefix": "Akismet_REST_API",
+        "body": "Akismet_REST_API",
+        "description": ""
+    },
+    "Class: Akismet_Widget": {
+        "prefix": "Akismet_Widget",
+        "body": "Akismet_Widget",
+        "description": "Core base class extended to register widgets."
+    },
     "Class: AMFReader": {
         "prefix": "AMFReader",
         "body": "AMFReader",
@@ -384,6 +409,11 @@
         "body": "ParagonIE_Sodium_Core32_Salsa20",
         "description": "Class ParagonIE_Sodium_Core32_Salsa20"
     },
+    "Class: ParagonIE_Sodium_Core32_SecretStream_State": {
+        "prefix": "ParagonIE_Sodium_Core32_SecretStream_State",
+        "body": "ParagonIE_Sodium_Core32_SecretStream_State",
+        "description": "Class ParagonIE_Sodium_Core32_SecretStream_State"
+    },
     "Class: ParagonIE_Sodium_Core32_SipHash": {
         "prefix": "ParagonIE_Sodium_Core32_SipHash",
         "body": "ParagonIE_Sodium_Core32_SipHash",
@@ -408,6 +438,21 @@
         "prefix": "ParagonIE_Sodium_Core32_XSalsa20",
         "body": "ParagonIE_Sodium_Core32_XSalsa20",
         "description": "Class ParagonIE_Sodium_Core32_XSalsa20"
+    },
+    "Class: ParagonIE_Sodium_Core_Base64_Common": {
+        "prefix": "ParagonIE_Sodium_Core_Base64_Common",
+        "body": "ParagonIE_Sodium_Core_Base64_Common",
+        "description": "Class ParagonIE_Sodium_Core_Base64"
+    },
+    "Class: ParagonIE_Sodium_Core_Base64_Original": {
+        "prefix": "ParagonIE_Sodium_Core_Base64_Original",
+        "body": "ParagonIE_Sodium_Core_Base64_Original",
+        "description": "Class ParagonIE_Sodium_Core_Base64"
+    },
+    "Class: ParagonIE_Sodium_Core_Base64_UrlSafe": {
+        "prefix": "ParagonIE_Sodium_Core_Base64_UrlSafe",
+        "body": "ParagonIE_Sodium_Core_Base64_UrlSafe",
+        "description": "Class ParagonIE_Sodium_Core_Base64UrlSafe"
     },
     "Class: ParagonIE_Sodium_Core_BLAKE2b": {
         "prefix": "ParagonIE_Sodium_Core_BLAKE2b",
@@ -498,6 +543,11 @@
         "prefix": "ParagonIE_Sodium_Core_Salsa20",
         "body": "ParagonIE_Sodium_Core_Salsa20",
         "description": "Class ParagonIE_Sodium_Core_Salsa20"
+    },
+    "Class: ParagonIE_Sodium_Core_SecretStream_State": {
+        "prefix": "ParagonIE_Sodium_Core_SecretStream_State",
+        "body": "ParagonIE_Sodium_Core_SecretStream_State",
+        "description": "Class ParagonIE_Sodium_Core_SecretStream_State"
     },
     "Class: ParagonIE_Sodium_Core_SipHash": {
         "prefix": "ParagonIE_Sodium_Core_SipHash",
@@ -1074,6 +1124,11 @@
         "body": "SodiumException",
         "description": "Class SodiumException"
     },
+    "Class: SplFixedArray": {
+        "prefix": "SplFixedArray",
+        "body": "SplFixedArray",
+        "description": "The SplFixedArray class provides the main functionalities of array. The main differences between a SplFixedArray and a normal PHP array is that the SplFixedArray is of fixed length and allows only integers within the range as indexes. The advantage is that it allows a faster array implementation."
+    },
     "Class: Text_Diff": {
         "prefix": "Text_Diff",
         "body": "Text_Diff",
@@ -1163,6 +1218,51 @@
         "prefix": "Translations",
         "body": "Translations",
         "description": ""
+    },
+    "Class: TwentyNineteen_SVG_Icons": {
+        "prefix": "TwentyNineteen_SVG_Icons",
+        "body": "TwentyNineteen_SVG_Icons",
+        "description": "This class is in charge of displaying SVG icons across the site."
+    },
+    "Class: TwentyNineteen_Walker_Comment": {
+        "prefix": "TwentyNineteen_Walker_Comment",
+        "body": "TwentyNineteen_Walker_Comment",
+        "description": "This class outputs custom comment walker for HTML5 friendly WordPress comment and threaded replies."
+    },
+    "Class: TwentyTwenty_Customize": {
+        "prefix": "TwentyTwenty_Customize",
+        "body": "TwentyTwenty_Customize",
+        "description": "CUSTOMIZER SETTINGS"
+    },
+    "Class: TwentyTwenty_Non_Latin_Languages": {
+        "prefix": "TwentyTwenty_Non_Latin_Languages",
+        "body": "TwentyTwenty_Non_Latin_Languages",
+        "description": "Language handling."
+    },
+    "Class: TwentyTwenty_Script_Loader": {
+        "prefix": "TwentyTwenty_Script_Loader",
+        "body": "TwentyTwenty_Script_Loader",
+        "description": "A class that provides a way to add `async` or `defer` attributes to scripts."
+    },
+    "Class: TwentyTwenty_Separator_Control": {
+        "prefix": "TwentyTwenty_Separator_Control",
+        "body": "TwentyTwenty_Separator_Control",
+        "description": "Separator Control."
+    },
+    "Class: TwentyTwenty_SVG_Icons": {
+        "prefix": "TwentyTwenty_SVG_Icons",
+        "body": "TwentyTwenty_SVG_Icons",
+        "description": "SVG ICONS CLASS Retrieve the SVG code for the specified icon. Based on a solution in Twenty Nineteen."
+    },
+    "Class: TwentyTwenty_Walker_Comment": {
+        "prefix": "TwentyTwenty_Walker_Comment",
+        "body": "TwentyTwenty_Walker_Comment",
+        "description": "CUSTOM COMMENT WALKER A custom walker for comments, based on the walker in Twenty Nineteen."
+    },
+    "Class: TwentyTwenty_Walker_Page": {
+        "prefix": "TwentyTwenty_Walker_Page",
+        "body": "TwentyTwenty_Walker_Page",
+        "description": "CUSTOM PAGE WALKER A custom walker for pages."
     },
     "Class: TypeError": {
         "prefix": "TypeError",
@@ -2259,6 +2359,26 @@
         "body": "ADMIN_COOKIE_PATH",
         "description": ""
     },
+	"Constant: AKISMET__MINIMUM_WP_VERSION": {
+        "prefix": "AKISMET__MINIMUM_WP_VERSION",
+        "body": "AKISMET__MINIMUM_WP_VERSION",
+        "description": ""
+    },
+	"Constant: AKISMET__PLUGIN_DIR": {
+        "prefix": "AKISMET__PLUGIN_DIR",
+        "body": "AKISMET__PLUGIN_DIR",
+        "description": ""
+    },
+	"Constant: AKISMET_DELETE_LIMIT": {
+        "prefix": "AKISMET_DELETE_LIMIT",
+        "body": "AKISMET_DELETE_LIMIT",
+        "description": ""
+    },
+	"Constant: AKISMET_VERSION": {
+        "prefix": "AKISMET_VERSION",
+        "body": "AKISMET_VERSION",
+        "description": ""
+    },
 	"Constant: ARRAY_A": {
         "prefix": "ARRAY_A",
         "body": "ARRAY_A",
@@ -2357,7 +2477,7 @@
 	"Constant: DB_HOST": {
         "prefix": "DB_HOST",
         "body": "DB_HOST",
-        "description": ""
+        "description": "MySQL hostname"
     },
 	"Constant: DB_NAME": {
         "prefix": "DB_NAME",
@@ -2367,17 +2487,17 @@
 	"Constant: DB_PASSWORD": {
         "prefix": "DB_PASSWORD",
         "body": "DB_PASSWORD",
-        "description": "MySQL database password"
+        "description": ""
     },
 	"Constant: DB_USER": {
         "prefix": "DB_USER",
         "body": "DB_USER",
-        "description": ""
+        "description": "MySQL database username"
     },
 	"Constant: DOING_AJAX": {
         "prefix": "DOING_AJAX",
         "body": "DOING_AJAX",
-        "description": ""
+        "description": "Executing Ajax process."
     },
 	"Constant: DOING_AUTOSAVE": {
         "prefix": "DOING_AUTOSAVE",
@@ -3769,14 +3889,14 @@
         "body": "NONCE_SALT",
         "description": ""
     },
-	"Constant: object": {
-        "prefix": "object",
-        "body": "object",
-        "description": ""
-    },
 	"Constant: OBJECT": {
         "prefix": "OBJECT",
         "body": "OBJECT",
+        "description": ""
+    },
+	"Constant: object": {
+        "prefix": "object",
+        "body": "object",
         "description": ""
     },
 	"Constant: OBJECT_K": {
@@ -4569,6 +4689,441 @@
         "body": "SITECOOKIEPATH",
         "description": ""
     },
+	"Constant: SODIUM_BASE64_VARIANT_ORIGINAL": {
+        "prefix": "SODIUM_BASE64_VARIANT_ORIGINAL",
+        "body": "SODIUM_BASE64_VARIANT_ORIGINAL",
+        "description": ""
+    },
+	"Constant: SODIUM_BASE64_VARIANT_ORIGINAL_NO_PADDING": {
+        "prefix": "SODIUM_BASE64_VARIANT_ORIGINAL_NO_PADDING",
+        "body": "SODIUM_BASE64_VARIANT_ORIGINAL_NO_PADDING",
+        "description": ""
+    },
+	"Constant: SODIUM_BASE64_VARIANT_URLSAFE": {
+        "prefix": "SODIUM_BASE64_VARIANT_URLSAFE",
+        "body": "SODIUM_BASE64_VARIANT_URLSAFE",
+        "description": ""
+    },
+	"Constant: SODIUM_BASE64_VARIANT_URLSAFE_NO_PADDING": {
+        "prefix": "SODIUM_BASE64_VARIANT_URLSAFE_NO_PADDING",
+        "body": "SODIUM_BASE64_VARIANT_URLSAFE_NO_PADDING",
+        "description": ""
+    },
+	"Constant: SODIUM_CRYPTO_AEAD_AES256GCM_ABYTES": {
+        "prefix": "SODIUM_CRYPTO_AEAD_AES256GCM_ABYTES",
+        "body": "SODIUM_CRYPTO_AEAD_AES256GCM_ABYTES",
+        "description": ""
+    },
+	"Constant: SODIUM_CRYPTO_AEAD_AES256GCM_KEYBYTES": {
+        "prefix": "SODIUM_CRYPTO_AEAD_AES256GCM_KEYBYTES",
+        "body": "SODIUM_CRYPTO_AEAD_AES256GCM_KEYBYTES",
+        "description": ""
+    },
+	"Constant: SODIUM_CRYPTO_AEAD_AES256GCM_NPUBBYTES": {
+        "prefix": "SODIUM_CRYPTO_AEAD_AES256GCM_NPUBBYTES",
+        "body": "SODIUM_CRYPTO_AEAD_AES256GCM_NPUBBYTES",
+        "description": ""
+    },
+	"Constant: SODIUM_CRYPTO_AEAD_AES256GCM_NSECBYTES": {
+        "prefix": "SODIUM_CRYPTO_AEAD_AES256GCM_NSECBYTES",
+        "body": "SODIUM_CRYPTO_AEAD_AES256GCM_NSECBYTES",
+        "description": ""
+    },
+	"Constant: SODIUM_CRYPTO_AEAD_CHACHA20POLY1305_ABYTES": {
+        "prefix": "SODIUM_CRYPTO_AEAD_CHACHA20POLY1305_ABYTES",
+        "body": "SODIUM_CRYPTO_AEAD_CHACHA20POLY1305_ABYTES",
+        "description": ""
+    },
+	"Constant: SODIUM_CRYPTO_AEAD_CHACHA20POLY1305_IETF_ABYTES": {
+        "prefix": "SODIUM_CRYPTO_AEAD_CHACHA20POLY1305_IETF_ABYTES",
+        "body": "SODIUM_CRYPTO_AEAD_CHACHA20POLY1305_IETF_ABYTES",
+        "description": ""
+    },
+	"Constant: SODIUM_CRYPTO_AEAD_CHACHA20POLY1305_IETF_KEYBYTES": {
+        "prefix": "SODIUM_CRYPTO_AEAD_CHACHA20POLY1305_IETF_KEYBYTES",
+        "body": "SODIUM_CRYPTO_AEAD_CHACHA20POLY1305_IETF_KEYBYTES",
+        "description": ""
+    },
+	"Constant: SODIUM_CRYPTO_AEAD_CHACHA20POLY1305_IETF_NPUBBYTES": {
+        "prefix": "SODIUM_CRYPTO_AEAD_CHACHA20POLY1305_IETF_NPUBBYTES",
+        "body": "SODIUM_CRYPTO_AEAD_CHACHA20POLY1305_IETF_NPUBBYTES",
+        "description": ""
+    },
+	"Constant: SODIUM_CRYPTO_AEAD_CHACHA20POLY1305_IETF_NSECBYTES": {
+        "prefix": "SODIUM_CRYPTO_AEAD_CHACHA20POLY1305_IETF_NSECBYTES",
+        "body": "SODIUM_CRYPTO_AEAD_CHACHA20POLY1305_IETF_NSECBYTES",
+        "description": ""
+    },
+	"Constant: SODIUM_CRYPTO_AEAD_CHACHA20POLY1305_KEYBYTES": {
+        "prefix": "SODIUM_CRYPTO_AEAD_CHACHA20POLY1305_KEYBYTES",
+        "body": "SODIUM_CRYPTO_AEAD_CHACHA20POLY1305_KEYBYTES",
+        "description": ""
+    },
+	"Constant: SODIUM_CRYPTO_AEAD_CHACHA20POLY1305_NPUBBYTES": {
+        "prefix": "SODIUM_CRYPTO_AEAD_CHACHA20POLY1305_NPUBBYTES",
+        "body": "SODIUM_CRYPTO_AEAD_CHACHA20POLY1305_NPUBBYTES",
+        "description": ""
+    },
+	"Constant: SODIUM_CRYPTO_AEAD_CHACHA20POLY1305_NSECBYTES": {
+        "prefix": "SODIUM_CRYPTO_AEAD_CHACHA20POLY1305_NSECBYTES",
+        "body": "SODIUM_CRYPTO_AEAD_CHACHA20POLY1305_NSECBYTES",
+        "description": ""
+    },
+	"Constant: SODIUM_CRYPTO_AEAD_XCHACHA20POLY1305_IETF_ABYTES": {
+        "prefix": "SODIUM_CRYPTO_AEAD_XCHACHA20POLY1305_IETF_ABYTES",
+        "body": "SODIUM_CRYPTO_AEAD_XCHACHA20POLY1305_IETF_ABYTES",
+        "description": ""
+    },
+	"Constant: SODIUM_CRYPTO_AEAD_XCHACHA20POLY1305_IETF_KEYBYTES": {
+        "prefix": "SODIUM_CRYPTO_AEAD_XCHACHA20POLY1305_IETF_KEYBYTES",
+        "body": "SODIUM_CRYPTO_AEAD_XCHACHA20POLY1305_IETF_KEYBYTES",
+        "description": ""
+    },
+	"Constant: SODIUM_CRYPTO_AEAD_XCHACHA20POLY1305_IETF_NPUBBYTES": {
+        "prefix": "SODIUM_CRYPTO_AEAD_XCHACHA20POLY1305_IETF_NPUBBYTES",
+        "body": "SODIUM_CRYPTO_AEAD_XCHACHA20POLY1305_IETF_NPUBBYTES",
+        "description": ""
+    },
+	"Constant: SODIUM_CRYPTO_AEAD_XCHACHA20POLY1305_IETF_NSECBYTES": {
+        "prefix": "SODIUM_CRYPTO_AEAD_XCHACHA20POLY1305_IETF_NSECBYTES",
+        "body": "SODIUM_CRYPTO_AEAD_XCHACHA20POLY1305_IETF_NSECBYTES",
+        "description": ""
+    },
+	"Constant: SODIUM_CRYPTO_AUTH_BYTES": {
+        "prefix": "SODIUM_CRYPTO_AUTH_BYTES",
+        "body": "SODIUM_CRYPTO_AUTH_BYTES",
+        "description": ""
+    },
+	"Constant: SODIUM_CRYPTO_AUTH_KEYBYTES": {
+        "prefix": "SODIUM_CRYPTO_AUTH_KEYBYTES",
+        "body": "SODIUM_CRYPTO_AUTH_KEYBYTES",
+        "description": ""
+    },
+	"Constant: SODIUM_CRYPTO_BOX_KEYPAIRBYTES": {
+        "prefix": "SODIUM_CRYPTO_BOX_KEYPAIRBYTES",
+        "body": "SODIUM_CRYPTO_BOX_KEYPAIRBYTES",
+        "description": ""
+    },
+	"Constant: SODIUM_CRYPTO_BOX_MACBYTES": {
+        "prefix": "SODIUM_CRYPTO_BOX_MACBYTES",
+        "body": "SODIUM_CRYPTO_BOX_MACBYTES",
+        "description": ""
+    },
+	"Constant: SODIUM_CRYPTO_BOX_NONCEBYTES": {
+        "prefix": "SODIUM_CRYPTO_BOX_NONCEBYTES",
+        "body": "SODIUM_CRYPTO_BOX_NONCEBYTES",
+        "description": ""
+    },
+	"Constant: SODIUM_CRYPTO_BOX_PUBLICKEYBYTES": {
+        "prefix": "SODIUM_CRYPTO_BOX_PUBLICKEYBYTES",
+        "body": "SODIUM_CRYPTO_BOX_PUBLICKEYBYTES",
+        "description": ""
+    },
+	"Constant: SODIUM_CRYPTO_BOX_SEALBYTES": {
+        "prefix": "SODIUM_CRYPTO_BOX_SEALBYTES",
+        "body": "SODIUM_CRYPTO_BOX_SEALBYTES",
+        "description": ""
+    },
+	"Constant: SODIUM_CRYPTO_BOX_SECRETKEYBYTES": {
+        "prefix": "SODIUM_CRYPTO_BOX_SECRETKEYBYTES",
+        "body": "SODIUM_CRYPTO_BOX_SECRETKEYBYTES",
+        "description": ""
+    },
+	"Constant: SODIUM_CRYPTO_BOX_SEEDBYTES": {
+        "prefix": "SODIUM_CRYPTO_BOX_SEEDBYTES",
+        "body": "SODIUM_CRYPTO_BOX_SEEDBYTES",
+        "description": ""
+    },
+	"Constant: SODIUM_CRYPTO_GENERICHASH_BYTES": {
+        "prefix": "SODIUM_CRYPTO_GENERICHASH_BYTES",
+        "body": "SODIUM_CRYPTO_GENERICHASH_BYTES",
+        "description": ""
+    },
+	"Constant: SODIUM_CRYPTO_GENERICHASH_BYTES_MAX": {
+        "prefix": "SODIUM_CRYPTO_GENERICHASH_BYTES_MAX",
+        "body": "SODIUM_CRYPTO_GENERICHASH_BYTES_MAX",
+        "description": ""
+    },
+	"Constant: SODIUM_CRYPTO_GENERICHASH_BYTES_MIN": {
+        "prefix": "SODIUM_CRYPTO_GENERICHASH_BYTES_MIN",
+        "body": "SODIUM_CRYPTO_GENERICHASH_BYTES_MIN",
+        "description": ""
+    },
+	"Constant: SODIUM_CRYPTO_GENERICHASH_KEYBYTES": {
+        "prefix": "SODIUM_CRYPTO_GENERICHASH_KEYBYTES",
+        "body": "SODIUM_CRYPTO_GENERICHASH_KEYBYTES",
+        "description": ""
+    },
+	"Constant: SODIUM_CRYPTO_GENERICHASH_KEYBYTES_MAX": {
+        "prefix": "SODIUM_CRYPTO_GENERICHASH_KEYBYTES_MAX",
+        "body": "SODIUM_CRYPTO_GENERICHASH_KEYBYTES_MAX",
+        "description": ""
+    },
+	"Constant: SODIUM_CRYPTO_GENERICHASH_KEYBYTES_MIN": {
+        "prefix": "SODIUM_CRYPTO_GENERICHASH_KEYBYTES_MIN",
+        "body": "SODIUM_CRYPTO_GENERICHASH_KEYBYTES_MIN",
+        "description": ""
+    },
+	"Constant: SODIUM_CRYPTO_KDF_BYTES_MAX": {
+        "prefix": "SODIUM_CRYPTO_KDF_BYTES_MAX",
+        "body": "SODIUM_CRYPTO_KDF_BYTES_MAX",
+        "description": ""
+    },
+	"Constant: SODIUM_CRYPTO_KDF_BYTES_MIN": {
+        "prefix": "SODIUM_CRYPTO_KDF_BYTES_MIN",
+        "body": "SODIUM_CRYPTO_KDF_BYTES_MIN",
+        "description": ""
+    },
+	"Constant: SODIUM_CRYPTO_KDF_CONTEXTBYTES": {
+        "prefix": "SODIUM_CRYPTO_KDF_CONTEXTBYTES",
+        "body": "SODIUM_CRYPTO_KDF_CONTEXTBYTES",
+        "description": ""
+    },
+	"Constant: SODIUM_CRYPTO_KDF_KEYBYTES": {
+        "prefix": "SODIUM_CRYPTO_KDF_KEYBYTES",
+        "body": "SODIUM_CRYPTO_KDF_KEYBYTES",
+        "description": ""
+    },
+	"Constant: SODIUM_CRYPTO_KX_BYTES": {
+        "prefix": "SODIUM_CRYPTO_KX_BYTES",
+        "body": "SODIUM_CRYPTO_KX_BYTES",
+        "description": ""
+    },
+	"Constant: SODIUM_CRYPTO_KX_KEYPAIRBYTES": {
+        "prefix": "SODIUM_CRYPTO_KX_KEYPAIRBYTES",
+        "body": "SODIUM_CRYPTO_KX_KEYPAIRBYTES",
+        "description": ""
+    },
+	"Constant: SODIUM_CRYPTO_KX_PRIMITIVE": {
+        "prefix": "SODIUM_CRYPTO_KX_PRIMITIVE",
+        "body": "SODIUM_CRYPTO_KX_PRIMITIVE",
+        "description": ""
+    },
+	"Constant: SODIUM_CRYPTO_KX_PUBLICKEYBYTES": {
+        "prefix": "SODIUM_CRYPTO_KX_PUBLICKEYBYTES",
+        "body": "SODIUM_CRYPTO_KX_PUBLICKEYBYTES",
+        "description": ""
+    },
+	"Constant: SODIUM_CRYPTO_KX_SECRETKEYBYTES": {
+        "prefix": "SODIUM_CRYPTO_KX_SECRETKEYBYTES",
+        "body": "SODIUM_CRYPTO_KX_SECRETKEYBYTES",
+        "description": ""
+    },
+	"Constant: SODIUM_CRYPTO_KX_SEEDBYTES": {
+        "prefix": "SODIUM_CRYPTO_KX_SEEDBYTES",
+        "body": "SODIUM_CRYPTO_KX_SEEDBYTES",
+        "description": ""
+    },
+	"Constant: SODIUM_CRYPTO_KX_SESSIONKEYBYTES": {
+        "prefix": "SODIUM_CRYPTO_KX_SESSIONKEYBYTES",
+        "body": "SODIUM_CRYPTO_KX_SESSIONKEYBYTES",
+        "description": ""
+    },
+	"Constant: SODIUM_CRYPTO_PWHASH_ALG_ARGON2I13": {
+        "prefix": "SODIUM_CRYPTO_PWHASH_ALG_ARGON2I13",
+        "body": "SODIUM_CRYPTO_PWHASH_ALG_ARGON2I13",
+        "description": ""
+    },
+	"Constant: SODIUM_CRYPTO_PWHASH_ALG_ARGON2ID13": {
+        "prefix": "SODIUM_CRYPTO_PWHASH_ALG_ARGON2ID13",
+        "body": "SODIUM_CRYPTO_PWHASH_ALG_ARGON2ID13",
+        "description": ""
+    },
+	"Constant: SODIUM_CRYPTO_PWHASH_MEMLIMIT_INTERACTIVE": {
+        "prefix": "SODIUM_CRYPTO_PWHASH_MEMLIMIT_INTERACTIVE",
+        "body": "SODIUM_CRYPTO_PWHASH_MEMLIMIT_INTERACTIVE",
+        "description": ""
+    },
+	"Constant: SODIUM_CRYPTO_PWHASH_MEMLIMIT_MODERATE": {
+        "prefix": "SODIUM_CRYPTO_PWHASH_MEMLIMIT_MODERATE",
+        "body": "SODIUM_CRYPTO_PWHASH_MEMLIMIT_MODERATE",
+        "description": ""
+    },
+	"Constant: SODIUM_CRYPTO_PWHASH_MEMLIMIT_SENSITIVE": {
+        "prefix": "SODIUM_CRYPTO_PWHASH_MEMLIMIT_SENSITIVE",
+        "body": "SODIUM_CRYPTO_PWHASH_MEMLIMIT_SENSITIVE",
+        "description": ""
+    },
+	"Constant: SODIUM_CRYPTO_PWHASH_OPSLIMIT_INTERACTIVE": {
+        "prefix": "SODIUM_CRYPTO_PWHASH_OPSLIMIT_INTERACTIVE",
+        "body": "SODIUM_CRYPTO_PWHASH_OPSLIMIT_INTERACTIVE",
+        "description": ""
+    },
+	"Constant: SODIUM_CRYPTO_PWHASH_OPSLIMIT_MODERATE": {
+        "prefix": "SODIUM_CRYPTO_PWHASH_OPSLIMIT_MODERATE",
+        "body": "SODIUM_CRYPTO_PWHASH_OPSLIMIT_MODERATE",
+        "description": ""
+    },
+	"Constant: SODIUM_CRYPTO_PWHASH_OPSLIMIT_SENSITIVE": {
+        "prefix": "SODIUM_CRYPTO_PWHASH_OPSLIMIT_SENSITIVE",
+        "body": "SODIUM_CRYPTO_PWHASH_OPSLIMIT_SENSITIVE",
+        "description": ""
+    },
+	"Constant: SODIUM_CRYPTO_PWHASH_SALTBYTES": {
+        "prefix": "SODIUM_CRYPTO_PWHASH_SALTBYTES",
+        "body": "SODIUM_CRYPTO_PWHASH_SALTBYTES",
+        "description": ""
+    },
+	"Constant: SODIUM_CRYPTO_PWHASH_SCRYPTSALSA208SHA256_MEMLIMIT_INTERACTIVE": {
+        "prefix": "SODIUM_CRYPTO_PWHASH_SCRYPTSALSA208SHA256_MEMLIMIT_INTERACTIVE",
+        "body": "SODIUM_CRYPTO_PWHASH_SCRYPTSALSA208SHA256_MEMLIMIT_INTERACTIVE",
+        "description": ""
+    },
+	"Constant: SODIUM_CRYPTO_PWHASH_SCRYPTSALSA208SHA256_MEMLIMIT_SENSITIVE": {
+        "prefix": "SODIUM_CRYPTO_PWHASH_SCRYPTSALSA208SHA256_MEMLIMIT_SENSITIVE",
+        "body": "SODIUM_CRYPTO_PWHASH_SCRYPTSALSA208SHA256_MEMLIMIT_SENSITIVE",
+        "description": ""
+    },
+	"Constant: SODIUM_CRYPTO_PWHASH_SCRYPTSALSA208SHA256_OPSLIMIT_INTERACTIVE": {
+        "prefix": "SODIUM_CRYPTO_PWHASH_SCRYPTSALSA208SHA256_OPSLIMIT_INTERACTIVE",
+        "body": "SODIUM_CRYPTO_PWHASH_SCRYPTSALSA208SHA256_OPSLIMIT_INTERACTIVE",
+        "description": ""
+    },
+	"Constant: SODIUM_CRYPTO_PWHASH_SCRYPTSALSA208SHA256_OPSLIMIT_SENSITIVE": {
+        "prefix": "SODIUM_CRYPTO_PWHASH_SCRYPTSALSA208SHA256_OPSLIMIT_SENSITIVE",
+        "body": "SODIUM_CRYPTO_PWHASH_SCRYPTSALSA208SHA256_OPSLIMIT_SENSITIVE",
+        "description": ""
+    },
+	"Constant: SODIUM_CRYPTO_PWHASH_SCRYPTSALSA208SHA256_SALTBYTES": {
+        "prefix": "SODIUM_CRYPTO_PWHASH_SCRYPTSALSA208SHA256_SALTBYTES",
+        "body": "SODIUM_CRYPTO_PWHASH_SCRYPTSALSA208SHA256_SALTBYTES",
+        "description": ""
+    },
+	"Constant: SODIUM_CRYPTO_PWHASH_SCRYPTSALSA208SHA256_STRPREFIX": {
+        "prefix": "SODIUM_CRYPTO_PWHASH_SCRYPTSALSA208SHA256_STRPREFIX",
+        "body": "SODIUM_CRYPTO_PWHASH_SCRYPTSALSA208SHA256_STRPREFIX",
+        "description": ""
+    },
+	"Constant: SODIUM_CRYPTO_PWHASH_STRPREFIX": {
+        "prefix": "SODIUM_CRYPTO_PWHASH_STRPREFIX",
+        "body": "SODIUM_CRYPTO_PWHASH_STRPREFIX",
+        "description": ""
+    },
+	"Constant: SODIUM_CRYPTO_SCALARMULT_BYTES": {
+        "prefix": "SODIUM_CRYPTO_SCALARMULT_BYTES",
+        "body": "SODIUM_CRYPTO_SCALARMULT_BYTES",
+        "description": ""
+    },
+	"Constant: SODIUM_CRYPTO_SCALARMULT_SCALARBYTES": {
+        "prefix": "SODIUM_CRYPTO_SCALARMULT_SCALARBYTES",
+        "body": "SODIUM_CRYPTO_SCALARMULT_SCALARBYTES",
+        "description": ""
+    },
+	"Constant: SODIUM_CRYPTO_SECRETBOX_KEYBYTES": {
+        "prefix": "SODIUM_CRYPTO_SECRETBOX_KEYBYTES",
+        "body": "SODIUM_CRYPTO_SECRETBOX_KEYBYTES",
+        "description": ""
+    },
+	"Constant: SODIUM_CRYPTO_SECRETBOX_MACBYTES": {
+        "prefix": "SODIUM_CRYPTO_SECRETBOX_MACBYTES",
+        "body": "SODIUM_CRYPTO_SECRETBOX_MACBYTES",
+        "description": ""
+    },
+	"Constant: SODIUM_CRYPTO_SECRETBOX_NONCEBYTES": {
+        "prefix": "SODIUM_CRYPTO_SECRETBOX_NONCEBYTES",
+        "body": "SODIUM_CRYPTO_SECRETBOX_NONCEBYTES",
+        "description": ""
+    },
+	"Constant: SODIUM_CRYPTO_SECRETSTREAM_XCHACHA20POLY1305_ABYTES": {
+        "prefix": "SODIUM_CRYPTO_SECRETSTREAM_XCHACHA20POLY1305_ABYTES",
+        "body": "SODIUM_CRYPTO_SECRETSTREAM_XCHACHA20POLY1305_ABYTES",
+        "description": ""
+    },
+	"Constant: SODIUM_CRYPTO_SECRETSTREAM_XCHACHA20POLY1305_HEADERBYTES": {
+        "prefix": "SODIUM_CRYPTO_SECRETSTREAM_XCHACHA20POLY1305_HEADERBYTES",
+        "body": "SODIUM_CRYPTO_SECRETSTREAM_XCHACHA20POLY1305_HEADERBYTES",
+        "description": ""
+    },
+	"Constant: SODIUM_CRYPTO_SECRETSTREAM_XCHACHA20POLY1305_KEYBYTES": {
+        "prefix": "SODIUM_CRYPTO_SECRETSTREAM_XCHACHA20POLY1305_KEYBYTES",
+        "body": "SODIUM_CRYPTO_SECRETSTREAM_XCHACHA20POLY1305_KEYBYTES",
+        "description": ""
+    },
+	"Constant: SODIUM_CRYPTO_SECRETSTREAM_XCHACHA20POLY1305_MESSAGEBYTES_MAX": {
+        "prefix": "SODIUM_CRYPTO_SECRETSTREAM_XCHACHA20POLY1305_MESSAGEBYTES_MAX",
+        "body": "SODIUM_CRYPTO_SECRETSTREAM_XCHACHA20POLY1305_MESSAGEBYTES_MAX",
+        "description": ""
+    },
+	"Constant: SODIUM_CRYPTO_SECRETSTREAM_XCHACHA20POLY1305_TAG_FINAL": {
+        "prefix": "SODIUM_CRYPTO_SECRETSTREAM_XCHACHA20POLY1305_TAG_FINAL",
+        "body": "SODIUM_CRYPTO_SECRETSTREAM_XCHACHA20POLY1305_TAG_FINAL",
+        "description": ""
+    },
+	"Constant: SODIUM_CRYPTO_SECRETSTREAM_XCHACHA20POLY1305_TAG_PULL": {
+        "prefix": "SODIUM_CRYPTO_SECRETSTREAM_XCHACHA20POLY1305_TAG_PULL",
+        "body": "SODIUM_CRYPTO_SECRETSTREAM_XCHACHA20POLY1305_TAG_PULL",
+        "description": ""
+    },
+	"Constant: SODIUM_CRYPTO_SECRETSTREAM_XCHACHA20POLY1305_TAG_PUSH": {
+        "prefix": "SODIUM_CRYPTO_SECRETSTREAM_XCHACHA20POLY1305_TAG_PUSH",
+        "body": "SODIUM_CRYPTO_SECRETSTREAM_XCHACHA20POLY1305_TAG_PUSH",
+        "description": ""
+    },
+	"Constant: SODIUM_CRYPTO_SECRETSTREAM_XCHACHA20POLY1305_TAG_REKEY": {
+        "prefix": "SODIUM_CRYPTO_SECRETSTREAM_XCHACHA20POLY1305_TAG_REKEY",
+        "body": "SODIUM_CRYPTO_SECRETSTREAM_XCHACHA20POLY1305_TAG_REKEY",
+        "description": ""
+    },
+	"Constant: SODIUM_CRYPTO_SHORTHASH_BYTES": {
+        "prefix": "SODIUM_CRYPTO_SHORTHASH_BYTES",
+        "body": "SODIUM_CRYPTO_SHORTHASH_BYTES",
+        "description": ""
+    },
+	"Constant: SODIUM_CRYPTO_SHORTHASH_KEYBYTES": {
+        "prefix": "SODIUM_CRYPTO_SHORTHASH_KEYBYTES",
+        "body": "SODIUM_CRYPTO_SHORTHASH_KEYBYTES",
+        "description": ""
+    },
+	"Constant: SODIUM_CRYPTO_SIGN_BYTES": {
+        "prefix": "SODIUM_CRYPTO_SIGN_BYTES",
+        "body": "SODIUM_CRYPTO_SIGN_BYTES",
+        "description": ""
+    },
+	"Constant: SODIUM_CRYPTO_SIGN_KEYPAIRBYTES": {
+        "prefix": "SODIUM_CRYPTO_SIGN_KEYPAIRBYTES",
+        "body": "SODIUM_CRYPTO_SIGN_KEYPAIRBYTES",
+        "description": ""
+    },
+	"Constant: SODIUM_CRYPTO_SIGN_PUBLICKEYBYTES": {
+        "prefix": "SODIUM_CRYPTO_SIGN_PUBLICKEYBYTES",
+        "body": "SODIUM_CRYPTO_SIGN_PUBLICKEYBYTES",
+        "description": ""
+    },
+	"Constant: SODIUM_CRYPTO_SIGN_SECRETKEYBYTES": {
+        "prefix": "SODIUM_CRYPTO_SIGN_SECRETKEYBYTES",
+        "body": "SODIUM_CRYPTO_SIGN_SECRETKEYBYTES",
+        "description": ""
+    },
+	"Constant: SODIUM_CRYPTO_SIGN_SEEDBYTES": {
+        "prefix": "SODIUM_CRYPTO_SIGN_SEEDBYTES",
+        "body": "SODIUM_CRYPTO_SIGN_SEEDBYTES",
+        "description": ""
+    },
+	"Constant: SODIUM_CRYPTO_STREAM_KEYBYTES": {
+        "prefix": "SODIUM_CRYPTO_STREAM_KEYBYTES",
+        "body": "SODIUM_CRYPTO_STREAM_KEYBYTES",
+        "description": ""
+    },
+	"Constant: SODIUM_CRYPTO_STREAM_NONCEBYTES": {
+        "prefix": "SODIUM_CRYPTO_STREAM_NONCEBYTES",
+        "body": "SODIUM_CRYPTO_STREAM_NONCEBYTES",
+        "description": ""
+    },
+	"Constant: SODIUM_LIBRARY_MAJOR_VERSION": {
+        "prefix": "SODIUM_LIBRARY_MAJOR_VERSION",
+        "body": "SODIUM_LIBRARY_MAJOR_VERSION",
+        "description": ""
+    },
+	"Constant: SODIUM_LIBRARY_MINOR_VERSION": {
+        "prefix": "SODIUM_LIBRARY_MINOR_VERSION",
+        "body": "SODIUM_LIBRARY_MINOR_VERSION",
+        "description": ""
+    },
+	"Constant: SODIUM_LIBRARY_VERSION": {
+        "prefix": "SODIUM_LIBRARY_VERSION",
+        "body": "SODIUM_LIBRARY_VERSION",
+        "description": ""
+    },
 	"Constant: SODIUM_{$constant}": {
         "prefix": "SODIUM_{$constant}",
         "body": "SODIUM_{$constant}",
@@ -4577,7 +5132,7 @@
 	"Constant: STYLESHEETPATH": {
         "prefix": "STYLESHEETPATH",
         "body": "STYLESHEETPATH",
-        "description": "Filesystem path to the current active template stylesheet directory"
+        "description": "Filesystem path to the current active template stylesheet directory."
     },
 	"Constant: SUBDOMAIN_INSTALL": {
         "prefix": "SUBDOMAIN_INSTALL",
@@ -4592,7 +5147,7 @@
 	"Constant: TEMPLATEPATH": {
         "prefix": "TEMPLATEPATH",
         "body": "TEMPLATEPATH",
-        "description": "Filesystem path to the current active template directory"
+        "description": "Filesystem path to the current active template directory."
     },
 	"Constant: TEST_COOKIE": {
         "prefix": "TEST_COOKIE",
@@ -4687,7 +5242,7 @@
 	"Constant: WP_INSTALLING": {
         "prefix": "WP_INSTALLING",
         "body": "WP_INSTALLING",
-        "description": "We are installing."
+        "description": "We are installing WordPress."
     },
 	"Constant: WP_INSTALLING_NETWORK": {
         "prefix": "WP_INSTALLING_NETWORK",
@@ -5128,7 +5683,7 @@
 		"ƒ: _get_meta_table": {
         "prefix": ["_get_meta_table","gmt"],
         "body": "_get_meta_table( ${1:\\$type:string} )",
-        "description": "Retrieve the name of the metadata table for the specified object type."
+        "description": "Retrieves the name of the metadata table for the specified object type."
 	},
 		"ƒ: _get_non_cached_ids": {
         "prefix": ["_get_non_cached_ids","gnci"],
@@ -5253,7 +5808,7 @@
 		"ƒ: _make_cat_compat": {
         "prefix": ["_make_cat_compat","mcc"],
         "body": "_make_cat_compat( ${1:\\$category:array|object|WP_Term} )",
-        "description": "Update category structure to old pre 2.3 from new taxonomy structure."
+        "description": "Update category structure to old pre-2.3 from new taxonomy structure."
 	},
 		"ƒ: _make_email_clickable_cb": {
         "prefix": ["_make_email_clickable_cb","mecc"],
@@ -5572,17 +6127,17 @@
 	},
 		"ƒ: _update_blog_date_on_post_publish": {
         "prefix": ["_update_blog_date_on_post_publish","ubdopp"],
-        "body": "_update_blog_date_on_post_publish( ${1:\\$new_status:string}, ${2:\\$old_status:string}, ${3:\\$post:object} )",
+        "body": "_update_blog_date_on_post_publish( ${1:\\$new_status:string}, ${2:\\$old_status:string}, ${3:\\$post:WP_Post} )",
         "description": "Handler for updating the site&#039;s last updated date when a post is published or an already published post is changed."
 	},
 		"ƒ: _update_generic_term_count": {
         "prefix": ["_update_generic_term_count","ugtc"],
-        "body": "_update_generic_term_count( ${1:\\$terms:array}, ${2:\\$taxonomy:object} )",
+        "body": "_update_generic_term_count( ${1:\\$terms:array}, ${2:\\$taxonomy:WP_Taxonomy} )",
         "description": "Will update term count based on number of objects."
 	},
 		"ƒ: _update_post_term_count": {
         "prefix": ["_update_post_term_count","uptc"],
-        "body": "_update_post_term_count( ${1:\\$terms:array}, ${2:\\$taxonomy:object} )",
+        "body": "_update_post_term_count( ${1:\\$terms:array}, ${2:\\$taxonomy:WP_Taxonomy} )",
         "description": "Will update term count based on object types of the current taxonomy."
 	},
 		"ƒ: _update_posts_count_on_delete": {
@@ -5662,7 +6217,7 @@
 	},
 		"ƒ: _wp_auto_add_pages_to_menu": {
         "prefix": ["_wp_auto_add_pages_to_menu","waaptm"],
-        "body": "_wp_auto_add_pages_to_menu( ${1:\\$new_status:string}, ${2:\\$old_status:string}, ${3:\\$post:object} )",
+        "body": "_wp_auto_add_pages_to_menu( ${1:\\$new_status:string}, ${2:\\$old_status:string}, ${3:\\$post:WP_Post} )",
         "description": "Automatically add newly published page objects to menus with that as an option."
 	},
 		"ƒ: _wp_batch_split_terms": {
@@ -5674,6 +6229,11 @@
         "prefix": ["_wp_call_all_hook","wcah"],
         "body": "_wp_call_all_hook( ${1:\\$args:array} )",
         "description": "Call the &#039;all&#039; hook, which will process the functions hooked into it."
+	},
+		"ƒ: _wp_check_existing_file_names": {
+        "prefix": ["_wp_check_existing_file_names","wcefn"],
+        "body": "_wp_check_existing_file_names( ${1:\\$filename:string}, ${2:\\$files:} )",
+        "description": "Helper function to check if a file name could match an existing image sub-size file name."
 	},
 		"ƒ: _wp_credits_add_profile_link": {
         "prefix": ["_wp_credits_add_profile_link","wcapl"],
@@ -5747,7 +6307,7 @@
 	},
 		"ƒ: _wp_filter_build_unique_id": {
         "prefix": ["_wp_filter_build_unique_id","wfbui"],
-        "body": "_wp_filter_build_unique_id( ${1:\\$tag:string}, ${2:\\$function:callable}, ${3:\\$priority:integer|boolean} )",
+        "body": "_wp_filter_build_unique_id( ${1:\\$tag:string}, ${2:\\$function:callable}, ${3:\\$priority:integer} )",
         "description": "Build Unique ID for storage and retrieval."
 	},
 		"ƒ: _wp_filter_taxonomy_base": {
@@ -5882,7 +6442,7 @@
 	},
 		"ƒ: _wp_post_thumbnail_html": {
         "prefix": ["_wp_post_thumbnail_html","wpth"],
-        "body": "_wp_post_thumbnail_html( ${1:\\$thumbnail_id:integer|null}, ${2:\\$post:mixed|null} )",
+        "body": "_wp_post_thumbnail_html( ${1:\\$thumbnail_id:integer|null}, ${2:\\$post:integer|WP_Post|null} )",
         "description": "Output HTML for the post thumbnail meta-box."
 	},
 		"ƒ: _wp_preview_post_thumbnail_filter": {
@@ -5953,7 +6513,7 @@
 		"ƒ: _wp_register_meta_args_whitelist": {
         "prefix": ["_wp_register_meta_args_whitelist","wrmaw"],
         "body": "_wp_register_meta_args_whitelist( ${1:\\$args:array}, ${2:\\$default_args:array} )",
-        "description": "Filter out `register_meta()` args based on a whitelist."
+        "description": "Filters out `register_meta()` args based on a whitelist."
 	},
 		"ƒ: _wp_relative_upload_path": {
         "prefix": ["_wp_relative_upload_path","wrup"],
@@ -6158,16 +6718,16 @@
 		"ƒ: add_metadata": {
         "prefix": ["add_metadata","am"],
         "body": "add_metadata( ${1:\\$meta_type:string}, ${2:\\$object_id:integer}, ${3:\\$meta_key:string}, ${4:\\$meta_value:mixed}, ${5:\\$unique:boolean} )",
-        "description": "Add metadata for the specified object."
+        "description": "Adds metadata for the specified object."
 	},
 		"ƒ: add_network_option": {
         "prefix": ["add_network_option","ano"],
         "body": "add_network_option( ${1:\\$network_id:integer}, ${2:\\$option:string}, ${3:\\$value:mixed} )",
-        "description": "Add a new network option."
+        "description": "Adds a new network option."
 	},
 		"ƒ: add_new_user_to_blog": {
         "prefix": ["add_new_user_to_blog","anutb"],
-        "body": "add_new_user_to_blog( ${1:\\$user_id:integer}, ${2:\\$password:mixed}, ${3:\\$meta:array} )",
+        "body": "add_new_user_to_blog( ${1:\\$user_id:integer}, ${2:\\$password:string}, ${3:\\$meta:array} )",
         "description": "Adds a newly created user to the appropriate blog"
 	},
 		"ƒ: add_object_page": {
@@ -6178,7 +6738,7 @@
 		"ƒ: add_option": {
         "prefix": ["add_option","ao"],
         "body": "add_option( ${1:\\$option:string}, ${2:\\$value:mixed}, ${3:\\$deprecated:string}, ${4:\\$autoload:string|boolean} )",
-        "description": "Add a new option."
+        "description": "Adds a new option."
 	},
 		"ƒ: add_option_update_handler": {
         "prefix": ["add_option_update_handler","aouh"],
@@ -6288,7 +6848,7 @@
 		"ƒ: add_site_option": {
         "prefix": ["add_site_option","aso"],
         "body": "add_site_option( ${1:\\$option:string}, ${2:\\$value:mixed} )",
-        "description": "Add a new option for the current network."
+        "description": "Adds a new option for the current network."
 	},
 		"ƒ: add_submenu_page": {
         "prefix": ["add_submenu_page","asp"],
@@ -6385,6 +6945,311 @@
         "body": "admin_url( ${1:\\$path:string}, ${2:\\$scheme:string} )",
         "description": "Retrieves the URL to the admin area for the current site."
 	},
+		"ƒ: akismet_add_comment_author_url": {
+        "prefix": ["akismet_add_comment_author_url","aacau"],
+        "body": "akismet_add_comment_author_url(  )",
+        "description": ""
+	},
+		"ƒ: akismet_add_comment_nonce": {
+        "prefix": ["akismet_add_comment_nonce","aacn"],
+        "body": "akismet_add_comment_nonce( ${1:\\$post_id:} )",
+        "description": ""
+	},
+		"ƒ: akismet_admin_init": {
+        "prefix": ["akismet_admin_init","aai"],
+        "body": "akismet_admin_init(  )",
+        "description": ""
+	},
+		"ƒ: akismet_admin_menu": {
+        "prefix": ["akismet_admin_menu","aam"],
+        "body": "akismet_admin_menu(  )",
+        "description": ""
+	},
+		"ƒ: akismet_admin_warnings": {
+        "prefix": ["akismet_admin_warnings","aaw"],
+        "body": "akismet_admin_warnings(  )",
+        "description": ""
+	},
+		"ƒ: akismet_auto_check_comment": {
+        "prefix": ["akismet_auto_check_comment","aacc"],
+        "body": "akismet_auto_check_comment( ${1:\\$commentdata:} )",
+        "description": ""
+	},
+		"ƒ: akismet_auto_check_update_meta": {
+        "prefix": ["akismet_auto_check_update_meta","aacum"],
+        "body": "akismet_auto_check_update_meta( ${1:\\$id:}, ${2:\\$comment:} )",
+        "description": ""
+	},
+		"ƒ: akismet_caught": {
+        "prefix": ["akismet_caught","ac"],
+        "body": "akismet_caught(  )",
+        "description": ""
+	},
+		"ƒ: akismet_check_db_comment": {
+        "prefix": ["akismet_check_db_comment","acdc"],
+        "body": "akismet_check_db_comment( ${1:\\$id:}, ${2:\\$recheck_reason:} )",
+        "description": ""
+	},
+		"ƒ: akismet_check_for_spam_button": {
+        "prefix": ["akismet_check_for_spam_button","acfsb"],
+        "body": "akismet_check_for_spam_button( ${1:\\$comment_status:} )",
+        "description": ""
+	},
+		"ƒ: akismet_check_key_status": {
+        "prefix": ["akismet_check_key_status","acks"],
+        "body": "akismet_check_key_status( ${1:\\$key:}, ${2:\\$ip:|null} )",
+        "description": ""
+	},
+		"ƒ: akismet_check_server_connectivity": {
+        "prefix": ["akismet_check_server_connectivity","acsc"],
+        "body": "akismet_check_server_connectivity(  )",
+        "description": ""
+	},
+		"ƒ: akismet_cmp_time": {
+        "prefix": ["akismet_cmp_time","act"],
+        "body": "akismet_cmp_time( ${1:\\$a:}, ${2:\\$b:} )",
+        "description": ""
+	},
+		"ƒ: akismet_comment_column_row": {
+        "prefix": ["akismet_comment_column_row","accr"],
+        "body": "akismet_comment_column_row( ${1:\\$column:}, ${2:\\$comment_id:} )",
+        "description": ""
+	},
+		"ƒ: akismet_comment_row_action": {
+        "prefix": ["akismet_comment_row_action","acra"],
+        "body": "akismet_comment_row_action( ${1:\\$a:}, ${2:\\$comment:} )",
+        "description": ""
+	},
+		"ƒ: akismet_comment_status_meta_box": {
+        "prefix": ["akismet_comment_status_meta_box","acsmb"],
+        "body": "akismet_comment_status_meta_box( ${1:\\$comment:} )",
+        "description": ""
+	},
+		"ƒ: akismet_comments_columns": {
+        "prefix": ["akismet_comments_columns","acc"],
+        "body": "akismet_comments_columns( ${1:\\$columns:} )",
+        "description": ""
+	},
+		"ƒ: akismet_conf": {
+        "prefix": ["akismet_conf","ac"],
+        "body": "akismet_conf(  )",
+        "description": ""
+	},
+		"ƒ: akismet_cron_recheck": {
+        "prefix": ["akismet_cron_recheck","acr"],
+        "body": "akismet_cron_recheck(  )",
+        "description": ""
+	},
+		"ƒ: akismet_delete_old": {
+        "prefix": ["akismet_delete_old","ado"],
+        "body": "akismet_delete_old(  )",
+        "description": ""
+	},
+		"ƒ: akismet_delete_old_metadata": {
+        "prefix": ["akismet_delete_old_metadata","adom"],
+        "body": "akismet_delete_old_metadata(  )",
+        "description": ""
+	},
+		"ƒ: akismet_fix_scheduled_recheck": {
+        "prefix": ["akismet_fix_scheduled_recheck","afsr"],
+        "body": "akismet_fix_scheduled_recheck(  )",
+        "description": ""
+	},
+		"ƒ: akismet_get_comment_history": {
+        "prefix": ["akismet_get_comment_history","agch"],
+        "body": "akismet_get_comment_history( ${1:\\$comment_id:} )",
+        "description": ""
+	},
+		"ƒ: akismet_get_ip_address": {
+        "prefix": ["akismet_get_ip_address","agia"],
+        "body": "akismet_get_ip_address(  )",
+        "description": ""
+	},
+		"ƒ: akismet_get_key": {
+        "prefix": ["akismet_get_key","agk"],
+        "body": "akismet_get_key(  )",
+        "description": ""
+	},
+		"ƒ: akismet_get_server_connectivity": {
+        "prefix": ["akismet_get_server_connectivity","agsc"],
+        "body": "akismet_get_server_connectivity( ${1:\\$cache_timeout:} )",
+        "description": ""
+	},
+		"ƒ: akismet_get_user_comments_approved": {
+        "prefix": ["akismet_get_user_comments_approved","aguca"],
+        "body": "akismet_get_user_comments_approved( ${1:\\$user_id:}, ${2:\\$comment_author_email:}, ${3:\\$comment_author:}, ${4:\\$comment_author_url:} )",
+        "description": ""
+	},
+		"ƒ: akismet_get_user_roles": {
+        "prefix": ["akismet_get_user_roles","agur"],
+        "body": "akismet_get_user_roles( ${1:\\$user_id:} )",
+        "description": ""
+	},
+		"ƒ: akismet_http_post": {
+        "prefix": ["akismet_http_post","ahp"],
+        "body": "akismet_http_post( ${1:\\$request:}, ${2:\\$host:}, ${3:\\$path:}, ${4:\\$port:}, ${5:\\$ip:|null} )",
+        "description": ""
+	},
+		"ƒ: akismet_init": {
+        "prefix": ["akismet_init","ai"],
+        "body": "akismet_init(  )",
+        "description": ""
+	},
+		"ƒ: akismet_kill_proxy_check": {
+        "prefix": ["akismet_kill_proxy_check","akpc"],
+        "body": "akismet_kill_proxy_check( ${1:\\$option:} )",
+        "description": ""
+	},
+		"ƒ: akismet_load_js_and_css": {
+        "prefix": ["akismet_load_js_and_css","aljac"],
+        "body": "akismet_load_js_and_css(  )",
+        "description": ""
+	},
+		"ƒ: akismet_load_menu": {
+        "prefix": ["akismet_load_menu","alm"],
+        "body": "akismet_load_menu(  )",
+        "description": ""
+	},
+		"ƒ: akismet_manage_page": {
+        "prefix": ["akismet_manage_page","amp"],
+        "body": "akismet_manage_page(  )",
+        "description": ""
+	},
+		"ƒ: akismet_microtime": {
+        "prefix": ["akismet_microtime","am"],
+        "body": "akismet_microtime(  )",
+        "description": ""
+	},
+		"ƒ: akismet_nonce_field": {
+        "prefix": ["akismet_nonce_field","anf"],
+        "body": "akismet_nonce_field( ${1:\\$action:} )",
+        "description": ""
+	},
+		"ƒ: akismet_pingback_forwarded_for": {
+        "prefix": ["akismet_pingback_forwarded_for","apff"],
+        "body": "akismet_pingback_forwarded_for( ${1:\\$r:}, ${2:\\$url:} )",
+        "description": ""
+	},
+		"ƒ: akismet_plugin_action_links": {
+        "prefix": ["akismet_plugin_action_links","apal"],
+        "body": "akismet_plugin_action_links( ${1:\\$links:}, ${2:\\$file:} )",
+        "description": ""
+	},
+		"ƒ: akismet_pre_check_pingback": {
+        "prefix": ["akismet_pre_check_pingback","apcp"],
+        "body": "akismet_pre_check_pingback( ${1:\\$method:} )",
+        "description": ""
+	},
+		"ƒ: akismet_recheck_queue": {
+        "prefix": ["akismet_recheck_queue","arq"],
+        "body": "akismet_recheck_queue(  )",
+        "description": ""
+	},
+		"ƒ: akismet_register_widgets": {
+        "prefix": ["akismet_register_widgets","arw"],
+        "body": "akismet_register_widgets(  )",
+        "description": ""
+	},
+		"ƒ: akismet_remove_comment_author_url": {
+        "prefix": ["akismet_remove_comment_author_url","arcau"],
+        "body": "akismet_remove_comment_author_url(  )",
+        "description": ""
+	},
+		"ƒ: akismet_result_hold": {
+        "prefix": ["akismet_result_hold","arh"],
+        "body": "akismet_result_hold( ${1:\\$approved:} )",
+        "description": ""
+	},
+		"ƒ: akismet_result_spam": {
+        "prefix": ["akismet_result_spam","ars"],
+        "body": "akismet_result_spam( ${1:\\$approved:} )",
+        "description": ""
+	},
+		"ƒ: akismet_rightnow": {
+        "prefix": ["akismet_rightnow","ar"],
+        "body": "akismet_rightnow(  )",
+        "description": ""
+	},
+		"ƒ: akismet_server_connectivity_ok": {
+        "prefix": ["akismet_server_connectivity_ok","asco"],
+        "body": "akismet_server_connectivity_ok(  )",
+        "description": ""
+	},
+		"ƒ: akismet_spam_comments": {
+        "prefix": ["akismet_spam_comments","asc"],
+        "body": "akismet_spam_comments(  )",
+        "description": ""
+	},
+		"ƒ: akismet_spam_count": {
+        "prefix": ["akismet_spam_count","asc"],
+        "body": "akismet_spam_count( ${1:\\$type:} )",
+        "description": ""
+	},
+		"ƒ: akismet_spam_totals": {
+        "prefix": ["akismet_spam_totals","ast"],
+        "body": "akismet_spam_totals(  )",
+        "description": ""
+	},
+		"ƒ: akismet_stats": {
+        "prefix": ["akismet_stats","as"],
+        "body": "akismet_stats(  )",
+        "description": ""
+	},
+		"ƒ: akismet_stats_display": {
+        "prefix": ["akismet_stats_display","asd"],
+        "body": "akismet_stats_display(  )",
+        "description": ""
+	},
+		"ƒ: akismet_submit_nonspam_comment": {
+        "prefix": ["akismet_submit_nonspam_comment","asnc"],
+        "body": "akismet_submit_nonspam_comment( ${1:\\$comment_id:} )",
+        "description": ""
+	},
+		"ƒ: akismet_submit_spam_comment": {
+        "prefix": ["akismet_submit_spam_comment","assc"],
+        "body": "akismet_submit_spam_comment( ${1:\\$comment_id:} )",
+        "description": ""
+	},
+		"ƒ: akismet_test_mode": {
+        "prefix": ["akismet_test_mode","atm"],
+        "body": "akismet_test_mode(  )",
+        "description": ""
+	},
+		"ƒ: akismet_text_add_link_callback": {
+        "prefix": ["akismet_text_add_link_callback","atalc"],
+        "body": "akismet_text_add_link_callback( ${1:\\$m:} )",
+        "description": ""
+	},
+		"ƒ: akismet_text_add_link_class": {
+        "prefix": ["akismet_text_add_link_class","atalc"],
+        "body": "akismet_text_add_link_class( ${1:\\$comment_text:} )",
+        "description": ""
+	},
+		"ƒ: akismet_transition_comment_status": {
+        "prefix": ["akismet_transition_comment_status","atcs"],
+        "body": "akismet_transition_comment_status( ${1:\\$new_status:}, ${2:\\$old_status:}, ${3:\\$comment:} )",
+        "description": ""
+	},
+		"ƒ: akismet_update_alert": {
+        "prefix": ["akismet_update_alert","aua"],
+        "body": "akismet_update_alert( ${1:\\$response:} )",
+        "description": ""
+	},
+		"ƒ: akismet_update_comment_history": {
+        "prefix": ["akismet_update_comment_history","auch"],
+        "body": "akismet_update_comment_history( ${1:\\$comment_id:}, ${2:\\$message:}, ${3:\\$event:|null} )",
+        "description": ""
+	},
+		"ƒ: akismet_verify_key": {
+        "prefix": ["akismet_verify_key","avk"],
+        "body": "akismet_verify_key( ${1:\\$key:}, ${2:\\$ip:|null} )",
+        "description": ""
+	},
+		"ƒ: akismet_version_warning": {
+        "prefix": ["akismet_version_warning","avw"],
+        "body": "akismet_version_warning(  )",
+        "description": ""
+	},
 		"ƒ: allow_subdirectory_install": {
         "prefix": ["allow_subdirectory_install","asi"],
         "body": "allow_subdirectory_install(  )",
@@ -6422,13 +7287,18 @@
 	},
 		"ƒ: apply_filters_deprecated": {
         "prefix": ["apply_filters_deprecated","afd"],
-        "body": "apply_filters_deprecated( ${1:\\$tag:string}, ${2:\\$args:array}, ${3:\\$version:string}, ${4:\\$replacement:string}, ${5:\\$message:string|null} )",
+        "body": "apply_filters_deprecated( ${1:\\$tag:string}, ${2:\\$args:array}, ${3:\\$version:string}, ${4:\\$replacement:string|null}, ${5:\\$message:string|null} )",
         "description": "Fires functions attached to a deprecated filter hook."
 	},
 		"ƒ: apply_filters_ref_array": {
         "prefix": ["apply_filters_ref_array","afra"],
         "body": "apply_filters_ref_array( ${1:\\$tag:string}, ${2:\\$args:array} )",
         "description": "Calls the callback functions that have been added to a filter hook, specifying arguments in an array."
+	},
+		"ƒ: apply_shortcodes": {
+        "prefix": ["apply_shortcodes","as"],
+        "body": "apply_shortcodes( ${1:\\$content:string}, ${2:\\$ignore_html:boolean} )",
+        "description": "Search content for shortcodes and filter shortcodes through their hooks."
 	},
 		"ƒ: atom_enclosure": {
         "prefix": ["atom_enclosure","ae"],
@@ -6510,6 +7380,26 @@
         "body": "before_last_bar( ${1:\\$string:string} )",
         "description": "Remove last item on a pipe-delimited string."
 	},
+		"ƒ: block_core_latest_posts_get_excerpt_length": {
+        "prefix": ["block_core_latest_posts_get_excerpt_length","bclpgel"],
+        "body": "block_core_latest_posts_get_excerpt_length(  )",
+        "description": "Callback for the excerpt_length filter used by the Latest Posts block at render time."
+	},
+		"ƒ: block_core_social_link_get_icon": {
+        "prefix": ["block_core_social_link_get_icon","bcslgi"],
+        "body": "block_core_social_link_get_icon( ${1:\\$service:string} )",
+        "description": "Returns the SVG for social link."
+	},
+		"ƒ: block_core_social_link_get_name": {
+        "prefix": ["block_core_social_link_get_name","bcslgn"],
+        "body": "block_core_social_link_get_name( ${1:\\$service:string} )",
+        "description": "Returns the brand name for social link."
+	},
+		"ƒ: block_core_social_link_services": {
+        "prefix": ["block_core_social_link_services","bcsls"],
+        "body": "block_core_social_link_services( ${1:\\$service:string}, ${2:\\$field:string} )",
+        "description": "Returns the SVG for social link."
+	},
 		"ƒ: block_version": {
         "prefix": ["block_version","bv"],
         "body": "block_version( ${1:\\$content:string} )",
@@ -6573,7 +7463,7 @@
 		"ƒ: cancel_comment_reply_link": {
         "prefix": ["cancel_comment_reply_link","ccrl"],
         "body": "cancel_comment_reply_link( ${1:\\$text:string} )",
-        "description": "Display HTML content for cancel comment reply link."
+        "description": "Displays HTML content for cancel comment reply link."
 	},
 		"ƒ: capital_P_dangit": {
         "prefix": ["capital_P_dangit","cPd"],
@@ -6758,22 +7648,22 @@
 		"ƒ: comment_author_email": {
         "prefix": ["comment_author_email","cae"],
         "body": "comment_author_email( ${1:\\$comment_ID:integer|WP_Comment} )",
-        "description": "Display the email of the author of the current global $comment."
+        "description": "Displays the email of the author of the current global $comment."
 	},
 		"ƒ: comment_author_email_link": {
         "prefix": ["comment_author_email_link","cael"],
         "body": "comment_author_email_link( ${1:\\$linktext:string}, ${2:\\$before:string}, ${3:\\$after:string}, ${4:\\$comment:integer|WP_Comment|null} )",
-        "description": "Display the html email link to the author of the current comment."
+        "description": "Displays the HTML email link to the author of the current comment."
 	},
 		"ƒ: comment_author_IP": {
         "prefix": ["comment_author_IP","caI"],
         "body": "comment_author_IP( ${1:\\$comment_ID:integer|WP_Comment} )",
-        "description": "Display the IP address of the author of the current comment."
+        "description": "Displays the IP address of the author of the current comment."
 	},
 		"ƒ: comment_author_link": {
         "prefix": ["comment_author_link","cal"],
         "body": "comment_author_link( ${1:\\$comment_ID:integer|WP_Comment} )",
-        "description": "Display the html link to the url of the author of the current comment."
+        "description": "Displays the HTML link to the URL of the author of the current comment."
 	},
 		"ƒ: comment_author_rss": {
         "prefix": ["comment_author_rss","car"],
@@ -6783,12 +7673,12 @@
 		"ƒ: comment_author_url": {
         "prefix": ["comment_author_url","cau"],
         "body": "comment_author_url( ${1:\\$comment_ID:integer|WP_Comment} )",
-        "description": "Display the url of the author of the current comment."
+        "description": "Displays the URL of the author of the current comment, not linked."
 	},
 		"ƒ: comment_author_url_link": {
         "prefix": ["comment_author_url_link","caul"],
         "body": "comment_author_url_link( ${1:\\$linktext:string}, ${2:\\$before:string}, ${3:\\$after:string}, ${4:\\$comment:integer|WP_Comment} )",
-        "description": "Displays the HTML link of the url of the author of the current comment."
+        "description": "Displays the HTML link of the URL of the author of the current comment."
 	},
 		"ƒ: comment_class": {
         "prefix": ["comment_class","cc"],
@@ -6797,13 +7687,13 @@
 	},
 		"ƒ: comment_date": {
         "prefix": ["comment_date","cd"],
-        "body": "comment_date( ${1:\\$d:string}, ${2:\\$comment_ID:integer|WP_Comment} )",
-        "description": "Display the comment date of the current comment."
+        "body": "comment_date( ${1:\\$format:string}, ${2:\\$comment_ID:integer|WP_Comment} )",
+        "description": "Displays the comment date of the current comment."
 	},
 		"ƒ: comment_excerpt": {
         "prefix": ["comment_excerpt","ce"],
         "body": "comment_excerpt( ${1:\\$comment_ID:integer|WP_Comment} )",
-        "description": "Display the excerpt of the current comment."
+        "description": "Displays the excerpt of the current comment."
 	},
 		"ƒ: comment_exists": {
         "prefix": ["comment_exists","ce"],
@@ -6828,12 +7718,12 @@
 		"ƒ: comment_ID": {
         "prefix": ["comment_ID","cI"],
         "body": "comment_ID(  )",
-        "description": "Display the comment id of the current comment."
+        "description": "Displays the comment id of the current comment."
 	},
 		"ƒ: comment_id_fields": {
         "prefix": ["comment_id_fields","cif"],
         "body": "comment_id_fields( ${1:\\$id:integer} )",
-        "description": "Output hidden input HTML for replying to comments."
+        "description": "Outputs hidden input HTML for replying to comments."
 	},
 		"ƒ: comment_link": {
         "prefix": ["comment_link","cl"],
@@ -6842,13 +7732,13 @@
 	},
 		"ƒ: comment_reply_link": {
         "prefix": ["comment_reply_link","crl"],
-        "body": "comment_reply_link( ${1:\\$args:array}, ${2:\\$comment:integer|null}, ${3:\\$post:integer|WP_Post|null} )",
+        "body": "comment_reply_link( ${1:\\$args:array}, ${2:\\$comment:integer|WP_Comment|null}, ${3:\\$post:integer|WP_Post|null} )",
         "description": "Displays the HTML content for reply to comment link."
 	},
 		"ƒ: comment_text": {
         "prefix": ["comment_text","ct"],
         "body": "comment_text( ${1:\\$comment_ID:integer|WP_Comment}, ${2:\\$args:array} )",
-        "description": "Display the text of the current comment."
+        "description": "Displays the text of the current comment."
 	},
 		"ƒ: comment_text_rss": {
         "prefix": ["comment_text_rss","ctr"],
@@ -6857,18 +7747,18 @@
 	},
 		"ƒ: comment_time": {
         "prefix": ["comment_time","ct"],
-        "body": "comment_time( ${1:\\$d:string} )",
-        "description": "Display the comment time of the current comment."
+        "body": "comment_time( ${1:\\$format:string} )",
+        "description": "Displays the comment time of the current comment."
 	},
 		"ƒ: comment_type": {
         "prefix": ["comment_type","ct"],
         "body": "comment_type( ${1:\\$commenttxt:string}, ${2:\\$trackbacktxt:string}, ${3:\\$pingbacktxt:string} )",
-        "description": "Display the comment type of the current comment."
+        "description": "Displays the comment type of the current comment."
 	},
 		"ƒ: comments_link": {
         "prefix": ["comments_link","cl"],
         "body": "comments_link( ${1:\\$deprecated:string}, ${2:\\$deprecated_2:string} )",
-        "description": "Display the link to the current post comments."
+        "description": "Displays the link to the current post comments."
 	},
 		"ƒ: comments_link_feed": {
         "prefix": ["comments_link_feed","clf"],
@@ -6877,8 +7767,8 @@
 	},
 		"ƒ: comments_number": {
         "prefix": ["comments_number","cn"],
-        "body": "comments_number( ${1:\\$zero:string}, ${2:\\$one:string}, ${3:\\$more:string}, ${4:\\$deprecated:string} )",
-        "description": "Display the language string for the number of comments the current post has."
+        "body": "comments_number( ${1:\\$zero:string}, ${2:\\$one:string}, ${3:\\$more:string}, ${4:\\$post_id:integer|WP_Post} )",
+        "description": "Displays the language string for the number of comments the current post has."
 	},
 		"ƒ: comments_open": {
         "prefix": ["comments_open","co"],
@@ -6908,7 +7798,7 @@
 		"ƒ: comments_template": {
         "prefix": ["comments_template","ct"],
         "body": "comments_template( ${1:\\$file:string}, ${2:\\$separate_comments:boolean} )",
-        "description": "Load the comment template specified in $file."
+        "description": "Loads the comment template specified in $file."
 	},
 		"ƒ: compression_test": {
         "prefix": ["compression_test","ct"],
@@ -7063,7 +7953,7 @@
 		"ƒ: dashboard_browser_nag_class": {
         "prefix": ["dashboard_browser_nag_class","dbnc"],
         "body": "dashboard_browser_nag_class( ${1:\\$classes:array} )",
-        "description": ""
+        "description": "Adds an additional class to the browser nag if the current version is insecure."
 	},
 		"ƒ: dashboard_php_nag_class": {
         "prefix": ["dashboard_php_nag_class","dpnc"],
@@ -7082,7 +7972,7 @@
 	},
 		"ƒ: deactivate_plugins": {
         "prefix": ["deactivate_plugins","dp"],
-        "body": "deactivate_plugins( ${1:\\$plugins:string|array}, ${2:\\$silent:boolean}, ${3:\\$network_wide:mixed|null} )",
+        "body": "deactivate_plugins( ${1:\\$plugins:string|array}, ${2:\\$silent:boolean}, ${3:\\$network_wide:boolean|null} )",
         "description": "Deactivate a single plugin or multiple plugins."
 	},
 		"ƒ: deactivate_sitewide_plugin": {
@@ -7138,7 +8028,7 @@
 		"ƒ: delete_all_user_settings": {
         "prefix": ["delete_all_user_settings","daus"],
         "body": "delete_all_user_settings(  )",
-        "description": "Delete the user settings of the current user."
+        "description": "Deletes the user settings of the current user."
 	},
 		"ƒ: delete_blog_option": {
         "prefix": ["delete_blog_option","dbo"],
@@ -7168,12 +8058,12 @@
 		"ƒ: delete_metadata": {
         "prefix": ["delete_metadata","dm"],
         "body": "delete_metadata( ${1:\\$meta_type:string}, ${2:\\$object_id:integer}, ${3:\\$meta_key:string}, ${4:\\$meta_value:mixed}, ${5:\\$delete_all:boolean} )",
-        "description": "Delete metadata for the specified object."
+        "description": "Deletes metadata for the specified object."
 	},
 		"ƒ: delete_metadata_by_mid": {
         "prefix": ["delete_metadata_by_mid","dmbm"],
         "body": "delete_metadata_by_mid( ${1:\\$meta_type:string}, ${2:\\$meta_id:integer} )",
-        "description": "Delete meta data by meta ID"
+        "description": "Deletes metadata by meta ID."
 	},
 		"ƒ: delete_network_option": {
         "prefix": ["delete_network_option","dno"],
@@ -7223,7 +8113,7 @@
 		"ƒ: delete_site_transient": {
         "prefix": ["delete_site_transient","dst"],
         "body": "delete_site_transient( ${1:\\$transient:string} )",
-        "description": "Delete a site transient."
+        "description": "Deletes a site transient."
 	},
 		"ƒ: delete_term_meta": {
         "prefix": ["delete_term_meta","dtm"],
@@ -7238,7 +8128,7 @@
 		"ƒ: delete_transient": {
         "prefix": ["delete_transient","dt"],
         "body": "delete_transient( ${1:\\$transient:string} )",
-        "description": "Delete a transient."
+        "description": "Deletes a transient."
 	},
 		"ƒ: delete_user_meta": {
         "prefix": ["delete_user_meta","dum"],
@@ -7253,7 +8143,7 @@
 		"ƒ: delete_user_setting": {
         "prefix": ["delete_user_setting","dus"],
         "body": "delete_user_setting( ${1:\\$names:string} )",
-        "description": "Delete user interface settings."
+        "description": "Deletes user interface settings."
 	},
 		"ƒ: delete_usermeta": {
         "prefix": ["delete_usermeta","du"],
@@ -7293,7 +8183,7 @@
 		"ƒ: dismiss_core_update": {
         "prefix": ["dismiss_core_update","dcu"],
         "body": "dismiss_core_update( ${1:\\$update:object} )",
-        "description": ""
+        "description": "Dismisses core update."
 	},
 		"ƒ: dismissed_updates": {
         "prefix": ["dismissed_updates","du"],
@@ -7347,7 +8237,7 @@
 	},
 		"ƒ: do_action_deprecated": {
         "prefix": ["do_action_deprecated","dad"],
-        "body": "do_action_deprecated( ${1:\\$tag:string}, ${2:\\$args:array}, ${3:\\$version:string}, ${4:\\$replacement:string}, ${5:\\$message:string|null} )",
+        "body": "do_action_deprecated( ${1:\\$tag:string}, ${2:\\$args:array}, ${3:\\$version:string}, ${4:\\$replacement:string|null}, ${5:\\$message:string|null} )",
         "description": "Fires functions attached to a deprecated action hook."
 	},
 		"ƒ: do_action_ref_array": {
@@ -7389,6 +8279,11 @@
         "prefix": ["do_enclose","de"],
         "body": "do_enclose( ${1:\\$content:string|null}, ${2:\\$post:integer|WP_Post} )",
         "description": "Check content for video and audio links to add as enclosures."
+	},
+		"ƒ: do_favicon": {
+        "prefix": ["do_favicon","df"],
+        "body": "do_favicon(  )",
+        "description": "Display the favicon.ico file content."
 	},
 		"ƒ: do_feed": {
         "prefix": ["do_feed","df"],
@@ -7480,6 +8375,11 @@
         "body": "doing_filter( ${1:\\$filter:null|string} )",
         "description": "Retrieve the name of a filter currently being processed."
 	},
+		"ƒ: dolly_css": {
+        "prefix": ["dolly_css","dc"],
+        "body": "dolly_css(  )",
+        "description": ""
+	},
 		"ƒ: domain_exists": {
         "prefix": ["domain_exists","de"],
         "body": "domain_exists( ${1:\\$domain:string}, ${2:\\$path:string}, ${3:\\$network_id:integer} )",
@@ -7557,7 +8457,7 @@
 	},
 		"ƒ: edit_term_link": {
         "prefix": ["edit_term_link","etl"],
-        "body": "edit_term_link( ${1:\\$link:string}, ${2:\\$before:string}, ${3:\\$after:string}, ${4:\\$term:object|null}, ${5:\\$echo:boolean} )",
+        "body": "edit_term_link( ${1:\\$link:string}, ${2:\\$before:string}, ${3:\\$after:string}, ${4:\\$term:WP_Term|null}, ${5:\\$echo:boolean} )",
         "description": "Displays or retrieves the edit term link with formatting."
 	},
 		"ƒ: edit_user": {
@@ -7572,7 +8472,7 @@
 	},
 		"ƒ: endElement": {
         "prefix": ["endElement"],
-        "body": "endElement( ${1:\\$parser:mixed}, ${2:\\$tagName:string} )",
+        "body": "endElement( ${1:\\$parser:resource}, ${2:\\$tagName:string} )",
         "description": "XML callback function that is called at the end of a XML tag."
 	},
 		"ƒ: enqueue_block_styles_assets": {
@@ -7712,7 +8612,7 @@
 	},
 		"ƒ: fetch_feed": {
         "prefix": ["fetch_feed","ff"],
-        "body": "fetch_feed( ${1:\\$url:mixed} )",
+        "body": "fetch_feed( ${1:\\$url:string|array} )",
         "description": "Build SimplePie object based on RSS or Atom feed from URL."
 	},
 		"ƒ: fetch_rss": {
@@ -7730,10 +8630,25 @@
         "body": "file_is_valid_image( ${1:\\$path:string} )",
         "description": "Validate that file is an image."
 	},
+		"ƒ: filter_block_content": {
+        "prefix": ["filter_block_content","fbc"],
+        "body": "filter_block_content( ${1:\\$text:string}, ${2:\\$allowed_html:array|string}, ${3:\\$allowed_protocols:array} )",
+        "description": "Filters and sanitizes block content to remove non-allowable HTML from parsed block attribute values."
+	},
+		"ƒ: filter_block_kses": {
+        "prefix": ["filter_block_kses","fbk"],
+        "body": "filter_block_kses( ${1:\\$block:WP_Block_Parser_Block}, ${2:\\$allowed_html:array|string}, ${3:\\$allowed_protocols:array} )",
+        "description": "Filters and sanitizes a parsed block to remove non-allowable HTML from block attribute values."
+	},
+		"ƒ: filter_block_kses_value": {
+        "prefix": ["filter_block_kses_value","fbkv"],
+        "body": "filter_block_kses_value( ${1:\\$value:array|string}, ${2:\\$allowed_html:array|string}, ${3:\\$allowed_protocols:array} )",
+        "description": "Filters and sanitizes a parsed block attribute value to remove non-allowable HTML."
+	},
 		"ƒ: filter_default_option": {
         "prefix": ["filter_default_option","fdo"],
         "body": "filter_default_option( ${1:\\$default:mixed}, ${2:\\$option:string}, ${3:\\$passed_default:boolean} )",
-        "description": "Filter the default value for the option."
+        "description": "Filters the default value for the option."
 	},
 		"ƒ: filter_SSL": {
         "prefix": ["filter_SSL","fS"],
@@ -7743,12 +8658,12 @@
 		"ƒ: find_core_auto_update": {
         "prefix": ["find_core_auto_update","fcau"],
         "body": "find_core_auto_update(  )",
-        "description": "Gets the best available (and enabled) Auto-Update for WordPress Core."
+        "description": "Gets the best available (and enabled) Auto-Update for WordPress core."
 	},
 		"ƒ: find_core_update": {
         "prefix": ["find_core_update","fcu"],
         "body": "find_core_update( ${1:\\$version:string}, ${2:\\$locale:string} )",
-        "description": ""
+        "description": "Finds the available update for WordPress core."
 	},
 		"ƒ: find_posts_div": {
         "prefix": ["find_posts_div","fpd"],
@@ -7793,7 +8708,7 @@
 		"ƒ: form_option": {
         "prefix": ["form_option","fo"],
         "body": "form_option( ${1:\\$option:string} )",
-        "description": "Print option value after sanitizing for forms."
+        "description": "Prints option value after sanitizing for forms."
 	},
 		"ƒ: format_code_lang": {
         "prefix": ["format_code_lang","fcl"],
@@ -7878,12 +8793,12 @@
 		"ƒ: get_admin_page_parent": {
         "prefix": ["get_admin_page_parent","gapp"],
         "body": "get_admin_page_parent( ${1:\\$parent:} )",
-        "description": ""
+        "description": "Gets the parent file of the current admin page."
 	},
 		"ƒ: get_admin_page_title": {
         "prefix": ["get_admin_page_title","gapt"],
         "body": "get_admin_page_title(  )",
-        "description": ""
+        "description": "Gets the title of the current admin page."
 	},
 		"ƒ: get_admin_url": {
         "prefix": ["get_admin_url","gau"],
@@ -7913,7 +8828,7 @@
 		"ƒ: get_all_user_settings": {
         "prefix": ["get_all_user_settings","gaus"],
         "body": "get_all_user_settings(  )",
-        "description": "Retrieve all user interface settings."
+        "description": "Retrieves all user interface settings."
 	},
 		"ƒ: get_alloptions": {
         "prefix": ["get_alloptions","ga"],
@@ -8213,7 +9128,7 @@
 		"ƒ: get_cancel_comment_reply_link": {
         "prefix": ["get_cancel_comment_reply_link","gccrl"],
         "body": "get_cancel_comment_reply_link( ${1:\\$text:string} )",
-        "description": "Retrieve HTML content for cancel comment reply link."
+        "description": "Retrieves HTML content for cancel comment reply link."
 	},
 		"ƒ: get_cat_ID": {
         "prefix": ["get_cat_ID","gcI"],
@@ -8313,17 +9228,17 @@
 		"ƒ: get_comment_author": {
         "prefix": ["get_comment_author","gca"],
         "body": "get_comment_author( ${1:\\$comment_ID:integer|WP_Comment} )",
-        "description": "Retrieve the author of the current comment."
+        "description": "Retrieves the author of the current comment."
 	},
 		"ƒ: get_comment_author_email": {
         "prefix": ["get_comment_author_email","gcae"],
         "body": "get_comment_author_email( ${1:\\$comment_ID:integer|WP_Comment} )",
-        "description": "Retrieve the email of the author of the current comment."
+        "description": "Retrieves the email of the author of the current comment."
 	},
 		"ƒ: get_comment_author_email_link": {
         "prefix": ["get_comment_author_email_link","gcael"],
         "body": "get_comment_author_email_link( ${1:\\$linktext:string}, ${2:\\$before:string}, ${3:\\$after:string}, ${4:\\$comment:integer|WP_Comment|null} )",
-        "description": "Return the html email link to the author of the current comment."
+        "description": "Returns the HTML email link to the author of the current comment."
 	},
 		"ƒ: get_comment_author_IP": {
         "prefix": ["get_comment_author_IP","gcaI"],
@@ -8333,7 +9248,7 @@
 		"ƒ: get_comment_author_link": {
         "prefix": ["get_comment_author_link","gcal"],
         "body": "get_comment_author_link( ${1:\\$comment_ID:integer|WP_Comment} )",
-        "description": "Retrieve the HTML link to the URL of the author of the current comment."
+        "description": "Retrieves the HTML link to the URL of the author of the current comment."
 	},
 		"ƒ: get_comment_author_rss": {
         "prefix": ["get_comment_author_rss","gcar"],
@@ -8343,12 +9258,12 @@
 		"ƒ: get_comment_author_url": {
         "prefix": ["get_comment_author_url","gcau"],
         "body": "get_comment_author_url( ${1:\\$comment_ID:integer|WP_Comment} )",
-        "description": "Retrieve the url of the author of the current comment."
+        "description": "Retrieves the URL of the author of the current comment, not linked."
 	},
 		"ƒ: get_comment_author_url_link": {
         "prefix": ["get_comment_author_url_link","gcaul"],
         "body": "get_comment_author_url_link( ${1:\\$linktext:string}, ${2:\\$before:string}, ${3:\\$after:string}, ${4:\\$comment:integer|WP_Comment} )",
-        "description": "Retrieves the HTML link of the url of the author of the current comment."
+        "description": "Retrieves the HTML link of the URL of the author of the current comment."
 	},
 		"ƒ: get_comment_class": {
         "prefix": ["get_comment_class","gcc"],
@@ -8362,8 +9277,13 @@
 	},
 		"ƒ: get_comment_date": {
         "prefix": ["get_comment_date","gcd"],
-        "body": "get_comment_date( ${1:\\$d:string}, ${2:\\$comment_ID:integer|WP_Comment} )",
-        "description": "Retrieve the comment date of the current comment."
+        "body": "get_comment_date( ${1:\\$format:string}, ${2:\\$comment_ID:integer|WP_Comment} )",
+        "description": "Retrieves the comment date of the current comment."
+	},
+		"ƒ: get_comment_delimited_block_content": {
+        "prefix": ["get_comment_delimited_block_content","gcdbc"],
+        "body": "get_comment_delimited_block_content( ${1:\\$block_name:string|null}, ${2:\\$block_attributes:}, ${3:\\$block_content:} )",
+        "description": "Returns the content of a block, including comment delimiters."
 	},
 		"ƒ: get_comment_excerpt": {
         "prefix": ["get_comment_excerpt","gce"],
@@ -8378,17 +9298,17 @@
 		"ƒ: get_comment_ID": {
         "prefix": ["get_comment_ID","gcI"],
         "body": "get_comment_ID(  )",
-        "description": "Retrieve the comment id of the current comment."
+        "description": "Retrieves the comment id of the current comment."
 	},
 		"ƒ: get_comment_id_fields": {
         "prefix": ["get_comment_id_fields","gcif"],
         "body": "get_comment_id_fields( ${1:\\$id:integer} )",
-        "description": "Retrieve hidden input HTML for replying to comments."
+        "description": "Retrieves hidden input HTML for replying to comments."
 	},
 		"ƒ: get_comment_link": {
         "prefix": ["get_comment_link","gcl"],
         "body": "get_comment_link( ${1:\\$comment:WP_Comment|integer|null}, ${2:\\$args:array} )",
-        "description": "Retrieve the link to a given comment."
+        "description": "Retrieves the link to a given comment."
 	},
 		"ƒ: get_comment_meta": {
         "prefix": ["get_comment_meta","gcm"],
@@ -8403,7 +9323,7 @@
 		"ƒ: get_comment_reply_link": {
         "prefix": ["get_comment_reply_link","gcrl"],
         "body": "get_comment_reply_link( ${1:\\$args:array}, ${2:\\$comment:integer|WP_Comment|null}, ${3:\\$post:integer|WP_Post|null} )",
-        "description": "Retrieve HTML content for reply to comment link."
+        "description": "Retrieves HTML content for reply to comment link."
 	},
 		"ƒ: get_comment_statuses": {
         "prefix": ["get_comment_statuses","gcs"],
@@ -8413,12 +9333,12 @@
 		"ƒ: get_comment_text": {
         "prefix": ["get_comment_text","gct"],
         "body": "get_comment_text( ${1:\\$comment_ID:integer|WP_Comment}, ${2:\\$args:array} )",
-        "description": "Retrieve the text of the current comment."
+        "description": "Retrieves the text of the current comment."
 	},
 		"ƒ: get_comment_time": {
         "prefix": ["get_comment_time","gct"],
-        "body": "get_comment_time( ${1:\\$d:string}, ${2:\\$gmt:boolean}, ${3:\\$translate:boolean} )",
-        "description": "Retrieve the comment time of the current comment."
+        "body": "get_comment_time( ${1:\\$format:string}, ${2:\\$gmt:boolean}, ${3:\\$translate:boolean} )",
+        "description": "Retrieves the comment time of the current comment."
 	},
 		"ƒ: get_comment_to_edit": {
         "prefix": ["get_comment_to_edit","gcte"],
@@ -8428,7 +9348,7 @@
 		"ƒ: get_comment_type": {
         "prefix": ["get_comment_type","gct"],
         "body": "get_comment_type( ${1:\\$comment_ID:integer|WP_Comment} )",
-        "description": "Retrieve the comment type of the current comment."
+        "description": "Retrieves the comment type of the current comment."
 	},
 		"ƒ: get_commentdata": {
         "prefix": ["get_commentdata","gc"],
@@ -8452,8 +9372,8 @@
 	},
 		"ƒ: get_comments_number_text": {
         "prefix": ["get_comments_number_text","gcnt"],
-        "body": "get_comments_number_text( ${1:\\$zero:string}, ${2:\\$one:string}, ${3:\\$more:string} )",
-        "description": "Display the language string for the number of comments the current post has."
+        "body": "get_comments_number_text( ${1:\\$zero:string}, ${2:\\$one:string}, ${3:\\$more:string}, ${4:\\$post_id:integer|WP_Post} )",
+        "description": "Displays the language string for the number of comments the current post has."
 	},
 		"ƒ: get_comments_pagenum_link": {
         "prefix": ["get_comments_pagenum_link","gcpl"],
@@ -8478,7 +9398,7 @@
 		"ƒ: get_core_updates": {
         "prefix": ["get_core_updates","gcu"],
         "body": "get_core_updates( ${1:\\$options:array} )",
-        "description": "Get available core updates."
+        "description": "Gets available core updates."
 	},
 		"ƒ: get_current_blog_id": {
         "prefix": ["get_current_blog_id","gcbi"],
@@ -8548,7 +9468,7 @@
 		"ƒ: get_date_from_gmt": {
         "prefix": ["get_date_from_gmt","gdfg"],
         "body": "get_date_from_gmt( ${1:\\$string:string}, ${2:\\$format:string} )",
-        "description": "Converts a GMT date into the correct format for the blog."
+        "description": "Given a date in UTC timezone, returns that date in the timezone of the site."
 	},
 		"ƒ: get_date_template": {
         "prefix": ["get_date_template","gdt"],
@@ -8557,7 +9477,7 @@
 	},
 		"ƒ: get_day_link": {
         "prefix": ["get_day_link","gdl"],
-        "body": "get_day_link( ${1:\\$year:boolean|integer}, ${2:\\$month:boolean|integer}, ${3:\\$day:boolean|integer} )",
+        "body": "get_day_link( ${1:\\$year:integer|false}, ${2:\\$month:integer|false}, ${3:\\$day:integer|false} )",
         "description": "Retrieves the permalink for the day archives with year and month."
 	},
 		"ƒ: get_default_comment_status": {
@@ -8658,7 +9578,7 @@
 		"ƒ: get_editor_stylesheets": {
         "prefix": ["get_editor_stylesheets","ges"],
         "body": "get_editor_stylesheets(  )",
-        "description": "Retrieve any registered editor stylesheets"
+        "description": "Retrieve any registered editor stylesheet URLs."
 	},
 		"ƒ: get_embed_template": {
         "prefix": ["get_embed_template","get"],
@@ -8678,7 +9598,7 @@
 		"ƒ: get_feed_build_date": {
         "prefix": ["get_feed_build_date","gfbd"],
         "body": "get_feed_build_date( ${1:\\$format:string} )",
-        "description": "Get the timestamp of the most recently modified post from WP_Query."
+        "description": "Get the UTC time of the most recently modified post from WP_Query."
 	},
 		"ƒ: get_feed_link": {
         "prefix": ["get_feed_link","gfl"],
@@ -8718,7 +9638,7 @@
 		"ƒ: get_gmt_from_date": {
         "prefix": ["get_gmt_from_date","ggfd"],
         "body": "get_gmt_from_date( ${1:\\$string:string}, ${2:\\$format:string} )",
-        "description": "Returns a date in the GMT equivalent."
+        "description": "Given a date in the timezone of the site, returns that date in UTC timezone."
 	},
 		"ƒ: get_header": {
         "prefix": ["get_header","gh"],
@@ -8758,7 +9678,7 @@
 		"ƒ: get_hidden_meta_boxes": {
         "prefix": ["get_hidden_meta_boxes","ghmb"],
         "body": "get_hidden_meta_boxes( ${1:\\$screen:string|WP_Screen} )",
-        "description": "Get Hidden Meta Boxes"
+        "description": "Gets an array of IDs of hidden meta boxes."
 	},
 		"ƒ: get_home_path": {
         "prefix": ["get_home_path","ghp"],
@@ -8823,7 +9743,7 @@
 		"ƒ: get_intermediate_image_sizes": {
         "prefix": ["get_intermediate_image_sizes","giis"],
         "body": "get_intermediate_image_sizes(  )",
-        "description": "Gets the available intermediate image sizes."
+        "description": "Gets the available intermediate image size names."
 	},
 		"ƒ: get_language_attributes": {
         "prefix": ["get_language_attributes","gla"],
@@ -8928,7 +9848,7 @@
 		"ƒ: get_media_embedded_in_content": {
         "prefix": ["get_media_embedded_in_content","gmeic"],
         "body": "get_media_embedded_in_content( ${1:\\$content:string}, ${2:\\$types:array|null} )",
-        "description": "Check the content blob for an audio, video, object, embed, or iframe tags."
+        "description": "Check the content HTML for a audio, video, object, embed, or iframe tags."
 	},
 		"ƒ: get_media_item": {
         "prefix": ["get_media_item","gmi"],
@@ -8953,16 +9873,16 @@
 		"ƒ: get_metadata": {
         "prefix": ["get_metadata","gm"],
         "body": "get_metadata( ${1:\\$meta_type:string}, ${2:\\$object_id:integer}, ${3:\\$meta_key:string}, ${4:\\$single:boolean} )",
-        "description": "Retrieve metadata for the specified object."
+        "description": "Retrieves metadata for the specified object."
 	},
 		"ƒ: get_metadata_by_mid": {
         "prefix": ["get_metadata_by_mid","gmbm"],
         "body": "get_metadata_by_mid( ${1:\\$meta_type:string}, ${2:\\$meta_id:integer} )",
-        "description": "Get meta data by meta ID"
+        "description": "Retrieves metadata by meta ID."
 	},
 		"ƒ: get_month_link": {
         "prefix": ["get_month_link","gml"],
-        "body": "get_month_link( ${1:\\$year:boolean|integer}, ${2:\\$month:boolean|integer} )",
+        "body": "get_month_link( ${1:\\$year:integer|false}, ${2:\\$month:integer|false} )",
         "description": "Retrieves the permalink for the month archives with year."
 	},
 		"ƒ: get_most_active_blogs": {
@@ -8993,7 +9913,7 @@
 		"ƒ: get_network_option": {
         "prefix": ["get_network_option","gno"],
         "body": "get_network_option( ${1:\\$network_id:integer}, ${2:\\$option:string}, ${3:\\$default:mixed} )",
-        "description": "Retrieve a network&#039;s option value based on the option name."
+        "description": "Retrieves a network&#039;s option value based on the option name."
 	},
 		"ƒ: get_networks": {
         "prefix": ["get_networks","gn"],
@@ -9097,7 +10017,7 @@
 	},
 		"ƒ: get_page": {
         "prefix": ["get_page","gp"],
-        "body": "get_page( ${1:\\$page:mixed}, ${2:\\$output:string}, ${3:\\$filter:string} )",
+        "body": "get_page( ${1:\\$page:integer|WP_Post}, ${2:\\$output:string}, ${3:\\$filter:string} )",
         "description": "Retrieves page data given a page ID or page object."
 	},
 		"ƒ: get_page_by_path": {
@@ -9143,12 +10063,12 @@
 		"ƒ: get_page_template_slug": {
         "prefix": ["get_page_template_slug","gpts"],
         "body": "get_page_template_slug( ${1:\\$post:integer|WP_Post|null} )",
-        "description": "Get the specific template name for a given post."
+        "description": "Get the specific template filename for a given post."
 	},
 		"ƒ: get_page_templates": {
         "prefix": ["get_page_templates","gpt"],
         "body": "get_page_templates( ${1:\\$post:WP_Post|null}, ${2:\\$post_type:string} )",
-        "description": "Get the Page Templates available in this theme"
+        "description": "Gets the page templates available in this theme."
 	},
 		"ƒ: get_page_uri": {
         "prefix": ["get_page_uri","gpu"],
@@ -9213,12 +10133,12 @@
 		"ƒ: get_plugin_page_hook": {
         "prefix": ["get_plugin_page_hook","gpph"],
         "body": "get_plugin_page_hook( ${1:\\$plugin_page:string}, ${2:\\$parent_page:string} )",
-        "description": ""
+        "description": "Gets the hook attached to the administrative page of a plugin."
 	},
 		"ƒ: get_plugin_page_hookname": {
         "prefix": ["get_plugin_page_hookname","gpph"],
         "body": "get_plugin_page_hookname( ${1:\\$plugin_page:string}, ${2:\\$parent_page:string} )",
-        "description": ""
+        "description": "Gets the hook name for the administrative page of a plugin."
 	},
 		"ƒ: get_plugin_updates": {
         "prefix": ["get_plugin_updates","gpu"],
@@ -9352,7 +10272,7 @@
 	},
 		"ƒ: get_post_modified_time": {
         "prefix": ["get_post_modified_time","gpmt"],
-        "body": "get_post_modified_time( ${1:\\$d:string}, ${2:\\$gmt:boolean}, ${3:\\$post:integer|WP_Post|null}, ${4:\\$translate:boolean} )",
+        "body": "get_post_modified_time( ${1:\\$format:string}, ${2:\\$gmt:boolean}, ${3:\\$post:integer|WP_Post|null}, ${4:\\$translate:boolean} )",
         "description": "Retrieve the time at which the post was last modified."
 	},
 		"ƒ: get_post_permalink": {
@@ -9363,12 +10283,12 @@
 		"ƒ: get_post_reply_link": {
         "prefix": ["get_post_reply_link","gprl"],
         "body": "get_post_reply_link( ${1:\\$args:array}, ${2:\\$post:integer|WP_Post|null} )",
-        "description": "Retrieve HTML content for reply to post link."
+        "description": "Retrieves HTML content for reply to post link."
 	},
 		"ƒ: get_post_states": {
         "prefix": ["get_post_states","gps"],
         "body": "get_post_states( ${1:\\$post:WP_Post} )",
-        "description": "Function to retrieve an array of post states from a post."
+        "description": "Retrieves an array of post states from a post."
 	},
 		"ƒ: get_post_stati": {
         "prefix": ["get_post_stati","gps"],
@@ -9393,7 +10313,7 @@
 		"ƒ: get_post_taxonomies": {
         "prefix": ["get_post_taxonomies","gpt"],
         "body": "get_post_taxonomies( ${1:\\$post:integer|WP_Post} )",
-        "description": "Retrieve all taxonomies of a post with just the names."
+        "description": "Retrieve all taxonomy names for the given post."
 	},
 		"ƒ: get_post_thumbnail_id": {
         "prefix": ["get_post_thumbnail_id","gpti"],
@@ -9402,7 +10322,7 @@
 	},
 		"ƒ: get_post_time": {
         "prefix": ["get_post_time","gpt"],
-        "body": "get_post_time( ${1:\\$d:string}, ${2:\\$gmt:boolean}, ${3:\\$post:integer|WP_Post|null}, ${4:\\$translate:boolean} )",
+        "body": "get_post_time( ${1:\\$format:string}, ${2:\\$gmt:boolean}, ${3:\\$post:integer|WP_Post|null}, ${4:\\$translate:boolean} )",
         "description": "Retrieve the time at which the post was written."
 	},
 		"ƒ: get_post_timestamp": {
@@ -9472,7 +10392,7 @@
 	},
 		"ƒ: get_posts_by_author_sql": {
         "prefix": ["get_posts_by_author_sql","gpbas"],
-        "body": "get_posts_by_author_sql( ${1:\\$post_type:array|string}, ${2:\\$full:boolean}, ${3:\\$post_author:integer|null}, ${4:\\$public_only:boolean} )",
+        "body": "get_posts_by_author_sql( ${1:\\$post_type:string|array}, ${2:\\$full:boolean}, ${3:\\$post_author:integer|null}, ${4:\\$public_only:boolean} )",
         "description": "Retrieve the post SQL based on capability, author, and type."
 	},
 		"ƒ: get_posts_nav_link": {
@@ -9743,7 +10663,7 @@
 		"ƒ: get_site_transient": {
         "prefix": ["get_site_transient","gst"],
         "body": "get_site_transient( ${1:\\$transient:string} )",
-        "description": "Get the value of a site transient."
+        "description": "Retrieves the value of a site transient."
 	},
 		"ƒ: get_site_url": {
         "prefix": ["get_site_url","gsu"],
@@ -9927,7 +10847,7 @@
 	},
 		"ƒ: get_term_link": {
         "prefix": ["get_term_link","gtl"],
-        "body": "get_term_link( ${1:\\$term:object|integer|string}, ${2:\\$taxonomy:string} )",
+        "body": "get_term_link( ${1:\\$term:WP_Term|integer|string}, ${2:\\$taxonomy:string} )",
         "description": "Generate a permalink for a taxonomy term archive."
 	},
 		"ƒ: get_term_meta": {
@@ -10092,7 +11012,7 @@
 	},
 		"ƒ: get_the_date": {
         "prefix": ["get_the_date","gtd"],
-        "body": "get_the_date( ${1:\\$d:string}, ${2:\\$post:integer|WP_Post|null} )",
+        "body": "get_the_date( ${1:\\$format:string}, ${2:\\$post:integer|WP_Post|null} )",
         "description": "Retrieve the date on which the post was written."
 	},
 		"ƒ: get_the_excerpt": {
@@ -10122,12 +11042,12 @@
 	},
 		"ƒ: get_the_modified_date": {
         "prefix": ["get_the_modified_date","gtmd"],
-        "body": "get_the_modified_date( ${1:\\$d:string}, ${2:\\$post:integer|WP_Post|null} )",
+        "body": "get_the_modified_date( ${1:\\$format:string}, ${2:\\$post:integer|WP_Post|null} )",
         "description": "Retrieve the date on which the post was last modified."
 	},
 		"ƒ: get_the_modified_time": {
         "prefix": ["get_the_modified_time","gtmt"],
-        "body": "get_the_modified_time( ${1:\\$d:string}, ${2:\\$post:integer|WP_Post|null} )",
+        "body": "get_the_modified_time( ${1:\\$format:string}, ${2:\\$post:integer|WP_Post|null} )",
         "description": "Retrieve the time at which the post was last modified."
 	},
 		"ƒ: get_the_password_form": {
@@ -10207,7 +11127,7 @@
 	},
 		"ƒ: get_the_time": {
         "prefix": ["get_the_time","gtt"],
-        "body": "get_the_time( ${1:\\$d:string}, ${2:\\$post:integer|WP_Post|null} )",
+        "body": "get_the_time( ${1:\\$format:string}, ${2:\\$post:integer|WP_Post|null} )",
         "description": "Retrieve the time at which the post was written."
 	},
 		"ƒ: get_the_title": {
@@ -10303,12 +11223,12 @@
 		"ƒ: get_trackback_url": {
         "prefix": ["get_trackback_url","gtu"],
         "body": "get_trackback_url(  )",
-        "description": "Retrieve The current post&#039;s trackback URL."
+        "description": "Retrieves the current post&#039;s trackback URL."
 	},
 		"ƒ: get_transient": {
         "prefix": ["get_transient","gt"],
         "body": "get_transient( ${1:\\$transient:string} )",
-        "description": "Get the value of a transient."
+        "description": "Retrieves the value of a transient."
 	},
 		"ƒ: get_translations_for_domain": {
         "prefix": ["get_translations_for_domain","gtfd"],
@@ -10388,7 +11308,7 @@
 		"ƒ: get_user_setting": {
         "prefix": ["get_user_setting","gus"],
         "body": "get_user_setting( ${1:\\$name:string}, ${2:\\$default:string} )",
-        "description": "Retrieve user interface setting value based on setting name."
+        "description": "Retrieves user interface setting value based on setting name."
 	},
 		"ƒ: get_user_to_edit": {
         "prefix": ["get_user_to_edit","gute"],
@@ -10442,7 +11362,7 @@
 	},
 		"ƒ: get_year_link": {
         "prefix": ["get_year_link","gyl"],
-        "body": "get_year_link( ${1:\\$year:integer|boolean} )",
+        "body": "get_year_link( ${1:\\$year:integer|false} )",
         "description": "Retrieves the permalink for the year archives."
 	},
 		"ƒ: global_terms": {
@@ -10487,7 +11407,7 @@
 	},
 		"ƒ: has_block": {
         "prefix": ["has_block","hb"],
-        "body": "has_block( ${1:\\$block_type:string}, ${2:\\$post:integer|string|WP_Post|null} )",
+        "body": "has_block( ${1:\\$block_name:string}, ${2:\\$post:integer|string|WP_Post|null} )",
         "description": "Determine whether a $post or a string contains a specific block type."
 	},
 		"ƒ: has_blocks": {
@@ -10547,7 +11467,7 @@
 	},
 		"ƒ: has_post_format": {
         "prefix": ["has_post_format","hpf"],
-        "body": "has_post_format( ${1:\\$format:string|array}, ${2:\\$post:object|integer|null} )",
+        "body": "has_post_format( ${1:\\$format:string|array}, ${2:\\$post:WP_Post|integer|null} )",
         "description": "Check if a post has any of the given formats, or any format."
 	},
 		"ƒ: has_post_thumbnail": {
@@ -10572,7 +11492,7 @@
 	},
 		"ƒ: has_term": {
         "prefix": ["has_term","ht"],
-        "body": "has_term( ${1:\\$term:string|integer|array}, ${2:\\$taxonomy:string}, ${3:\\$post:integer|object|null} )",
+        "body": "has_term( ${1:\\$term:string|integer|array}, ${2:\\$taxonomy:string}, ${3:\\$post:integer|WP_Post|null} )",
         "description": "Check if the current post has any of given terms."
 	},
 		"ƒ: has_term_meta": {
@@ -10609,6 +11529,16 @@
         "prefix": ["heartbeat_autosave","ha"],
         "body": "heartbeat_autosave( ${1:\\$response:array}, ${2:\\$data:array} )",
         "description": "Autosave with heartbeat"
+	},
+		"ƒ: hello_dolly": {
+        "prefix": ["hello_dolly","hd"],
+        "body": "hello_dolly(  )",
+        "description": ""
+	},
+		"ƒ: hello_dolly_get_lyric": {
+        "prefix": ["hello_dolly_get_lyric","hdgl"],
+        "body": "hello_dolly_get_lyric(  )",
+        "description": ""
 	},
 		"ƒ: home_url": {
         "prefix": ["home_url","hu"],
@@ -10697,7 +11627,7 @@
 	},
 		"ƒ: image_downsize": {
         "prefix": ["image_downsize","id"],
-        "body": "image_downsize( ${1:\\$id:integer}, ${2:\\$size:array|string} )",
+        "body": "image_downsize( ${1:\\$id:integer}, ${2:\\$size:string|array} )",
         "description": "Scale an image to fit a particular size (such as &#039;thumb&#039; or &#039;medium&#039;)."
 	},
 		"ƒ: image_edit_apply_changes": {
@@ -10907,12 +11837,12 @@
 	},
 		"ƒ: is_attachment": {
         "prefix": ["is_attachment","ia"],
-        "body": "is_attachment( ${1:\\$attachment:integer|string|array|object} )",
+        "body": "is_attachment( ${1:\\$attachment:integer|string|array|array} )",
         "description": "Determines whether the query is for an existing attachment page."
 	},
 		"ƒ: is_author": {
         "prefix": ["is_author","ia"],
-        "body": "is_author( ${1:\\$author:mixed} )",
+        "body": "is_author( ${1:\\$author:integer|string|array|array} )",
         "description": "Determines whether the query is for an existing author archive page."
 	},
 		"ƒ: is_avatar_comment_type": {
@@ -10923,7 +11853,7 @@
 		"ƒ: is_blog_admin": {
         "prefix": ["is_blog_admin","iba"],
         "body": "is_blog_admin(  )",
-        "description": "Whether the current request is for a site&#039;s admininstrative interface."
+        "description": "Whether the current request is for a site&#039;s administrative interface."
 	},
 		"ƒ: is_blog_installed": {
         "prefix": ["is_blog_installed","ibi"],
@@ -10937,7 +11867,7 @@
 	},
 		"ƒ: is_category": {
         "prefix": ["is_category","ic"],
-        "body": "is_category( ${1:\\$category:mixed} )",
+        "body": "is_category( ${1:\\$category:integer|string|array|array} )",
         "description": "Determines whether the query is for an existing category archive page."
 	},
 		"ƒ: is_child_theme": {
@@ -11004,6 +11934,11 @@
         "prefix": ["is_error","ie"],
         "body": "is_error( ${1:\\$sc:} )",
         "description": ""
+	},
+		"ƒ: is_favicon": {
+        "prefix": ["is_favicon","if"],
+        "body": "is_favicon(  )",
+        "description": "Is the query for the favicon.ico file?"
 	},
 		"ƒ: is_feed": {
         "prefix": ["is_feed","if"],
@@ -11122,7 +12057,7 @@
 	},
 		"ƒ: is_page": {
         "prefix": ["is_page","ip"],
-        "body": "is_page( ${1:\\$page:integer|string|array} )",
+        "body": "is_page( ${1:\\$page:integer|string|array|array} )",
         "description": "Determines whether the query is for an existing single page."
 	},
 		"ƒ: is_page_template": {
@@ -11202,7 +12137,7 @@
 	},
 		"ƒ: is_protected_meta": {
         "prefix": ["is_protected_meta","ipm"],
-        "body": "is_protected_meta( ${1:\\$meta_key:string}, ${2:\\$meta_type:string|null} )",
+        "body": "is_protected_meta( ${1:\\$meta_key:string}, ${2:\\$meta_type:string} )",
         "description": "Determines whether a meta key is considered protected."
 	},
 		"ƒ: is_random_header_image": {
@@ -11223,7 +12158,7 @@
 		"ƒ: is_robots": {
         "prefix": ["is_robots","ir"],
         "body": "is_robots(  )",
-        "description": "Is the query for the robots file?"
+        "description": "Is the query for the robots.txt file?"
 	},
 		"ƒ: is_rtl": {
         "prefix": ["is_rtl","ir"],
@@ -11252,7 +12187,7 @@
 	},
 		"ƒ: is_single": {
         "prefix": ["is_single","is"],
-        "body": "is_single( ${1:\\$post:integer|string|array} )",
+        "body": "is_single( ${1:\\$post:integer|string|array|array} )",
         "description": "Determines whether the query is for an existing single post."
 	},
 		"ƒ: is_singular": {
@@ -11297,12 +12232,12 @@
 	},
 		"ƒ: is_tag": {
         "prefix": ["is_tag","it"],
-        "body": "is_tag( ${1:\\$tag:mixed} )",
+        "body": "is_tag( ${1:\\$tag:integer|string|array|array} )",
         "description": "Determines whether the query is for an existing tag archive page."
 	},
 		"ƒ: is_tax": {
         "prefix": ["is_tax","it"],
-        "body": "is_tax( ${1:\\$taxonomy:string|array}, ${2:\\$term:integer|string|array} )",
+        "body": "is_tax( ${1:\\$taxonomy:string|array}, ${2:\\$term:integer|string|array|array} )",
         "description": "Determines whether the query is for an existing custom taxonomy archive page."
 	},
 		"ƒ: is_taxonomy": {
@@ -11408,7 +12343,7 @@
 		"ƒ: iso8601_to_datetime": {
         "prefix": ["iso8601_to_datetime","itd"],
         "body": "iso8601_to_datetime( ${1:\\$date_string:string}, ${2:\\$timezone:string} )",
-        "description": "Converts an iso8601 (YmdH:i:sO) date to MySQL DateTime (Y-m-d H:i:s) format used by post_date[_gmt]."
+        "description": "Converts an iso8601 (YmdTH:i:sO) date to MySQL DateTime (Y-m-d H:i:s) format used by post_date[_gmt]."
 	},
 		"ƒ: js_escape": {
         "prefix": ["js_escape","je"],
@@ -11498,7 +12433,7 @@
 		"ƒ: list_core_update": {
         "prefix": ["list_core_update","lcu"],
         "body": "list_core_update( ${1:\\$update:object} )",
-        "description": ""
+        "description": "Lists available core updates."
 	},
 		"ƒ: list_files": {
         "prefix": ["list_files","lf"],
@@ -11728,7 +12663,7 @@
 		"ƒ: media_post_single_attachment_fields_to_edit": {
         "prefix": ["media_post_single_attachment_fields_to_edit","mpsafte"],
         "body": "media_post_single_attachment_fields_to_edit( ${1:\\$form_fields:array}, ${2:\\$post:WP_Post} )",
-        "description": "Retrieves the post non-image attachment fields to edito form fields."
+        "description": "Retrieves the post non-image attachment fields to edit form fields."
 	},
 		"ƒ: media_send_to_editor": {
         "prefix": ["media_send_to_editor","mste"],
@@ -11838,7 +12773,7 @@
 		"ƒ: menu_page_url": {
         "prefix": ["menu_page_url","mpu"],
         "body": "menu_page_url( ${1:\\$menu_slug:string}, ${2:\\$echo:boolean} )",
-        "description": "Get the url to access a particular menu page based on the slug it was registered with."
+        "description": "Get the URL to access a particular menu page based on the slug it was registered with."
 	},
 		"ƒ: meta_box_prefs": {
         "prefix": ["meta_box_prefs","mbp"],
@@ -11853,7 +12788,7 @@
 		"ƒ: metadata_exists": {
         "prefix": ["metadata_exists","me"],
         "body": "metadata_exists( ${1:\\$meta_type:string}, ${2:\\$object_id:integer}, ${3:\\$meta_key:string} )",
-        "description": "Determine if a meta key is set for a given object"
+        "description": "Determines if a meta key is set for a given object."
 	},
 		"ƒ: ms_allowed_http_request_hosts": {
         "prefix": ["ms_allowed_http_request_hosts","mahrh"],
@@ -11928,7 +12863,7 @@
 		"ƒ: mysql_to_rfc3339": {
         "prefix": ["mysql_to_rfc3339","mtr"],
         "body": "mysql_to_rfc3339( ${1:\\$date_string:string} )",
-        "description": "Parses and formats a MySQL datetime (Y-m-d H:i:s) for ISO8601 (Y-m-dH:i:s)."
+        "description": "Parses and formats a MySQL datetime (Y-m-d H:i:s) for ISO8601 (Y-m-dTH:i:s)."
 	},
 		"ƒ: network_admin_url": {
         "prefix": ["network_admin_url","nau"],
@@ -12573,7 +13508,7 @@
 		"ƒ: random_bytes": {
         "prefix": ["random_bytes","rb"],
         "body": "random_bytes( ${1:\\$bytes:integer} )",
-        "description": "If the libsodium PHP extension is loaded, we&#039;ll use it above any other solution."
+        "description": "Powered by ext/mcrypt (and thankfully NOT libmcrypt)"
 	},
 		"ƒ: random_int": {
         "prefix": ["random_int","ri"],
@@ -12619,6 +13554,11 @@
         "prefix": ["redirect_guess_404_permalink","rg4p"],
         "body": "redirect_guess_404_permalink(  )",
         "description": "Attempts to guess the correct URL based on query vars"
+	},
+		"ƒ: redirect_old_akismet_urls": {
+        "prefix": ["redirect_old_akismet_urls","roau"],
+        "body": "redirect_old_akismet_urls(  )",
+        "description": ""
 	},
 		"ƒ: redirect_post": {
         "prefix": ["redirect_post","rp"],
@@ -12700,6 +13640,11 @@
         "body": "register_block_core_shortcode(  )",
         "description": "Registers the `core/shortcode` block on server."
 	},
+		"ƒ: register_block_core_social_link": {
+        "prefix": ["register_block_core_social_link","rbcsl"],
+        "body": "register_block_core_social_link(  )",
+        "description": "Registers the `core/social-link` blocks."
+	},
 		"ƒ: register_block_core_tag_cloud": {
         "prefix": ["register_block_core_tag_cloud","rbctc"],
         "body": "register_block_core_tag_cloud(  )",
@@ -12738,7 +13683,7 @@
 		"ƒ: register_initial_settings": {
         "prefix": ["register_initial_settings","ris"],
         "body": "register_initial_settings(  )",
-        "description": "Register default settings available in WordPress."
+        "description": "Registers default settings available in WordPress."
 	},
 		"ƒ: register_meta": {
         "prefix": ["register_meta","rm"],
@@ -12788,7 +13733,7 @@
 		"ƒ: register_setting": {
         "prefix": ["register_setting","rs"],
         "body": "register_setting( ${1:\\$option_group:string}, ${2:\\$option_name:string}, ${3:\\$args:array} )",
-        "description": "Register a setting and its data."
+        "description": "Registers a setting and its data."
 	},
 		"ƒ: register_sidebar": {
         "prefix": ["register_sidebar","rs"],
@@ -12972,7 +13917,7 @@
 	},
 		"ƒ: remove_user_from_blog": {
         "prefix": ["remove_user_from_blog","rufb"],
-        "body": "remove_user_from_blog( ${1:\\$user_id:integer}, ${2:\\$blog_id:integer}, ${3:\\$reassign:string} )",
+        "body": "remove_user_from_blog( ${1:\\$user_id:integer}, ${2:\\$blog_id:integer}, ${3:\\$reassign:integer} )",
         "description": "Remove a user from a blog."
 	},
 		"ƒ: render_block": {
@@ -13025,6 +13970,11 @@
         "body": "render_block_core_shortcode( ${1:\\$attributes:array}, ${2:\\$content:string} )",
         "description": "Performs wpautop() on the shortcode block content."
 	},
+		"ƒ: render_block_core_social_link": {
+        "prefix": ["render_block_core_social_link","rbcsl"],
+        "body": "render_block_core_social_link( ${1:\\$attributes:array} )",
+        "description": "Renders the `core/social-link` block on server."
+	},
 		"ƒ: render_block_core_tag_cloud": {
         "prefix": ["render_block_core_tag_cloud","rbctc"],
         "body": "render_block_core_tag_cloud( ${1:\\$attributes:array} )",
@@ -13032,7 +13982,7 @@
 	},
 		"ƒ: request_filesystem_credentials": {
         "prefix": ["request_filesystem_credentials","rfc"],
-        "body": "request_filesystem_credentials( ${1:\\$form_post:string}, ${2:\\$type:string}, ${3:\\$error:boolean}, ${4:\\$context:string}, ${5:\\$extra_fields:array|null}, ${6:\\$allow_relaxed_file_ownership:boolean} )",
+        "body": "request_filesystem_credentials( ${1:\\$form_post:string}, ${2:\\$type:string}, ${3:\\$error:boolean|WP_Error}, ${4:\\$context:string}, ${5:\\$extra_fields:array|null}, ${6:\\$allow_relaxed_file_ownership:boolean} )",
         "description": "Displays a form to the user to request for their FTP/SSH details in order to connect to the filesystem."
 	},
 		"ƒ: require_if_theme_supports": {
@@ -13102,7 +14052,7 @@
 	},
 		"ƒ: rest_ensure_response": {
         "prefix": ["rest_ensure_response","rer"],
-        "body": "rest_ensure_response( ${1:\\$response:WP_Error|WP_HTTP_Response|mixed} )",
+        "body": "rest_ensure_response( ${1:\\$response:WP_HTTP_Response|WP_Error|mixed} )",
         "description": "Ensures a REST response is a response object (for consistency)."
 	},
 		"ƒ: rest_filter_response_fields": {
@@ -13184,6 +14134,11 @@
         "prefix": ["rest_parse_date","rpd"],
         "body": "rest_parse_date( ${1:\\$date:string}, ${2:\\$force_utc:boolean} )",
         "description": "Parses an RFC3339 time into a Unix timestamp."
+	},
+		"ƒ: rest_parse_embed_param": {
+        "prefix": ["rest_parse_embed_param","rpep"],
+        "body": "rest_parse_embed_param( ${1:\\$embed:string|array} )",
+        "description": "Parses the &quot;_embed&quot; parameter into the list of resources to embed."
 	},
 		"ƒ: rest_parse_request_arg": {
         "prefix": ["rest_parse_request_arg","rpra"],
@@ -13363,7 +14318,7 @@
 		"ƒ: sanitize_meta": {
         "prefix": ["sanitize_meta","sm"],
         "body": "sanitize_meta( ${1:\\$meta_key:string}, ${2:\\$meta_value:mixed}, ${3:\\$object_type:string}, ${4:\\$object_subtype:string} )",
-        "description": "Sanitize meta value."
+        "description": "Sanitizes meta value."
 	},
 		"ƒ: sanitize_mime_type": {
         "prefix": ["sanitize_mime_type","smt"],
@@ -13535,9 +14490,24 @@
         "body": "separate_comments( ${1:\\$comments:array} )",
         "description": "Separates an array of comments into an array keyed by comment_type."
 	},
+		"ƒ: serialize_block": {
+        "prefix": ["serialize_block","sb"],
+        "body": "serialize_block( ${1:\\$block:WP_Block_Parser_Block} )",
+        "description": "Returns the content of a block, including comment delimiters, serializing all attributes from the given parsed block."
+	},
+		"ƒ: serialize_block_attributes": {
+        "prefix": ["serialize_block_attributes","sba"],
+        "body": "serialize_block_attributes( ${1:\\$block_attributes:} )",
+        "description": "Given an array of attributes, returns a string in the serialized attributes format prepared for post content."
+	},
+		"ƒ: serialize_blocks": {
+        "prefix": ["serialize_blocks","sb"],
+        "body": "serialize_blocks( ${1:\\$blocks:array} )",
+        "description": "Returns a joined string of the aggregate serialization of the given parsed blocks."
+	},
 		"ƒ: set_current_screen": {
         "prefix": ["set_current_screen","scs"],
-        "body": "set_current_screen( ${1:\\$hook_name:mixed} )",
+        "body": "set_current_screen( ${1:\\$hook_name:string|WP_Screen} )",
         "description": "Set the current screen object"
 	},
 		"ƒ: set_current_user": {
@@ -13578,7 +14548,7 @@
 		"ƒ: set_site_transient": {
         "prefix": ["set_site_transient","sst"],
         "body": "set_site_transient( ${1:\\$transient:string}, ${2:\\$value:mixed}, ${3:\\$expiration:integer} )",
-        "description": "Set/update the value of a site transient."
+        "description": "Sets/updates the value of a site transient."
 	},
 		"ƒ: set_theme_mod": {
         "prefix": ["set_theme_mod","stm"],
@@ -13588,7 +14558,7 @@
 		"ƒ: set_transient": {
         "prefix": ["set_transient","st"],
         "body": "set_transient( ${1:\\$transient:string}, ${2:\\$value:mixed}, ${3:\\$expiration:integer} )",
-        "description": "Set/update the value of a transient."
+        "description": "Sets/updates the value of a transient."
 	},
 		"ƒ: set_url_scheme": {
         "prefix": ["set_url_scheme","sus"],
@@ -13598,7 +14568,7 @@
 		"ƒ: set_user_setting": {
         "prefix": ["set_user_setting","sus"],
         "body": "set_user_setting( ${1:\\$name:string}, ${2:\\$value:string} )",
-        "description": "Add or update user interface setting."
+        "description": "Adds or updates user interface setting."
 	},
 		"ƒ: settings_errors": {
         "prefix": ["settings_errors","se"],
@@ -13744,6 +14714,21 @@
         "prefix": ["smilies_init","si"],
         "body": "smilies_init(  )",
         "description": "Convert smiley code to the icon graphic file equivalent."
+	},
+		"ƒ: sodium_add": {
+        "prefix": ["sodium_add","sa"],
+        "body": "sodium_add( ${1:\\$val:string}, ${2:\\$addv:string} )",
+        "description": ""
+	},
+		"ƒ: sodium_base642bin": {
+        "prefix": ["sodium_base642bin","sb"],
+        "body": "sodium_base642bin( ${1:\\$string:string}, ${2:\\$variant:integer}, ${3:\\$ignore:string} )",
+        "description": ""
+	},
+		"ƒ: sodium_bin2base64": {
+        "prefix": ["sodium_bin2base64","sb"],
+        "body": "sodium_bin2base64( ${1:\\$string:string}, ${2:\\$variant:integer} )",
+        "description": ""
 	},
 		"ƒ: sodium_bin2hex": {
         "prefix": ["sodium_bin2hex","sb"],
@@ -13905,9 +14890,49 @@
         "body": "sodium_crypto_generichash_update( ${1:\\$ctx:string|null}, ${2:\\$message:string} )",
         "description": ""
 	},
+		"ƒ: sodium_crypto_kdf_derive_from_key": {
+        "prefix": ["sodium_crypto_kdf_derive_from_key","sckdfk"],
+        "body": "sodium_crypto_kdf_derive_from_key( ${1:\\$subkey_len:integer}, ${2:\\$subkey_id:integer}, ${3:\\$context:string}, ${4:\\$key:string} )",
+        "description": ""
+	},
+		"ƒ: sodium_crypto_kdf_keygen": {
+        "prefix": ["sodium_crypto_kdf_keygen","sckk"],
+        "body": "sodium_crypto_kdf_keygen(  )",
+        "description": ""
+	},
 		"ƒ: sodium_crypto_kx": {
         "prefix": ["sodium_crypto_kx","sck"],
         "body": "sodium_crypto_kx( ${1:\\$my_secret:string}, ${2:\\$their_public:string}, ${3:\\$client_public:string}, ${4:\\$server_public:string} )",
+        "description": ""
+	},
+		"ƒ: sodium_crypto_kx_client_session_keys": {
+        "prefix": ["sodium_crypto_kx_client_session_keys","sckcsk"],
+        "body": "sodium_crypto_kx_client_session_keys( ${1:\\$keypair:string}, ${2:\\$serverPublicKey:string} )",
+        "description": ""
+	},
+		"ƒ: sodium_crypto_kx_keypair": {
+        "prefix": ["sodium_crypto_kx_keypair","sckk"],
+        "body": "sodium_crypto_kx_keypair(  )",
+        "description": ""
+	},
+		"ƒ: sodium_crypto_kx_publickey": {
+        "prefix": ["sodium_crypto_kx_publickey","sckp"],
+        "body": "sodium_crypto_kx_publickey( ${1:\\$keypair:string} )",
+        "description": ""
+	},
+		"ƒ: sodium_crypto_kx_secretkey": {
+        "prefix": ["sodium_crypto_kx_secretkey","scks"],
+        "body": "sodium_crypto_kx_secretkey( ${1:\\$keypair:string} )",
+        "description": ""
+	},
+		"ƒ: sodium_crypto_kx_seed_keypair": {
+        "prefix": ["sodium_crypto_kx_seed_keypair","scksk"],
+        "body": "sodium_crypto_kx_seed_keypair( ${1:\\$seed:string} )",
+        "description": ""
+	},
+		"ƒ: sodium_crypto_kx_server_session_keys": {
+        "prefix": ["sodium_crypto_kx_server_session_keys","sckssk"],
+        "body": "sodium_crypto_kx_server_session_keys( ${1:\\$keypair:string}, ${2:\\$clientPublicKey:string} )",
         "description": ""
 	},
 		"ƒ: sodium_crypto_pwhash": {
@@ -13933,6 +14958,11 @@
 		"ƒ: sodium_crypto_pwhash_str": {
         "prefix": ["sodium_crypto_pwhash_str","scps"],
         "body": "sodium_crypto_pwhash_str( ${1:\\$passwd:string}, ${2:\\$opslimit:integer}, ${3:\\$memlimit:integer} )",
+        "description": ""
+	},
+		"ƒ: sodium_crypto_pwhash_str_needs_rehash": {
+        "prefix": ["sodium_crypto_pwhash_str_needs_rehash","scpsnr"],
+        "body": "sodium_crypto_pwhash_str_needs_rehash( ${1:\\$hash:string}, ${2:\\$opslimit:integer}, ${3:\\$memlimit:integer} )",
         "description": ""
 	},
 		"ƒ: sodium_crypto_pwhash_str_verify": {
@@ -13963,6 +14993,36 @@
 		"ƒ: sodium_crypto_secretbox_open": {
         "prefix": ["sodium_crypto_secretbox_open","scso"],
         "body": "sodium_crypto_secretbox_open( ${1:\\$message:string}, ${2:\\$nonce:string}, ${3:\\$key:string} )",
+        "description": ""
+	},
+		"ƒ: sodium_crypto_secretstream_xchacha20poly1305_init_pull": {
+        "prefix": ["sodium_crypto_secretstream_xchacha20poly1305_init_pull","scsxip"],
+        "body": "sodium_crypto_secretstream_xchacha20poly1305_init_pull( ${1:\\$header:string}, ${2:\\$key:string} )",
+        "description": ""
+	},
+		"ƒ: sodium_crypto_secretstream_xchacha20poly1305_init_push": {
+        "prefix": ["sodium_crypto_secretstream_xchacha20poly1305_init_push","scsxip"],
+        "body": "sodium_crypto_secretstream_xchacha20poly1305_init_push( ${1:\\$key:string} )",
+        "description": ""
+	},
+		"ƒ: sodium_crypto_secretstream_xchacha20poly1305_keygen": {
+        "prefix": ["sodium_crypto_secretstream_xchacha20poly1305_keygen","scsxk"],
+        "body": "sodium_crypto_secretstream_xchacha20poly1305_keygen(  )",
+        "description": ""
+	},
+		"ƒ: sodium_crypto_secretstream_xchacha20poly1305_pull": {
+        "prefix": ["sodium_crypto_secretstream_xchacha20poly1305_pull","scsxp"],
+        "body": "sodium_crypto_secretstream_xchacha20poly1305_pull( ${1:\\$state:string}, ${2:\\$cipher:string}, ${3:\\$aad:string} )",
+        "description": ""
+	},
+		"ƒ: sodium_crypto_secretstream_xchacha20poly1305_push": {
+        "prefix": ["sodium_crypto_secretstream_xchacha20poly1305_push","scsxp"],
+        "body": "sodium_crypto_secretstream_xchacha20poly1305_push( ${1:\\$state:string}, ${2:\\$msg:string}, ${3:\\$aad:string}, ${4:\\$tag:integer} )",
+        "description": ""
+	},
+		"ƒ: sodium_crypto_secretstream_xchacha20poly1305_rekey": {
+        "prefix": ["sodium_crypto_secretstream_xchacha20poly1305_rekey","scsxr"],
+        "body": "sodium_crypto_secretstream_xchacha20poly1305_rekey( ${1:\\$state:string} )",
         "description": ""
 	},
 		"ƒ: sodium_crypto_shorthash": {
@@ -13998,6 +15058,11 @@
 		"ƒ: sodium_crypto_sign_keypair": {
         "prefix": ["sodium_crypto_sign_keypair","scsk"],
         "body": "sodium_crypto_sign_keypair(  )",
+        "description": ""
+	},
+		"ƒ: sodium_crypto_sign_keypair_from_secretkey_and_publickey": {
+        "prefix": ["sodium_crypto_sign_keypair_from_secretkey_and_publickey","scskfsap"],
+        "body": "sodium_crypto_sign_keypair_from_secretkey_and_publickey( ${1:\\$sk:string}, ${2:\\$pk:string} )",
         "description": ""
 	},
 		"ƒ: sodium_crypto_sign_open": {
@@ -14075,6 +15140,11 @@
         "body": "sodium_memzero( ${1:\\$str:string} )",
         "description": ""
 	},
+		"ƒ: sodium_pad": {
+        "prefix": ["sodium_pad","sp"],
+        "body": "sodium_pad( ${1:\\$unpadded:string}, ${2:\\$blockSize:integer} )",
+        "description": ""
+	},
 		"ƒ: sodium_randombytes_buf": {
         "prefix": ["sodium_randombytes_buf","srb"],
         "body": "sodium_randombytes_buf( ${1:\\$amount:integer} )",
@@ -14088,6 +15158,11 @@
 		"ƒ: sodium_randombytes_uniform": {
         "prefix": ["sodium_randombytes_uniform","sru"],
         "body": "sodium_randombytes_uniform( ${1:\\$upperLimit:integer} )",
+        "description": ""
+	},
+		"ƒ: sodium_unpad": {
+        "prefix": ["sodium_unpad","su"],
+        "body": "sodium_unpad( ${1:\\$padded:string}, ${2:\\$blockSize:integer} )",
         "description": ""
 	},
 		"ƒ: sodium_version_string": {
@@ -14122,7 +15197,7 @@
 	},
 		"ƒ: startElement": {
         "prefix": ["startElement"],
-        "body": "startElement( ${1:\\$parser:mixed}, ${2:\\$tagName:string}, ${3:\\$attrs:array} )",
+        "body": "startElement( ${1:\\$parser:resource}, ${2:\\$tagName:string}, ${3:\\$attrs:array} )",
         "description": "XML callback function for the start of a new XML tag."
 	},
 		"ƒ: status_header": {
@@ -14143,7 +15218,12 @@
 		"ƒ: stream_preview_image": {
         "prefix": ["stream_preview_image","spi"],
         "body": "stream_preview_image( ${1:\\$post_id:integer} )",
-        "description": "Streams image in post to browser, along with enqueued changes in $_REQUEST[&#039;history&#039;]"
+        "description": "Streams image in post to browser, along with enqueued changes in `$_REQUEST[&#039;history&#039;]`."
+	},
+		"ƒ: strip_core_block_namespace": {
+        "prefix": ["strip_core_block_namespace","scbn"],
+        "body": "strip_core_block_namespace( ${1:\\$block_name:string|null} )",
+        "description": "Returns the block name to use for serialization. This will remove the default &quot;core/&quot; namespace from a block name."
 	},
 		"ƒ: strip_fragment_from_url": {
         "prefix": ["strip_fragment_from_url","sffu"],
@@ -14222,12 +15302,12 @@
 	},
 		"ƒ: taxonomy_meta_box_sanitize_cb_checkboxes": {
         "prefix": ["taxonomy_meta_box_sanitize_cb_checkboxes","tmbscc"],
-        "body": "taxonomy_meta_box_sanitize_cb_checkboxes( ${1:\\$taxonomy:}, ${2:\\$terms:mixed} )",
+        "body": "taxonomy_meta_box_sanitize_cb_checkboxes( ${1:\\$taxonomy:string}, ${2:\\$terms:array} )",
         "description": "Sanitizes POST values from a checkbox taxonomy metabox."
 	},
 		"ƒ: taxonomy_meta_box_sanitize_cb_input": {
         "prefix": ["taxonomy_meta_box_sanitize_cb_input","tmbsci"],
-        "body": "taxonomy_meta_box_sanitize_cb_input( ${1:\\$taxonomy:}, ${2:\\$terms:mixed} )",
+        "body": "taxonomy_meta_box_sanitize_cb_input( ${1:\\$taxonomy:string}, ${2:\\$terms:array|string} )",
         "description": "Sanitizes POST values from an input taxonomy metabox."
 	},
 		"ƒ: term_description": {
@@ -14238,7 +15318,7 @@
 		"ƒ: term_exists": {
         "prefix": ["term_exists","te"],
         "body": "term_exists( ${1:\\$term:integer|string}, ${2:\\$taxonomy:string}, ${3:\\$parent:integer|null} )",
-        "description": "Determines whether a term exists."
+        "description": "Determines whether a taxonomy term exists."
 	},
 		"ƒ: term_is_ancestor_of": {
         "prefix": ["term_is_ancestor_of","tiao"],
@@ -14422,7 +15502,7 @@
 	},
 		"ƒ: the_date": {
         "prefix": ["the_date","td"],
-        "body": "the_date( ${1:\\$d:string}, ${2:\\$before:string}, ${3:\\$after:string}, ${4:\\$echo:boolean} )",
+        "body": "the_date( ${1:\\$format:string}, ${2:\\$before:string}, ${3:\\$after:string}, ${4:\\$echo:boolean} )",
         "description": "Display or Retrieve the date the current post was written (once per date)"
 	},
 		"ƒ: the_date_xml": {
@@ -14497,12 +15577,12 @@
 	},
 		"ƒ: the_modified_date": {
         "prefix": ["the_modified_date","tmd"],
-        "body": "the_modified_date( ${1:\\$d:string}, ${2:\\$before:string}, ${3:\\$after:string}, ${4:\\$echo:boolean} )",
+        "body": "the_modified_date( ${1:\\$format:string}, ${2:\\$before:string}, ${3:\\$after:string}, ${4:\\$echo:boolean} )",
         "description": "Display the date on which the post was last modified."
 	},
 		"ƒ: the_modified_time": {
         "prefix": ["the_modified_time","tmt"],
-        "body": "the_modified_time( ${1:\\$d:string} )",
+        "body": "the_modified_time( ${1:\\$format:string} )",
         "description": "Display the time at which the post was last modified."
 	},
 		"ƒ: the_permalink": {
@@ -14587,7 +15667,7 @@
 	},
 		"ƒ: the_time": {
         "prefix": ["the_time","tt"],
-        "body": "the_time( ${1:\\$d:string} )",
+        "body": "the_time( ${1:\\$format:string} )",
         "description": "Display the time at which the post was written."
 	},
 		"ƒ: the_title": {
@@ -14658,17 +15738,17 @@
 		"ƒ: trackback_rdf": {
         "prefix": ["trackback_rdf","tr"],
         "body": "trackback_rdf( ${1:\\$deprecated:integer} )",
-        "description": "Generate and display the RDF for the trackback information of current post."
+        "description": "Generates and displays the RDF for the trackback information of current post."
 	},
 		"ƒ: trackback_response": {
         "prefix": ["trackback_response","tr"],
-        "body": "trackback_response( ${1:\\$error:mixed}, ${2:\\$error_message:string} )",
+        "body": "trackback_response( ${1:\\$error:integer|boolean}, ${2:\\$error_message:string} )",
         "description": "Response to a trackback."
 	},
 		"ƒ: trackback_url": {
         "prefix": ["trackback_url","tu"],
         "body": "trackback_url( ${1:\\$deprecated_echo:boolean} )",
-        "description": "Display the current post&#039;s trackback URL."
+        "description": "Displays the current post&#039;s trackback URL."
 	},
 		"ƒ: trackback_url_list": {
         "prefix": ["trackback_url_list","tul"],
@@ -14720,6 +15800,706 @@
         "body": "translations_api( ${1:\\$type:string}, ${2:\\$args:array|object|null} )",
         "description": "Retrieve translations from WordPress Translation API."
 	},
+		"ƒ: twentynineteen_add_dropdown_icons": {
+        "prefix": ["twentynineteen_add_dropdown_icons","tadi"],
+        "body": "twentynineteen_add_dropdown_icons( ${1:\\$output:string}, ${2:\\$item:object}, ${3:\\$depth:integer}, ${4:\\$args:object} )",
+        "description": "Add a dropdown icon to top-level menu items."
+	},
+		"ƒ: twentynineteen_add_ellipses_to_nav": {
+        "prefix": ["twentynineteen_add_ellipses_to_nav","taetn"],
+        "body": "twentynineteen_add_ellipses_to_nav( ${1:\\$nav_menu:object}, ${2:\\$args:object} )",
+        "description": "Add an extra menu to our nav for our priority+ navigation to use"
+	},
+		"ƒ: twentynineteen_add_mobile_parent_nav_menu_items": {
+        "prefix": ["twentynineteen_add_mobile_parent_nav_menu_items","tampnmi"],
+        "body": "twentynineteen_add_mobile_parent_nav_menu_items( ${1:\\$sorted_menu_items:array}, ${2:\\$args:object} )",
+        "description": "Create a nav menu item to be displayed on mobile to navigate from submenu back to the parent."
+	},
+		"ƒ: twentynineteen_body_classes": {
+        "prefix": ["twentynineteen_body_classes","tbc"],
+        "body": "twentynineteen_body_classes( ${1:\\$classes:array} )",
+        "description": "Adds custom classes to the array of body classes."
+	},
+		"ƒ: twentynineteen_can_show_post_thumbnail": {
+        "prefix": ["twentynineteen_can_show_post_thumbnail","tcspt"],
+        "body": "twentynineteen_can_show_post_thumbnail(  )",
+        "description": "Determines if post thumbnail can be displayed."
+	},
+		"ƒ: twentynineteen_colors_css_wrap": {
+        "prefix": ["twentynineteen_colors_css_wrap","tccw"],
+        "body": "twentynineteen_colors_css_wrap(  )",
+        "description": "Display custom color CSS in customizer and on frontend."
+	},
+		"ƒ: twentynineteen_comment_count": {
+        "prefix": ["twentynineteen_comment_count","tcc"],
+        "body": "twentynineteen_comment_count(  )",
+        "description": "Prints HTML with the comment count for the current post."
+	},
+		"ƒ: twentynineteen_comment_form": {
+        "prefix": ["twentynineteen_comment_form","tcf"],
+        "body": "twentynineteen_comment_form( ${1:\\$order:} )",
+        "description": "Documentation for function."
+	},
+		"ƒ: twentynineteen_comment_form_defaults": {
+        "prefix": ["twentynineteen_comment_form_defaults","tcfd"],
+        "body": "twentynineteen_comment_form_defaults( ${1:\\$defaults:} )",
+        "description": "Changes comment form default fields."
+	},
+		"ƒ: twentynineteen_content_width": {
+        "prefix": ["twentynineteen_content_width","tcw"],
+        "body": "twentynineteen_content_width(  )",
+        "description": "Set the content width in pixels, based on the theme&#039;s design and stylesheet."
+	},
+		"ƒ: twentynineteen_custom_colors_css": {
+        "prefix": ["twentynineteen_custom_colors_css","tccc"],
+        "body": "twentynineteen_custom_colors_css(  )",
+        "description": "Generate the CSS for the current primary color."
+	},
+		"ƒ: twentynineteen_customize": {
+        "prefix": ["twentynineteen_customize","tc"],
+        "body": "twentynineteen_customize(  )",
+        "description": "Prevents the Customizer from being loaded on WordPress versions prior to 4.7."
+	},
+		"ƒ: twentynineteen_customize_partial_blogdescription": {
+        "prefix": ["twentynineteen_customize_partial_blogdescription","tcpb"],
+        "body": "twentynineteen_customize_partial_blogdescription(  )",
+        "description": "Render the site tagline for the selective refresh partial."
+	},
+		"ƒ: twentynineteen_customize_partial_blogname": {
+        "prefix": ["twentynineteen_customize_partial_blogname","tcpb"],
+        "body": "twentynineteen_customize_partial_blogname(  )",
+        "description": "Render the site title for the selective refresh partial."
+	},
+		"ƒ: twentynineteen_customize_preview_js": {
+        "prefix": ["twentynineteen_customize_preview_js","tcpj"],
+        "body": "twentynineteen_customize_preview_js(  )",
+        "description": "Bind JS handlers to instantly live-preview changes."
+	},
+		"ƒ: twentynineteen_customize_register": {
+        "prefix": ["twentynineteen_customize_register","tcr"],
+        "body": "twentynineteen_customize_register( ${1:\\$wp_customize:WP_Customize_Manager} )",
+        "description": "Add postMessage support for site title and description for the Theme Customizer."
+	},
+		"ƒ: twentynineteen_discussion_avatars_list": {
+        "prefix": ["twentynineteen_discussion_avatars_list","tdal"],
+        "body": "twentynineteen_discussion_avatars_list( ${1:\\$comment_authors:} )",
+        "description": "Displays a list of avatars involved in a discussion for a given post."
+	},
+		"ƒ: twentynineteen_editor_customizer_styles": {
+        "prefix": ["twentynineteen_editor_customizer_styles","tecs"],
+        "body": "twentynineteen_editor_customizer_styles(  )",
+        "description": "Enqueue supplemental block editor styles."
+	},
+		"ƒ: twentynineteen_entry_footer": {
+        "prefix": ["twentynineteen_entry_footer","tef"],
+        "body": "twentynineteen_entry_footer(  )",
+        "description": "Prints HTML with meta information for the categories, tags and comments."
+	},
+		"ƒ: twentynineteen_get_avatar_size": {
+        "prefix": ["twentynineteen_get_avatar_size","tgas"],
+        "body": "twentynineteen_get_avatar_size(  )",
+        "description": "Returns the size for avatars used in the theme."
+	},
+		"ƒ: twentynineteen_get_discussion_data": {
+        "prefix": ["twentynineteen_get_discussion_data","tgdd"],
+        "body": "twentynineteen_get_discussion_data(  )",
+        "description": "Returns information about the current post&#039;s discussion, with cache support."
+	},
+		"ƒ: twentynineteen_get_icon_svg": {
+        "prefix": ["twentynineteen_get_icon_svg","tgis"],
+        "body": "twentynineteen_get_icon_svg( ${1:\\$icon:}, ${2:\\$size:} )",
+        "description": "Gets the SVG code for a given icon."
+	},
+		"ƒ: twentynineteen_get_social_icon_svg": {
+        "prefix": ["twentynineteen_get_social_icon_svg","tgsis"],
+        "body": "twentynineteen_get_social_icon_svg( ${1:\\$icon:}, ${2:\\$size:} )",
+        "description": "Gets the SVG code for a given social icon."
+	},
+		"ƒ: twentynineteen_get_social_link_svg": {
+        "prefix": ["twentynineteen_get_social_link_svg","tgsls"],
+        "body": "twentynineteen_get_social_link_svg( ${1:\\$uri:}, ${2:\\$size:} )",
+        "description": "Detects the social network from a URL and returns the SVG code for its icon."
+	},
+		"ƒ: twentynineteen_get_the_archive_title": {
+        "prefix": ["twentynineteen_get_the_archive_title","tgtat"],
+        "body": "twentynineteen_get_the_archive_title(  )",
+        "description": "Filters the default archive titles."
+	},
+		"ƒ: twentynineteen_get_user_avatar_markup": {
+        "prefix": ["twentynineteen_get_user_avatar_markup","tguam"],
+        "body": "twentynineteen_get_user_avatar_markup( ${1:\\$id_or_email:|null} )",
+        "description": "Returns the HTML markup to generate a user avatar."
+	},
+		"ƒ: twentynineteen_hsl_hex": {
+        "prefix": ["twentynineteen_hsl_hex","thh"],
+        "body": "twentynineteen_hsl_hex( ${1:\\$h:}, ${2:\\$s:}, ${3:\\$l:}, ${4:\\$to_hex:} )",
+        "description": "Converts HSL to HEX colors."
+	},
+		"ƒ: twentynineteen_image_filters_enabled": {
+        "prefix": ["twentynineteen_image_filters_enabled","tife"],
+        "body": "twentynineteen_image_filters_enabled(  )",
+        "description": "Returns true if image filters are enabled on the theme options."
+	},
+		"ƒ: twentynineteen_is_comment_by_post_author": {
+        "prefix": ["twentynineteen_is_comment_by_post_author","ticbpa"],
+        "body": "twentynineteen_is_comment_by_post_author( ${1:\\$comment:|null} )",
+        "description": "Returns true if comment is by author of the post."
+	},
+		"ƒ: twentynineteen_nav_menu_link_attributes": {
+        "prefix": ["twentynineteen_nav_menu_link_attributes","tnmla"],
+        "body": "twentynineteen_nav_menu_link_attributes( ${1:\\$atts:}, ${2:\\$item:}, ${3:\\$args:}, ${4:\\$depth:} )",
+        "description": "WCAG 2.0 Attributes for Dropdown Menus"
+	},
+		"ƒ: twentynineteen_nav_menu_social_icons": {
+        "prefix": ["twentynineteen_nav_menu_social_icons","tnmsi"],
+        "body": "twentynineteen_nav_menu_social_icons( ${1:\\$item_output:string}, ${2:\\$item:WP_Post}, ${3:\\$depth:integer}, ${4:\\$args:array} )",
+        "description": "Display SVG icons in social links menu."
+	},
+		"ƒ: twentynineteen_panels_js": {
+        "prefix": ["twentynineteen_panels_js","tpj"],
+        "body": "twentynineteen_panels_js(  )",
+        "description": "Load dynamic logic for the customizer controls area."
+	},
+		"ƒ: twentynineteen_pingback_header": {
+        "prefix": ["twentynineteen_pingback_header","tph"],
+        "body": "twentynineteen_pingback_header(  )",
+        "description": "Add a pingback url auto-discovery header for single posts, pages, or attachments."
+	},
+		"ƒ: twentynineteen_post_classes": {
+        "prefix": ["twentynineteen_post_classes","tpc"],
+        "body": "twentynineteen_post_classes( ${1:\\$classes:}, ${2:\\$class:}, ${3:\\$post_id:} )",
+        "description": "Adds custom class to the array of posts classes."
+	},
+		"ƒ: twentynineteen_post_thumbnail": {
+        "prefix": ["twentynineteen_post_thumbnail","tpt"],
+        "body": "twentynineteen_post_thumbnail(  )",
+        "description": "Displays an optional post thumbnail."
+	},
+		"ƒ: twentynineteen_post_thumbnail_sizes_attr": {
+        "prefix": ["twentynineteen_post_thumbnail_sizes_attr","tptsa"],
+        "body": "twentynineteen_post_thumbnail_sizes_attr( ${1:\\$attr:array} )",
+        "description": "Add custom sizes attribute to responsive image functionality for post thumbnails."
+	},
+		"ƒ: twentynineteen_posted_by": {
+        "prefix": ["twentynineteen_posted_by","tpb"],
+        "body": "twentynineteen_posted_by(  )",
+        "description": "Prints HTML with meta information about theme author."
+	},
+		"ƒ: twentynineteen_posted_on": {
+        "prefix": ["twentynineteen_posted_on","tpo"],
+        "body": "twentynineteen_posted_on(  )",
+        "description": "Prints HTML with meta information for the current post-date/time."
+	},
+		"ƒ: twentynineteen_preview": {
+        "prefix": ["twentynineteen_preview","tp"],
+        "body": "twentynineteen_preview(  )",
+        "description": "Prevents the Theme Preview from being loaded on WordPress versions prior to 4.7."
+	},
+		"ƒ: twentynineteen_sanitize_color_option": {
+        "prefix": ["twentynineteen_sanitize_color_option","tsco"],
+        "body": "twentynineteen_sanitize_color_option( ${1:\\$choice:string} )",
+        "description": "Sanitize custom color choice."
+	},
+		"ƒ: twentynineteen_scripts": {
+        "prefix": ["twentynineteen_scripts","ts"],
+        "body": "twentynineteen_scripts(  )",
+        "description": "Enqueue scripts and styles."
+	},
+		"ƒ: twentynineteen_setup": {
+        "prefix": ["twentynineteen_setup","ts"],
+        "body": "twentynineteen_setup(  )",
+        "description": "Sets up theme defaults and registers support for various WordPress features."
+	},
+		"ƒ: twentynineteen_skip_link_focus_fix": {
+        "prefix": ["twentynineteen_skip_link_focus_fix","tslff"],
+        "body": "twentynineteen_skip_link_focus_fix(  )",
+        "description": "Fix skip link focus in IE11."
+	},
+		"ƒ: twentynineteen_switch_theme": {
+        "prefix": ["twentynineteen_switch_theme","tst"],
+        "body": "twentynineteen_switch_theme(  )",
+        "description": "Prevent switching to Twenty Nineteen on old versions of WordPress."
+	},
+		"ƒ: twentynineteen_the_posts_navigation": {
+        "prefix": ["twentynineteen_the_posts_navigation","ttpn"],
+        "body": "twentynineteen_the_posts_navigation(  )",
+        "description": "Documentation for function."
+	},
+		"ƒ: twentynineteen_upgrade_notice": {
+        "prefix": ["twentynineteen_upgrade_notice","tun"],
+        "body": "twentynineteen_upgrade_notice(  )",
+        "description": "Adds a message for unsuccessful theme switch."
+	},
+		"ƒ: twentynineteen_widgets_init": {
+        "prefix": ["twentynineteen_widgets_init","twi"],
+        "body": "twentynineteen_widgets_init(  )",
+        "description": "Register widget area."
+	},
+		"ƒ: twentyseventeen_block_editor_styles": {
+        "prefix": ["twentyseventeen_block_editor_styles","tbes"],
+        "body": "twentyseventeen_block_editor_styles(  )",
+        "description": "Enqueues styles for the block-based editor."
+	},
+		"ƒ: twentyseventeen_body_classes": {
+        "prefix": ["twentyseventeen_body_classes","tbc"],
+        "body": "twentyseventeen_body_classes( ${1:\\$classes:array} )",
+        "description": "Adds custom classes to the array of body classes."
+	},
+		"ƒ: twentyseventeen_categorized_blog": {
+        "prefix": ["twentyseventeen_categorized_blog","tcb"],
+        "body": "twentyseventeen_categorized_blog(  )",
+        "description": "Returns true if a blog has more than 1 category."
+	},
+		"ƒ: twentyseventeen_category_transient_flusher": {
+        "prefix": ["twentyseventeen_category_transient_flusher","tctf"],
+        "body": "twentyseventeen_category_transient_flusher(  )",
+        "description": "Flush out the transients used in twentyseventeen_categorized_blog."
+	},
+		"ƒ: twentyseventeen_colors_css_wrap": {
+        "prefix": ["twentyseventeen_colors_css_wrap","tccw"],
+        "body": "twentyseventeen_colors_css_wrap(  )",
+        "description": "Display custom color CSS."
+	},
+		"ƒ: twentyseventeen_content_image_sizes_attr": {
+        "prefix": ["twentyseventeen_content_image_sizes_attr","tcisa"],
+        "body": "twentyseventeen_content_image_sizes_attr( ${1:\\$sizes:string}, ${2:\\$size:array} )",
+        "description": "Add custom image sizes attribute to enhance responsive image functionality for content images."
+	},
+		"ƒ: twentyseventeen_content_width": {
+        "prefix": ["twentyseventeen_content_width","tcw"],
+        "body": "twentyseventeen_content_width(  )",
+        "description": "Set the content width in pixels, based on the theme&#039;s design and stylesheet."
+	},
+		"ƒ: twentyseventeen_custom_colors_css": {
+        "prefix": ["twentyseventeen_custom_colors_css","tccc"],
+        "body": "twentyseventeen_custom_colors_css(  )",
+        "description": "Generate the CSS for the current custom color scheme."
+	},
+		"ƒ: twentyseventeen_custom_header_setup": {
+        "prefix": ["twentyseventeen_custom_header_setup","tchs"],
+        "body": "twentyseventeen_custom_header_setup(  )",
+        "description": "Set up the WordPress core custom header feature."
+	},
+		"ƒ: twentyseventeen_customize": {
+        "prefix": ["twentyseventeen_customize","tc"],
+        "body": "twentyseventeen_customize(  )",
+        "description": "Prevents the Customizer from being loaded on WordPress versions prior to 4.7."
+	},
+		"ƒ: twentyseventeen_customize_partial_blogdescription": {
+        "prefix": ["twentyseventeen_customize_partial_blogdescription","tcpb"],
+        "body": "twentyseventeen_customize_partial_blogdescription(  )",
+        "description": "Render the site tagline for the selective refresh partial."
+	},
+		"ƒ: twentyseventeen_customize_partial_blogname": {
+        "prefix": ["twentyseventeen_customize_partial_blogname","tcpb"],
+        "body": "twentyseventeen_customize_partial_blogname(  )",
+        "description": "Render the site title for the selective refresh partial."
+	},
+		"ƒ: twentyseventeen_customize_preview_js": {
+        "prefix": ["twentyseventeen_customize_preview_js","tcpj"],
+        "body": "twentyseventeen_customize_preview_js(  )",
+        "description": "Bind JS handlers to instantly live-preview changes."
+	},
+		"ƒ: twentyseventeen_customize_register": {
+        "prefix": ["twentyseventeen_customize_register","tcr"],
+        "body": "twentyseventeen_customize_register( ${1:\\$wp_customize:WP_Customize_Manager} )",
+        "description": "Add postMessage support for site title and description for the Theme Customizer."
+	},
+		"ƒ: twentyseventeen_dropdown_icon_to_menu_link": {
+        "prefix": ["twentyseventeen_dropdown_icon_to_menu_link","tditml"],
+        "body": "twentyseventeen_dropdown_icon_to_menu_link( ${1:\\$title:string}, ${2:\\$item:WP_Post}, ${3:\\$args:array}, ${4:\\$depth:integer} )",
+        "description": "Add dropdown icon if menu item has children."
+	},
+		"ƒ: twentyseventeen_edit_link": {
+        "prefix": ["twentyseventeen_edit_link","tel"],
+        "body": "twentyseventeen_edit_link(  )",
+        "description": "Returns an accessibility-friendly link to edit a post or page."
+	},
+		"ƒ: twentyseventeen_entry_footer": {
+        "prefix": ["twentyseventeen_entry_footer","tef"],
+        "body": "twentyseventeen_entry_footer(  )",
+        "description": "Prints HTML with meta information for the categories, tags and comments."
+	},
+		"ƒ: twentyseventeen_excerpt_more": {
+        "prefix": ["twentyseventeen_excerpt_more","tem"],
+        "body": "twentyseventeen_excerpt_more( ${1:\\$link:string} )",
+        "description": "Replaces &quot;[."
+	},
+		"ƒ: twentyseventeen_fonts_url": {
+        "prefix": ["twentyseventeen_fonts_url","tfu"],
+        "body": "twentyseventeen_fonts_url(  )",
+        "description": "Register custom fonts."
+	},
+		"ƒ: twentyseventeen_front_page_section": {
+        "prefix": ["twentyseventeen_front_page_section","tfps"],
+        "body": "twentyseventeen_front_page_section( ${1:\\$partial:WP_Customize_Partial|null}, ${2:\\$id:integer} )",
+        "description": "Display a front page section."
+	},
+		"ƒ: twentyseventeen_front_page_template": {
+        "prefix": ["twentyseventeen_front_page_template","tfpt"],
+        "body": "twentyseventeen_front_page_template( ${1:\\$template:string} )",
+        "description": "Use front-page.php when Front page displays is set to a static page."
+	},
+		"ƒ: twentyseventeen_get_svg": {
+        "prefix": ["twentyseventeen_get_svg","tgs"],
+        "body": "twentyseventeen_get_svg( ${1:\\$args:array} )",
+        "description": "Return SVG markup."
+	},
+		"ƒ: twentyseventeen_header_image_tag": {
+        "prefix": ["twentyseventeen_header_image_tag","thit"],
+        "body": "twentyseventeen_header_image_tag( ${1:\\$html:string}, ${2:\\$header:object}, ${3:\\$attr:array} )",
+        "description": "Filter the `sizes` value in the header image markup."
+	},
+		"ƒ: twentyseventeen_header_style": {
+        "prefix": ["twentyseventeen_header_style","ths"],
+        "body": "twentyseventeen_header_style(  )",
+        "description": "Styles the header image and text displayed on the blog."
+	},
+		"ƒ: twentyseventeen_include_svg_icons": {
+        "prefix": ["twentyseventeen_include_svg_icons","tisi"],
+        "body": "twentyseventeen_include_svg_icons(  )",
+        "description": "Add SVG definitions to the footer."
+	},
+		"ƒ: twentyseventeen_is_frontpage": {
+        "prefix": ["twentyseventeen_is_frontpage","tif"],
+        "body": "twentyseventeen_is_frontpage(  )",
+        "description": "Checks to see if we&#039;re on the front page or not."
+	},
+		"ƒ: twentyseventeen_is_static_front_page": {
+        "prefix": ["twentyseventeen_is_static_front_page","tisfp"],
+        "body": "twentyseventeen_is_static_front_page(  )",
+        "description": "Return whether we&#039;re previewing the front page and it&#039;s a static page."
+	},
+		"ƒ: twentyseventeen_is_view_with_layout_option": {
+        "prefix": ["twentyseventeen_is_view_with_layout_option","tivwlo"],
+        "body": "twentyseventeen_is_view_with_layout_option(  )",
+        "description": "Return whether we&#039;re on a view that supports a one or two column layout."
+	},
+		"ƒ: twentyseventeen_javascript_detection": {
+        "prefix": ["twentyseventeen_javascript_detection","tjd"],
+        "body": "twentyseventeen_javascript_detection(  )",
+        "description": "Handles JavaScript detection."
+	},
+		"ƒ: twentyseventeen_nav_menu_social_icons": {
+        "prefix": ["twentyseventeen_nav_menu_social_icons","tnmsi"],
+        "body": "twentyseventeen_nav_menu_social_icons( ${1:\\$item_output:string}, ${2:\\$item:WP_Post}, ${3:\\$depth:integer}, ${4:\\$args:array} )",
+        "description": "Display SVG icons in social links menu."
+	},
+		"ƒ: twentyseventeen_panel_count": {
+        "prefix": ["twentyseventeen_panel_count","tpc"],
+        "body": "twentyseventeen_panel_count(  )",
+        "description": "Count our number of active panels."
+	},
+		"ƒ: twentyseventeen_panels_js": {
+        "prefix": ["twentyseventeen_panels_js","tpj"],
+        "body": "twentyseventeen_panels_js(  )",
+        "description": "Load dynamic logic for the customizer controls area."
+	},
+		"ƒ: twentyseventeen_pingback_header": {
+        "prefix": ["twentyseventeen_pingback_header","tph"],
+        "body": "twentyseventeen_pingback_header(  )",
+        "description": "Add a pingback url auto-discovery header for singularly identifiable articles."
+	},
+		"ƒ: twentyseventeen_post_thumbnail_sizes_attr": {
+        "prefix": ["twentyseventeen_post_thumbnail_sizes_attr","tptsa"],
+        "body": "twentyseventeen_post_thumbnail_sizes_attr( ${1:\\$attr:array}, ${2:\\$attachment:integer}, ${3:\\$size:array} )",
+        "description": "Add custom image sizes attribute to enhance responsive image functionality for post thumbnails."
+	},
+		"ƒ: twentyseventeen_posted_on": {
+        "prefix": ["twentyseventeen_posted_on","tpo"],
+        "body": "twentyseventeen_posted_on(  )",
+        "description": "Prints HTML with meta information for the current post-date/time and author."
+	},
+		"ƒ: twentyseventeen_preview": {
+        "prefix": ["twentyseventeen_preview","tp"],
+        "body": "twentyseventeen_preview(  )",
+        "description": "Prevents the Theme Preview from being loaded on WordPress versions prior to 4.7."
+	},
+		"ƒ: twentyseventeen_resource_hints": {
+        "prefix": ["twentyseventeen_resource_hints","trh"],
+        "body": "twentyseventeen_resource_hints( ${1:\\$urls:array}, ${2:\\$relation_type:string} )",
+        "description": "Add preconnect for Google Fonts."
+	},
+		"ƒ: twentyseventeen_sanitize_colorscheme": {
+        "prefix": ["twentyseventeen_sanitize_colorscheme","tsc"],
+        "body": "twentyseventeen_sanitize_colorscheme( ${1:\\$input:string} )",
+        "description": "Sanitize the colorscheme."
+	},
+		"ƒ: twentyseventeen_sanitize_page_layout": {
+        "prefix": ["twentyseventeen_sanitize_page_layout","tspl"],
+        "body": "twentyseventeen_sanitize_page_layout( ${1:\\$input:string} )",
+        "description": "Sanitize the page layout options."
+	},
+		"ƒ: twentyseventeen_scripts": {
+        "prefix": ["twentyseventeen_scripts","ts"],
+        "body": "twentyseventeen_scripts(  )",
+        "description": "Enqueues scripts and styles."
+	},
+		"ƒ: twentyseventeen_setup": {
+        "prefix": ["twentyseventeen_setup","ts"],
+        "body": "twentyseventeen_setup(  )",
+        "description": "Sets up theme defaults and registers support for various WordPress features."
+	},
+		"ƒ: twentyseventeen_social_links_icons": {
+        "prefix": ["twentyseventeen_social_links_icons","tsli"],
+        "body": "twentyseventeen_social_links_icons(  )",
+        "description": "Returns an array of supported social links (URL and icon name)."
+	},
+		"ƒ: twentyseventeen_switch_theme": {
+        "prefix": ["twentyseventeen_switch_theme","tst"],
+        "body": "twentyseventeen_switch_theme(  )",
+        "description": "Prevent switching to Twenty Seventeen on old versions of WordPress."
+	},
+		"ƒ: twentyseventeen_time_link": {
+        "prefix": ["twentyseventeen_time_link","ttl"],
+        "body": "twentyseventeen_time_link(  )",
+        "description": "Gets a nicely formatted string for the published date."
+	},
+		"ƒ: twentyseventeen_unique_id": {
+        "prefix": ["twentyseventeen_unique_id","tui"],
+        "body": "twentyseventeen_unique_id( ${1:\\$prefix:string} )",
+        "description": "Get unique ID."
+	},
+		"ƒ: twentyseventeen_upgrade_notice": {
+        "prefix": ["twentyseventeen_upgrade_notice","tun"],
+        "body": "twentyseventeen_upgrade_notice(  )",
+        "description": "Adds a message for unsuccessful theme switch."
+	},
+		"ƒ: twentyseventeen_video_controls": {
+        "prefix": ["twentyseventeen_video_controls","tvc"],
+        "body": "twentyseventeen_video_controls( ${1:\\$settings:array} )",
+        "description": "Customize video play/pause button in the custom header."
+	},
+		"ƒ: twentyseventeen_widget_tag_cloud_args": {
+        "prefix": ["twentyseventeen_widget_tag_cloud_args","twtca"],
+        "body": "twentyseventeen_widget_tag_cloud_args( ${1:\\$args:array} )",
+        "description": "Modifies tag cloud widget arguments to display all tags in the same font size and use list format for better accessibility."
+	},
+		"ƒ: twentyseventeen_widgets_init": {
+        "prefix": ["twentyseventeen_widgets_init","twi"],
+        "body": "twentyseventeen_widgets_init(  )",
+        "description": "Register widget area."
+	},
+		"ƒ: twentytwenty_add_classic_editor_customizer_styles": {
+        "prefix": ["twentytwenty_add_classic_editor_customizer_styles","tacecs"],
+        "body": "twentytwenty_add_classic_editor_customizer_styles( ${1:\\$mce_init:array} )",
+        "description": "Output Customizer settings in the classic editor."
+	},
+		"ƒ: twentytwenty_add_classic_editor_non_latin_styles": {
+        "prefix": ["twentytwenty_add_classic_editor_non_latin_styles","tacenls"],
+        "body": "twentytwenty_add_classic_editor_non_latin_styles( ${1:\\$mce_init:array} )",
+        "description": "Output non-latin font styles in the classic editor."
+	},
+		"ƒ: twentytwenty_add_sub_toggles_to_main_menu": {
+        "prefix": ["twentytwenty_add_sub_toggles_to_main_menu","tasttmm"],
+        "body": "twentytwenty_add_sub_toggles_to_main_menu( ${1:\\$args:stdClass}, ${2:\\$item:string}, ${3:\\$depth:integer} )",
+        "description": "Add a Sub Nav Toggle to the Expanded Menu and Mobile Menu."
+	},
+		"ƒ: twentytwenty_block_editor_settings": {
+        "prefix": ["twentytwenty_block_editor_settings","tbes"],
+        "body": "twentytwenty_block_editor_settings(  )",
+        "description": "Block Editor Settings."
+	},
+		"ƒ: twentytwenty_block_editor_styles": {
+        "prefix": ["twentytwenty_block_editor_styles","tbes"],
+        "body": "twentytwenty_block_editor_styles(  )",
+        "description": "Enqueue supplemental block editor styles."
+	},
+		"ƒ: twentytwenty_body_classes": {
+        "prefix": ["twentytwenty_body_classes","tbc"],
+        "body": "twentytwenty_body_classes( ${1:\\$classes:array} )",
+        "description": "Add conditional body classes."
+	},
+		"ƒ: twentytwenty_classic_editor_styles": {
+        "prefix": ["twentytwenty_classic_editor_styles","tces"],
+        "body": "twentytwenty_classic_editor_styles(  )",
+        "description": "Enqueue classic editor styles."
+	},
+		"ƒ: twentytwenty_customize_controls_enqueue_scripts": {
+        "prefix": ["twentytwenty_customize_controls_enqueue_scripts","tcces"],
+        "body": "twentytwenty_customize_controls_enqueue_scripts(  )",
+        "description": "Enqueues scripts for customizer controls &amp; settings."
+	},
+		"ƒ: twentytwenty_customize_opacity_range": {
+        "prefix": ["twentytwenty_customize_opacity_range","tcor"],
+        "body": "twentytwenty_customize_opacity_range(  )",
+        "description": "Input attributes for cover overlay opacity option."
+	},
+		"ƒ: twentytwenty_customize_partial_blogdescription": {
+        "prefix": ["twentytwenty_customize_partial_blogdescription","tcpb"],
+        "body": "twentytwenty_customize_partial_blogdescription(  )",
+        "description": "Render the site description for the selective refresh partial."
+	},
+		"ƒ: twentytwenty_customize_partial_blogname": {
+        "prefix": ["twentytwenty_customize_partial_blogname","tcpb"],
+        "body": "twentytwenty_customize_partial_blogname(  )",
+        "description": "Render the site title for the selective refresh partial."
+	},
+		"ƒ: twentytwenty_customize_partial_site_logo": {
+        "prefix": ["twentytwenty_customize_partial_site_logo","tcpsl"],
+        "body": "twentytwenty_customize_partial_site_logo(  )",
+        "description": "Render the site logo for the selective refresh partial."
+	},
+		"ƒ: twentytwenty_customize_preview_init": {
+        "prefix": ["twentytwenty_customize_preview_init","tcpi"],
+        "body": "twentytwenty_customize_preview_init(  )",
+        "description": "Enqueue scripts for the customizer preview."
+	},
+		"ƒ: twentytwenty_edit_post_link": {
+        "prefix": ["twentytwenty_edit_post_link","tepl"],
+        "body": "twentytwenty_edit_post_link( ${1:\\$link:string}, ${2:\\$post_id:integer}, ${3:\\$text:string} )",
+        "description": "Filters the edit post link to add an icon and use the post meta structure."
+	},
+		"ƒ: twentytwenty_filter_comment_reply_link": {
+        "prefix": ["twentytwenty_filter_comment_reply_link","tfcrl"],
+        "body": "twentytwenty_filter_comment_reply_link( ${1:\\$link:string} )",
+        "description": "Filter comment reply link to not JS scroll."
+	},
+		"ƒ: twentytwenty_filter_wp_list_pages_item_classes": {
+        "prefix": ["twentytwenty_filter_wp_list_pages_item_classes","tfwlpic"],
+        "body": "twentytwenty_filter_wp_list_pages_item_classes( ${1:\\$css_class:array}, ${2:\\$item:string}, ${3:\\$depth:integer}, ${4:\\$args:array}, ${5:\\$current_page:string} )",
+        "description": "Filter Classes of wp_list_pages items to match menu items."
+	},
+		"ƒ: twentytwenty_generate_css": {
+        "prefix": ["twentytwenty_generate_css","tgc"],
+        "body": "twentytwenty_generate_css( ${1:\\$selector:string}, ${2:\\$style:string}, ${3:\\$value:string}, ${4:\\$prefix:string}, ${5:\\$suffix:string}, ${6:\\$echo:boolean} )",
+        "description": "Generate CSS."
+	},
+		"ƒ: twentytwenty_get_color_for_area": {
+        "prefix": ["twentytwenty_get_color_for_area","tgcfa"],
+        "body": "twentytwenty_get_color_for_area( ${1:\\$area:string}, ${2:\\$context:string} )",
+        "description": "Get accessible color for an area."
+	},
+		"ƒ: twentytwenty_get_custom_logo": {
+        "prefix": ["twentytwenty_get_custom_logo","tgcl"],
+        "body": "twentytwenty_get_custom_logo( ${1:\\$html:string} )",
+        "description": "Get the information about the logo."
+	},
+		"ƒ: twentytwenty_get_customizer_color_vars": {
+        "prefix": ["twentytwenty_get_customizer_color_vars","tgccv"],
+        "body": "twentytwenty_get_customizer_color_vars(  )",
+        "description": "Returns an array of variables for the customizer preview."
+	},
+		"ƒ: twentytwenty_get_customizer_css": {
+        "prefix": ["twentytwenty_get_customizer_css","tgcc"],
+        "body": "twentytwenty_get_customizer_css( ${1:\\$type:string} )",
+        "description": "Get CSS Built from Customizer Options."
+	},
+		"ƒ: twentytwenty_get_elements_array": {
+        "prefix": ["twentytwenty_get_elements_array","tgea"],
+        "body": "twentytwenty_get_elements_array(  )",
+        "description": "Get an array of elements."
+	},
+		"ƒ: twentytwenty_get_post_meta": {
+        "prefix": ["twentytwenty_get_post_meta","tgpm"],
+        "body": "twentytwenty_get_post_meta( ${1:\\$post_id:integer|null}, ${2:\\$location:string} )",
+        "description": "Get the post meta."
+	},
+		"ƒ: twentytwenty_get_starter_content": {
+        "prefix": ["twentytwenty_get_starter_content","tgsc"],
+        "body": "twentytwenty_get_starter_content(  )",
+        "description": "Function to return the array of starter content for the theme."
+	},
+		"ƒ: twentytwenty_get_the_archive_title": {
+        "prefix": ["twentytwenty_get_the_archive_title","tgtat"],
+        "body": "twentytwenty_get_the_archive_title( ${1:\\$title:string} )",
+        "description": "Filters the archive title and styles the word before the first colon."
+	},
+		"ƒ: twentytwenty_get_theme_svg": {
+        "prefix": ["twentytwenty_get_theme_svg","tgts"],
+        "body": "twentytwenty_get_theme_svg( ${1:\\$svg_name:string}, ${2:\\$group:string}, ${3:\\$color:string} )",
+        "description": "Get information about the SVG icon."
+	},
+		"ƒ: twentytwenty_is_comment_by_post_author": {
+        "prefix": ["twentytwenty_is_comment_by_post_author","ticbpa"],
+        "body": "twentytwenty_is_comment_by_post_author( ${1:\\$comment:object|null} )",
+        "description": "Check if the specified comment is written by the author of the post commented on."
+	},
+		"ƒ: twentytwenty_menus": {
+        "prefix": ["twentytwenty_menus","tm"],
+        "body": "twentytwenty_menus(  )",
+        "description": "Register navigation menus uses wp_nav_menu in five places."
+	},
+		"ƒ: twentytwenty_nav_menu_social_icons": {
+        "prefix": ["twentytwenty_nav_menu_social_icons","tnmsi"],
+        "body": "twentytwenty_nav_menu_social_icons( ${1:\\$item_output:string}, ${2:\\$item:WP_Post}, ${3:\\$depth:integer}, ${4:\\$args:array} )",
+        "description": "Display SVG icons in social links menu."
+	},
+		"ƒ: twentytwenty_no_js_class": {
+        "prefix": ["twentytwenty_no_js_class","tnjc"],
+        "body": "twentytwenty_no_js_class(  )",
+        "description": "Add No-JS Class."
+	},
+		"ƒ: twentytwenty_non_latin_languages": {
+        "prefix": ["twentytwenty_non_latin_languages","tnll"],
+        "body": "twentytwenty_non_latin_languages(  )",
+        "description": "Enqueue non-latin language styles"
+	},
+		"ƒ: twentytwenty_read_more_tag": {
+        "prefix": ["twentytwenty_read_more_tag","trmt"],
+        "body": "twentytwenty_read_more_tag( ${1:\\$html:string} )",
+        "description": "Overwrite default more tag with styling and screen reader markup."
+	},
+		"ƒ: twentytwenty_register_scripts": {
+        "prefix": ["twentytwenty_register_scripts","trs"],
+        "body": "twentytwenty_register_scripts(  )",
+        "description": "Register and Enqueue Scripts."
+	},
+		"ƒ: twentytwenty_register_styles": {
+        "prefix": ["twentytwenty_register_styles","trs"],
+        "body": "twentytwenty_register_styles(  )",
+        "description": "Register and Enqueue Styles."
+	},
+		"ƒ: twentytwenty_sidebar_registration": {
+        "prefix": ["twentytwenty_sidebar_registration","tsr"],
+        "body": "twentytwenty_sidebar_registration(  )",
+        "description": "Register widget areas."
+	},
+		"ƒ: twentytwenty_site_description": {
+        "prefix": ["twentytwenty_site_description","tsd"],
+        "body": "twentytwenty_site_description( ${1:\\$echo:boolean} )",
+        "description": "Displays the site description."
+	},
+		"ƒ: twentytwenty_site_logo": {
+        "prefix": ["twentytwenty_site_logo","tsl"],
+        "body": "twentytwenty_site_logo( ${1:\\$args:array}, ${2:\\$echo:boolean} )",
+        "description": "Displays the site logo, either text or image."
+	},
+		"ƒ: twentytwenty_skip_link": {
+        "prefix": ["twentytwenty_skip_link","tsl"],
+        "body": "twentytwenty_skip_link(  )",
+        "description": "Include a skip to content link at the top of the page so that users can bypass the menu."
+	},
+		"ƒ: twentytwenty_skip_link_focus_fix": {
+        "prefix": ["twentytwenty_skip_link_focus_fix","tslff"],
+        "body": "twentytwenty_skip_link_focus_fix(  )",
+        "description": "Fix skip link focus in IE11."
+	},
+		"ƒ: twentytwenty_the_post_meta": {
+        "prefix": ["twentytwenty_the_post_meta","ttpm"],
+        "body": "twentytwenty_the_post_meta( ${1:\\$post_id:integer|null}, ${2:\\$location:string} )",
+        "description": "Get and Output Post Meta."
+	},
+		"ƒ: twentytwenty_the_theme_svg": {
+        "prefix": ["twentytwenty_the_theme_svg","ttts"],
+        "body": "twentytwenty_the_theme_svg( ${1:\\$svg_name:string}, ${2:\\$group:string}, ${3:\\$color:string} )",
+        "description": "Output and Get Theme SVG."
+	},
+		"ƒ: twentytwenty_theme_support": {
+        "prefix": ["twentytwenty_theme_support","tts"],
+        "body": "twentytwenty_theme_support(  )",
+        "description": "Sets up theme defaults and registers support for various WordPress features."
+	},
+		"ƒ: twentytwenty_toggle_duration": {
+        "prefix": ["twentytwenty_toggle_duration","ttd"],
+        "body": "twentytwenty_toggle_duration(  )",
+        "description": "Toggle animation duration in milliseconds."
+	},
+		"ƒ: twentytwenty_unique_id": {
+        "prefix": ["twentytwenty_unique_id","tui"],
+        "body": "twentytwenty_unique_id( ${1:\\$prefix:string} )",
+        "description": "Get unique ID."
+	},
 		"ƒ: type_url_form_audio": {
         "prefix": ["type_url_form_audio","tufa"],
         "body": "type_url_form_audio(  )",
@@ -14743,7 +16523,7 @@
 		"ƒ: undismiss_core_update": {
         "prefix": ["undismiss_core_update","ucu"],
         "body": "undismiss_core_update( ${1:\\$version:string}, ${2:\\$locale:string} )",
-        "description": ""
+        "description": "Undismisses core update."
 	},
 		"ƒ: unescape_invalid_shortcodes": {
         "prefix": ["unescape_invalid_shortcodes","uis"],
@@ -14798,7 +16578,7 @@
 		"ƒ: unregister_setting": {
         "prefix": ["unregister_setting","us"],
         "body": "unregister_setting( ${1:\\$option_group:string}, ${2:\\$option_name:string}, ${3:\\$deprecated:callable} )",
-        "description": "Unregister a setting."
+        "description": "Unregisters a setting."
 	},
 		"ƒ: unregister_sidebar": {
         "prefix": ["unregister_sidebar","us"],
@@ -14918,17 +16698,17 @@
 		"ƒ: update_meta_cache": {
         "prefix": ["update_meta_cache","umc"],
         "body": "update_meta_cache( ${1:\\$meta_type:string}, ${2:\\$object_ids:string|array} )",
-        "description": "Update the metadata cache for the specified objects."
+        "description": "Updates the metadata cache for the specified objects."
 	},
 		"ƒ: update_metadata": {
         "prefix": ["update_metadata","um"],
         "body": "update_metadata( ${1:\\$meta_type:string}, ${2:\\$object_id:integer}, ${3:\\$meta_key:string}, ${4:\\$meta_value:mixed}, ${5:\\$prev_value:mixed} )",
-        "description": "Update metadata for the specified object. If no value already exists for the specified object ID and metadata key, the metadata will be added."
+        "description": "Updates metadata for the specified object. If no value already exists for the specified object ID and metadata key, the metadata will be added."
 	},
 		"ƒ: update_metadata_by_mid": {
         "prefix": ["update_metadata_by_mid","umbm"],
         "body": "update_metadata_by_mid( ${1:\\$meta_type:string}, ${2:\\$meta_id:integer}, ${3:\\$meta_value:string}, ${4:\\$meta_key:string} )",
-        "description": "Update meta data by meta ID"
+        "description": "Updates metadata by meta ID."
 	},
 		"ƒ: update_nag": {
         "prefix": ["update_nag","un"],
@@ -14943,7 +16723,7 @@
 		"ƒ: update_network_option": {
         "prefix": ["update_network_option","uno"],
         "body": "update_network_option( ${1:\\$network_id:integer}, ${2:\\$option:string}, ${3:\\$value:mixed} )",
-        "description": "Update the value of a network option that was already added."
+        "description": "Updates the value of a network option that was already added."
 	},
 		"ƒ: update_network_option_new_admin_email": {
         "prefix": ["update_network_option_new_admin_email","unonae"],
@@ -14958,7 +16738,7 @@
 		"ƒ: update_option": {
         "prefix": ["update_option","uo"],
         "body": "update_option( ${1:\\$option:string}, ${2:\\$value:mixed}, ${3:\\$autoload:string|boolean|null} )",
-        "description": "Update the value of an option that was already added."
+        "description": "Updates the value of an option that was already added."
 	},
 		"ƒ: update_option_new_admin_email": {
         "prefix": ["update_option_new_admin_email","uonae"],
@@ -15008,7 +16788,7 @@
 		"ƒ: update_right_now_message": {
         "prefix": ["update_right_now_message","urnm"],
         "body": "update_right_now_message(  )",
-        "description": ""
+        "description": "Displays WordPress version and active theme in the &#039;At a Glance&#039; dashboard widget."
 	},
 		"ƒ: update_site_cache": {
         "prefix": ["update_site_cache","usc"],
@@ -15023,7 +16803,7 @@
 		"ƒ: update_site_option": {
         "prefix": ["update_site_option","uso"],
         "body": "update_site_option( ${1:\\$option:string}, ${2:\\$value:mixed} )",
-        "description": "Update the value of an option that was already added for the current network."
+        "description": "Updates the value of an option that was already added for the current network."
 	},
 		"ƒ: update_sitemeta_cache": {
         "prefix": ["update_sitemeta_cache","usc"],
@@ -15137,7 +16917,7 @@
 	},
 		"ƒ: use_ssl_preference": {
         "prefix": ["use_ssl_preference","usp"],
-        "body": "use_ssl_preference( ${1:\\$user:object} )",
+        "body": "use_ssl_preference( ${1:\\$user:WP_User} )",
         "description": "Optional SSL preference that can be turned on by hooking to the &#039;personal_options&#039; action."
 	},
 		"ƒ: user_admin_url": {
@@ -15153,7 +16933,7 @@
 		"ƒ: user_can_access_admin_page": {
         "prefix": ["user_can_access_admin_page","ucaap"],
         "body": "user_can_access_admin_page(  )",
-        "description": ""
+        "description": "Determines whether the current user can access the current admin page."
 	},
 		"ƒ: user_can_create_draft": {
         "prefix": ["user_can_create_draft","uccd"],
@@ -15923,12 +17703,12 @@
 		"ƒ: wp_ajax_trash_post": {
         "prefix": ["wp_ajax_trash_post","watp"],
         "body": "wp_ajax_trash_post( ${1:\\$action:string} )",
-        "description": "Ajax handler for sending a post to the trash."
+        "description": "Ajax handler for sending a post to the Trash."
 	},
 		"ƒ: wp_ajax_untrash_post": {
         "prefix": ["wp_ajax_untrash_post","waup"],
         "body": "wp_ajax_untrash_post( ${1:\\$action:string} )",
-        "description": "Ajax handler to restore a post from the trash."
+        "description": "Ajax handler to restore a post from the Trash."
 	},
 		"ƒ: wp_ajax_update_plugin": {
         "prefix": ["wp_ajax_update_plugin","waup"],
@@ -16197,13 +17977,13 @@
 	},
 		"ƒ: wp_category_checklist": {
         "prefix": ["wp_category_checklist","wcc"],
-        "body": "wp_category_checklist( ${1:\\$post_id:integer}, ${2:\\$descendants_and_self:integer}, ${3:\\$selected_cats:array}, ${4:\\$popular_cats:array}, ${5:\\$walker:object|null}, ${6:\\$checked_ontop:boolean} )",
+        "body": "wp_category_checklist( ${1:\\$post_id:integer}, ${2:\\$descendants_and_self:integer}, ${3:\\$selected_cats:array}, ${4:\\$popular_cats:array}, ${5:\\$walker:Walker|null}, ${6:\\$checked_ontop:boolean} )",
         "description": "Output an unordered list of checkbox input elements labeled with category names."
 	},
 		"ƒ: wp_check_browser_version": {
         "prefix": ["wp_check_browser_version","wcbv"],
         "body": "wp_check_browser_version(  )",
-        "description": "Check if the user needs a browser update"
+        "description": "Checks if the user needs a browser update."
 	},
 		"ƒ: wp_check_comment_data_max_lengths": {
         "prefix": ["wp_check_comment_data_max_lengths","wccdml"],
@@ -16303,7 +18083,7 @@
 		"ƒ: wp_clean_plugins_cache": {
         "prefix": ["wp_clean_plugins_cache","wcpc"],
         "body": "wp_clean_plugins_cache( ${1:\\$clear_update_cache:boolean} )",
-        "description": "Clears the Plugins cache used by get_plugins() and by default, the Plugin Update cache."
+        "description": "Clears the plugins cache used by get_plugins() and by default, the plugin updates cache."
 	},
 		"ƒ: wp_clean_themes_cache": {
         "prefix": ["wp_clean_themes_cache","wctc"],
@@ -16343,7 +18123,7 @@
 		"ƒ: wp_comment_form_unfiltered_html_nonce": {
         "prefix": ["wp_comment_form_unfiltered_html_nonce","wcfuhn"],
         "body": "wp_comment_form_unfiltered_html_nonce(  )",
-        "description": "Display form token for unfiltered comments."
+        "description": "Displays form token for unfiltered comments."
 	},
 		"ƒ: wp_comment_reply": {
         "prefix": ["wp_comment_reply","wcr"],
@@ -16353,7 +18133,7 @@
 		"ƒ: wp_comment_trashnotice": {
         "prefix": ["wp_comment_trashnotice","wct"],
         "body": "wp_comment_trashnotice(  )",
-        "description": "Output &#039;undo move to trash&#039; text for comments"
+        "description": "Output &#039;undo move to Trash&#039; text for comments"
 	},
 		"ƒ: wp_comments_personal_data_eraser": {
         "prefix": ["wp_comments_personal_data_eraser","wcpde"],
@@ -16393,7 +18173,7 @@
 		"ƒ: wp_cookie_constants": {
         "prefix": ["wp_cookie_constants","wcc"],
         "body": "wp_cookie_constants(  )",
-        "description": "Defines cookie related WordPress constants"
+        "description": "Defines cookie-related WordPress constants."
 	},
 		"ƒ: wp_count_attachments": {
         "prefix": ["wp_count_attachments","wca"],
@@ -16447,7 +18227,7 @@
 	},
 		"ƒ: wp_create_post_autosave": {
         "prefix": ["wp_create_post_autosave","wcpa"],
-        "body": "wp_create_post_autosave( ${1:\\$post_data:mixed} )",
+        "body": "wp_create_post_autosave( ${1:\\$post_data:array|integer} )",
         "description": "Creates autosave data for the specified post from $_POST data."
 	},
 		"ƒ: wp_create_tag": {
@@ -16483,12 +18263,12 @@
 		"ƒ: wp_credits_section_list": {
         "prefix": ["wp_credits_section_list","wcsl"],
         "body": "wp_credits_section_list( ${1:\\$credits:array}, ${2:\\$slug:string} )",
-        "description": "Display a list of contributors for a given group."
+        "description": "Displays a list of contributors for a given group."
 	},
 		"ƒ: wp_credits_section_title": {
         "prefix": ["wp_credits_section_title","wcst"],
         "body": "wp_credits_section_title( ${1:\\$group_data:array} )",
-        "description": "Display a the title for a given group of contributors."
+        "description": "Displays the title for a given group of contributors."
 	},
 		"ƒ: wp_cron": {
         "prefix": ["wp_cron","wc"],
@@ -16523,7 +18303,7 @@
 		"ƒ: wp_dashboard_browser_nag": {
         "prefix": ["wp_dashboard_browser_nag","wdbn"],
         "body": "wp_dashboard_browser_nag(  )",
-        "description": ""
+        "description": "Displays the browser update nag."
 	},
 		"ƒ: wp_dashboard_cached_rss_widget": {
         "prefix": ["wp_dashboard_cached_rss_widget","wdcrw"],
@@ -16583,7 +18363,7 @@
 		"ƒ: wp_dashboard_primary_output": {
         "prefix": ["wp_dashboard_primary_output","wdpo"],
         "body": "wp_dashboard_primary_output( ${1:\\$widget_id:string}, ${2:\\$feeds:array} )",
-        "description": "Display the WordPress events and news feeds."
+        "description": "Displays the WordPress events and news feeds."
 	},
 		"ƒ: wp_dashboard_quick_press": {
         "prefix": ["wp_dashboard_quick_press","wdqp"],
@@ -16598,7 +18378,7 @@
 		"ƒ: wp_dashboard_quota": {
         "prefix": ["wp_dashboard_quota","wdq"],
         "body": "wp_dashboard_quota(  )",
-        "description": "Display file upload quota on dashboard."
+        "description": "Displays file upload quota on dashboard."
 	},
 		"ƒ: wp_dashboard_recent_comments": {
         "prefix": ["wp_dashboard_recent_comments","wdrc"],
@@ -16659,6 +18439,11 @@
         "prefix": ["wp_dashboard_site_activity","wdsa"],
         "body": "wp_dashboard_site_activity(  )",
         "description": "Callback function for Activity widget."
+	},
+		"ƒ: wp_dashboard_site_health": {
+        "prefix": ["wp_dashboard_site_health","wdsh"],
+        "body": "wp_dashboard_site_health(  )",
+        "description": "Displays the Site Health Status widget."
 	},
 		"ƒ: wp_dashboard_trigger_widget_control": {
         "prefix": ["wp_dashboard_trigger_widget_control","wdtwc"],
@@ -17048,7 +18833,7 @@
 		"ƒ: WP_Filesystem": {
         "prefix": ["WP_Filesystem","WF"],
         "body": "WP_Filesystem( ${1:\\$args:array|false}, ${2:\\$context:string|false}, ${3:\\$allow_relaxed_file_ownership:boolean} )",
-        "description": "Initialises and connects the WordPress Filesystem Abstraction classes."
+        "description": "Initializes and connects the WordPress Filesystem Abstraction classes."
 	},
 		"ƒ: wp_filter_comment": {
         "prefix": ["wp_filter_comment","wfc"],
@@ -17118,7 +18903,7 @@
 		"ƒ: wp_functionality_constants": {
         "prefix": ["wp_functionality_constants","wfc"],
         "body": "wp_functionality_constants(  )",
-        "description": "Defines functionality related WordPress constants"
+        "description": "Defines functionality-related WordPress constants."
 	},
 		"ƒ: wp_fuzzy_number_match": {
         "prefix": ["wp_fuzzy_number_match","wfnm"],
@@ -17218,7 +19003,7 @@
 		"ƒ: wp_get_attachment_image_src": {
         "prefix": ["wp_get_attachment_image_src","wgais"],
         "body": "wp_get_attachment_image_src( ${1:\\$attachment_id:integer}, ${2:\\$size:string|array}, ${3:\\$icon:boolean} )",
-        "description": "Retrieve an image to represent an attachment."
+        "description": "Retrieves an image to represent an attachment."
 	},
 		"ƒ: wp_get_attachment_image_srcset": {
         "prefix": ["wp_get_attachment_image_srcset","wgais"],
@@ -17258,7 +19043,7 @@
 		"ƒ: wp_get_audio_extensions": {
         "prefix": ["wp_get_audio_extensions","wgae"],
         "body": "wp_get_audio_extensions(  )",
-        "description": "Returns a filtered list of WP-supported audio formats."
+        "description": "Returns a filtered list of supported audio formats."
 	},
 		"ƒ: wp_get_available_translations": {
         "prefix": ["wp_get_available_translations","wgat"],
@@ -17368,7 +19153,7 @@
 		"ƒ: wp_get_link_cats": {
         "prefix": ["wp_get_link_cats","wglc"],
         "body": "wp_get_link_cats( ${1:\\$link_id:integer} )",
-        "description": "Retrieves the link categories associated with the link specified."
+        "description": "Retrieves the link category IDs associated with the link specified."
 	},
 		"ƒ: wp_get_links": {
         "prefix": ["wp_get_links","wgl"],
@@ -17437,7 +19222,7 @@
 	},
 		"ƒ: wp_get_original_image_path": {
         "prefix": ["wp_get_original_image_path","wgoip"],
-        "body": "wp_get_original_image_path( ${1:\\$attachment_id:integer} )",
+        "body": "wp_get_original_image_path( ${1:\\$attachment_id:integer}, ${2:\\$unfiltered:boolean} )",
         "description": "Retrieves the path to an uploaded image file."
 	},
 		"ƒ: wp_get_original_image_url": {
@@ -17542,7 +19327,7 @@
 	},
 		"ƒ: wp_get_revision_ui_diff": {
         "prefix": ["wp_get_revision_ui_diff","wgrud"],
-        "body": "wp_get_revision_ui_diff( ${1:\\$post:object|integer}, ${2:\\$compare_from:integer}, ${3:\\$compare_to:integer} )",
+        "body": "wp_get_revision_ui_diff( ${1:\\$post:WP_Post|integer}, ${2:\\$compare_from:integer}, ${3:\\$compare_to:integer} )",
         "description": "Get the revision UI diff."
 	},
 		"ƒ: wp_get_schedule": {
@@ -17665,10 +19450,15 @@
         "body": "wp_get_user_contact_methods( ${1:\\$user:WP_User|null} )",
         "description": "Set up the user contact methods."
 	},
+		"ƒ: wp_get_user_request": {
+        "prefix": ["wp_get_user_request","wgur"],
+        "body": "wp_get_user_request( ${1:\\$request_id:integer} )",
+        "description": "Return the user request object for the specified request ID."
+	},
 		"ƒ: wp_get_user_request_data": {
         "prefix": ["wp_get_user_request_data","wgurd"],
         "body": "wp_get_user_request_data( ${1:\\$request_id:integer} )",
-        "description": "Return data about a user request."
+        "description": "Return the user request object for the specified request ID."
 	},
 		"ƒ: wp_get_users_with_no_role": {
         "prefix": ["wp_get_users_with_no_role","wguwnr"],
@@ -17678,7 +19468,7 @@
 		"ƒ: wp_get_video_extensions": {
         "prefix": ["wp_get_video_extensions","wgve"],
         "body": "wp_get_video_extensions(  )",
-        "description": "Returns a filtered list of WP-supported video formats."
+        "description": "Returns a filtered list of supported video formats."
 	},
 		"ƒ: wp_get_widget_defaults": {
         "prefix": ["wp_get_widget_defaults","wgwd"],
@@ -17813,7 +19603,7 @@
 		"ƒ: wp_initial_constants": {
         "prefix": ["wp_initial_constants","wic"],
         "body": "wp_initial_constants(  )",
-        "description": "Defines initial WordPress constants"
+        "description": "Defines initial WordPress constants."
 	},
 		"ƒ: wp_initial_nav_menu_meta_boxes": {
         "prefix": ["wp_initial_nav_menu_meta_boxes","winmmb"],
@@ -18108,7 +19898,7 @@
 		"ƒ: wp_kses_uri_attributes": {
         "prefix": ["wp_kses_uri_attributes","wkua"],
         "body": "wp_kses_uri_attributes(  )",
-        "description": "Helper function listing HTML attributes containing a URL."
+        "description": "Returns an array of HTML attribute names whose value contains a URL."
 	},
 		"ƒ: wp_kses_version": {
         "prefix": ["wp_kses_version","wkv"],
@@ -18158,7 +19948,7 @@
 		"ƒ: wp_list_comments": {
         "prefix": ["wp_list_comments","wlc"],
         "body": "wp_list_comments( ${1:\\$args:string|array}, ${2:\\$comments:array|null} )",
-        "description": "List comments."
+        "description": "Displays a list of comments."
 	},
 		"ƒ: wp_list_filter": {
         "prefix": ["wp_list_filter","wlf"],
@@ -18202,7 +19992,7 @@
 	},
 		"ƒ: wp_load_alloptions": {
         "prefix": ["wp_load_alloptions","wla"],
-        "body": "wp_load_alloptions(  )",
+        "body": "wp_load_alloptions( ${1:\\$force_cache:boolean} )",
         "description": "Loads and caches all autoloaded options, if available or all options."
 	},
 		"ƒ: wp_load_core_site_options": {
@@ -18347,7 +20137,7 @@
 	},
 		"ƒ: wp_maybe_decline_date": {
         "prefix": ["wp_maybe_decline_date","wmdd"],
-        "body": "wp_maybe_decline_date( ${1:\\$date:string} )",
+        "body": "wp_maybe_decline_date( ${1:\\$date:string}, ${2:\\$format:string} )",
         "description": "Determines if the date should be declined."
 	},
 		"ƒ: wp_maybe_generate_attachment_metadata": {
@@ -18438,7 +20228,7 @@
 		"ƒ: wp_mime_type_icon": {
         "prefix": ["wp_mime_type_icon","wmti"],
         "body": "wp_mime_type_icon( ${1:\\$mime:string|integer} )",
-        "description": "Retrieve the icon for a MIME type."
+        "description": "Retrieve the icon for a MIME type or attachment."
 	},
 		"ƒ: wp_mkdir_p": {
         "prefix": ["wp_mkdir_p","wmp"],
@@ -18452,8 +20242,8 @@
 	},
 		"ƒ: wp_nav_menu_disabled_check": {
         "prefix": ["wp_nav_menu_disabled_check","wnmdc"],
-        "body": "wp_nav_menu_disabled_check( ${1:\\$nav_menu_selected_id:integer|string} )",
-        "description": "Check whether to disable the Menu Locations meta box submit button"
+        "body": "wp_nav_menu_disabled_check( ${1:\\$nav_menu_selected_id:integer|string}, ${2:\\$echo:boolean} )",
+        "description": "Check whether to disable the Menu Locations meta box submit button and inputs."
 	},
 		"ƒ: wp_nav_menu_item_link_meta_box": {
         "prefix": ["wp_nav_menu_item_link_meta_box","wnmilmb"],
@@ -18718,7 +20508,7 @@
 		"ƒ: wp_plugin_directory_constants": {
         "prefix": ["wp_plugin_directory_constants","wpdc"],
         "body": "wp_plugin_directory_constants(  )",
-        "description": "Defines plugin directory WordPress constants"
+        "description": "Defines plugin directory WordPress constants."
 	},
 		"ƒ: wp_plugin_update_row": {
         "prefix": ["wp_plugin_update_row","wpur"],
@@ -18760,6 +20550,11 @@
         "body": "wp_post_revision_title_expanded( ${1:\\$revision:integer|object}, ${2:\\$link:boolean} )",
         "description": "Retrieve formatted date timestamp of a revision (linked to that revisions&#039;s page)."
 	},
+		"ƒ: wp_pre_kses_block_attributes": {
+        "prefix": ["wp_pre_kses_block_attributes","wpkba"],
+        "body": "wp_pre_kses_block_attributes( ${1:\\$string:string}, ${2:\\$allowed_html:array|string}, ${3:\\$allowed_protocols:array} )",
+        "description": "Remove non-allowable HTML from parsed block attribute values when filtering in the post context."
+	},
 		"ƒ: wp_pre_kses_less_than": {
         "prefix": ["wp_pre_kses_less_than","wpklt"],
         "body": "wp_pre_kses_less_than( ${1:\\$text:string} )",
@@ -18782,7 +20577,7 @@
 	},
 		"ƒ: wp_prepare_revisions_for_js": {
         "prefix": ["wp_prepare_revisions_for_js","wprfj"],
-        "body": "wp_prepare_revisions_for_js( ${1:\\$post:object|integer}, ${2:\\$selected_revision_id:integer}, ${3:\\$from:integer|null} )",
+        "body": "wp_prepare_revisions_for_js( ${1:\\$post:WP_Post|integer}, ${2:\\$selected_revision_id:integer}, ${3:\\$from:integer|null} )",
         "description": "Prepare revisions for JavaScript."
 	},
 		"ƒ: wp_prepare_site_data": {
@@ -18902,7 +20697,7 @@
 	},
 		"ƒ: wp_privacy_generate_personal_data_export_group_html": {
         "prefix": ["wp_privacy_generate_personal_data_export_group_html","wpgpdegh"],
-        "body": "wp_privacy_generate_personal_data_export_group_html( ${1:\\$group_data:array} )",
+        "body": "wp_privacy_generate_personal_data_export_group_html( ${1:\\$group_data:array}, ${2:\\$group_id:string}, ${3:\\$groups_count:integer} )",
         "description": "Generate a single group for the personal data export report."
 	},
 		"ƒ: wp_privacy_process_personal_data_erasure_page": {
@@ -18923,7 +20718,7 @@
 		"ƒ: wp_protect_special_option": {
         "prefix": ["wp_protect_special_option","wpso"],
         "body": "wp_protect_special_option( ${1:\\$option:string} )",
-        "description": "Protect WordPress special option from being modified."
+        "description": "Protects WordPress special option from being modified."
 	},
 		"ƒ: wp_prototype_before_jquery": {
         "prefix": ["wp_prototype_before_jquery","wpbj"],
@@ -19038,7 +20833,7 @@
 		"ƒ: wp_register_media_personal_data_exporter": {
         "prefix": ["wp_register_media_personal_data_exporter","wrmpde"],
         "body": "wp_register_media_personal_data_exporter( ${1:\\$exporters:array} )",
-        "description": "Registers the personal data exporter for media"
+        "description": "Registers the personal data exporter for media."
 	},
 		"ƒ: wp_register_plugin_realpath": {
         "prefix": ["wp_register_plugin_realpath","wrpr"],
@@ -19293,7 +21088,7 @@
 		"ƒ: wp_save_image": {
         "prefix": ["wp_save_image","wsi"],
         "body": "wp_save_image( ${1:\\$post_id:integer} )",
-        "description": "Saves image to post along with enqueued changes in $_REQUEST[&#039;history&#039;]"
+        "description": "Saves image to post, along with enqueued changes in `$_REQUEST[&#039;history&#039;]`."
 	},
 		"ƒ: wp_save_image_file": {
         "prefix": ["wp_save_image_file","wsif"],
@@ -19393,11 +21188,11 @@
 		"ƒ: wp_set_all_user_settings": {
         "prefix": ["wp_set_all_user_settings","wsaus"],
         "body": "wp_set_all_user_settings( ${1:\\$user_settings:array} )",
-        "description": "Private. Set all user interface settings."
+        "description": "Private. Sets all user interface settings."
 	},
 		"ƒ: wp_set_auth_cookie": {
         "prefix": ["wp_set_auth_cookie","wsac"],
-        "body": "wp_set_auth_cookie( ${1:\\$user_id:integer}, ${2:\\$remember:boolean}, ${3:\\$secure:mixed}, ${4:\\$token:string} )",
+        "body": "wp_set_auth_cookie( ${1:\\$user_id:integer}, ${2:\\$remember:boolean}, ${3:\\$secure:boolean|string}, ${4:\\$token:string} )",
         "description": "Sets the authentication cookies based on user ID."
 	},
 		"ƒ: wp_set_comment_cookies": {
@@ -19683,7 +21478,7 @@
 		"ƒ: wp_templating_constants": {
         "prefix": ["wp_templating_constants","wtc"],
         "body": "wp_templating_constants(  )",
-        "description": "Defines templating related WordPress constants"
+        "description": "Defines templating-related WordPress constants."
 	},
 		"ƒ: wp_tempnam": {
         "prefix": ["wp_tempnam","wt"],
@@ -19767,7 +21562,7 @@
 	},
 		"ƒ: wp_transition_comment_status": {
         "prefix": ["wp_transition_comment_status","wtcs"],
-        "body": "wp_transition_comment_status( ${1:\\$new_status:string}, ${2:\\$old_status:string}, ${3:\\$comment:object} )",
+        "body": "wp_transition_comment_status( ${1:\\$new_status:string}, ${2:\\$old_status:string}, ${3:\\$comment:WP_Comment} )",
         "description": "Call hooks for when a comment status transition occurs."
 	},
 		"ƒ: wp_transition_post_status": {
@@ -19788,7 +21583,7 @@
 		"ƒ: wp_trash_post_comments": {
         "prefix": ["wp_trash_post_comments","wtpc"],
         "body": "wp_trash_post_comments( ${1:\\$post:integer|WP_Post|null} )",
-        "description": "Moves comments for a post to the trash."
+        "description": "Moves comments for a post to the Trash."
 	},
 		"ƒ: wp_trim_excerpt": {
         "prefix": ["wp_trim_excerpt","wte"],
@@ -19893,7 +21688,7 @@
 		"ƒ: wp_untrash_post_comments": {
         "prefix": ["wp_untrash_post_comments","wupc"],
         "body": "wp_untrash_post_comments( ${1:\\$post:integer|WP_Post|null} )",
-        "description": "Restore comments for a post from the trash."
+        "description": "Restore comments for a post from the Trash."
 	},
 		"ƒ: wp_update_attachment_metadata": {
         "prefix": ["wp_update_attachment_metadata","wuam"],
@@ -20032,7 +21827,7 @@
 	},
 		"ƒ: wp_upload_bits": {
         "prefix": ["wp_upload_bits","wub"],
-        "body": "wp_upload_bits( ${1:\\$name:string}, ${2:\\$deprecated:null|string}, ${3:\\$bits:mixed}, ${4:\\$time:string|null} )",
+        "body": "wp_upload_bits( ${1:\\$name:string}, ${2:\\$deprecated:null|string}, ${3:\\$bits:string}, ${4:\\$time:string|null} )",
         "description": "Create a file in the upload folder with given content."
 	},
 		"ƒ: wp_upload_dir": {
@@ -20283,7 +22078,7 @@
 		"ƒ: wptexturize": {
         "prefix": ["wptexturize"],
         "body": "wptexturize( ${1:\\$text:string}, ${2:\\$reset:boolean} )",
-        "description": "Replaces common plain text characters into formatted entities"
+        "description": "Replaces common plain text characters with formatted entities."
 	},
 		"ƒ: wptexturize_primes": {
         "prefix": ["wptexturize_primes","wp"],
