@@ -29,7 +29,6 @@
         "url": "https://github.com/jason-pomerleau/vscode-wordpress-toolbox"
     },
     "bugs": {
-        "url": "https://github.com/jason-pomerleau/vscode-wordpress-toolbox/issues",
         "email": "jason@jasonpomerleau.com"
     },
     "dependencies": {

@@ -2,7 +2,7 @@
 
 ## [1.3.8] - 2020-08-12
 ### Updated
-- Updated snippets to WordPress 5.4 release.
+- Updated snippets to WordPress 5.5 release.
 
 ## [1.3.7] - 2020-04-02
 ### Updated
