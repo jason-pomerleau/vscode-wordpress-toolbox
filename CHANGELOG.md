@@ -1,5 +1,9 @@
 # Change Log
 
+## [1.3.9] - 2020-12-21
+### Updated
+- Updated snippets to WordPress 5.6 release.
+
 ## [1.3.8] - 2020-08-12
 ### Updated
 - Updated snippets to WordPress 5.5 release.
