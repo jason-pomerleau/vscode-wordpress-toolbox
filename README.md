@@ -5,8 +5,8 @@ By [wpdevtools.io](https://www.wpdevtools.io/)
 *	Snippets for every WordPress function, class and constant.
 *	Easy auto-completion with type hints and tab stops in all the right places.
 *	Emmet-style abbreviations for all functions. For example, type `gti` for the `get_the_ID` function. (2 letter minimum)
-*	WordPress Release: **5.6**
-	-	**3,266** Functions
+*	WordPress Release: **5.7**
+	-	**3,318** Functions
 	-	**477** Classes
 	-	**601** Constants
 *	[Extension Docs](https://www.wpdevtools.io/tools/vscode-snippets/)
