@@ -514,6 +514,11 @@
         "body": "ParagonIE_Sodium_Core_Poly1305_State",
         "description": "Class ParagonIE_Sodium_Core_Poly1305_State"
     },
+    "Class: ParagonIE_Sodium_Core_Ristretto255": {
+        "prefix": "ParagonIE_Sodium_Core_Ristretto255",
+        "body": "ParagonIE_Sodium_Core_Ristretto255",
+        "description": "Class ParagonIE_Sodium_Core_Ristretto255"
+    },
     "Class: ParagonIE_Sodium_Core_Salsa20": {
         "prefix": "ParagonIE_Sodium_Core_Salsa20",
         "body": "ParagonIE_Sodium_Core_Salsa20",
@@ -1289,6 +1294,11 @@
         "body": "WP_Block",
         "description": "Class representing a parsed instance of a block."
     },
+    "Class: WP_Block_Editor_Context": {
+        "prefix": "WP_Block_Editor_Context",
+        "body": "WP_Block_Editor_Context",
+        "description": "Class representing a current block editor context."
+    },
     "Class: WP_Block_List": {
         "prefix": "WP_Block_List",
         "body": "WP_Block_List",
@@ -1328,6 +1338,11 @@
         "prefix": "WP_Block_Supports",
         "body": "WP_Block_Supports",
         "description": "Class encapsulating and implementing Block Supports."
+    },
+    "Class: WP_Block_Template": {
+        "prefix": "WP_Block_Template",
+        "body": "WP_Block_Template",
+        "description": "Class representing a block template."
     },
     "Class: WP_Block_Type": {
         "prefix": "WP_Block_Type",
@@ -1949,6 +1964,11 @@
         "body": "WP_REST_Meta_Fields",
         "description": "Core class to manage meta values for an object via the REST API."
     },
+    "Class: WP_REST_Pattern_Directory_Controller": {
+        "prefix": "WP_REST_Pattern_Directory_Controller",
+        "body": "WP_REST_Pattern_Directory_Controller",
+        "description": "Controller which provides REST endpoint for block patterns."
+    },
     "Class: WP_REST_Plugins_Controller": {
         "prefix": "WP_REST_Plugins_Controller",
         "body": "WP_REST_Plugins_Controller",
@@ -2019,6 +2039,11 @@
         "body": "WP_REST_Settings_Controller",
         "description": "Core class used to manage a site&#039;s settings via the REST API."
     },
+    "Class: WP_REST_Sidebars_Controller": {
+        "prefix": "WP_REST_Sidebars_Controller",
+        "body": "WP_REST_Sidebars_Controller",
+        "description": "Core class used to manage a site&#039;s sidebars."
+    },
     "Class: WP_REST_Site_Health_Controller": {
         "prefix": "WP_REST_Site_Health_Controller",
         "body": "WP_REST_Site_Health_Controller",
@@ -2028,6 +2053,11 @@
         "prefix": "WP_REST_Taxonomies_Controller",
         "body": "WP_REST_Taxonomies_Controller",
         "description": "Core class used to manage taxonomies via the REST API."
+    },
+    "Class: WP_REST_Templates_Controller": {
+        "prefix": "WP_REST_Templates_Controller",
+        "body": "WP_REST_Templates_Controller",
+        "description": "Base Templates REST API Controller."
     },
     "Class: WP_REST_Term_Meta_Fields": {
         "prefix": "WP_REST_Term_Meta_Fields",
@@ -2059,6 +2089,16 @@
         "body": "WP_REST_Users_Controller",
         "description": "Core class used to manage users via the REST API."
     },
+    "Class: WP_REST_Widget_Types_Controller": {
+        "prefix": "WP_REST_Widget_Types_Controller",
+        "body": "WP_REST_Widget_Types_Controller",
+        "description": "Core class to access widget types via the REST API."
+    },
+    "Class: WP_REST_Widgets_Controller": {
+        "prefix": "WP_REST_Widgets_Controller",
+        "body": "WP_REST_Widgets_Controller",
+        "description": "Core class to access widgets via the REST API."
+    },
     "Class: WP_Rewrite": {
         "prefix": "WP_Rewrite",
         "body": "WP_Rewrite",
@@ -2088,6 +2128,11 @@
         "prefix": "WP_Session_Tokens",
         "body": "WP_Session_Tokens",
         "description": "Abstract class for managing user session tokens."
+    },
+    "Class: WP_Sidebar_Block_Editor_Control": {
+        "prefix": "WP_Sidebar_Block_Editor_Control",
+        "body": "WP_Sidebar_Block_Editor_Control",
+        "description": "Core class used to implement the widgets block editor control in the customizer."
     },
     "Class: WP_SimplePie_File": {
         "prefix": "WP_SimplePie_File",
@@ -2219,6 +2264,16 @@
         "body": "WP_Theme_Install_List_Table",
         "description": "Core class used to implement displaying themes to install in a list table."
     },
+    "Class: WP_Theme_JSON": {
+        "prefix": "WP_Theme_JSON",
+        "body": "WP_Theme_JSON",
+        "description": "Class that encapsulates the processing of structures that adhere to the theme.json spec."
+    },
+    "Class: WP_Theme_JSON_Resolver": {
+        "prefix": "WP_Theme_JSON_Resolver",
+        "body": "WP_Theme_JSON_Resolver",
+        "description": "Class that abstracts the processing of the different data sources for site-level config and offers an API to work with them."
+    },
     "Class: WP_Themes_List_Table": {
         "prefix": "WP_Themes_List_Table",
         "body": "WP_Themes_List_Table",
@@ -2278,6 +2333,11 @@
         "prefix": "WP_Widget_Area_Customize_Control",
         "body": "WP_Widget_Area_Customize_Control",
         "description": "Widget Area Customize Control class."
+    },
+    "Class: WP_Widget_Block": {
+        "prefix": "WP_Widget_Block",
+        "body": "WP_Widget_Block",
+        "description": "Core class used to implement a Block widget."
     },
     "Class: WP_Widget_Calendar": {
         "prefix": "WP_Widget_Calendar",
@@ -2487,37 +2547,37 @@
 	"Constant: DB_CHARSET": {
         "prefix": "DB_CHARSET",
         "body": "DB_CHARSET",
-        "description": "Database Charset to use in creating database tables."
+        "description": "Database charset to use in creating database tables."
     },
 	"Constant: DB_COLLATE": {
         "prefix": "DB_COLLATE",
         "body": "DB_COLLATE",
-        "description": "The Database Collate type. Don&#039;t change this if in doubt."
+        "description": "The database collate type. Don&#039;t change this if in doubt."
     },
 	"Constant: DB_HOST": {
         "prefix": "DB_HOST",
         "body": "DB_HOST",
-        "description": "MySQL hostname"
+        "description": ""
     },
 	"Constant: DB_NAME": {
         "prefix": "DB_NAME",
         "body": "DB_NAME",
-        "description": ""
+        "description": "The name of the database for WordPress"
     },
 	"Constant: DB_PASSWORD": {
         "prefix": "DB_PASSWORD",
         "body": "DB_PASSWORD",
-        "description": ""
+        "description": "MySQL database password"
     },
 	"Constant: DB_USER": {
         "prefix": "DB_USER",
         "body": "DB_USER",
-        "description": ""
+        "description": "MySQL database username"
     },
 	"Constant: DOING_AJAX": {
         "prefix": "DOING_AJAX",
         "body": "DOING_AJAX",
-        "description": "Executing Ajax process."
+        "description": ""
     },
 	"Constant: DOING_AUTOSAVE": {
         "prefix": "DOING_AUTOSAVE",
@@ -3784,15 +3844,25 @@
         "body": "IFRAME_REQUEST",
         "description": ""
     },
+	"Constant: IMAGETYPE_WEBP": {
+        "prefix": "IMAGETYPE_WEBP",
+        "body": "IMAGETYPE_WEBP",
+        "description": ""
+    },
 	"Constant: IMG_JPG": {
         "prefix": "IMG_JPG",
         "body": "IMG_JPG",
         "description": ""
     },
+	"Constant: IMG_WEBP": {
+        "prefix": "IMG_WEBP",
+        "body": "IMG_WEBP",
+        "description": ""
+    },
 	"Constant: IS_PROFILE_PAGE": {
         "prefix": "IS_PROFILE_PAGE",
         "body": "IS_PROFILE_PAGE",
-        "description": ""
+        "description": "This is a profile page."
     },
 	"Constant: KB_IN_BYTES": {
         "prefix": "KB_IN_BYTES",
@@ -3909,14 +3979,14 @@
         "body": "NONCE_SALT",
         "description": ""
     },
-	"Constant: OBJECT": {
-        "prefix": "OBJECT",
-        "body": "OBJECT",
-        "description": ""
-    },
 	"Constant: object": {
         "prefix": "object",
         "body": "object",
+        "description": ""
+    },
+	"Constant: OBJECT": {
+        "prefix": "OBJECT",
+        "body": "OBJECT",
         "description": ""
     },
 	"Constant: OBJECT_K": {
@@ -4729,6 +4799,11 @@
         "body": "SODIUM_BASE64_VARIANT_URLSAFE_NO_PADDING",
         "description": ""
     },
+	"Constant: SODIUM_COMPAT_POLYFILLED_RISTRETTO255": {
+        "prefix": "SODIUM_COMPAT_POLYFILLED_RISTRETTO255",
+        "body": "SODIUM_COMPAT_POLYFILLED_RISTRETTO255",
+        "description": ""
+    },
 	"Constant: SODIUM_CRYPTO_AEAD_AES256GCM_ABYTES": {
         "prefix": "SODIUM_CRYPTO_AEAD_AES256GCM_ABYTES",
         "body": "SODIUM_CRYPTO_AEAD_AES256GCM_ABYTES",
@@ -4852,6 +4927,26 @@
 	"Constant: SODIUM_CRYPTO_BOX_SEEDBYTES": {
         "prefix": "SODIUM_CRYPTO_BOX_SEEDBYTES",
         "body": "SODIUM_CRYPTO_BOX_SEEDBYTES",
+        "description": ""
+    },
+	"Constant: SODIUM_CRYPTO_CORE_RISTRETTO255_BYTES": {
+        "prefix": "SODIUM_CRYPTO_CORE_RISTRETTO255_BYTES",
+        "body": "SODIUM_CRYPTO_CORE_RISTRETTO255_BYTES",
+        "description": ""
+    },
+	"Constant: SODIUM_CRYPTO_CORE_RISTRETTO255_HASHBYTES": {
+        "prefix": "SODIUM_CRYPTO_CORE_RISTRETTO255_HASHBYTES",
+        "body": "SODIUM_CRYPTO_CORE_RISTRETTO255_HASHBYTES",
+        "description": ""
+    },
+	"Constant: SODIUM_CRYPTO_CORE_RISTRETTO255_NONREDUCEDSCALARBYTES": {
+        "prefix": "SODIUM_CRYPTO_CORE_RISTRETTO255_NONREDUCEDSCALARBYTES",
+        "body": "SODIUM_CRYPTO_CORE_RISTRETTO255_NONREDUCEDSCALARBYTES",
+        "description": ""
+    },
+	"Constant: SODIUM_CRYPTO_CORE_RISTRETTO255_SCALARBYTES": {
+        "prefix": "SODIUM_CRYPTO_CORE_RISTRETTO255_SCALARBYTES",
+        "body": "SODIUM_CRYPTO_CORE_RISTRETTO255_SCALARBYTES",
         "description": ""
     },
 	"Constant: SODIUM_CRYPTO_GENERICHASH_BYTES": {
@@ -5024,6 +5119,16 @@
         "body": "SODIUM_CRYPTO_SCALARMULT_BYTES",
         "description": ""
     },
+	"Constant: SODIUM_CRYPTO_SCALARMULT_RISTRETTO255_BYTES": {
+        "prefix": "SODIUM_CRYPTO_SCALARMULT_RISTRETTO255_BYTES",
+        "body": "SODIUM_CRYPTO_SCALARMULT_RISTRETTO255_BYTES",
+        "description": ""
+    },
+	"Constant: SODIUM_CRYPTO_SCALARMULT_RISTRETTO255_SCALARBYTES": {
+        "prefix": "SODIUM_CRYPTO_SCALARMULT_RISTRETTO255_SCALARBYTES",
+        "body": "SODIUM_CRYPTO_SCALARMULT_RISTRETTO255_SCALARBYTES",
+        "description": ""
+    },
 	"Constant: SODIUM_CRYPTO_SCALARMULT_SCALARBYTES": {
         "prefix": "SODIUM_CRYPTO_SCALARMULT_SCALARBYTES",
         "body": "SODIUM_CRYPTO_SCALARMULT_SCALARBYTES",
@@ -5127,6 +5232,16 @@
 	"Constant: SODIUM_CRYPTO_STREAM_NONCEBYTES": {
         "prefix": "SODIUM_CRYPTO_STREAM_NONCEBYTES",
         "body": "SODIUM_CRYPTO_STREAM_NONCEBYTES",
+        "description": ""
+    },
+	"Constant: SODIUM_CRYPTO_STREAM_XCHACHA20_KEYBYTES": {
+        "prefix": "SODIUM_CRYPTO_STREAM_XCHACHA20_KEYBYTES",
+        "body": "SODIUM_CRYPTO_STREAM_XCHACHA20_KEYBYTES",
+        "description": ""
+    },
+	"Constant: SODIUM_CRYPTO_STREAM_XCHACHA20_NONCEBYTES": {
+        "prefix": "SODIUM_CRYPTO_STREAM_XCHACHA20_NONCEBYTES",
+        "body": "SODIUM_CRYPTO_STREAM_XCHACHA20_NONCEBYTES",
         "description": ""
     },
 	"Constant: SODIUM_LIBRARY_MAJOR_VERSION": {
@@ -5490,6 +5605,26 @@
         "body": "_autop_newline_preservation_helper( ${1:\\$matches:array} )",
         "description": "Newline preservation help function for wpautop"
 	},
+		"ƒ: _block_template_render_title_tag": {
+        "prefix": ["_block_template_render_title_tag","btrtt"],
+        "body": "_block_template_render_title_tag(  )",
+        "description": "Displays title tag with content, regardless of whether theme has title-tag support."
+	},
+		"ƒ: _block_template_render_without_post_block_context": {
+        "prefix": ["_block_template_render_without_post_block_context","btrwpbc"],
+        "body": "_block_template_render_without_post_block_context( ${1:\\$context:array} )",
+        "description": "Removes post details from block context when rendering a block template."
+	},
+		"ƒ: _block_template_viewport_meta_tag": {
+        "prefix": ["_block_template_viewport_meta_tag","btvmt"],
+        "body": "_block_template_viewport_meta_tag(  )",
+        "description": "Renders a &#039;viewport&#039; meta tag."
+	},
+		"ƒ: _build_template_result_from_post": {
+        "prefix": ["_build_template_result_from_post","btrfp"],
+        "body": "_build_template_result_from_post( ${1:\\$post:WP_Post} )",
+        "description": "Build a unified template object based a post Object."
+	},
 		"ƒ: _c": {
         "prefix": ["_c","c"],
         "body": "_c( ${1:\\$text:string}, ${2:\\$domain:string} )",
@@ -5585,6 +5720,21 @@
         "body": "_delete_option_fresh_site(  )",
         "description": "Delete the fresh site option."
 	},
+		"ƒ: _delete_site_logo_on_remove_custom_logo": {
+        "prefix": ["_delete_site_logo_on_remove_custom_logo","dslorcl"],
+        "body": "_delete_site_logo_on_remove_custom_logo( ${1:\\$old_value:array}, ${2:\\$value:array} )",
+        "description": "Deletes the site_logo when the custom_logo theme mod is removed."
+	},
+		"ƒ: _delete_site_logo_on_remove_custom_logo_on_setup_theme": {
+        "prefix": ["_delete_site_logo_on_remove_custom_logo_on_setup_theme","dslorclost"],
+        "body": "_delete_site_logo_on_remove_custom_logo_on_setup_theme(  )",
+        "description": "Hooks `_delete_site_logo_on_remove_custom_logo` in `update_option_theme_mods_$theme`."
+	},
+		"ƒ: _delete_site_logo_on_remove_theme_mods": {
+        "prefix": ["_delete_site_logo_on_remove_theme_mods","dslortm"],
+        "body": "_delete_site_logo_on_remove_theme_mods(  )",
+        "description": "Deletes the site logo when all theme mods are being removed."
+	},
 		"ƒ: _deprecated_argument": {
         "prefix": ["_deprecated_argument","da"],
         "body": "_deprecated_argument( ${1:\\$function:string}, ${2:\\$version:string}, ${3:\\$message:string} )",
@@ -5634,6 +5784,11 @@
         "prefix": ["_ex","e"],
         "body": "_ex( ${1:\\$text:string}, ${2:\\$context:string}, ${3:\\$domain:string} )",
         "description": "Display translated string with gettext context."
+	},
+		"ƒ: _excerpt_render_inner_blocks": {
+        "prefix": ["_excerpt_render_inner_blocks","erib"],
+        "body": "_excerpt_render_inner_blocks( ${1:\\$parsed_block:array}, ${2:\\$allowed_blocks:array} )",
+        "description": "Render inner blocks from the allowed wrapper blocks for generating an excerpt."
 	},
 		"ƒ: _excerpt_render_inner_columns_blocks": {
         "prefix": ["_excerpt_render_inner_columns_blocks","ericb"],
@@ -5815,6 +5970,11 @@
         "body": "_load_image_to_edit_path( ${1:\\$attachment_id:integer}, ${2:\\$size:string|array} )",
         "description": "Retrieve the path or URL of an attachment&#039;s attached file."
 	},
+		"ƒ: _load_remote_block_patterns": {
+        "prefix": ["_load_remote_block_patterns","lrbp"],
+        "body": "_load_remote_block_patterns( ${1:\\$current_screen:WP_Screen} )",
+        "description": "Register Core&#039;s official patterns from wordpress.org/patterns."
+	},
 		"ƒ: _load_textdomain_just_in_time": {
         "prefix": ["_load_textdomain_just_in_time","ltjit"],
         "body": "_load_textdomain_just_in_time( ${1:\\$domain:string} )",
@@ -5925,6 +6085,11 @@
         "body": "_oembed_rest_pre_serve_request( ${1:\\$served:boolean}, ${2:\\$result:WP_HTTP_ResponseInterface}, ${3:\\$request:WP_REST_Request}, ${4:\\$server:WP_REST_Server} )",
         "description": "Hooks into the REST API output to print XML instead of JSON."
 	},
+		"ƒ: _override_custom_logo_theme_mod": {
+        "prefix": ["_override_custom_logo_theme_mod","ocltm"],
+        "body": "_override_custom_logo_theme_mod( ${1:\\$custom_logo:string} )",
+        "description": "Overrides the custom logo with a site logo, if the option is set."
+	},
 		"ƒ: _pad_term_counts": {
         "prefix": ["_pad_term_counts","ptc"],
         "body": "_pad_term_counts( ${1:\\$terms:array|array}, ${2:\\$taxonomy:string} )",
@@ -5993,7 +6158,7 @@
 		"ƒ: _prime_post_caches": {
         "prefix": ["_prime_post_caches","ppc"],
         "body": "_prime_post_caches( ${1:\\$ids:array}, ${2:\\$update_term_cache:boolean}, ${3:\\$update_meta_cache:boolean} )",
-        "description": "Adds any posts from the given IDs to the cache that do not already exist in cache"
+        "description": "Adds any posts from the given IDs to the cache that do not already exist in cache."
 	},
 		"ƒ: _prime_site_caches": {
         "prefix": ["_prime_site_caches","psc"],
@@ -6119,6 +6284,16 @@
         "prefix": ["_split_str_by_whitespace","ssbw"],
         "body": "_split_str_by_whitespace( ${1:\\$string:string}, ${2:\\$goal:integer} )",
         "description": "Breaks a string into chunks by splitting at whitespace characters."
+	},
+		"ƒ: _strip_template_file_suffix": {
+        "prefix": ["_strip_template_file_suffix","stfs"],
+        "body": "_strip_template_file_suffix( ${1:\\$template_file:string} )",
+        "description": "Strips .php or .html suffix from template file names."
+	},
+		"ƒ: _sync_custom_logo_to_site_logo": {
+        "prefix": ["_sync_custom_logo_to_site_logo","scltsl"],
+        "body": "_sync_custom_logo_to_site_logo( ${1:\\$value:mixed} )",
+        "description": "Updates the site_logo option when the custom_logo theme-mod gets updated."
 	},
 		"ƒ: _thickbox_path_admin_subfolder": {
         "prefix": ["_thickbox_path_admin_subfolder","tpas"],
@@ -6258,7 +6433,7 @@
 		"ƒ: _wp_call_all_hook": {
         "prefix": ["_wp_call_all_hook","wcah"],
         "body": "_wp_call_all_hook( ${1:\\$args:array} )",
-        "description": "Call the &#039;all&#039; hook, which will process the functions hooked into it."
+        "description": "Calls the &#039;all&#039; hook, which will process the functions hooked into it."
 	},
 		"ƒ: _wp_check_existing_file_names": {
         "prefix": ["_wp_check_existing_file_names","wcefn"],
@@ -6342,8 +6517,8 @@
 	},
 		"ƒ: _wp_filter_build_unique_id": {
         "prefix": ["_wp_filter_build_unique_id","wfbui"],
-        "body": "_wp_filter_build_unique_id( ${1:\\$tag:string}, ${2:\\$function:callable}, ${3:\\$priority:integer} )",
-        "description": "Build Unique ID for storage and retrieval."
+        "body": "_wp_filter_build_unique_id( ${1:\\$hook_name:string}, ${2:\\$callback:callable}, ${3:\\$priority:integer} )",
+        "description": "Builds Unique ID for storage and retrieval."
 	},
 		"ƒ: _wp_filter_taxonomy_base": {
         "prefix": ["_wp_filter_taxonomy_base","wftb"],
@@ -6580,6 +6755,11 @@
         "body": "_wp_timezone_choice_usort_callback( ${1:\\$a:array}, ${2:\\$b:array} )",
         "description": "Sort-helper for timezones."
 	},
+		"ƒ: _wp_to_kebab_case": {
+        "prefix": ["_wp_to_kebab_case","wtkc"],
+        "body": "_wp_to_kebab_case( ${1:\\$string:string} )",
+        "description": "This function is trying to replicate what lodash&#039;s kebabCase (JS library) does in the client."
+	},
 		"ƒ: _wp_translate_postdata": {
         "prefix": ["_wp_translate_postdata","wtp"],
         "body": "_wp_translate_postdata( ${1:\\$update:boolean}, ${2:\\$post_data:array|null} )",
@@ -6637,8 +6817,8 @@
 	},
 		"ƒ: add_action": {
         "prefix": ["add_action","aa"],
-        "body": "add_action( ${1:\\$tag:string}, ${2:\\$function_to_add:callable}, ${3:\\$priority:integer}, ${4:\\$accepted_args:integer} )",
-        "description": "Hooks a function on to a specific action."
+        "body": "add_action( ${1:\\$hook_name:string}, ${2:\\$callback:callable}, ${3:\\$priority:integer}, ${4:\\$accepted_args:integer} )",
+        "description": "Adds a callback function to an action hook."
 	},
 		"ƒ: add_allowed_options": {
         "prefix": ["add_allowed_options","aao"],
@@ -6707,8 +6887,8 @@
 	},
 		"ƒ: add_filter": {
         "prefix": ["add_filter","af"],
-        "body": "add_filter( ${1:\\$tag:string}, ${2:\\$function_to_add:callable}, ${3:\\$priority:integer}, ${4:\\$accepted_args:integer} )",
-        "description": "Hook a function or method to a specific filter action."
+        "body": "add_filter( ${1:\\$hook_name:string}, ${2:\\$callback:callable}, ${3:\\$priority:integer}, ${4:\\$accepted_args:integer} )",
+        "description": "Adds a callback function to a filter hook."
 	},
 		"ƒ: add_image_size": {
         "prefix": ["add_image_size","ais"],
@@ -7022,17 +7202,17 @@
 	},
 		"ƒ: apply_filters": {
         "prefix": ["apply_filters","af"],
-        "body": "apply_filters( ${1:\\$tag:string}, ${2:\\$value:mixed} )",
+        "body": "apply_filters( ${1:\\$hook_name:string}, ${2:\\$value:mixed} )",
         "description": "Calls the callback functions that have been added to a filter hook."
 	},
 		"ƒ: apply_filters_deprecated": {
         "prefix": ["apply_filters_deprecated","afd"],
-        "body": "apply_filters_deprecated( ${1:\\$tag:string}, ${2:\\$args:array}, ${3:\\$version:string}, ${4:\\$replacement:string}, ${5:\\$message:string} )",
+        "body": "apply_filters_deprecated( ${1:\\$hook_name:string}, ${2:\\$args:array}, ${3:\\$version:string}, ${4:\\$replacement:string}, ${5:\\$message:string} )",
         "description": "Fires functions attached to a deprecated filter hook."
 	},
 		"ƒ: apply_filters_ref_array": {
         "prefix": ["apply_filters_ref_array","afra"],
-        "body": "apply_filters_ref_array( ${1:\\$tag:string}, ${2:\\$args:array} )",
+        "body": "apply_filters_ref_array( ${1:\\$hook_name:string}, ${2:\\$args:array} )",
         "description": "Calls the callback functions that have been added to a filter hook, specifying arguments in an array."
 	},
 		"ƒ: apply_shortcodes": {
@@ -7130,6 +7310,26 @@
         "body": "block_core_latest_posts_migrate_categories( ${1:\\$block:array} )",
         "description": "Handles outdated versions of the `core/latest-posts` block by converting attribute `categories` from a numeric string to an array with key `id`."
 	},
+		"ƒ: block_core_page_list_build_css_colors": {
+        "prefix": ["block_core_page_list_build_css_colors","bcplbcc"],
+        "body": "block_core_page_list_build_css_colors( ${1:\\$context:array} )",
+        "description": "Build an array with CSS classes and inline styles defining the colors which will be applied to the pages markup in the front-end when it is a descendant of navigation."
+	},
+		"ƒ: block_core_page_list_build_css_font_sizes": {
+        "prefix": ["block_core_page_list_build_css_font_sizes","bcplbcfs"],
+        "body": "block_core_page_list_build_css_font_sizes( ${1:\\$context:array} )",
+        "description": "Build an array with CSS classes and inline styles defining the font sizes which will be applied to the pages markup in the front-end when it is a descendant of navigation."
+	},
+		"ƒ: block_core_page_list_nest_pages": {
+        "prefix": ["block_core_page_list_nest_pages","bcplnp"],
+        "body": "block_core_page_list_nest_pages( ${1:\\$current_level:array}, ${2:\\$children:array} )",
+        "description": "Outputs nested array of pages"
+	},
+		"ƒ: block_core_page_list_render_nested_page_list": {
+        "prefix": ["block_core_page_list_render_nested_page_list","bcplrnpl"],
+        "body": "block_core_page_list_render_nested_page_list( ${1:\\$nested_pages:array} )",
+        "description": "Outputs Page list markup from an array of pages with nested children."
+	},
 		"ƒ: block_core_social_link_get_color_styles": {
         "prefix": ["block_core_social_link_get_color_styles","bcslgcs"],
         "body": "block_core_social_link_get_color_styles( ${1:\\$context:array} )",
@@ -7149,6 +7349,16 @@
         "prefix": ["block_core_social_link_services","bcsls"],
         "body": "block_core_social_link_services( ${1:\\$service:string}, ${2:\\$field:string} )",
         "description": "Returns the SVG for social link."
+	},
+		"ƒ: block_editor_rest_api_preload": {
+        "prefix": ["block_editor_rest_api_preload","berap"],
+        "body": "block_editor_rest_api_preload( ${1:\\$preload_paths:array}, ${2:\\$block_editor_context:WP_Block_Editor_Context} )",
+        "description": "Preloads common data used with the block editor by specifying an array of REST API paths that will be preloaded for a given block editor context."
+	},
+		"ƒ: block_has_support": {
+        "prefix": ["block_has_support","bhs"],
+        "body": "block_has_support( ${1:\\$block_type:WP_Block_Type}, ${2:\\$feature:string}, ${3:\\$default:mixed} )",
+        "description": "Checks whether the current block type supports the feature requested."
 	},
 		"ƒ: block_version": {
         "prefix": ["block_version","bv"],
@@ -7184,6 +7394,11 @@
         "prefix": ["build_query","bq"],
         "body": "build_query( ${1:\\$data:array} )",
         "description": "Build URL query based on an associative and, or indexed array."
+	},
+		"ƒ: build_query_vars_from_query_block": {
+        "prefix": ["build_query_vars_from_query_block","bqvfqb"],
+        "body": "build_query_vars_from_query_block( ${1:\\$block:WP_Block}, ${2:\\$page:integer} )",
+        "description": "Helper function that constructs a WP_Query args array from a `Query` block properties."
 	},
 		"ƒ: bulk_edit_posts": {
         "prefix": ["bulk_edit_posts","bep"],
@@ -7678,7 +7893,7 @@
 		"ƒ: current_action": {
         "prefix": ["current_action","ca"],
         "body": "current_action(  )",
-        "description": "Retrieve the name of the current action."
+        "description": "Retrieves the name of the current action hook."
 	},
 		"ƒ: current_datetime": {
         "prefix": ["current_datetime","cd"],
@@ -7688,7 +7903,7 @@
 		"ƒ: current_filter": {
         "prefix": ["current_filter","cf"],
         "body": "current_filter(  )",
-        "description": "Retrieve the name of the current filter or action."
+        "description": "Retrieves the name of the current filter hook."
 	},
 		"ƒ: current_theme_info": {
         "prefix": ["current_theme_info","cti"],
@@ -7749,6 +7964,11 @@
         "prefix": ["deactivate_sitewide_plugin","dsp"],
         "body": "deactivate_sitewide_plugin( ${1:\\$plugin:} )",
         "description": "Deprecated functionality for deactivating a network-only plugin."
+	},
+		"ƒ: deactivated_plugins_notice": {
+        "prefix": ["deactivated_plugins_notice","dpn"],
+        "body": "deactivated_plugins_notice(  )",
+        "description": "Renders an admin notice when a plugin was deactivated during an update."
 	},
 		"ƒ: dead_db": {
         "prefix": ["dead_db","dd"],
@@ -7937,8 +8157,8 @@
 	},
 		"ƒ: did_action": {
         "prefix": ["did_action","da"],
-        "body": "did_action( ${1:\\$tag:string} )",
-        "description": "Retrieve the number of times an action is fired."
+        "body": "did_action( ${1:\\$hook_name:string} )",
+        "description": "Retrieves the number of times an action has been fired during the current request."
 	},
 		"ƒ: disabled": {
         "prefix": ["disabled"],
@@ -8002,17 +8222,17 @@
 	},
 		"ƒ: do_action": {
         "prefix": ["do_action","da"],
-        "body": "do_action( ${1:\\$tag:string}, ${2:\\$arg:mixed} )",
-        "description": "Execute functions hooked on a specific action hook."
+        "body": "do_action( ${1:\\$hook_name:string}, ${2:\\$arg:mixed} )",
+        "description": "Calls the callback functions that have been added to an action hook."
 	},
 		"ƒ: do_action_deprecated": {
         "prefix": ["do_action_deprecated","dad"],
-        "body": "do_action_deprecated( ${1:\\$tag:string}, ${2:\\$args:array}, ${3:\\$version:string}, ${4:\\$replacement:string}, ${5:\\$message:string} )",
+        "body": "do_action_deprecated( ${1:\\$hook_name:string}, ${2:\\$args:array}, ${3:\\$version:string}, ${4:\\$replacement:string}, ${5:\\$message:string} )",
         "description": "Fires functions attached to a deprecated action hook."
 	},
 		"ƒ: do_action_ref_array": {
         "prefix": ["do_action_ref_array","dara"],
-        "body": "do_action_ref_array( ${1:\\$tag:string}, ${2:\\$args:array} )",
+        "body": "do_action_ref_array( ${1:\\$hook_name:string}, ${2:\\$args:array} )",
         "description": "Calls the callback functions that have been added to an action hook, specifying arguments in an array."
 	},
 		"ƒ: do_activate_header": {
@@ -8152,13 +8372,13 @@
 	},
 		"ƒ: doing_action": {
         "prefix": ["doing_action","da"],
-        "body": "doing_action( ${1:\\$action:string|null} )",
-        "description": "Retrieve the name of an action currently being processed."
+        "body": "doing_action( ${1:\\$hook_name:string|null} )",
+        "description": "Returns whether or not an action hook is currently being processed."
 	},
 		"ƒ: doing_filter": {
         "prefix": ["doing_filter","df"],
-        "body": "doing_filter( ${1:\\$filter:null|string} )",
-        "description": "Retrieve the name of a filter currently being processed."
+        "body": "doing_filter( ${1:\\$hook_name:null|string} )",
+        "description": "Returns whether or not a filter hook is currently being processed."
 	},
 		"ƒ: domain_exists": {
         "prefix": ["domain_exists","de"],
@@ -8570,6 +8790,11 @@
         "body": "get_active_blog_for_user( ${1:\\$user_id:integer} )",
         "description": "Get one of a user&#039;s active blogs"
 	},
+		"ƒ: get_adjacent_image_link": {
+        "prefix": ["get_adjacent_image_link","gail"],
+        "body": "get_adjacent_image_link( ${1:\\$prev:boolean}, ${2:\\$size:string|array}, ${3:\\$text:boolean} )",
+        "description": "Gets the next or previous image link that has the same post parent."
+	},
 		"ƒ: get_adjacent_post": {
         "prefix": ["get_adjacent_post","gap"],
         "body": "get_adjacent_post( ${1:\\$in_same_term:boolean}, ${2:\\$excluded_terms:array|string}, ${3:\\$previous:boolean}, ${4:\\$taxonomy:string} )",
@@ -8634,6 +8859,11 @@
         "prefix": ["get_alloptions_110","ga1"],
         "body": "get_alloptions_110(  )",
         "description": "Retrieve all options as it was for 1.2."
+	},
+		"ƒ: get_allowed_block_types": {
+        "prefix": ["get_allowed_block_types","gabt"],
+        "body": "get_allowed_block_types( ${1:\\$block_editor_context:WP_Block_Editor_Context} )",
+        "description": "Gets the list of allowed block types to use in the block editor."
 	},
 		"ƒ: get_allowed_http_origins": {
         "prefix": ["get_allowed_http_origins","gaho"],
@@ -8802,13 +9032,33 @@
 	},
 		"ƒ: get_block_categories": {
         "prefix": ["get_block_categories","gbc"],
-        "body": "get_block_categories( ${1:\\$post:WP_Post} )",
-        "description": "Returns all the block categories that will be shown in the block editor."
+        "body": "get_block_categories( ${1:\\$post_or_block_editor_context:WP_Post|WP_Block_Editor_Context} )",
+        "description": "Returns all the categories for block types that will be shown in the block editor."
 	},
 		"ƒ: get_block_editor_server_block_settings": {
         "prefix": ["get_block_editor_server_block_settings","gbesbs"],
         "body": "get_block_editor_server_block_settings(  )",
         "description": "Prepares server-registered blocks for the block editor."
+	},
+		"ƒ: get_block_editor_settings": {
+        "prefix": ["get_block_editor_settings","gbes"],
+        "body": "get_block_editor_settings( ${1:\\$custom_settings:array}, ${2:\\$block_editor_context:WP_Block_Editor_Context} )",
+        "description": "Returns the contextualized block editor settings settings for a selected editor context."
+	},
+		"ƒ: get_block_editor_theme_styles": {
+        "prefix": ["get_block_editor_theme_styles","gbets"],
+        "body": "get_block_editor_theme_styles(  )",
+        "description": "Creates an array of theme styles to load into the block editor."
+	},
+		"ƒ: get_block_template": {
+        "prefix": ["get_block_template","gbt"],
+        "body": "get_block_template( ${1:\\$id:string}, ${2:\\$template_type:string} )",
+        "description": "Retrieves a single unified template object using its id."
+	},
+		"ƒ: get_block_templates": {
+        "prefix": ["get_block_templates","gbt"],
+        "body": "get_block_templates( ${1:\\$query:array}, ${2:\\$template_type:string} )",
+        "description": "Retrieves a list of unified template objects based on a query."
 	},
 		"ƒ: get_block_wrapper_attributes": {
         "prefix": ["get_block_wrapper_attributes","gbwa"],
@@ -9280,6 +9530,16 @@
         "body": "get_day_link( ${1:\\$year:integer|false}, ${2:\\$month:integer|false}, ${3:\\$day:integer|false} )",
         "description": "Retrieves the permalink for the day archives with year and month."
 	},
+		"ƒ: get_default_block_categories": {
+        "prefix": ["get_default_block_categories","gdbc"],
+        "body": "get_default_block_categories(  )",
+        "description": "Returns the list of default categories for block types."
+	},
+		"ƒ: get_default_block_editor_settings": {
+        "prefix": ["get_default_block_editor_settings","gdbes"],
+        "body": "get_default_block_editor_settings(  )",
+        "description": "Returns the default block editor settings."
+	},
 		"ƒ: get_default_comment_status": {
         "prefix": ["get_default_comment_status","gdcs"],
         "body": "get_default_comment_status( ${1:\\$post_type:string}, ${2:\\$comment_type:string} )",
@@ -9570,6 +9830,11 @@
         "body": "get_lastpostmodified( ${1:\\$timezone:string}, ${2:\\$post_type:string} )",
         "description": "Get the most recent time that a post on the site was modified."
 	},
+		"ƒ: get_legacy_widget_block_editor_settings": {
+        "prefix": ["get_legacy_widget_block_editor_settings","glwbes"],
+        "body": "get_legacy_widget_block_editor_settings(  )",
+        "description": "Returns the block editor settings needed to use the Legacy Widget block which is not registered by default."
+	},
 		"ƒ: get_link": {
         "prefix": ["get_link","gl"],
         "body": "get_link( ${1:\\$bookmark_id:integer}, ${2:\\$output:string}, ${3:\\$filter:string} )",
@@ -9739,6 +10004,11 @@
         "prefix": ["get_next_comments_link","gncl"],
         "body": "get_next_comments_link( ${1:\\$label:string}, ${2:\\$max_page:integer} )",
         "description": "Retrieves the link to the next comments page."
+	},
+		"ƒ: get_next_image_link": {
+        "prefix": ["get_next_image_link","gnil"],
+        "body": "get_next_image_link( ${1:\\$size:string|array}, ${2:\\$text:string|false} )",
+        "description": "Gets the next image link that has the same post parent."
 	},
 		"ƒ: get_next_post": {
         "prefix": ["get_next_post","gnp"],
@@ -10234,6 +10504,11 @@
         "prefix": ["get_previous_comments_link","gpcl"],
         "body": "get_previous_comments_link( ${1:\\$label:string} )",
         "description": "Retrieves the link to the previous comments page."
+	},
+		"ƒ: get_previous_image_link": {
+        "prefix": ["get_previous_image_link","gpil"],
+        "body": "get_previous_image_link( ${1:\\$size:string|array}, ${2:\\$text:string|false} )",
+        "description": "Gets the previous image link that has the same post parent."
 	},
 		"ƒ: get_previous_post": {
         "prefix": ["get_previous_post","gpp"],
@@ -10805,6 +11080,11 @@
         "body": "get_the_author_yim(  )",
         "description": "Retrieve the Yahoo! IM name of the author of the current post."
 	},
+		"ƒ: get_the_block_template_html": {
+        "prefix": ["get_the_block_template_html","gtbth"],
+        "body": "get_the_block_template_html(  )",
+        "description": "Returns the markup for the current template."
+	},
 		"ƒ: get_the_category": {
         "prefix": ["get_the_category","gtc"],
         "body": "get_the_category( ${1:\\$post_id:integer} )",
@@ -11235,9 +11515,14 @@
         "body": "gzip_compression(  )",
         "description": "Unused function."
 	},
+		"ƒ: handle_legacy_widget_preview_iframe": {
+        "prefix": ["handle_legacy_widget_preview_iframe","hlwpi"],
+        "body": "handle_legacy_widget_preview_iframe(  )",
+        "description": "Intercepts any request with legacy-widget-preview in the query param and, if set, renders a page containing a preview of the requested Legacy Widget block."
+	},
 		"ƒ: has_action": {
         "prefix": ["has_action","ha"],
-        "body": "has_action( ${1:\\$tag:string}, ${2:\\$function_to_check:callable|false} )",
+        "body": "has_action( ${1:\\$hook_name:string}, ${2:\\$callback:callable|false} )",
         "description": "Checks if any action has been registered for a hook."
 	},
 		"ƒ: has_block": {
@@ -11272,7 +11557,7 @@
 	},
 		"ƒ: has_filter": {
         "prefix": ["has_filter","hf"],
-        "body": "has_filter( ${1:\\$tag:string}, ${2:\\$function_to_check:callable|false} )",
+        "body": "has_filter( ${1:\\$hook_name:string}, ${2:\\$callback:callable|false} )",
         "description": "Checks if any filter has been registered for a hook."
 	},
 		"ƒ: has_header_image": {
@@ -12188,7 +12473,7 @@
 		"ƒ: iso8601_to_datetime": {
         "prefix": ["iso8601_to_datetime","itd"],
         "body": "iso8601_to_datetime( ${1:\\$date_string:string}, ${2:\\$timezone:string} )",
-        "description": "Given an ISO 8601 (Ymd H:i:sO) date, returns a MySQL DateTime (Y-m-d H:i:s) format used by post_date[_gmt]."
+        "description": "Given an ISO 8601 (YmdTH:i:sO) date, returns a MySQL DateTime (Y-m-d H:i:s) format used by post_date[_gmt]."
 	},
 		"ƒ: js_escape": {
         "prefix": ["js_escape","je"],
@@ -12360,6 +12645,11 @@
         "body": "locale_stylesheet(  )",
         "description": "Displays localized stylesheet link element."
 	},
+		"ƒ: locate_block_template": {
+        "prefix": ["locate_block_template","lbt"],
+        "body": "locate_block_template( ${1:\\$template:string}, ${2:\\$type:string}, ${3:\\$templates:array} )",
+        "description": "Find a block template with equal or higher specificity than a given PHP template file."
+	},
 		"ƒ: locate_template": {
         "prefix": ["locate_template","lt"],
         "body": "locate_template( ${1:\\$template_names:string|array}, ${2:\\$load:boolean}, ${3:\\$require_once:boolean}, ${4:\\$args:array} )",
@@ -12433,7 +12723,7 @@
 		"ƒ: maybe_add_column": {
         "prefix": ["maybe_add_column","mac"],
         "body": "maybe_add_column( ${1:\\$table_name:string}, ${2:\\$column_name:string}, ${3:\\$create_ddl:string} )",
-        "description": "Adds column to a database table, if it doesn&#039;t already exist."
+        "description": "Adds column to database table, if it doesn&#039;t already exist."
 	},
 		"ƒ: maybe_add_existing_user_to_blog": {
         "prefix": ["maybe_add_existing_user_to_blog","maeutb"],
@@ -12708,7 +12998,7 @@
 		"ƒ: mysql_to_rfc3339": {
         "prefix": ["mysql_to_rfc3339","mtr"],
         "body": "mysql_to_rfc3339( ${1:\\$date_string:string} )",
-        "description": "Parses and formats a MySQL datetime (Y-m-d H:i:s) for ISO8601 (Y-m-d H:i:s)."
+        "description": "Parses and formats a MySQL datetime (Y-m-d H:i:s) for ISO8601 (Y-m-dTH:i:s)."
 	},
 		"ƒ: network_admin_url": {
         "prefix": ["network_admin_url","nau"],
@@ -13127,7 +13417,7 @@
 	},
 		"ƒ: post_exists": {
         "prefix": ["post_exists","pe"],
-        "body": "post_exists( ${1:\\$title:string}, ${2:\\$content:string}, ${3:\\$date:string}, ${4:\\$type:string} )",
+        "body": "post_exists( ${1:\\$title:string}, ${2:\\$content:string}, ${3:\\$date:string}, ${4:\\$type:string}, ${5:\\$status:string} )",
         "description": "Determines if a post exists based on title, content, date and type."
 	},
 		"ƒ: post_form_autocomplete_off": {
@@ -13422,7 +13712,7 @@
 	},
 		"ƒ: register_activation_hook": {
         "prefix": ["register_activation_hook","rah"],
-        "body": "register_activation_hook( ${1:\\$file:string}, ${2:\\$function:callable} )",
+        "body": "register_activation_hook( ${1:\\$file:string}, ${2:\\$callback:callable} )",
         "description": "Set the activation hook for a plugin."
 	},
 		"ƒ: register_admin_color_schemes": {
@@ -13455,6 +13745,11 @@
         "body": "register_block_core_categories(  )",
         "description": "Registers the `core/categories` block on server."
 	},
+		"ƒ: register_block_core_file": {
+        "prefix": ["register_block_core_file","rbcf"],
+        "body": "register_block_core_file(  )",
+        "description": "Registers the `core/file` block on server."
+	},
 		"ƒ: register_block_core_latest_comments": {
         "prefix": ["register_block_core_latest_comments","rbclc"],
         "body": "register_block_core_latest_comments(  )",
@@ -13464,6 +13759,86 @@
         "prefix": ["register_block_core_latest_posts","rbclp"],
         "body": "register_block_core_latest_posts(  )",
         "description": "Registers the `core/latest-posts` block on server."
+	},
+		"ƒ: register_block_core_legacy_widget": {
+        "prefix": ["register_block_core_legacy_widget","rbclw"],
+        "body": "register_block_core_legacy_widget(  )",
+        "description": "Registers the &#039;core/legacy-widget&#039; block."
+	},
+		"ƒ: register_block_core_loginout": {
+        "prefix": ["register_block_core_loginout","rbcl"],
+        "body": "register_block_core_loginout(  )",
+        "description": "Registers the `core/latest-posts` block on server."
+	},
+		"ƒ: register_block_core_page_list": {
+        "prefix": ["register_block_core_page_list","rbcpl"],
+        "body": "register_block_core_page_list(  )",
+        "description": "Registers the `core/pages` block on server."
+	},
+		"ƒ: register_block_core_post_content": {
+        "prefix": ["register_block_core_post_content","rbcpc"],
+        "body": "register_block_core_post_content(  )",
+        "description": "Registers the `core/post-content` block on the server."
+	},
+		"ƒ: register_block_core_post_date": {
+        "prefix": ["register_block_core_post_date","rbcpd"],
+        "body": "register_block_core_post_date(  )",
+        "description": "Registers the `core/post-date` block on the server."
+	},
+		"ƒ: register_block_core_post_excerpt": {
+        "prefix": ["register_block_core_post_excerpt","rbcpe"],
+        "body": "register_block_core_post_excerpt(  )",
+        "description": "Registers the `core/post-excerpt` block on the server."
+	},
+		"ƒ: register_block_core_post_featured_image": {
+        "prefix": ["register_block_core_post_featured_image","rbcpfi"],
+        "body": "register_block_core_post_featured_image(  )",
+        "description": "Registers the `core/post-featured-image` block on the server."
+	},
+		"ƒ: register_block_core_post_template": {
+        "prefix": ["register_block_core_post_template","rbcpt"],
+        "body": "register_block_core_post_template(  )",
+        "description": "Registers the `core/post-template` block on the server."
+	},
+		"ƒ: register_block_core_post_terms": {
+        "prefix": ["register_block_core_post_terms","rbcpt"],
+        "body": "register_block_core_post_terms(  )",
+        "description": "Registers the `core/post-terms` block on the server."
+	},
+		"ƒ: register_block_core_post_title": {
+        "prefix": ["register_block_core_post_title","rbcpt"],
+        "body": "register_block_core_post_title(  )",
+        "description": "Registers the `core/post-title` block on the server."
+	},
+		"ƒ: register_block_core_query": {
+        "prefix": ["register_block_core_query","rbcq"],
+        "body": "register_block_core_query(  )",
+        "description": "Registers the `core/query` block on the server."
+	},
+		"ƒ: register_block_core_query_pagination": {
+        "prefix": ["register_block_core_query_pagination","rbcqp"],
+        "body": "register_block_core_query_pagination(  )",
+        "description": "Registers the `core/query-pagination` block on the server."
+	},
+		"ƒ: register_block_core_query_pagination_next": {
+        "prefix": ["register_block_core_query_pagination_next","rbcqpn"],
+        "body": "register_block_core_query_pagination_next(  )",
+        "description": "Registers the `core/query-pagination-next` block on the server."
+	},
+		"ƒ: register_block_core_query_pagination_numbers": {
+        "prefix": ["register_block_core_query_pagination_numbers","rbcqpn"],
+        "body": "register_block_core_query_pagination_numbers(  )",
+        "description": "Registers the `core/query-pagination-numbers` block on the server."
+	},
+		"ƒ: register_block_core_query_pagination_previous": {
+        "prefix": ["register_block_core_query_pagination_previous","rbcqpp"],
+        "body": "register_block_core_query_pagination_previous(  )",
+        "description": "Registers the `core/query-pagination-previous` block on the server."
+	},
+		"ƒ: register_block_core_query_title": {
+        "prefix": ["register_block_core_query_title","rbcqt"],
+        "body": "register_block_core_query_title(  )",
+        "description": "Registers the `core/query-title` block on the server."
 	},
 		"ƒ: register_block_core_rss": {
         "prefix": ["register_block_core_rss","rbcr"],
@@ -13479,6 +13854,26 @@
         "prefix": ["register_block_core_shortcode","rbcs"],
         "body": "register_block_core_shortcode(  )",
         "description": "Registers the `core/shortcode` block on server."
+	},
+		"ƒ: register_block_core_site_logo": {
+        "prefix": ["register_block_core_site_logo","rbcsl"],
+        "body": "register_block_core_site_logo(  )",
+        "description": "Registers the `core/site-logo` block on the server."
+	},
+		"ƒ: register_block_core_site_logo_setting": {
+        "prefix": ["register_block_core_site_logo_setting","rbcsls"],
+        "body": "register_block_core_site_logo_setting(  )",
+        "description": "Register a core site setting for a site logo"
+	},
+		"ƒ: register_block_core_site_tagline": {
+        "prefix": ["register_block_core_site_tagline","rbcst"],
+        "body": "register_block_core_site_tagline(  )",
+        "description": "Registers the `core/site-tagline` block on the server."
+	},
+		"ƒ: register_block_core_site_title": {
+        "prefix": ["register_block_core_site_title","rbcst"],
+        "body": "register_block_core_site_title(  )",
+        "description": "Registers the `core/site-title` block on the server."
 	},
 		"ƒ: register_block_core_social_link": {
         "prefix": ["register_block_core_social_link","rbcsl"],
@@ -13517,13 +13912,13 @@
 	},
 		"ƒ: register_block_type": {
         "prefix": ["register_block_type","rbt"],
-        "body": "register_block_type( ${1:\\$name:string|WP_Block_Type}, ${2:\\$args:array} )",
-        "description": "Registers a block type."
+        "body": "register_block_type( ${1:\\$block_type:string|WP_Block_Type}, ${2:\\$args:array} )",
+        "description": "Registers a block type. The recommended way is to register a block type using the metadata stored in the `block.json` file."
 	},
 		"ƒ: register_block_type_from_metadata": {
         "prefix": ["register_block_type_from_metadata","rbtfm"],
         "body": "register_block_type_from_metadata( ${1:\\$file_or_folder:string}, ${2:\\$args:array} )",
-        "description": "Registers a block type from metadata stored in the `block.json` file."
+        "description": "Registers a block type from the metadata stored in the `block.json` file."
 	},
 		"ƒ: register_column_headers": {
         "prefix": ["register_column_headers","rch"],
@@ -13537,8 +13932,8 @@
 	},
 		"ƒ: register_deactivation_hook": {
         "prefix": ["register_deactivation_hook","rdh"],
-        "body": "register_deactivation_hook( ${1:\\$file:string}, ${2:\\$function:callable} )",
-        "description": "Set the deactivation hook for a plugin."
+        "body": "register_deactivation_hook( ${1:\\$file:string}, ${2:\\$callback:callable} )",
+        "description": "Sets the deactivation hook for a plugin."
 	},
 		"ƒ: register_default_headers": {
         "prefix": ["register_default_headers","rdh"],
@@ -13648,7 +14043,7 @@
 		"ƒ: register_uninstall_hook": {
         "prefix": ["register_uninstall_hook","ruh"],
         "body": "register_uninstall_hook( ${1:\\$file:string}, ${2:\\$callback:callable} )",
-        "description": "Set the uninstallation hook for a plugin."
+        "description": "Sets the uninstallation hook for a plugin."
 	},
 		"ƒ: register_widget": {
         "prefix": ["register_widget","rw"],
@@ -13677,18 +14072,18 @@
 	},
 		"ƒ: remove_action": {
         "prefix": ["remove_action","ra"],
-        "body": "remove_action( ${1:\\$tag:string}, ${2:\\$function_to_remove:callable}, ${3:\\$priority:integer} )",
-        "description": "Removes a function from a specified action hook."
+        "body": "remove_action( ${1:\\$hook_name:string}, ${2:\\$callback:callable}, ${3:\\$priority:integer} )",
+        "description": "Removes a callback function from an action hook."
 	},
 		"ƒ: remove_all_actions": {
         "prefix": ["remove_all_actions","raa"],
-        "body": "remove_all_actions( ${1:\\$tag:string}, ${2:\\$priority:integer|false} )",
-        "description": "Remove all of the hooks from an action."
+        "body": "remove_all_actions( ${1:\\$hook_name:string}, ${2:\\$priority:integer|false} )",
+        "description": "Removes all of the callback functions from an action hook."
 	},
 		"ƒ: remove_all_filters": {
         "prefix": ["remove_all_filters","raf"],
-        "body": "remove_all_filters( ${1:\\$tag:string}, ${2:\\$priority:integer|false} )",
-        "description": "Remove all of the hooks from a filter."
+        "body": "remove_all_filters( ${1:\\$hook_name:string}, ${2:\\$priority:integer|false} )",
+        "description": "Removes all of the callback functions from a filter hook."
 	},
 		"ƒ: remove_all_shortcodes": {
         "prefix": ["remove_all_shortcodes","ras"],
@@ -13722,8 +14117,8 @@
 	},
 		"ƒ: remove_filter": {
         "prefix": ["remove_filter","rf"],
-        "body": "remove_filter( ${1:\\$tag:string}, ${2:\\$function_to_remove:callable}, ${3:\\$priority:integer} )",
-        "description": "Removes a function from a specified filter hook."
+        "body": "remove_filter( ${1:\\$hook_name:string}, ${2:\\$callback:callable}, ${3:\\$priority:integer} )",
+        "description": "Removes a callback function from a filter hook."
 	},
 		"ƒ: remove_image_size": {
         "prefix": ["remove_image_size","ris"],
@@ -13830,6 +14225,11 @@
         "body": "render_block_core_categories( ${1:\\$attributes:array} )",
         "description": "Renders the `core/categories` block on server."
 	},
+		"ƒ: render_block_core_file": {
+        "prefix": ["render_block_core_file","rbcf"],
+        "body": "render_block_core_file( ${1:\\$attributes:array}, ${2:\\$content:array} )",
+        "description": "When the `core/file` block is rendering, check if we need to enqueue the `&#039;wp-block-file-view` script."
+	},
 		"ƒ: render_block_core_latest_comments": {
         "prefix": ["render_block_core_latest_comments","rbclc"],
         "body": "render_block_core_latest_comments( ${1:\\$attributes:array} )",
@@ -13839,6 +14239,76 @@
         "prefix": ["render_block_core_latest_posts","rbclp"],
         "body": "render_block_core_latest_posts( ${1:\\$attributes:array} )",
         "description": "Renders the `core/latest-posts` block on server."
+	},
+		"ƒ: render_block_core_legacy_widget": {
+        "prefix": ["render_block_core_legacy_widget","rbclw"],
+        "body": "render_block_core_legacy_widget( ${1:\\$attributes:array} )",
+        "description": "Renders the &#039;core/legacy-widget&#039; block."
+	},
+		"ƒ: render_block_core_loginout": {
+        "prefix": ["render_block_core_loginout","rbcl"],
+        "body": "render_block_core_loginout( ${1:\\$attributes:array} )",
+        "description": "Renders the `core/loginout` block on server."
+	},
+		"ƒ: render_block_core_page_list": {
+        "prefix": ["render_block_core_page_list","rbcpl"],
+        "body": "render_block_core_page_list( ${1:\\$attributes:array}, ${2:\\$content:array}, ${3:\\$block:array} )",
+        "description": "Renders the `core/page-list` block on server."
+	},
+		"ƒ: render_block_core_post_content": {
+        "prefix": ["render_block_core_post_content","rbcpc"],
+        "body": "render_block_core_post_content( ${1:\\$attributes:array}, ${2:\\$content:string}, ${3:\\$block:WP_Block} )",
+        "description": "Renders the `core/post-content` block on the server."
+	},
+		"ƒ: render_block_core_post_date": {
+        "prefix": ["render_block_core_post_date","rbcpd"],
+        "body": "render_block_core_post_date( ${1:\\$attributes:array}, ${2:\\$content:string}, ${3:\\$block:WP_Block} )",
+        "description": "Renders the `core/post-date` block on the server."
+	},
+		"ƒ: render_block_core_post_excerpt": {
+        "prefix": ["render_block_core_post_excerpt","rbcpe"],
+        "body": "render_block_core_post_excerpt( ${1:\\$attributes:array}, ${2:\\$content:string}, ${3:\\$block:WP_Block} )",
+        "description": "Renders the `core/post-excerpt` block on the server."
+	},
+		"ƒ: render_block_core_post_featured_image": {
+        "prefix": ["render_block_core_post_featured_image","rbcpfi"],
+        "body": "render_block_core_post_featured_image( ${1:\\$attributes:array}, ${2:\\$content:string}, ${3:\\$block:WP_Block} )",
+        "description": "Renders the `core/post-featured-image` block on the server."
+	},
+		"ƒ: render_block_core_post_template": {
+        "prefix": ["render_block_core_post_template","rbcpt"],
+        "body": "render_block_core_post_template( ${1:\\$attributes:array}, ${2:\\$content:string}, ${3:\\$block:WP_Block} )",
+        "description": "Renders the `core/post-template` block on the server."
+	},
+		"ƒ: render_block_core_post_terms": {
+        "prefix": ["render_block_core_post_terms","rbcpt"],
+        "body": "render_block_core_post_terms( ${1:\\$attributes:array}, ${2:\\$content:string}, ${3:\\$block:WP_Block} )",
+        "description": "Renders the `core/post-terms` block on the server."
+	},
+		"ƒ: render_block_core_post_title": {
+        "prefix": ["render_block_core_post_title","rbcpt"],
+        "body": "render_block_core_post_title( ${1:\\$attributes:array}, ${2:\\$content:string}, ${3:\\$block:WP_Block} )",
+        "description": "Renders the `core/post-title` block on the server."
+	},
+		"ƒ: render_block_core_query_pagination_next": {
+        "prefix": ["render_block_core_query_pagination_next","rbcqpn"],
+        "body": "render_block_core_query_pagination_next( ${1:\\$attributes:array}, ${2:\\$content:string}, ${3:\\$block:WP_Block} )",
+        "description": "Renders the `core/query-pagination-next` block on the server."
+	},
+		"ƒ: render_block_core_query_pagination_numbers": {
+        "prefix": ["render_block_core_query_pagination_numbers","rbcqpn"],
+        "body": "render_block_core_query_pagination_numbers( ${1:\\$attributes:array}, ${2:\\$content:string}, ${3:\\$block:WP_Block} )",
+        "description": "Renders the `core/query-pagination-numbers` block on the server."
+	},
+		"ƒ: render_block_core_query_pagination_previous": {
+        "prefix": ["render_block_core_query_pagination_previous","rbcqpp"],
+        "body": "render_block_core_query_pagination_previous( ${1:\\$attributes:array}, ${2:\\$content:string}, ${3:\\$block:WP_Block} )",
+        "description": "Renders the `core/query-pagination-previous` block on the server."
+	},
+		"ƒ: render_block_core_query_title": {
+        "prefix": ["render_block_core_query_title","rbcqt"],
+        "body": "render_block_core_query_title( ${1:\\$attributes:array} )",
+        "description": "Renders the `core/query-title` block on the server."
 	},
 		"ƒ: render_block_core_rss": {
         "prefix": ["render_block_core_rss","rbcr"],
@@ -13855,9 +14325,24 @@
         "body": "render_block_core_shortcode( ${1:\\$attributes:array}, ${2:\\$content:string} )",
         "description": "Performs wpautop() on the shortcode block content."
 	},
+		"ƒ: render_block_core_site_logo": {
+        "prefix": ["render_block_core_site_logo","rbcsl"],
+        "body": "render_block_core_site_logo( ${1:\\$attributes:array} )",
+        "description": "Renders the `core/site-logo` block on the server."
+	},
+		"ƒ: render_block_core_site_tagline": {
+        "prefix": ["render_block_core_site_tagline","rbcst"],
+        "body": "render_block_core_site_tagline( ${1:\\$attributes:array} )",
+        "description": "Renders the `core/site-tagline` block on the server."
+	},
+		"ƒ: render_block_core_site_title": {
+        "prefix": ["render_block_core_site_title","rbcst"],
+        "body": "render_block_core_site_title( ${1:\\$attributes:array} )",
+        "description": "Renders the `core/site-title` block on the server."
+	},
 		"ƒ: render_block_core_social_link": {
         "prefix": ["render_block_core_social_link","rbcsl"],
-        "body": "render_block_core_social_link( ${1:\\$attributes:Array}, ${2:\\$content:String}, ${3:\\$block:WPBlock} )",
+        "body": "render_block_core_social_link( ${1:\\$attributes:Array}, ${2:\\$content:String}, ${3:\\$block:WP_Block} )",
         "description": "Renders the `core/social-link` block on server."
 	},
 		"ƒ: render_block_core_tag_cloud": {
@@ -13889,6 +14374,11 @@
         "prefix": ["reset_password","rp"],
         "body": "reset_password( ${1:\\$user:WP_User}, ${2:\\$new_pass:string} )",
         "description": "Handles resetting the user&#039;s password."
+	},
+		"ƒ: resolve_block_template": {
+        "prefix": ["resolve_block_template","rbt"],
+        "body": "resolve_block_template( ${1:\\$template_type:string}, ${2:\\$template_hierarchy:array} )",
+        "description": "Return the correct &#039;wp_template&#039; to render for the request template type."
 	},
 		"ƒ: rest_add_application_passwords_to_index": {
         "prefix": ["rest_add_application_passwords_to_index","raapti"],
@@ -14940,6 +15430,71 @@
         "body": "sodium_crypto_box_seed_keypair( ${1:\\$seed:string} )",
         "description": ""
 	},
+		"ƒ: sodium_crypto_core_ristretto255_add": {
+        "prefix": ["sodium_crypto_core_ristretto255_add","sccra"],
+        "body": "sodium_crypto_core_ristretto255_add( ${1:\\$p:string}, ${2:\\$q:string} )",
+        "description": ""
+	},
+		"ƒ: sodium_crypto_core_ristretto255_from_hash": {
+        "prefix": ["sodium_crypto_core_ristretto255_from_hash","sccrfh"],
+        "body": "sodium_crypto_core_ristretto255_from_hash( ${1:\\$r:string} )",
+        "description": ""
+	},
+		"ƒ: sodium_crypto_core_ristretto255_is_valid_point": {
+        "prefix": ["sodium_crypto_core_ristretto255_is_valid_point","sccrivp"],
+        "body": "sodium_crypto_core_ristretto255_is_valid_point( ${1:\\$p:string} )",
+        "description": ""
+	},
+		"ƒ: sodium_crypto_core_ristretto255_random": {
+        "prefix": ["sodium_crypto_core_ristretto255_random","sccrr"],
+        "body": "sodium_crypto_core_ristretto255_random(  )",
+        "description": ""
+	},
+		"ƒ: sodium_crypto_core_ristretto255_scalar_add": {
+        "prefix": ["sodium_crypto_core_ristretto255_scalar_add","sccrsa"],
+        "body": "sodium_crypto_core_ristretto255_scalar_add( ${1:\\$p:string}, ${2:\\$q:string} )",
+        "description": ""
+	},
+		"ƒ: sodium_crypto_core_ristretto255_scalar_complement": {
+        "prefix": ["sodium_crypto_core_ristretto255_scalar_complement","sccrsc"],
+        "body": "sodium_crypto_core_ristretto255_scalar_complement( ${1:\\$p:string} )",
+        "description": ""
+	},
+		"ƒ: sodium_crypto_core_ristretto255_scalar_invert": {
+        "prefix": ["sodium_crypto_core_ristretto255_scalar_invert","sccrsi"],
+        "body": "sodium_crypto_core_ristretto255_scalar_invert( ${1:\\$p:string} )",
+        "description": ""
+	},
+		"ƒ: sodium_crypto_core_ristretto255_scalar_mul": {
+        "prefix": ["sodium_crypto_core_ristretto255_scalar_mul","sccrsm"],
+        "body": "sodium_crypto_core_ristretto255_scalar_mul( ${1:\\$p:string}, ${2:\\$q:string} )",
+        "description": ""
+	},
+		"ƒ: sodium_crypto_core_ristretto255_scalar_negate": {
+        "prefix": ["sodium_crypto_core_ristretto255_scalar_negate","sccrsn"],
+        "body": "sodium_crypto_core_ristretto255_scalar_negate( ${1:\\$p:string} )",
+        "description": ""
+	},
+		"ƒ: sodium_crypto_core_ristretto255_scalar_random": {
+        "prefix": ["sodium_crypto_core_ristretto255_scalar_random","sccrsr"],
+        "body": "sodium_crypto_core_ristretto255_scalar_random(  )",
+        "description": ""
+	},
+		"ƒ: sodium_crypto_core_ristretto255_scalar_reduce": {
+        "prefix": ["sodium_crypto_core_ristretto255_scalar_reduce","sccrsr"],
+        "body": "sodium_crypto_core_ristretto255_scalar_reduce( ${1:\\$p:string} )",
+        "description": ""
+	},
+		"ƒ: sodium_crypto_core_ristretto255_scalar_sub": {
+        "prefix": ["sodium_crypto_core_ristretto255_scalar_sub","sccrss"],
+        "body": "sodium_crypto_core_ristretto255_scalar_sub( ${1:\\$p:string}, ${2:\\$q:string} )",
+        "description": ""
+	},
+		"ƒ: sodium_crypto_core_ristretto255_sub": {
+        "prefix": ["sodium_crypto_core_ristretto255_sub","sccrs"],
+        "body": "sodium_crypto_core_ristretto255_sub( ${1:\\$p:string}, ${2:\\$q:string} )",
+        "description": ""
+	},
 		"ƒ: sodium_crypto_generichash": {
         "prefix": ["sodium_crypto_generichash","scg"],
         "body": "sodium_crypto_generichash( ${1:\\$message:string}, ${2:\\$key:string|null}, ${3:\\$outLen:integer} )",
@@ -15053,6 +15608,16 @@
 		"ƒ: sodium_crypto_scalarmult_base": {
         "prefix": ["sodium_crypto_scalarmult_base","scsb"],
         "body": "sodium_crypto_scalarmult_base( ${1:\\$n:string} )",
+        "description": ""
+	},
+		"ƒ: sodium_crypto_scalarmult_ristretto255": {
+        "prefix": ["sodium_crypto_scalarmult_ristretto255","scsr"],
+        "body": "sodium_crypto_scalarmult_ristretto255( ${1:\\$n:string}, ${2:\\$p:string} )",
+        "description": ""
+	},
+		"ƒ: sodium_crypto_scalarmult_ristretto255_base": {
+        "prefix": ["sodium_crypto_scalarmult_ristretto255_base","scsrb"],
+        "body": "sodium_crypto_scalarmult_ristretto255_base( ${1:\\$n:string} )",
         "description": ""
 	},
 		"ƒ: sodium_crypto_secretbox": {
@@ -15178,6 +15743,21 @@
 		"ƒ: sodium_crypto_stream_keygen": {
         "prefix": ["sodium_crypto_stream_keygen","scsk"],
         "body": "sodium_crypto_stream_keygen(  )",
+        "description": ""
+	},
+		"ƒ: sodium_crypto_stream_xchacha20": {
+        "prefix": ["sodium_crypto_stream_xchacha20","scsx"],
+        "body": "sodium_crypto_stream_xchacha20( ${1:\\$len:integer}, ${2:\\$nonce:string}, ${3:\\$key:string} )",
+        "description": ""
+	},
+		"ƒ: sodium_crypto_stream_xchacha20_keygen": {
+        "prefix": ["sodium_crypto_stream_xchacha20_keygen","scsxk"],
+        "body": "sodium_crypto_stream_xchacha20_keygen(  )",
+        "description": ""
+	},
+		"ƒ: sodium_crypto_stream_xchacha20_xor": {
+        "prefix": ["sodium_crypto_stream_xchacha20_xor","scsxx"],
+        "body": "sodium_crypto_stream_xchacha20_xor( ${1:\\$message:string}, ${2:\\$nonce:string}, ${3:\\$key:string} )",
         "description": ""
 	},
 		"ƒ: sodium_crypto_stream_xor": {
@@ -15329,6 +15909,11 @@
         "prefix": ["stripslashes_from_strings_only","sfso"],
         "body": "stripslashes_from_strings_only( ${1:\\$value:mixed} )",
         "description": "Callback function for `stripslashes_deep()` which strips slashes from strings."
+	},
+		"ƒ: styles_for_block_core_search": {
+        "prefix": ["styles_for_block_core_search","sfbcs"],
+        "body": "styles_for_block_core_search( ${1:\\$attributes:array} )",
+        "description": "Builds an array of inline styles for the search block."
 	},
 		"ƒ: submit_button": {
         "prefix": ["submit_button","sb"],
@@ -15514,6 +16099,11 @@
         "prefix": ["the_block_editor_meta_boxes","tbemb"],
         "body": "the_block_editor_meta_boxes(  )",
         "description": "Renders the meta boxes forms."
+	},
+		"ƒ: the_block_template_skip_link": {
+        "prefix": ["the_block_template_skip_link","tbtsl"],
+        "body": "the_block_template_skip_link(  )",
+        "description": "Print the skip-link script &amp; styles."
 	},
 		"ƒ: the_category": {
         "prefix": ["the_category","tc"],
@@ -15785,6 +16375,11 @@
         "body": "themes_api( ${1:\\$action:string}, ${2:\\$args:array|object} )",
         "description": "Retrieves theme installer pages from the WordPress.org Themes API."
 	},
+		"ƒ: timer_float": {
+        "prefix": ["timer_float","tf"],
+        "body": "timer_float(  )",
+        "description": "Get the time elapsed so far during this PHP script."
+	},
 		"ƒ: timer_start": {
         "prefix": ["timer_start","ts"],
         "body": "timer_start(  )",
@@ -15927,7 +16522,7 @@
 	},
 		"ƒ: unregister_block_style": {
         "prefix": ["unregister_block_style","ubs"],
-        "body": "unregister_block_style( ${1:\\$block_name:string}, ${2:\\$block_style_name:array} )",
+        "body": "unregister_block_style( ${1:\\$block_name:string}, ${2:\\$block_style_name:string} )",
         "description": "Unregisters a block style."
 	},
 		"ƒ: unregister_block_type": {
@@ -16539,6 +17134,11 @@
         "prefix": ["wp_add_id3_tag_data","waitd"],
         "body": "wp_add_id3_tag_data( ${1:\\$metadata:array}, ${2:\\$data:array} )",
         "description": "Parse ID3v2, ID3v1, and getID3 comments to extract usable data"
+	},
+		"ƒ: wp_add_iframed_editor_assets_html": {
+        "prefix": ["wp_add_iframed_editor_assets_html","waieah"],
+        "body": "wp_add_iframed_editor_assets_html(  )",
+        "description": "Inject the block editor assets that need to be loaded into the editor&#039;s iframe as an inline script."
 	},
 		"ƒ: wp_add_inline_script": {
         "prefix": ["wp_add_inline_script","wais"],
@@ -17195,6 +17795,11 @@
         "body": "wp_apply_alignment_support( ${1:\\$block_type:WP_Block_Type}, ${2:\\$block_attributes:array} )",
         "description": "Add CSS classes for block alignment to the incoming attributes array."
 	},
+		"ƒ: wp_apply_border_support": {
+        "prefix": ["wp_apply_border_support","wabs"],
+        "body": "wp_apply_border_support( ${1:\\$block_type:WP_Block_Type}, ${2:\\$block_attributes:array} )",
+        "description": "Adds CSS classes and inline styles for border styles to the incoming attributes array. This will be applied to the block markup in the front-end."
+	},
 		"ƒ: wp_apply_colors_support": {
         "prefix": ["wp_apply_colors_support","wacs"],
         "body": "wp_apply_colors_support( ${1:\\$block_type:WP_Block_Type}, ${2:\\$block_attributes:array} )",
@@ -17207,18 +17812,28 @@
 	},
 		"ƒ: wp_apply_generated_classname_support": {
         "prefix": ["wp_apply_generated_classname_support","wagcs"],
-        "body": "wp_apply_generated_classname_support( ${1:\\$block_type:WP_Block_Type}, ${2:\\$block_attributes:array} )",
+        "body": "wp_apply_generated_classname_support( ${1:\\$block_type:WP_Block_Type} )",
         "description": "Add the generated classnames to the output."
+	},
+		"ƒ: wp_apply_spacing_support": {
+        "prefix": ["wp_apply_spacing_support","wass"],
+        "body": "wp_apply_spacing_support( ${1:\\$block_type:WP_Block_Type}, ${2:\\$block_attributes:array} )",
+        "description": "Add CSS classes for block spacing to the incoming attributes array."
 	},
 		"ƒ: wp_apply_typography_support": {
         "prefix": ["wp_apply_typography_support","wats"],
         "body": "wp_apply_typography_support( ${1:\\$block_type:WP_Block_Type}, ${2:\\$block_attributes:array} )",
-        "description": "Add CSS classes and inline styles for font sizes to the incoming attributes array."
+        "description": "Add CSS classes and inline styles for typography features such as font sizes to the incoming attributes array. This will be applied to the block markup in the front-end."
 	},
 		"ƒ: wp_array_slice_assoc": {
         "prefix": ["wp_array_slice_assoc","wasa"],
         "body": "wp_array_slice_assoc( ${1:\\$array:array}, ${2:\\$keys:array} )",
         "description": "Extract a slice of an array, given a list of keys."
+	},
+		"ƒ: wp_assign_widget_to_sidebar": {
+        "prefix": ["wp_assign_widget_to_sidebar","wawts"],
+        "body": "wp_assign_widget_to_sidebar( ${1:\\$widget_id:string}, ${2:\\$sidebar_id:string} )",
+        "description": "Assigns a widget to the given sidebar."
 	},
 		"ƒ: wp_attachment_is": {
         "prefix": ["wp_attachment_is","wai"],
@@ -17524,6 +18139,11 @@
         "prefix": ["wp_check_term_meta_support_prefilter","wctmsp"],
         "body": "wp_check_term_meta_support_prefilter( ${1:\\$check:mixed} )",
         "description": "Aborts calls to term meta if it is not supported."
+	},
+		"ƒ: wp_check_widget_editor_deps": {
+        "prefix": ["wp_check_widget_editor_deps","wcwed"],
+        "body": "wp_check_widget_editor_deps(  )",
+        "description": "Displays a _doing_it_wrong() message for conflicting widget editor scripts."
 	},
 		"ƒ: wp_checkdate": {
         "prefix": ["wp_checkdate","wc"],
@@ -18210,6 +18830,11 @@
         "body": "wp_embed_unregister_handler( ${1:\\$id:string}, ${2:\\$priority:integer} )",
         "description": "Unregisters a previously-registered embed handler."
 	},
+		"ƒ: wp_enable_block_templates": {
+        "prefix": ["wp_enable_block_templates","webt"],
+        "body": "wp_enable_block_templates(  )",
+        "description": "Enable the block templates (editor mode) for themes with theme.json by default."
+	},
 		"ƒ: wp_encode_emoji": {
         "prefix": ["wp_encode_emoji","wee"],
         "body": "wp_encode_emoji( ${1:\\$content:string} )",
@@ -18229,6 +18854,16 @@
         "prefix": ["wp_enqueue_editor_block_directory_assets","weebda"],
         "body": "wp_enqueue_editor_block_directory_assets(  )",
         "description": "Enqueues the assets required for the block directory within the block editor."
+	},
+		"ƒ: wp_enqueue_editor_format_library_assets": {
+        "prefix": ["wp_enqueue_editor_format_library_assets","weefla"],
+        "body": "wp_enqueue_editor_format_library_assets(  )",
+        "description": "Enqueues the assets required for the format library within the block editor."
+	},
+		"ƒ: wp_enqueue_global_styles": {
+        "prefix": ["wp_enqueue_global_styles","wegs"],
+        "body": "wp_enqueue_global_styles(  )",
+        "description": "Enqueues the global styles defined via theme.json."
 	},
 		"ƒ: wp_enqueue_media": {
         "prefix": ["wp_enqueue_media","wem"],
@@ -18340,6 +18975,11 @@
         "body": "wp_filter_pre_oembed_result( ${1:\\$result:null|string}, ${2:\\$url:string}, ${3:\\$args:array} )",
         "description": "Filters the oEmbed result before any HTTP requests are made."
 	},
+		"ƒ: wp_filter_wp_template_unique_post_slug": {
+        "prefix": ["wp_filter_wp_template_unique_post_slug","wfwtups"],
+        "body": "wp_filter_wp_template_unique_post_slug( ${1:\\$override_slug:string}, ${2:\\$slug:string}, ${3:\\$post_ID:integer}, ${4:\\$post_status:string}, ${5:\\$post_type:string} )",
+        "description": "Generates a unique slug for templates."
+	},
 		"ƒ: wp_finalize_scraping_edited_file_errors": {
         "prefix": ["wp_finalize_scraping_edited_file_errors","wfsefe"],
         "body": "wp_finalize_scraping_edited_file_errors( ${1:\\$scrape_key:string} )",
@@ -18354,6 +18994,11 @@
         "prefix": ["wp_find_hierarchy_loop_tortoise_hare","wfhlth"],
         "body": "wp_find_hierarchy_loop_tortoise_hare( ${1:\\$callback:callable}, ${2:\\$start:integer}, ${3:\\$override:array}, ${4:\\$callback_args:array}, ${5:\\$_return_loop:boolean} )",
         "description": "Use the &quot;The Tortoise and the Hare&quot; algorithm to detect loops."
+	},
+		"ƒ: wp_find_widgets_sidebar": {
+        "prefix": ["wp_find_widgets_sidebar","wfws"],
+        "body": "wp_find_widgets_sidebar( ${1:\\$widget_id:string} )",
+        "description": "Finds the sidebar that a given widget belongs to."
 	},
 		"ƒ: wp_fix_server_vars": {
         "prefix": ["wp_fix_server_vars","wfsv"],
@@ -18985,6 +19630,11 @@
         "body": "wp_get_video_extensions(  )",
         "description": "Returns a filtered list of supported video formats."
 	},
+		"ƒ: wp_get_webp_info": {
+        "prefix": ["wp_get_webp_info","wgwi"],
+        "body": "wp_get_webp_info( ${1:\\$filename:string} )",
+        "description": "Extracts meta information about a webp file: width, height and type."
+	},
 		"ƒ: wp_get_widget_defaults": {
         "prefix": ["wp_get_widget_defaults","wgwd"],
         "body": "wp_get_widget_defaults(  )",
@@ -19019,6 +19669,16 @@
         "prefix": ["wp_handle_upload_error","whue"],
         "body": "wp_handle_upload_error( ${1:\\$file:}, ${2:\\$message:} )",
         "description": ""
+	},
+		"ƒ: wp_has_border_feature_support": {
+        "prefix": ["wp_has_border_feature_support","whbfs"],
+        "body": "wp_has_border_feature_support( ${1:\\$block_type:WP_Block_Type}, ${2:\\$feature:string}, ${3:\\$default:mixed} )",
+        "description": "Checks whether the current block type supports the border feature requested."
+	},
+		"ƒ: wp_has_spacing_feature_support": {
+        "prefix": ["wp_has_spacing_feature_support","whsfs"],
+        "body": "wp_has_spacing_feature_support( ${1:\\$block_type:WP_Block_Type}, ${2:\\$feature:string}, ${3:\\$default:mixed} )",
+        "description": "Checks whether the current block type supports the spacing feature requested."
 	},
 		"ƒ: wp_hash": {
         "prefix": ["wp_hash","wh"],
@@ -19785,6 +20445,11 @@
         "body": "wp_maybe_grant_site_health_caps( ${1:\\$allcaps:array}, ${2:\\$caps:array}, ${3:\\$args:array}, ${4:\\$user:WP_User} )",
         "description": "Filters the user capabilities to grant the &#039;view_site_health_checks&#039; capabilities as necessary."
 	},
+		"ƒ: wp_maybe_inline_styles": {
+        "prefix": ["wp_maybe_inline_styles","wmis"],
+        "body": "wp_maybe_inline_styles(  )",
+        "description": "Allows small styles to be inlined."
+	},
 		"ƒ: wp_maybe_load_embeds": {
         "prefix": ["wp_maybe_load_embeds","wmle"],
         "body": "wp_maybe_load_embeds(  )",
@@ -19849,6 +20514,11 @@
         "prefix": ["wp_metadata_lazyloader","wml"],
         "body": "wp_metadata_lazyloader(  )",
         "description": "Retrieves the queue for lazy-loading metadata."
+	},
+		"ƒ: wp_migrate_old_typography_shape": {
+        "prefix": ["wp_migrate_old_typography_shape","wmots"],
+        "body": "wp_migrate_old_typography_shape( ${1:\\$metadata:array} )",
+        "description": "Converts typography keys declared under `supports.*` to `supports.typography.*`."
 	},
 		"ƒ: wp_mime_type_icon": {
         "prefix": ["wp_mime_type_icon","wmti"],
@@ -20109,6 +20779,11 @@
         "prefix": ["wp_parse_url","wpu"],
         "body": "wp_parse_url( ${1:\\$url:string}, ${2:\\$component:integer} )",
         "description": "A wrapper for PHP&#039;s parse_url() function that handles consistency in the return values across PHP versions."
+	},
+		"ƒ: wp_parse_widget_id": {
+        "prefix": ["wp_parse_widget_id","wpwi"],
+        "body": "wp_parse_widget_id( ${1:\\$id:string} )",
+        "description": "Converts a widget ID into its id_base and number components."
 	},
 		"ƒ: wp_password_change_notification": {
         "prefix": ["wp_password_change_notification","wpcn"],
@@ -20465,6 +21140,11 @@
         "body": "wp_register_alignment_support( ${1:\\$block_type:WP_Block_Type} )",
         "description": "Registers the align block attribute for block types that support it."
 	},
+		"ƒ: wp_register_border_support": {
+        "prefix": ["wp_register_border_support","wrbs"],
+        "body": "wp_register_border_support( ${1:\\$block_type:WP_Block_Type} )",
+        "description": "Registers the style attribute used by the border feature if needed for block types that support borders."
+	},
 		"ƒ: wp_register_colors_support": {
         "prefix": ["wp_register_colors_support","wrcs"],
         "body": "wp_register_colors_support( ${1:\\$block_type:WP_Block_Type} )",
@@ -20485,10 +21165,20 @@
         "body": "wp_register_custom_classname_support( ${1:\\$block_type:WP_Block_Type} )",
         "description": "Registers the custom classname block attribute for block types that support it."
 	},
+		"ƒ: wp_register_duotone_support": {
+        "prefix": ["wp_register_duotone_support","wrds"],
+        "body": "wp_register_duotone_support( ${1:\\$block_type:WP_Block_Type} )",
+        "description": "Registers the style and colors block attributes for block types that support it."
+	},
 		"ƒ: wp_register_fatal_error_handler": {
         "prefix": ["wp_register_fatal_error_handler","wrfeh"],
         "body": "wp_register_fatal_error_handler(  )",
         "description": "Registers the shutdown handler for fatal errors."
+	},
+		"ƒ: wp_register_layout_support": {
+        "prefix": ["wp_register_layout_support","wrls"],
+        "body": "wp_register_layout_support( ${1:\\$block_type:WP_Block_Type} )",
+        "description": "Registers the layout block attribute for block types that support it."
 	},
 		"ƒ: wp_register_media_personal_data_exporter": {
         "prefix": ["wp_register_media_personal_data_exporter","wrmpde"],
@@ -20514,6 +21204,11 @@
         "prefix": ["wp_register_sitemap_provider","wrsp"],
         "body": "wp_register_sitemap_provider( ${1:\\$name:string}, ${2:\\$provider:WP_Sitemaps_Provider} )",
         "description": "Registers a new sitemap provider."
+	},
+		"ƒ: wp_register_spacing_support": {
+        "prefix": ["wp_register_spacing_support","wrss"],
+        "body": "wp_register_spacing_support( ${1:\\$block_type:WP_Block_Type} )",
+        "description": "Registers the style block attribute for block types that support it."
 	},
 		"ƒ: wp_register_style": {
         "prefix": ["wp_register_style","wrs"],
@@ -20645,6 +21340,31 @@
         "body": "wp_remove_targeted_link_rel_filters(  )",
         "description": "Removes all filters modifying the rel attribute of targeted links."
 	},
+		"ƒ: wp_render_duotone_support": {
+        "prefix": ["wp_render_duotone_support","wrds"],
+        "body": "wp_render_duotone_support( ${1:\\$block_content:string}, ${2:\\$block:array} )",
+        "description": "Render out the duotone stylesheet and SVG."
+	},
+		"ƒ: wp_render_elements_support": {
+        "prefix": ["wp_render_elements_support","wres"],
+        "body": "wp_render_elements_support( ${1:\\$block_content:string}, ${2:\\$block:array} )",
+        "description": "Render the elements stylesheet."
+	},
+		"ƒ: wp_render_layout_support_flag": {
+        "prefix": ["wp_render_layout_support_flag","wrlsf"],
+        "body": "wp_render_layout_support_flag( ${1:\\$block_content:string}, ${2:\\$block:array} )",
+        "description": "Renders the layout config to the block wrapper."
+	},
+		"ƒ: wp_render_widget": {
+        "prefix": ["wp_render_widget","wrw"],
+        "body": "wp_render_widget( ${1:\\$widget_id:string}, ${2:\\$sidebar_id:string} )",
+        "description": "Calls the render callback of a widget and returns the output."
+	},
+		"ƒ: wp_render_widget_control": {
+        "prefix": ["wp_render_widget_control","wrwc"],
+        "body": "wp_render_widget_control( ${1:\\$id:string} )",
+        "description": "Calls the control callback of a widget and returns the output."
+	},
 		"ƒ: wp_replace_in_html_tags": {
         "prefix": ["wp_replace_in_html_tags","wriht"],
         "body": "wp_replace_in_html_tags( ${1:\\$haystack:string}, ${2:\\$replace_pairs:array} )",
@@ -20689,6 +21409,11 @@
         "prefix": ["wp_resource_hints","wrh"],
         "body": "wp_resource_hints(  )",
         "description": "Prints resource hints to browsers for pre-fetching, pre-rendering and pre-connecting to web sites."
+	},
+		"ƒ: wp_restore_group_inner_container": {
+        "prefix": ["wp_restore_group_inner_container","wrgic"],
+        "body": "wp_restore_group_inner_container( ${1:\\$block_content:string}, ${2:\\$block:array} )",
+        "description": "For themes without theme.json file, make sure to restore the inner div for the group block to avoid breaking styles relying on that div."
 	},
 		"ƒ: wp_restore_image": {
         "prefix": ["wp_restore_image","wri"],
@@ -21010,6 +21735,11 @@
         "body": "wp_setup_nav_menu_item( ${1:\\$menu_item:object} )",
         "description": "Decorates a menu item object with the shared navigation menu item properties."
 	},
+		"ƒ: wp_setup_widgets_block_editor": {
+        "prefix": ["wp_setup_widgets_block_editor","wswbe"],
+        "body": "wp_setup_widgets_block_editor(  )",
+        "description": "Enables the widgets block editor. This is hooked into &#039;after_setup_theme&#039; so that the block editor is enabled by default but can be disabled by themes."
+	},
 		"ƒ: wp_shake_js": {
         "prefix": ["wp_shake_js","wsj"],
         "body": "wp_shake_js(  )",
@@ -21029,6 +21759,11 @@
         "prefix": ["wp_should_load_block_editor_scripts_and_styles","wslbesas"],
         "body": "wp_should_load_block_editor_scripts_and_styles(  )",
         "description": "Checks if the editor scripts and styles for all registered block types should be enqueued on the current screen."
+	},
+		"ƒ: wp_should_load_separate_core_block_assets": {
+        "prefix": ["wp_should_load_separate_core_block_assets","wslscba"],
+        "body": "wp_should_load_separate_core_block_assets(  )",
+        "description": "Checks whether separate styles should be loaded for core blocks on-render."
 	},
 		"ƒ: wp_should_replace_insecure_home_url": {
         "prefix": ["wp_should_replace_insecure_home_url","wsrihu"],
@@ -21084,6 +21819,11 @@
         "prefix": ["wp_sitemaps_get_server","wsgs"],
         "body": "wp_sitemaps_get_server(  )",
         "description": "Retrieves the current Sitemaps server instance."
+	},
+		"ƒ: wp_skip_border_serialization": {
+        "prefix": ["wp_skip_border_serialization","wsbs"],
+        "body": "wp_skip_border_serialization( ${1:\\$block_type:WP_Block_Type} )",
+        "description": "Checks whether serialization of the current block&#039;s border properties should occur."
 	},
 		"ƒ: wp_skip_paused_plugins": {
         "prefix": ["wp_skip_paused_plugins","wspp"],
@@ -21305,6 +22045,31 @@
         "body": "wp_tiny_mce( ${1:\\$teeny:}, ${2:\\$settings:} )",
         "description": "Outputs the TinyMCE editor."
 	},
+		"ƒ: wp_tinycolor_bound01": {
+        "prefix": ["wp_tinycolor_bound01","wtb"],
+        "body": "wp_tinycolor_bound01( ${1:\\$n:mixed}, ${2:\\$max:integer} )",
+        "description": "Takes input from [0, n] and returns it as [0, 1]."
+	},
+		"ƒ: wp_tinycolor_hsl_to_rgb": {
+        "prefix": ["wp_tinycolor_hsl_to_rgb","wthtr"],
+        "body": "wp_tinycolor_hsl_to_rgb( ${1:\\$hsl_color:array} )",
+        "description": "Convert an HSL object to an RGB object with converted and rounded values."
+	},
+		"ƒ: wp_tinycolor_hue_to_rgb": {
+        "prefix": ["wp_tinycolor_hue_to_rgb","wthtr"],
+        "body": "wp_tinycolor_hue_to_rgb( ${1:\\$p:float}, ${2:\\$q:float}, ${3:\\$t:float} )",
+        "description": "Helper function for hsl to rgb conversion."
+	},
+		"ƒ: wp_tinycolor_rgb_to_rgb": {
+        "prefix": ["wp_tinycolor_rgb_to_rgb","wtrtr"],
+        "body": "wp_tinycolor_rgb_to_rgb( ${1:\\$rgb_color:array} )",
+        "description": "Round and convert values of an RGB object."
+	},
+		"ƒ: wp_tinycolor_string_to_rgb": {
+        "prefix": ["wp_tinycolor_string_to_rgb","wtstr"],
+        "body": "wp_tinycolor_string_to_rgb( ${1:\\$color_str:string} )",
+        "description": "Parses hex, hsl, and rgb CSS strings using the same regex as TinyColor v1.4.2 used in the JavaScript. Only colors output from react-color are implemented and the alpha value is ignored as it is not used in duotone."
+	},
 		"ƒ: wp_tinymce_inline_scripts": {
         "prefix": ["wp_tinymce_inline_scripts","wtis"],
         "body": "wp_tinymce_inline_scripts(  )",
@@ -21359,6 +22124,11 @@
         "prefix": ["wp_trusted_keys","wtk"],
         "body": "wp_trusted_keys(  )",
         "description": "Retrieves the list of signing keys trusted by WordPress."
+	},
+		"ƒ: wp_typography_get_css_variable_inline_style": {
+        "prefix": ["wp_typography_get_css_variable_inline_style","wtgcvis"],
+        "body": "wp_typography_get_css_variable_inline_style( ${1:\\$attributes:array}, ${2:\\$feature:string}, ${3:\\$css_property:string} )",
+        "description": "Generates an inline style for a typography feature e.g. text decoration, text transform, and font style."
 	},
 		"ƒ: wp_underscore_audio_template": {
         "prefix": ["wp_underscore_audio_template","wuat"],
@@ -21614,6 +22384,11 @@
         "prefix": ["wp_upload_dir","wud"],
         "body": "wp_upload_dir( ${1:\\$time:string|null}, ${2:\\$create_dir:boolean}, ${3:\\$refresh_cache:boolean} )",
         "description": "Returns an array containing the current upload directory&#039;s path and URL."
+	},
+		"ƒ: wp_use_widgets_block_editor": {
+        "prefix": ["wp_use_widgets_block_editor","wuwbe"],
+        "body": "wp_use_widgets_block_editor(  )",
+        "description": "Whether or not to use the block editor to manage widgets. Defaults to true unless a theme has removed support for widgets-block-editor or a plugin has filtered the return value of this function."
 	},
 		"ƒ: wp_user_personal_data_exporter": {
         "prefix": ["wp_user_personal_data_exporter","wupde"],
