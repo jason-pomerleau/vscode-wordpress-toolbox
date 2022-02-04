@@ -1327,7 +1327,7 @@
     "Class: WP_Block_Patterns_Registry": {
         "prefix": "WP_Block_Patterns_Registry",
         "body": "WP_Block_Patterns_Registry",
-        "description": "Class used for interacting with patterns."
+        "description": "Class used for interacting with block patterns."
     },
     "Class: WP_Block_Styles_Registry": {
         "prefix": "WP_Block_Styles_Registry",
@@ -1959,6 +1959,31 @@
         "body": "WP_REST_Controller",
         "description": "Core base controller for managing and interacting with REST API items."
     },
+    "Class: WP_REST_Edit_Site_Export_Controller": {
+        "prefix": "WP_REST_Edit_Site_Export_Controller",
+        "body": "WP_REST_Edit_Site_Export_Controller",
+        "description": "Controller which provides REST endpoint for exporting current templates and template parts."
+    },
+    "Class: WP_REST_Global_Styles_Controller": {
+        "prefix": "WP_REST_Global_Styles_Controller",
+        "body": "WP_REST_Global_Styles_Controller",
+        "description": "Base Global Styles REST API Controller."
+    },
+    "Class: WP_REST_Menu_Items_Controller": {
+        "prefix": "WP_REST_Menu_Items_Controller",
+        "body": "WP_REST_Menu_Items_Controller",
+        "description": "Core class to access nav items via the REST API."
+    },
+    "Class: WP_REST_Menu_Locations_Controller": {
+        "prefix": "WP_REST_Menu_Locations_Controller",
+        "body": "WP_REST_Menu_Locations_Controller",
+        "description": "Core class used to access menu locations via the REST API."
+    },
+    "Class: WP_REST_Menus_Controller": {
+        "prefix": "WP_REST_Menus_Controller",
+        "body": "WP_REST_Menus_Controller",
+        "description": "Core class used to managed menu terms associated via the REST API."
+    },
     "Class: WP_REST_Meta_Fields": {
         "prefix": "WP_REST_Meta_Fields",
         "body": "WP_REST_Meta_Fields",
@@ -2078,6 +2103,11 @@
         "prefix": "WP_REST_Themes_Controller",
         "body": "WP_REST_Themes_Controller",
         "description": "Core class used to manage themes via the REST API."
+    },
+    "Class: WP_REST_URL_Details_Controller": {
+        "prefix": "WP_REST_URL_Details_Controller",
+        "body": "WP_REST_URL_Details_Controller",
+        "description": "Controller which provides REST endpoint for retrieving information from a remote site&#039;s HTML response."
     },
     "Class: WP_REST_User_Meta_Fields": {
         "prefix": "WP_REST_User_Meta_Fields",
@@ -2273,6 +2303,11 @@
         "prefix": "WP_Theme_JSON_Resolver",
         "body": "WP_Theme_JSON_Resolver",
         "description": "Class that abstracts the processing of the different data sources for site-level config and offers an API to work with them."
+    },
+    "Class: WP_Theme_JSON_Schema": {
+        "prefix": "WP_Theme_JSON_Schema",
+        "body": "WP_Theme_JSON_Schema",
+        "description": "Class that migrates a given theme.json structure to the latest schema."
     },
     "Class: WP_Themes_List_Table": {
         "prefix": "WP_Themes_List_Table",
@@ -2557,7 +2592,7 @@
 	"Constant: DB_HOST": {
         "prefix": "DB_HOST",
         "body": "DB_HOST",
-        "description": ""
+        "description": "Database hostname"
     },
 	"Constant: DB_NAME": {
         "prefix": "DB_NAME",
@@ -2567,12 +2602,12 @@
 	"Constant: DB_PASSWORD": {
         "prefix": "DB_PASSWORD",
         "body": "DB_PASSWORD",
-        "description": "MySQL database password"
+        "description": "Database password"
     },
 	"Constant: DB_USER": {
         "prefix": "DB_USER",
         "body": "DB_USER",
-        "description": "MySQL database username"
+        "description": ""
     },
 	"Constant: DOING_AJAX": {
         "prefix": "DOING_AJAX",
@@ -3754,11 +3789,6 @@
         "body": "GETID3_INCLUDEPATH",
         "description": ""
     },
-	"Constant: GETID3_MP3_VALID_CHECK_FRAMES": {
-        "prefix": "GETID3_MP3_VALID_CHECK_FRAMES",
-        "body": "GETID3_MP3_VALID_CHECK_FRAMES",
-        "description": ""
-    },
 	"Constant: GETID3_OS_ISWINDOWS": {
         "prefix": "GETID3_OS_ISWINDOWS",
         "body": "GETID3_OS_ISWINDOWS",
@@ -3849,11 +3879,6 @@
         "body": "IMAGETYPE_WEBP",
         "description": ""
     },
-	"Constant: IMG_JPG": {
-        "prefix": "IMG_JPG",
-        "body": "IMG_JPG",
-        "description": ""
-    },
 	"Constant: IMG_WEBP": {
         "prefix": "IMG_WEBP",
         "body": "IMG_WEBP",
@@ -3862,7 +3887,7 @@
 	"Constant: IS_PROFILE_PAGE": {
         "prefix": "IS_PROFILE_PAGE",
         "body": "IS_PROFILE_PAGE",
-        "description": "This is a profile page."
+        "description": ""
     },
 	"Constant: KB_IN_BYTES": {
         "prefix": "KB_IN_BYTES",
@@ -3952,6 +3977,11 @@
 	"Constant: MONTH_IN_SECONDS": {
         "prefix": "MONTH_IN_SECONDS",
         "body": "MONTH_IN_SECONDS",
+        "description": ""
+    },
+	"Constant: MS_FILES_REQUEST": {
+        "prefix": "MS_FILES_REQUEST",
+        "body": "MS_FILES_REQUEST",
         "description": ""
     },
 	"Constant: MULTISITE": {
@@ -5347,7 +5377,7 @@
 	"Constant: WP_DEBUG": {
         "prefix": "WP_DEBUG",
         "body": "WP_DEBUG",
-        "description": "For developers: WordPress debugging mode."
+        "description": ""
     },
 	"Constant: WP_DEBUG_DISPLAY": {
         "prefix": "WP_DEBUG_DISPLAY",
@@ -5447,6 +5477,26 @@
 	"Constant: WP_START_TIMESTAMP": {
         "prefix": "WP_START_TIMESTAMP",
         "body": "WP_START_TIMESTAMP",
+        "description": ""
+    },
+	"Constant: WP_TEMPLATE_PART_AREA_FOOTER": {
+        "prefix": "WP_TEMPLATE_PART_AREA_FOOTER",
+        "body": "WP_TEMPLATE_PART_AREA_FOOTER",
+        "description": ""
+    },
+	"Constant: WP_TEMPLATE_PART_AREA_HEADER": {
+        "prefix": "WP_TEMPLATE_PART_AREA_HEADER",
+        "body": "WP_TEMPLATE_PART_AREA_HEADER",
+        "description": ""
+    },
+	"Constant: WP_TEMPLATE_PART_AREA_SIDEBAR": {
+        "prefix": "WP_TEMPLATE_PART_AREA_SIDEBAR",
+        "body": "WP_TEMPLATE_PART_AREA_SIDEBAR",
+        "description": ""
+    },
+	"Constant: WP_TEMPLATE_PART_AREA_UNCATEGORIZED": {
+        "prefix": "WP_TEMPLATE_PART_AREA_UNCATEGORIZED",
+        "body": "WP_TEMPLATE_PART_AREA_UNCATEGORIZED",
         "description": ""
     },
 	"Constant: WP_UNINSTALL_PLUGIN": {
@@ -5570,20 +5620,45 @@
         "body": "_access_denied_splash(  )",
         "description": "Displays an access denied message when a user tries to view a site&#039;s dashboard they do not have access to."
 	},
+		"ƒ: _add_block_template_info": {
+        "prefix": ["_add_block_template_info","abti"],
+        "body": "_add_block_template_info( ${1:\\$template_item:array} )",
+        "description": "Attempts to add custom template information to the template item."
+	},
+		"ƒ: _add_block_template_part_area_info": {
+        "prefix": ["_add_block_template_part_area_info","abtpai"],
+        "body": "_add_block_template_part_area_info( ${1:\\$template_info:array} )",
+        "description": "Attempts to add the template part&#039;s area information to the input template."
+	},
+		"ƒ: _add_default_theme_supports": {
+        "prefix": ["_add_default_theme_supports","adts"],
+        "body": "_add_default_theme_supports(  )",
+        "description": "Adds default theme supports for block themes when the &#039;setup_theme&#039; action fires."
+	},
+		"ƒ: _add_plugin_file_editor_to_tools": {
+        "prefix": ["_add_plugin_file_editor_to_tools","apfett"],
+        "body": "_add_plugin_file_editor_to_tools(  )",
+        "description": "Adds the &#039;Plugin File Editor&#039; menu item after the &#039;Themes File Editor&#039; in Tools for block themes."
+	},
 		"ƒ: _add_post_type_submenus": {
         "prefix": ["_add_post_type_submenus","apts"],
         "body": "_add_post_type_submenus(  )",
         "description": "Add submenus for post types."
 	},
+		"ƒ: _add_template_loader_filters": {
+        "prefix": ["_add_template_loader_filters","atlf"],
+        "body": "_add_template_loader_filters(  )",
+        "description": "Adds necessary filters to use &#039;wp_template&#039; posts instead of theme template files."
+	},
 		"ƒ: _add_themes_utility_last": {
         "prefix": ["_add_themes_utility_last","atul"],
         "body": "_add_themes_utility_last(  )",
-        "description": "Adds the &#039;Theme Editor&#039; link to the bottom of the Appearance menu."
+        "description": "Adds the &#039;Theme File Editor&#039; menu item to the bottom of the Appearance (non-block themes) or Tools (block themes) menu."
 	},
 		"ƒ: _admin_bar_bump_cb": {
         "prefix": ["_admin_bar_bump_cb","abbc"],
         "body": "_admin_bar_bump_cb(  )",
-        "description": "Default admin bar callback."
+        "description": "Prints default admin bar callback."
 	},
 		"ƒ: _admin_notice_post_locked": {
         "prefix": ["_admin_notice_post_locked","anpl"],
@@ -5620,9 +5695,14 @@
         "body": "_block_template_viewport_meta_tag(  )",
         "description": "Renders a &#039;viewport&#039; meta tag."
 	},
-		"ƒ: _build_template_result_from_post": {
-        "prefix": ["_build_template_result_from_post","btrfp"],
-        "body": "_build_template_result_from_post( ${1:\\$post:WP_Post} )",
+		"ƒ: _build_block_template_result_from_file": {
+        "prefix": ["_build_block_template_result_from_file","bbtrff"],
+        "body": "_build_block_template_result_from_file( ${1:\\$template_file:array}, ${2:\\$template_type:string} )",
+        "description": "Build a unified template object based on a theme file."
+	},
+		"ƒ: _build_block_template_result_from_post": {
+        "prefix": ["_build_block_template_result_from_post","bbtrfp"],
+        "body": "_build_block_template_result_from_post( ${1:\\$post:WP_Post} )",
         "description": "Build a unified template object based a post Object."
 	},
 		"ƒ: _c": {
@@ -5715,6 +5795,11 @@
         "body": "_delete_attachment_theme_mod( ${1:\\$id:integer} )",
         "description": "Checks an attachment being deleted to see if it&#039;s a header or background image."
 	},
+		"ƒ: _delete_custom_logo_on_remove_site_logo": {
+        "prefix": ["_delete_custom_logo_on_remove_site_logo","dclorsl"],
+        "body": "_delete_custom_logo_on_remove_site_logo(  )",
+        "description": "Removes the custom_logo theme-mod when the site_logo option gets deleted."
+	},
 		"ƒ: _delete_option_fresh_site": {
         "prefix": ["_delete_option_fresh_site","dofs"],
         "body": "_delete_option_fresh_site(  )",
@@ -5765,6 +5850,16 @@
         "body": "_device_can_upload(  )",
         "description": "Test if the current device has the capability to upload files."
 	},
+		"ƒ: _disable_block_editor_for_navigation_post_type": {
+        "prefix": ["_disable_block_editor_for_navigation_post_type","dbefnpt"],
+        "body": "_disable_block_editor_for_navigation_post_type( ${1:\\$value:boolean}, ${2:\\$post_type:string} )",
+        "description": "Disables block editor for wp_navigation type posts so they can be managed via the UI."
+	},
+		"ƒ: _disable_content_editor_for_navigation_post_type": {
+        "prefix": ["_disable_content_editor_for_navigation_post_type","dcefnpt"],
+        "body": "_disable_content_editor_for_navigation_post_type( ${1:\\$post:WP_Post} )",
+        "description": "This callback disables the content editor for wp_navigation type posts."
+	},
 		"ƒ: _doing_it_wrong": {
         "prefix": ["_doing_it_wrong","diw"],
         "body": "_doing_it_wrong( ${1:\\$function:string}, ${2:\\$message:string}, ${3:\\$version:string} )",
@@ -5779,6 +5874,11 @@
         "prefix": ["_e","e"],
         "body": "_e( ${1:\\$text:string}, ${2:\\$domain:string} )",
         "description": "Display translated text."
+	},
+		"ƒ: _enable_content_editor_for_navigation_post_type": {
+        "prefix": ["_enable_content_editor_for_navigation_post_type","ecefnpt"],
+        "body": "_enable_content_editor_for_navigation_post_type( ${1:\\$post:WP_Post} )",
+        "description": "This callback enables content editor for wp_navigation type posts."
 	},
 		"ƒ: _ex": {
         "prefix": ["_ex","e"],
@@ -5800,6 +5900,11 @@
         "body": "_fetch_remote_file( ${1:\\$url:string}, ${2:\\$headers:array} )",
         "description": "Retrieve URL headers and content using WP HTTP Request API."
 	},
+		"ƒ: _filter_block_template_part_area": {
+        "prefix": ["_filter_block_template_part_area","fbtpa"],
+        "body": "_filter_block_template_part_area( ${1:\\$type:string} )",
+        "description": "Checks whether the input &#039;area&#039; is a supported value."
+	},
 		"ƒ: _filter_query_attachment_filenames": {
         "prefix": ["_filter_query_attachment_filenames","fqaf"],
         "body": "_filter_query_attachment_filenames( ${1:\\$clauses:array} )",
@@ -5820,6 +5925,11 @@
         "body": "_fix_attachment_links( ${1:\\$post:integer|object} )",
         "description": "Replace hrefs of attachment anchors with up-to-date permalinks."
 	},
+		"ƒ: _flatten_blocks": {
+        "prefix": ["_flatten_blocks","fb"],
+        "body": "_flatten_blocks( ${1:\\$blocks:array} )",
+        "description": "Returns an array containing the references of the passed blocks and their inner blocks."
+	},
 		"ƒ: _future_post_hook": {
         "prefix": ["_future_post_hook","fph"],
         "body": "_future_post_hook( ${1:\\$deprecated:integer}, ${2:\\$post:WP_Post} )",
@@ -5833,7 +5943,22 @@
 		"ƒ: _get_admin_bar_pref": {
         "prefix": ["_get_admin_bar_pref","gabp"],
         "body": "_get_admin_bar_pref( ${1:\\$context:string}, ${2:\\$user:integer} )",
-        "description": "Retrieve the admin bar display preference of a user."
+        "description": "Retrieves the admin bar display preference of a user."
+	},
+		"ƒ: _get_block_template_file": {
+        "prefix": ["_get_block_template_file","gbtf"],
+        "body": "_get_block_template_file( ${1:\\$template_type:string}, ${2:\\$slug:string} )",
+        "description": "Retrieves the template file from the theme for a given slug."
+	},
+		"ƒ: _get_block_templates_files": {
+        "prefix": ["_get_block_templates_files","gbtf"],
+        "body": "_get_block_templates_files( ${1:\\$template_type:string} )",
+        "description": "Retrieves the template files from the theme."
+	},
+		"ƒ: _get_block_templates_paths": {
+        "prefix": ["_get_block_templates_paths","gbtp"],
+        "body": "_get_block_templates_paths( ${1:\\$base_directory:string} )",
+        "description": "Finds all nested template part file paths in a theme&#039;s directory."
 	},
 		"ƒ: _get_cron_array": {
         "prefix": ["_get_cron_array","gca"],
@@ -5908,7 +6033,7 @@
 		"ƒ: _get_template_edit_filename": {
         "prefix": ["_get_template_edit_filename","gtef"],
         "body": "_get_template_edit_filename( ${1:\\$fullpath:string}, ${2:\\$containingfolder:string} )",
-        "description": "Tidies a filename for url display by the theme editor."
+        "description": "Tidies a filename for url display by the theme file editor."
 	},
 		"ƒ: _get_term_children": {
         "prefix": ["_get_term_children","gtc"],
@@ -5929,6 +6054,11 @@
         "prefix": ["_http_build_query","hbq"],
         "body": "_http_build_query( ${1:\\$data:array|object}, ${2:\\$prefix:string|null}, ${3:\\$sep:string|null}, ${4:\\$key:string}, ${5:\\$urlencode:boolean} )",
         "description": "From php.net (modified by Mark Jaquith to behave like the native PHP5 function)."
+	},
+		"ƒ: _inject_theme_attribute_in_block_template_content": {
+        "prefix": ["_inject_theme_attribute_in_block_template_content","itaibtc"],
+        "body": "_inject_theme_attribute_in_block_template_content( ${1:\\$template_content:string} )",
+        "description": "Parses wp_template content and injects the current theme&#039;s stylesheet as a theme attribute into each wp_template_part"
 	},
 		"ƒ: _insert_into_post_button": {
         "prefix": ["_insert_into_post_button","iipb"],
@@ -5972,8 +6102,13 @@
 	},
 		"ƒ: _load_remote_block_patterns": {
         "prefix": ["_load_remote_block_patterns","lrbp"],
-        "body": "_load_remote_block_patterns( ${1:\\$current_screen:WP_Screen} )",
+        "body": "_load_remote_block_patterns( ${1:\\$deprecated:WP_Screen|null} )",
         "description": "Register Core&#039;s official patterns from wordpress.org/patterns."
+	},
+		"ƒ: _load_remote_featured_patterns": {
+        "prefix": ["_load_remote_featured_patterns","lrfp"],
+        "body": "_load_remote_featured_patterns(  )",
+        "description": "Register `Featured` (category) patterns from wordpress.org/patterns."
 	},
 		"ƒ: _load_textdomain_just_in_time": {
         "prefix": ["_load_textdomain_just_in_time","ltjit"],
@@ -6082,7 +6217,7 @@
 	},
 		"ƒ: _oembed_rest_pre_serve_request": {
         "prefix": ["_oembed_rest_pre_serve_request","orpsr"],
-        "body": "_oembed_rest_pre_serve_request( ${1:\\$served:boolean}, ${2:\\$result:WP_HTTP_ResponseInterface}, ${3:\\$request:WP_REST_Request}, ${4:\\$server:WP_REST_Server} )",
+        "body": "_oembed_rest_pre_serve_request( ${1:\\$served:boolean}, ${2:\\$result:WP_HTTP_Response}, ${3:\\$request:WP_REST_Request}, ${4:\\$server:WP_REST_Server} )",
         "description": "Hooks into the REST API output to print XML instead of JSON."
 	},
 		"ƒ: _override_custom_logo_theme_mod": {
@@ -6205,6 +6340,11 @@
         "body": "_remove_qs_args_if_not_in_url( ${1:\\$query_string:string}, ${2:\\$args_to_check:array}, ${3:\\$url:string} )",
         "description": "Removes arguments from a query string if they are not present in a URL DO NOT use this in plugin code."
 	},
+		"ƒ: _remove_theme_attribute_in_block_template_content": {
+        "prefix": ["_remove_theme_attribute_in_block_template_content","rtaibtc"],
+        "body": "_remove_theme_attribute_in_block_template_content( ${1:\\$template_content:string} )",
+        "description": "Parses a block template and removes the theme attribute from each template part."
+	},
 		"ƒ: _remove_theme_support": {
         "prefix": ["_remove_theme_support","rts"],
         "body": "_remove_theme_support( ${1:\\$feature:string} )",
@@ -6214,6 +6354,11 @@
         "prefix": ["_reset_front_page_settings_for_post","rfpsfp"],
         "body": "_reset_front_page_settings_for_post( ${1:\\$post_id:integer} )",
         "description": "Reset the page_on_front, show_on_front, and page_for_post settings when a linked page is deleted or trashed."
+	},
+		"ƒ: _resolve_template_for_new_post": {
+        "prefix": ["_resolve_template_for_new_post","rtfnp"],
+        "body": "_resolve_template_for_new_post( ${1:\\$wp_query:WP_Query} )",
+        "description": "Sets the current WP_Query to return auto-draft posts."
 	},
 		"ƒ: _response_to_rss": {
         "prefix": ["_response_to_rss","rtr"],
@@ -6393,7 +6538,7 @@
 		"ƒ: _wp_admin_bar_init": {
         "prefix": ["_wp_admin_bar_init","wabi"],
         "body": "_wp_admin_bar_init(  )",
-        "description": "Instantiate the admin bar object and set it up as a global for access elsewhere."
+        "description": "Instantiates the admin bar object and set it up as a global for access elsewhere."
 	},
 		"ƒ: _wp_admin_html_begin": {
         "prefix": ["_wp_admin_html_begin","wahb"],
@@ -6434,6 +6579,11 @@
         "prefix": ["_wp_call_all_hook","wcah"],
         "body": "_wp_call_all_hook( ${1:\\$args:array} )",
         "description": "Calls the &#039;all&#039; hook, which will process the functions hooked into it."
+	},
+		"ƒ: _wp_check_alternate_file_names": {
+        "prefix": ["_wp_check_alternate_file_names","wcafn"],
+        "body": "_wp_check_alternate_file_names( ${1:\\$filenames:array}, ${2:\\$dir:string}, ${3:\\$files:array} )",
+        "description": "Helper function to test if each of an array of file names could conflict with existing files."
 	},
 		"ƒ: _wp_check_existing_file_names": {
         "prefix": ["_wp_check_existing_file_names","wcefn"],
@@ -6517,7 +6667,7 @@
 	},
 		"ƒ: _wp_filter_build_unique_id": {
         "prefix": ["_wp_filter_build_unique_id","wfbui"],
-        "body": "_wp_filter_build_unique_id( ${1:\\$hook_name:string}, ${2:\\$callback:callable}, ${3:\\$priority:integer} )",
+        "body": "_wp_filter_build_unique_id( ${1:\\$hook_name:string}, ${2:\\$callback:callable|string|array}, ${3:\\$priority:integer} )",
         "description": "Builds Unique ID for storage and retrieval."
 	},
 		"ƒ: _wp_filter_taxonomy_base": {
@@ -6532,8 +6682,8 @@
 	},
 		"ƒ: _wp_get_allowed_postdata": {
         "prefix": ["_wp_get_allowed_postdata","wgap"],
-        "body": "_wp_get_allowed_postdata( ${1:\\$post_data:array|null} )",
-        "description": "Returns only allowed post data fields"
+        "body": "_wp_get_allowed_postdata( ${1:\\$post_data:array|WP_Error|null} )",
+        "description": "Returns only allowed post data fields."
 	},
 		"ƒ: _wp_get_attachment_relative_path": {
         "prefix": ["_wp_get_attachment_relative_path","wgarp"],
@@ -6610,10 +6760,20 @@
         "body": "_wp_menus_changed(  )",
         "description": "Handle menu config after theme change."
 	},
+		"ƒ: _wp_multiple_block_styles": {
+        "prefix": ["_wp_multiple_block_styles","wmbs"],
+        "body": "_wp_multiple_block_styles( ${1:\\$metadata:array} )",
+        "description": "Allow multiple block styles."
+	},
 		"ƒ: _wp_nav_menu_meta_box_object": {
         "prefix": ["_wp_nav_menu_meta_box_object","wnmmbo"],
         "body": "_wp_nav_menu_meta_box_object( ${1:\\$object:object|null} )",
         "description": "Adds custom arguments to some of the meta box object types."
+	},
+		"ƒ: _wp_normalize_relative_css_links": {
+        "prefix": ["_wp_normalize_relative_css_links","wnrcl"],
+        "body": "_wp_normalize_relative_css_links( ${1:\\$css:string}, ${2:\\$stylesheet_url:string} )",
+        "description": "Make URLs relative to the WordPress installation."
 	},
 		"ƒ: _wp_object_count_sort_cb": {
         "prefix": ["_wp_object_count_sort_cb","wocsc"],
@@ -6755,6 +6915,11 @@
         "body": "_wp_timezone_choice_usort_callback( ${1:\\$a:array}, ${2:\\$b:array} )",
         "description": "Sort-helper for timezones."
 	},
+		"ƒ: _wp_tinycolor_bound_alpha": {
+        "prefix": ["_wp_tinycolor_bound_alpha","wtba"],
+        "body": "_wp_tinycolor_bound_alpha( ${1:\\$n:mixed} )",
+        "description": "Direct port of tinycolor&#039;s boundAlpha function to maintain consistency with how tinycolor works."
+	},
 		"ƒ: _wp_to_kebab_case": {
         "prefix": ["_wp_to_kebab_case","wtkc"],
         "body": "_wp_to_kebab_case( ${1:\\$string:string} )",
@@ -6763,7 +6928,7 @@
 		"ƒ: _wp_translate_postdata": {
         "prefix": ["_wp_translate_postdata","wtp"],
         "body": "_wp_translate_postdata( ${1:\\$update:boolean}, ${2:\\$post_data:array|null} )",
-        "description": "Rename $_POST data from form names to DB post columns."
+        "description": "Renames `$_POST` data from form names to DB post columns."
 	},
 		"ƒ: _wp_upgrade_revisions_of_post": {
         "prefix": ["_wp_upgrade_revisions_of_post","wurop"],
@@ -6843,7 +7008,7 @@
 		"ƒ: add_comments_page": {
         "prefix": ["add_comments_page","acp"],
         "body": "add_comments_page( ${1:\\$page_title:string}, ${2:\\$menu_title:string}, ${3:\\$capability:string}, ${4:\\$menu_slug:string}, ${5:\\$function:callable}, ${6:\\$position:integer|null} )",
-        "description": "Add submenu page to the Comments main menu."
+        "description": "Adds a submenu page to the Comments main menu."
 	},
 		"ƒ: add_contextual_help": {
         "prefix": ["add_contextual_help","ach"],
@@ -6868,7 +7033,7 @@
 		"ƒ: add_dashboard_page": {
         "prefix": ["add_dashboard_page","adp"],
         "body": "add_dashboard_page( ${1:\\$page_title:string}, ${2:\\$menu_title:string}, ${3:\\$capability:string}, ${4:\\$menu_slug:string}, ${5:\\$function:callable}, ${6:\\$position:integer|null} )",
-        "description": "Add submenu page to the Dashboard main menu."
+        "description": "Adds a submenu page to the Dashboard main menu."
 	},
 		"ƒ: add_editor_style": {
         "prefix": ["add_editor_style","aes"],
@@ -6903,7 +7068,7 @@
 		"ƒ: add_links_page": {
         "prefix": ["add_links_page","alp"],
         "body": "add_links_page( ${1:\\$page_title:string}, ${2:\\$menu_title:string}, ${3:\\$capability:string}, ${4:\\$menu_slug:string}, ${5:\\$function:callable}, ${6:\\$position:integer|null} )",
-        "description": "Add submenu page to the Links main menu."
+        "description": "Adds a submenu page to the Links main menu."
 	},
 		"ƒ: add_magic_quotes": {
         "prefix": ["add_magic_quotes","amq"],
@@ -6913,12 +7078,12 @@
 		"ƒ: add_management_page": {
         "prefix": ["add_management_page","amp"],
         "body": "add_management_page( ${1:\\$page_title:string}, ${2:\\$menu_title:string}, ${3:\\$capability:string}, ${4:\\$menu_slug:string}, ${5:\\$function:callable}, ${6:\\$position:integer|null} )",
-        "description": "Add submenu page to the Tools main menu."
+        "description": "Adds a submenu page to the Tools main menu."
 	},
 		"ƒ: add_media_page": {
         "prefix": ["add_media_page","amp"],
         "body": "add_media_page( ${1:\\$page_title:string}, ${2:\\$menu_title:string}, ${3:\\$capability:string}, ${4:\\$menu_slug:string}, ${5:\\$function:callable}, ${6:\\$position:integer|null} )",
-        "description": "Add submenu page to the Media main menu."
+        "description": "Adds a submenu page to the Media main menu."
 	},
 		"ƒ: add_menu_classes": {
         "prefix": ["add_menu_classes","amc"],
@@ -6928,12 +7093,12 @@
 		"ƒ: add_menu_page": {
         "prefix": ["add_menu_page","amp"],
         "body": "add_menu_page( ${1:\\$page_title:string}, ${2:\\$menu_title:string}, ${3:\\$capability:string}, ${4:\\$menu_slug:string}, ${5:\\$function:callable}, ${6:\\$icon_url:string}, ${7:\\$position:integer|null} )",
-        "description": "Add a top-level menu page."
+        "description": "Adds a top-level menu page."
 	},
 		"ƒ: add_meta": {
         "prefix": ["add_meta","am"],
         "body": "add_meta( ${1:\\$post_ID:integer} )",
-        "description": "Add post meta data defined in $_POST superglobal for post with given ID."
+        "description": "Adds post meta data defined in the `$_POST` superglobal for a post with given ID."
 	},
 		"ƒ: add_meta_box": {
         "prefix": ["add_meta_box","amb"],
@@ -6978,12 +7143,12 @@
 		"ƒ: add_options_page": {
         "prefix": ["add_options_page","aop"],
         "body": "add_options_page( ${1:\\$page_title:string}, ${2:\\$menu_title:string}, ${3:\\$capability:string}, ${4:\\$menu_slug:string}, ${5:\\$function:callable}, ${6:\\$position:integer|null} )",
-        "description": "Add submenu page to the Settings main menu."
+        "description": "Adds a submenu page to the Settings main menu."
 	},
 		"ƒ: add_pages_page": {
         "prefix": ["add_pages_page","app"],
         "body": "add_pages_page( ${1:\\$page_title:string}, ${2:\\$menu_title:string}, ${3:\\$capability:string}, ${4:\\$menu_slug:string}, ${5:\\$function:callable}, ${6:\\$position:integer|null} )",
-        "description": "Add submenu page to the Pages main menu."
+        "description": "Adds a submenu page to the Pages main menu."
 	},
 		"ƒ: add_permastruct": {
         "prefix": ["add_permastruct","ap"],
@@ -6998,7 +7163,7 @@
 		"ƒ: add_plugins_page": {
         "prefix": ["add_plugins_page","app"],
         "body": "add_plugins_page( ${1:\\$page_title:string}, ${2:\\$menu_title:string}, ${3:\\$capability:string}, ${4:\\$menu_slug:string}, ${5:\\$function:callable}, ${6:\\$position:integer|null} )",
-        "description": "Add submenu page to the Plugins main menu."
+        "description": "Adds a submenu page to the Plugins main menu."
 	},
 		"ƒ: add_post_meta": {
         "prefix": ["add_post_meta","apm"],
@@ -7013,7 +7178,7 @@
 		"ƒ: add_posts_page": {
         "prefix": ["add_posts_page","app"],
         "body": "add_posts_page( ${1:\\$page_title:string}, ${2:\\$menu_title:string}, ${3:\\$capability:string}, ${4:\\$menu_slug:string}, ${5:\\$function:callable}, ${6:\\$position:integer|null} )",
-        "description": "Add submenu page to the Posts main menu."
+        "description": "Adds a submenu page to the Posts main menu."
 	},
 		"ƒ: add_query_arg": {
         "prefix": ["add_query_arg","aqa"],
@@ -7078,7 +7243,7 @@
 		"ƒ: add_submenu_page": {
         "prefix": ["add_submenu_page","asp"],
         "body": "add_submenu_page( ${1:\\$parent_slug:string}, ${2:\\$page_title:string}, ${3:\\$menu_title:string}, ${4:\\$capability:string}, ${5:\\$menu_slug:string}, ${6:\\$function:callable}, ${7:\\$position:integer|null} )",
-        "description": "Add a submenu page."
+        "description": "Adds a submenu page."
 	},
 		"ƒ: add_term_meta": {
         "prefix": ["add_term_meta","atm"],
@@ -7088,7 +7253,7 @@
 		"ƒ: add_theme_page": {
         "prefix": ["add_theme_page","atp"],
         "body": "add_theme_page( ${1:\\$page_title:string}, ${2:\\$menu_title:string}, ${3:\\$capability:string}, ${4:\\$menu_slug:string}, ${5:\\$function:callable}, ${6:\\$position:integer|null} )",
-        "description": "Add submenu page to the Appearance main menu."
+        "description": "Adds a submenu page to the Appearance main menu."
 	},
 		"ƒ: add_theme_support": {
         "prefix": ["add_theme_support","ats"],
@@ -7118,7 +7283,7 @@
 		"ƒ: add_users_page": {
         "prefix": ["add_users_page","aup"],
         "body": "add_users_page( ${1:\\$page_title:string}, ${2:\\$menu_title:string}, ${3:\\$capability:string}, ${4:\\$menu_slug:string}, ${5:\\$function:callable}, ${6:\\$position:integer|null} )",
-        "description": "Add submenu page to the Users/Profile main menu."
+        "description": "Adds a submenu page to the Users/Profile main menu."
 	},
 		"ƒ: add_utility_page": {
         "prefix": ["add_utility_page","aup"],
@@ -7127,8 +7292,8 @@
 	},
 		"ƒ: addslashes_gpc": {
         "prefix": ["addslashes_gpc","ag"],
-        "body": "addslashes_gpc( ${1:\\$gpc:string} )",
-        "description": "Adds slashes to escape strings."
+        "body": "addslashes_gpc( ${1:\\$gpc:string|array} )",
+        "description": "Adds slashes to a string or recursively adds slashes to strings within an array."
 	},
 		"ƒ: addslashes_strings_only": {
         "prefix": ["addslashes_strings_only","aso"],
@@ -7220,6 +7385,16 @@
         "body": "apply_shortcodes( ${1:\\$content:string}, ${2:\\$ignore_html:boolean} )",
         "description": "Search content for shortcodes and filter shortcodes through their hooks."
 	},
+		"ƒ: array_key_first": {
+        "prefix": ["array_key_first","akf"],
+        "body": "array_key_first( ${1:\\$arr:array} )",
+        "description": "Polyfill for array_key_first() function added in PHP 7.3."
+	},
+		"ƒ: array_key_last": {
+        "prefix": ["array_key_last","akl"],
+        "body": "array_key_last( ${1:\\$arr:array} )",
+        "description": "Polyfill for `array_key_last()` function added in PHP 7.3."
+	},
 		"ƒ: atom_enclosure": {
         "prefix": ["atom_enclosure","ae"],
         "body": "atom_enclosure(  )",
@@ -7300,6 +7475,31 @@
         "body": "before_last_bar( ${1:\\$string:string} )",
         "description": "Remove last item on a pipe-delimited string."
 	},
+		"ƒ: block_core_calendar_has_published_posts": {
+        "prefix": ["block_core_calendar_has_published_posts","bcchpp"],
+        "body": "block_core_calendar_has_published_posts(  )",
+        "description": "Returns whether or not there are any published posts."
+	},
+		"ƒ: block_core_calendar_update_has_published_post_on_delete": {
+        "prefix": ["block_core_calendar_update_has_published_post_on_delete","bccuhppod"],
+        "body": "block_core_calendar_update_has_published_post_on_delete( ${1:\\$post_id:integer} )",
+        "description": "Handler for updating the has published posts flag when a post is deleted."
+	},
+		"ƒ: block_core_calendar_update_has_published_post_on_transition_post_status": {
+        "prefix": ["block_core_calendar_update_has_published_post_on_transition_post_status","bccuhppotps"],
+        "body": "block_core_calendar_update_has_published_post_on_transition_post_status( ${1:\\$new_status:string}, ${2:\\$old_status:string}, ${3:\\$post:WP_Post} )",
+        "description": "Handler for updating the has published posts flag when a post status changes."
+	},
+		"ƒ: block_core_calendar_update_has_published_posts": {
+        "prefix": ["block_core_calendar_update_has_published_posts","bccuhpp"],
+        "body": "block_core_calendar_update_has_published_posts(  )",
+        "description": "Queries the database for any published post and saves a flag whether any published post exists or not."
+	},
+		"ƒ: block_core_gallery_data_id_backcompatibility": {
+        "prefix": ["block_core_gallery_data_id_backcompatibility","bcgdib"],
+        "body": "block_core_gallery_data_id_backcompatibility( ${1:\\$parsed_block:array} )",
+        "description": "Handles backwards compatibility for Gallery Blocks, whose images feature a `data-id` attribute."
+	},
 		"ƒ: block_core_latest_posts_get_excerpt_length": {
         "prefix": ["block_core_latest_posts_get_excerpt_length","bclpgel"],
         "body": "block_core_latest_posts_get_excerpt_length(  )",
@@ -7310,9 +7510,89 @@
         "body": "block_core_latest_posts_migrate_categories( ${1:\\$block:array} )",
         "description": "Handles outdated versions of the `core/latest-posts` block by converting attribute `categories` from a numeric string to an array with key `id`."
 	},
+		"ƒ: block_core_navigation_build_css_colors": {
+        "prefix": ["block_core_navigation_build_css_colors","bcnbcc"],
+        "body": "block_core_navigation_build_css_colors( ${1:\\$attributes:array} )",
+        "description": "Build an array with CSS classes and inline styles defining the colors which will be applied to the navigation markup in the front-end."
+	},
+		"ƒ: block_core_navigation_build_css_font_sizes": {
+        "prefix": ["block_core_navigation_build_css_font_sizes","bcnbcfs"],
+        "body": "block_core_navigation_build_css_font_sizes( ${1:\\$attributes:array} )",
+        "description": "Build an array with CSS classes and inline styles defining the font sizes which will be applied to the navigation markup in the front-end."
+	},
+		"ƒ: block_core_navigation_filter_out_empty_blocks": {
+        "prefix": ["block_core_navigation_filter_out_empty_blocks","bcnfoeb"],
+        "body": "block_core_navigation_filter_out_empty_blocks( ${1:\\$parsed_blocks:array} )",
+        "description": "Filter out empty &quot;null&quot; blocks from the block list."
+	},
+		"ƒ: block_core_navigation_get_fallback_blocks": {
+        "prefix": ["block_core_navigation_get_fallback_blocks","bcngfb"],
+        "body": "block_core_navigation_get_fallback_blocks(  )",
+        "description": "Retrieves the appropriate fallback to be used on the front of the site when there is no menu assigned to the Nav block."
+	},
+		"ƒ: block_core_navigation_get_first_non_empty_navigation": {
+        "prefix": ["block_core_navigation_get_first_non_empty_navigation","bcngfnen"],
+        "body": "block_core_navigation_get_first_non_empty_navigation(  )",
+        "description": "Finds the first non-empty `wp_navigation` Post."
+	},
+		"ƒ: block_core_navigation_get_menu_items_at_location": {
+        "prefix": ["block_core_navigation_get_menu_items_at_location","bcngmial"],
+        "body": "block_core_navigation_get_menu_items_at_location( ${1:\\$location:string} )",
+        "description": "Returns the menu items for a WordPress menu location."
+	},
+		"ƒ: block_core_navigation_link_build_css_colors": {
+        "prefix": ["block_core_navigation_link_build_css_colors","bcnlbcc"],
+        "body": "block_core_navigation_link_build_css_colors( ${1:\\$context:array}, ${2:\\$attributes:array} )",
+        "description": "Build an array with CSS classes and inline styles defining the colors which will be applied to the navigation markup in the front-end."
+	},
+		"ƒ: block_core_navigation_link_build_css_font_sizes": {
+        "prefix": ["block_core_navigation_link_build_css_font_sizes","bcnlbcfs"],
+        "body": "block_core_navigation_link_build_css_font_sizes( ${1:\\$context:array} )",
+        "description": "Build an array with CSS classes and inline styles defining the font sizes which will be applied to the navigation markup in the front-end."
+	},
+		"ƒ: block_core_navigation_link_render_submenu_icon": {
+        "prefix": ["block_core_navigation_link_render_submenu_icon","bcnlrsi"],
+        "body": "block_core_navigation_link_render_submenu_icon(  )",
+        "description": "Returns the top-level submenu SVG chevron icon."
+	},
+		"ƒ: block_core_navigation_parse_blocks_from_menu_items": {
+        "prefix": ["block_core_navigation_parse_blocks_from_menu_items","bcnpbfmi"],
+        "body": "block_core_navigation_parse_blocks_from_menu_items( ${1:\\$menu_items:array}, ${2:\\$menu_items_by_parent_id:array} )",
+        "description": "Turns menu item data into a nested array of parsed blocks"
+	},
+		"ƒ: block_core_navigation_render_submenu_icon": {
+        "prefix": ["block_core_navigation_render_submenu_icon","bcnrsi"],
+        "body": "block_core_navigation_render_submenu_icon(  )",
+        "description": "Returns the top-level submenu SVG chevron icon."
+	},
+		"ƒ: block_core_navigation_sort_menu_items_by_parent_id": {
+        "prefix": ["block_core_navigation_sort_menu_items_by_parent_id","bcnsmibpi"],
+        "body": "block_core_navigation_sort_menu_items_by_parent_id( ${1:\\$menu_items:array} )",
+        "description": "Sorts a standard array of menu items into a nested structure keyed by the id of the parent menu."
+	},
+		"ƒ: block_core_navigation_submenu_build_css_colors": {
+        "prefix": ["block_core_navigation_submenu_build_css_colors","bcnsbcc"],
+        "body": "block_core_navigation_submenu_build_css_colors( ${1:\\$context:array}, ${2:\\$attributes:array} )",
+        "description": "Build an array with CSS classes and inline styles defining the colors which will be applied to the navigation markup in the front-end."
+	},
+		"ƒ: block_core_navigation_submenu_build_css_font_sizes": {
+        "prefix": ["block_core_navigation_submenu_build_css_font_sizes","bcnsbcfs"],
+        "body": "block_core_navigation_submenu_build_css_font_sizes( ${1:\\$context:array} )",
+        "description": "Build an array with CSS classes and inline styles defining the font sizes which will be applied to the navigation markup in the front-end."
+	},
+		"ƒ: block_core_navigation_submenu_render_submenu_icon": {
+        "prefix": ["block_core_navigation_submenu_render_submenu_icon","bcnsrsi"],
+        "body": "block_core_navigation_submenu_render_submenu_icon(  )",
+        "description": "Returns the top-level submenu SVG chevron icon."
+	},
+		"ƒ: block_core_navigation_typographic_presets_backcompatibility": {
+        "prefix": ["block_core_navigation_typographic_presets_backcompatibility","bcntpb"],
+        "body": "block_core_navigation_typographic_presets_backcompatibility( ${1:\\$parsed_block:array} )",
+        "description": "Filter that changes the parsed attribute values of navigation blocks contain typographic presets to contain the values directly."
+	},
 		"ƒ: block_core_page_list_build_css_colors": {
         "prefix": ["block_core_page_list_build_css_colors","bcplbcc"],
-        "body": "block_core_page_list_build_css_colors( ${1:\\$context:array} )",
+        "body": "block_core_page_list_build_css_colors( ${1:\\$attributes:array}, ${2:\\$context:array} )",
         "description": "Build an array with CSS classes and inline styles defining the colors which will be applied to the pages markup in the front-end when it is a descendant of navigation."
 	},
 		"ƒ: block_core_page_list_build_css_font_sizes": {
@@ -7327,7 +7607,7 @@
 	},
 		"ƒ: block_core_page_list_render_nested_page_list": {
         "prefix": ["block_core_page_list_render_nested_page_list","bcplrnpl"],
-        "body": "block_core_page_list_render_nested_page_list( ${1:\\$nested_pages:array} )",
+        "body": "block_core_page_list_render_nested_page_list( ${1:\\$open_submenus_on_click:boolean}, ${2:\\$show_submenu_icons:boolean}, ${3:\\$is_navigation_child:boolean}, ${4:\\$nested_pages:array}, ${5:\\$active_page_ancestor_ids:array}, ${6:\\$colors:array}, ${7:\\$depth:integer} )",
         "description": "Outputs Page list markup from an array of pages with nested children."
 	},
 		"ƒ: block_core_social_link_get_color_styles": {
@@ -7355,10 +7635,25 @@
         "body": "block_editor_rest_api_preload( ${1:\\$preload_paths:array}, ${2:\\$block_editor_context:WP_Block_Editor_Context} )",
         "description": "Preloads common data used with the block editor by specifying an array of REST API paths that will be preloaded for a given block editor context."
 	},
+		"ƒ: block_footer_area": {
+        "prefix": ["block_footer_area","bfa"],
+        "body": "block_footer_area(  )",
+        "description": "Print the footer template-part."
+	},
 		"ƒ: block_has_support": {
         "prefix": ["block_has_support","bhs"],
         "body": "block_has_support( ${1:\\$block_type:WP_Block_Type}, ${2:\\$feature:string}, ${3:\\$default:mixed} )",
         "description": "Checks whether the current block type supports the feature requested."
+	},
+		"ƒ: block_header_area": {
+        "prefix": ["block_header_area","bha"],
+        "body": "block_header_area(  )",
+        "description": "Print the header template-part."
+	},
+		"ƒ: block_template_part": {
+        "prefix": ["block_template_part","btp"],
+        "body": "block_template_part( ${1:\\$part:string} )",
+        "description": "Print a template-part."
 	},
 		"ƒ: block_version": {
         "prefix": ["block_version","bv"],
@@ -7400,10 +7695,20 @@
         "body": "build_query_vars_from_query_block( ${1:\\$block:WP_Block}, ${2:\\$page:integer} )",
         "description": "Helper function that constructs a WP_Query args array from a `Query` block properties."
 	},
+		"ƒ: build_template_part_block_variations": {
+        "prefix": ["build_template_part_block_variations","btpbv"],
+        "body": "build_template_part_block_variations(  )",
+        "description": "Returns an array of variation objects for the template part block."
+	},
+		"ƒ: build_variation_for_navigation_link": {
+        "prefix": ["build_variation_for_navigation_link","bvfnl"],
+        "body": "build_variation_for_navigation_link( ${1:\\$entity:WP_Taxonomy|WP_Post_Type}, ${2:\\$kind:string} )",
+        "description": "Returns a navigation link variation"
+	},
 		"ƒ: bulk_edit_posts": {
         "prefix": ["bulk_edit_posts","bep"],
         "body": "bulk_edit_posts( ${1:\\$post_data:array|null} )",
-        "description": "Process the post data for the bulk editing of posts."
+        "description": "Processes the post data for the bulk editing of posts."
 	},
 		"ƒ: cache_javascript_headers": {
         "prefix": ["cache_javascript_headers","cjh"],
@@ -7608,7 +7913,7 @@
 		"ƒ: codepress_footer_js": {
         "prefix": ["codepress_footer_js","cfj"],
         "body": "codepress_footer_js(  )",
-        "description": "Adds JavaScript required to make CodePress work on the theme/plugin editors."
+        "description": "Adds JavaScript required to make CodePress work on the theme/plugin file editors."
 	},
 		"ƒ: codepress_get_lang": {
         "prefix": ["codepress_get_lang","cgl"],
@@ -7783,7 +8088,7 @@
 		"ƒ: confirm_another_blog_signup": {
         "prefix": ["confirm_another_blog_signup","cabs"],
         "body": "confirm_another_blog_signup( ${1:\\$domain:string}, ${2:\\$path:string}, ${3:\\$blog_title:string}, ${4:\\$user_name:string}, ${5:\\$user_email:string}, ${6:\\$meta:array}, ${7:\\$blog_id:integer} )",
-        "description": "Confirm a new site signup."
+        "description": "Shows a message confirming that the new site has been created."
 	},
 		"ƒ: confirm_blog_signup": {
         "prefix": ["confirm_blog_signup","cbs"],
@@ -7798,7 +8103,7 @@
 		"ƒ: confirm_user_signup": {
         "prefix": ["confirm_user_signup","cus"],
         "body": "confirm_user_signup( ${1:\\$user_name:string}, ${2:\\$user_email:string} )",
-        "description": "New user signup confirmation"
+        "description": "Shows a message confirming that the new user has been registered and is awaiting activation."
 	},
 		"ƒ: content_url": {
         "prefix": ["content_url","cu"],
@@ -7898,7 +8203,7 @@
 		"ƒ: current_datetime": {
         "prefix": ["current_datetime","cd"],
         "body": "current_datetime(  )",
-        "description": "Retrieves the current time as an object with the timezone from settings."
+        "description": "Retrieves the current time as an object using the site&#039;s timezone."
 	},
 		"ƒ: current_filter": {
         "prefix": ["current_filter","cf"],
@@ -8043,7 +8348,7 @@
 		"ƒ: delete_meta": {
         "prefix": ["delete_meta","dm"],
         "body": "delete_meta( ${1:\\$mid:integer} )",
-        "description": "Delete post meta data by meta ID."
+        "description": "Deletes post meta data by meta ID."
 	},
 		"ƒ: delete_metadata": {
         "prefix": ["delete_metadata","dm"],
@@ -8164,6 +8469,11 @@
         "prefix": ["disabled"],
         "body": "disabled( ${1:\\$disabled:mixed}, ${2:\\$current:mixed}, ${3:\\$echo:boolean} )",
         "description": "Outputs the HTML disabled attribute."
+	},
+		"ƒ: discard_sidebar_being_rendered": {
+        "prefix": ["discard_sidebar_being_rendered","dsbr"],
+        "body": "discard_sidebar_being_rendered(  )",
+        "description": "Clear whatever we set in note_sidebar_being_rendered() after WordPress finishes rendering a sidebar."
 	},
 		"ƒ: discover_pingback_server_uri": {
         "prefix": ["discover_pingback_server_uri","dpsu"],
@@ -8353,7 +8663,7 @@
 		"ƒ: do_signup_header": {
         "prefix": ["do_signup_header","dsh"],
         "body": "do_signup_header(  )",
-        "description": "Prints signup_header via wp_head"
+        "description": "Prints signup_header via wp_head."
 	},
 		"ƒ: do_trackbacks": {
         "prefix": ["do_trackbacks","dt"],
@@ -8443,7 +8753,7 @@
 		"ƒ: edit_post": {
         "prefix": ["edit_post","ep"],
         "body": "edit_post( ${1:\\$post_data:array|null} )",
-        "description": "Update an existing post with values provided in $_POST."
+        "description": "Updates an existing post with values provided in `$_POST`."
 	},
 		"ƒ: edit_post_link": {
         "prefix": ["edit_post_link","epl"],
@@ -8457,7 +8767,7 @@
 	},
 		"ƒ: edit_term_link": {
         "prefix": ["edit_term_link","etl"],
-        "body": "edit_term_link( ${1:\\$link:string}, ${2:\\$before:string}, ${3:\\$after:string}, ${4:\\$term:WP_Term|null}, ${5:\\$echo:boolean} )",
+        "body": "edit_term_link( ${1:\\$link:string}, ${2:\\$before:string}, ${3:\\$after:string}, ${4:\\$term:integer|WP_Term|null}, ${5:\\$echo:boolean} )",
         "description": "Displays or retrieves the edit term link with formatting."
 	},
 		"ƒ: edit_user": {
@@ -8563,7 +8873,7 @@
 		"ƒ: esc_url_raw": {
         "prefix": ["esc_url_raw","eur"],
         "body": "esc_url_raw( ${1:\\$url:string}, ${2:\\$protocols:array|null} )",
-        "description": "Performs esc_url() for database usage."
+        "description": "Performs esc_url() for database or redirect usage."
 	},
 		"ƒ: esc_xml": {
         "prefix": ["esc_xml","ex"],
@@ -8860,6 +9170,11 @@
         "body": "get_alloptions_110(  )",
         "description": "Retrieve all options as it was for 1.2."
 	},
+		"ƒ: get_allowed_block_template_part_areas": {
+        "prefix": ["get_allowed_block_template_part_areas","gabtpa"],
+        "body": "get_allowed_block_template_part_areas(  )",
+        "description": "Returns a filtered list of allowed area values for template parts."
+	},
 		"ƒ: get_allowed_block_types": {
         "prefix": ["get_allowed_block_types","gabt"],
         "body": "get_allowed_block_types( ${1:\\$block_editor_context:WP_Block_Editor_Context} )",
@@ -9003,7 +9318,7 @@
 		"ƒ: get_available_post_statuses": {
         "prefix": ["get_available_post_statuses","gaps"],
         "body": "get_available_post_statuses( ${1:\\$type:string} )",
-        "description": "Get all the possible statuses for a post_type"
+        "description": "Returns all the possible statuses for a post type."
 	},
 		"ƒ: get_avatar": {
         "prefix": ["get_avatar","ga"],
@@ -9043,12 +9358,22 @@
 		"ƒ: get_block_editor_settings": {
         "prefix": ["get_block_editor_settings","gbes"],
         "body": "get_block_editor_settings( ${1:\\$custom_settings:array}, ${2:\\$block_editor_context:WP_Block_Editor_Context} )",
-        "description": "Returns the contextualized block editor settings settings for a selected editor context."
+        "description": "Returns the contextualized block editor settings for a selected editor context."
 	},
 		"ƒ: get_block_editor_theme_styles": {
         "prefix": ["get_block_editor_theme_styles","gbets"],
         "body": "get_block_editor_theme_styles(  )",
         "description": "Creates an array of theme styles to load into the block editor."
+	},
+		"ƒ: get_block_file_template": {
+        "prefix": ["get_block_file_template","gbft"],
+        "body": "get_block_file_template( ${1:\\$id:string}, ${2:\\$template_type:string} )",
+        "description": "Retrieves a single unified template object using its id."
+	},
+		"ƒ: get_block_metadata_i18n_schema": {
+        "prefix": ["get_block_metadata_i18n_schema","gbmis"],
+        "body": "get_block_metadata_i18n_schema(  )",
+        "description": "Gets i18n schema for block&#039;s metadata read from `block.json` file."
 	},
 		"ƒ: get_block_template": {
         "prefix": ["get_block_template","gbt"],
@@ -9059,6 +9384,11 @@
         "prefix": ["get_block_templates","gbt"],
         "body": "get_block_templates( ${1:\\$query:array}, ${2:\\$template_type:string} )",
         "description": "Retrieves a list of unified template objects based on a query."
+	},
+		"ƒ: get_block_theme_folders": {
+        "prefix": ["get_block_theme_folders","gbtf"],
+        "body": "get_block_theme_folders( ${1:\\$theme_stylesheet:string|null} )",
+        "description": "For backward compatibility reasons, block themes might be using block-templates or block-template-parts, this function ensures we fallback to these folders properly."
 	},
 		"ƒ: get_block_wrapper_attributes": {
         "prefix": ["get_block_wrapper_attributes","gbwa"],
@@ -9155,6 +9485,11 @@
         "body": "get_bookmarks( ${1:\\$args:string|array} )",
         "description": "Retrieves the list of bookmarks"
 	},
+		"ƒ: get_border_color_classes_for_block_core_search": {
+        "prefix": ["get_border_color_classes_for_block_core_search","gbccfbcs"],
+        "body": "get_border_color_classes_for_block_core_search( ${1:\\$attributes:array} )",
+        "description": "Returns border color classnames depending on whether there are named or custom border colors."
+	},
 		"ƒ: get_boundary_post": {
         "prefix": ["get_boundary_post","gbp"],
         "body": "get_boundary_post( ${1:\\$in_same_term:boolean}, ${2:\\$excluded_terms:array|string}, ${3:\\$start:boolean}, ${4:\\$taxonomy:string} )",
@@ -9217,7 +9552,7 @@
 	},
 		"ƒ: get_category_feed_link": {
         "prefix": ["get_category_feed_link","gcfl"],
-        "body": "get_category_feed_link( ${1:\\$cat_id:integer}, ${2:\\$feed:string} )",
+        "body": "get_category_feed_link( ${1:\\$cat:integer|WP_Term|object}, ${2:\\$feed:string} )",
         "description": "Retrieves the feed link for a category."
 	},
 		"ƒ: get_category_link": {
@@ -9264,6 +9599,11 @@
         "prefix": ["get_cli_args","gca"],
         "body": "get_cli_args( ${1:\\$param:string}, ${2:\\$required:boolean} )",
         "description": "Returns value of command line params."
+	},
+		"ƒ: get_color_classes_for_block_core_search": {
+        "prefix": ["get_color_classes_for_block_core_search","gccfbcs"],
+        "body": "get_color_classes_for_block_core_search( ${1:\\$attributes:array} )",
+        "description": "Returns color classnames depending on whether there are named or custom text and background colors."
 	},
 		"ƒ: get_column_headers": {
         "prefix": ["get_column_headers","gch"],
@@ -9540,6 +9880,11 @@
         "body": "get_default_block_editor_settings(  )",
         "description": "Returns the default block editor settings."
 	},
+		"ƒ: get_default_block_template_types": {
+        "prefix": ["get_default_block_template_types","gdbtt"],
+        "body": "get_default_block_template_types(  )",
+        "description": "Returns a filtered list of default template types, containing their localized titles and descriptions."
+	},
 		"ƒ: get_default_comment_status": {
         "prefix": ["get_default_comment_status","gdcs"],
         "body": "get_default_comment_status( ${1:\\$post_type:string}, ${2:\\$comment_type:string} )",
@@ -9563,7 +9908,7 @@
 		"ƒ: get_default_post_to_edit": {
         "prefix": ["get_default_post_to_edit","gdpte"],
         "body": "get_default_post_to_edit( ${1:\\$post_type:string}, ${2:\\$create_in_db:boolean} )",
-        "description": "Default post information to use when populating the &quot;Write Post&quot; form."
+        "description": "Returns default post information to use when populating the &quot;Write Post&quot; form."
 	},
 		"ƒ: get_delete_post_link": {
         "prefix": ["get_delete_post_link","gdpl"],
@@ -9607,12 +9952,12 @@
 	},
 		"ƒ: get_edit_tag_link": {
         "prefix": ["get_edit_tag_link","getl"],
-        "body": "get_edit_tag_link( ${1:\\$tag_id:integer}, ${2:\\$taxonomy:string} )",
+        "body": "get_edit_tag_link( ${1:\\$tag:integer|WP_Term|object}, ${2:\\$taxonomy:string} )",
         "description": "Retrieves the edit link for a tag."
 	},
 		"ƒ: get_edit_term_link": {
         "prefix": ["get_edit_term_link","getl"],
-        "body": "get_edit_term_link( ${1:\\$term_id:integer}, ${2:\\$taxonomy:string}, ${3:\\$object_type:string} )",
+        "body": "get_edit_term_link( ${1:\\$term:integer|WP_Term|object}, ${2:\\$taxonomy:string}, ${3:\\$object_type:string} )",
         "description": "Retrieves the URL for editing a given term."
 	},
 		"ƒ: get_edit_user_link": {
@@ -9933,7 +10278,7 @@
 		"ƒ: get_meta_keys": {
         "prefix": ["get_meta_keys","gmk"],
         "body": "get_meta_keys(  )",
-        "description": "Get a list of previously defined keys."
+        "description": "Returns a list of previously defined keys."
 	},
 		"ƒ: get_meta_sql": {
         "prefix": ["get_meta_sql","gms"],
@@ -10058,7 +10403,7 @@
 		"ƒ: get_objects_in_term": {
         "prefix": ["get_objects_in_term","goit"],
         "body": "get_objects_in_term( ${1:\\$term_ids:integer|array}, ${2:\\$taxonomies:string|array}, ${3:\\$args:array|string} )",
-        "description": "Retrieve object_ids of valid taxonomy and term."
+        "description": "Retrieve object IDs of valid taxonomy and term."
 	},
 		"ƒ: get_oembed_endpoint_url": {
         "prefix": ["get_oembed_endpoint_url","goeu"],
@@ -10343,7 +10688,7 @@
 		"ƒ: get_post_meta_by_id": {
         "prefix": ["get_post_meta_by_id","gpmbi"],
         "body": "get_post_meta_by_id( ${1:\\$mid:integer} )",
-        "description": "Get post meta data by meta ID."
+        "description": "Returns post meta data by meta ID."
 	},
 		"ƒ: get_post_mime_type": {
         "prefix": ["get_post_mime_type","gpmt"],
@@ -10565,6 +10910,11 @@
         "body": "get_queried_object_id(  )",
         "description": "Retrieves the ID of the currently queried object."
 	},
+		"ƒ: get_query_pagination_arrow": {
+        "prefix": ["get_query_pagination_arrow","gqpa"],
+        "body": "get_query_pagination_arrow( ${1:\\$block:WP_Block}, ${2:\\$is_next:boolean} )",
+        "description": "Helper function that returns the proper pagination arrow html for `QueryPaginationNext` and `QueryPaginationPrevious` blocks based on the provided `paginationArrow` from `QueryPagination` context."
+	},
 		"ƒ: get_query_template": {
         "prefix": ["get_query_template","gqt"],
         "body": "get_query_template( ${1:\\$type:string}, ${2:\\$templates:array} )",
@@ -10638,11 +10988,11 @@
 		"ƒ: get_sample_permalink": {
         "prefix": ["get_sample_permalink","gsp"],
         "body": "get_sample_permalink( ${1:\\$id:integer|WP_Post}, ${2:\\$title:string|null}, ${3:\\$name:string|null} )",
-        "description": "Get a sample permalink based off of the post name."
+        "description": "Returns a sample permalink based on the post name."
 	},
 		"ƒ: get_sample_permalink_html": {
         "prefix": ["get_sample_permalink_html","gsph"],
-        "body": "get_sample_permalink_html( ${1:\\$id:integer}, ${2:\\$new_title:string|null}, ${3:\\$new_slug:string|null} )",
+        "body": "get_sample_permalink_html( ${1:\\$id:integer|WP_Post}, ${2:\\$new_title:string|null}, ${3:\\$new_slug:string|null} )",
         "description": "Returns the HTML of the sample permalink slug editor."
 	},
 		"ƒ: get_screen_icon": {
@@ -10847,7 +11197,7 @@
 	},
 		"ƒ: get_tag_feed_link": {
         "prefix": ["get_tag_feed_link","gtfl"],
-        "body": "get_tag_feed_link( ${1:\\$tag_id:integer}, ${2:\\$feed:string} )",
+        "body": "get_tag_feed_link( ${1:\\$tag:integer|WP_Term|object}, ${2:\\$feed:string} )",
         "description": "Retrieves the permalink for a tag feed."
 	},
 		"ƒ: get_tag_link": {
@@ -10947,7 +11297,7 @@
 	},
 		"ƒ: get_term_feed_link": {
         "prefix": ["get_term_feed_link","gtfl"],
-        "body": "get_term_feed_link( ${1:\\$term_id:integer}, ${2:\\$taxonomy:string}, ${3:\\$feed:string} )",
+        "body": "get_term_feed_link( ${1:\\$term:integer|WP_Term|object}, ${2:\\$taxonomy:string}, ${3:\\$feed:string} )",
         "description": "Retrieves the feed link for a term."
 	},
 		"ƒ: get_term_field": {
@@ -11282,7 +11632,7 @@
 	},
 		"ƒ: get_theme_mod": {
         "prefix": ["get_theme_mod","gtm"],
-        "body": "get_theme_mod( ${1:\\$name:string}, ${2:\\$default:string|false} )",
+        "body": "get_theme_mod( ${1:\\$name:string}, ${2:\\$default:mixed} )",
         "description": "Retrieves theme modification value for the current theme."
 	},
 		"ƒ: get_theme_mods": {
@@ -11522,7 +11872,7 @@
 	},
 		"ƒ: has_action": {
         "prefix": ["has_action","ha"],
-        "body": "has_action( ${1:\\$hook_name:string}, ${2:\\$callback:callable|false} )",
+        "body": "has_action( ${1:\\$hook_name:string}, ${2:\\$callback:callable|string|array|false} )",
         "description": "Checks if any action has been registered for a hook."
 	},
 		"ƒ: has_block": {
@@ -11557,7 +11907,7 @@
 	},
 		"ƒ: has_filter": {
         "prefix": ["has_filter","hf"],
-        "body": "has_filter( ${1:\\$hook_name:string}, ${2:\\$callback:callable|false} )",
+        "body": "has_filter( ${1:\\$hook_name:string}, ${2:\\$callback:callable|string|array|false} )",
         "description": "Checks if any filter has been registered for a hook."
 	},
 		"ƒ: has_header_image": {
@@ -11578,7 +11928,7 @@
 		"ƒ: has_meta": {
         "prefix": ["has_meta","hm"],
         "body": "has_meta( ${1:\\$postid:integer} )",
-        "description": "Get meta data for the given post ID."
+        "description": "Returns meta data for the given post ID."
 	},
 		"ƒ: has_nav_menu": {
         "prefix": ["has_nav_menu","hnm"],
@@ -11792,7 +12142,7 @@
 	},
 		"ƒ: img_caption_shortcode": {
         "prefix": ["img_caption_shortcode","ics"],
-        "body": "img_caption_shortcode( ${1:\\$attr:array}, ${2:\\$content:string|null} )",
+        "body": "img_caption_shortcode( ${1:\\$attr:array}, ${2:\\$content:string} )",
         "description": "Builds the Caption shortcode output."
 	},
 		"ƒ: in_category": {
@@ -12723,7 +13073,7 @@
 		"ƒ: maybe_add_column": {
         "prefix": ["maybe_add_column","mac"],
         "body": "maybe_add_column( ${1:\\$table_name:string}, ${2:\\$column_name:string}, ${3:\\$create_ddl:string} )",
-        "description": "Adds column to database table, if it doesn&#039;t already exist."
+        "description": "Adds column to a database table, if it doesn&#039;t already exist."
 	},
 		"ƒ: maybe_add_existing_user_to_blog": {
         "prefix": ["maybe_add_existing_user_to_blog","maeutb"],
@@ -12908,7 +13258,7 @@
 		"ƒ: menu_page_url": {
         "prefix": ["menu_page_url","mpu"],
         "body": "menu_page_url( ${1:\\$menu_slug:string}, ${2:\\$echo:boolean} )",
-        "description": "Get the URL to access a particular menu page based on the slug it was registered with."
+        "description": "Gets the URL to access a particular menu page based on the slug it was registered with."
 	},
 		"ƒ: meta_box_prefs": {
         "prefix": ["meta_box_prefs","mbp"],
@@ -13109,6 +13459,11 @@
         "prefix": ["normalize_whitespace","nw"],
         "body": "normalize_whitespace( ${1:\\$str:string} )",
         "description": "Normalize EOL characters and strip duplicate whitespace."
+	},
+		"ƒ: note_sidebar_being_rendered": {
+        "prefix": ["note_sidebar_being_rendered","nsbr"],
+        "body": "note_sidebar_being_rendered( ${1:\\$index:integer|string} )",
+        "description": "Make a note of the sidebar being rendered before WordPress starts rendering it. This lets us get to the current sidebar in render_block_core_widget_group()."
 	},
 		"ƒ: number_format_i18n": {
         "prefix": ["number_format_i18n","nfi"],
@@ -13395,6 +13750,11 @@
         "body": "post_comment_status_meta_box( ${1:\\$post:WP_Post} )",
         "description": "Display comments status form fields."
 	},
+		"ƒ: post_comments_block_form_defaults": {
+        "prefix": ["post_comments_block_form_defaults","pcbfd"],
+        "body": "post_comments_block_form_defaults( ${1:\\$fields:array} )",
+        "description": "Use the button block classes for the form-submit button."
+	},
 		"ƒ: post_comments_feed_link": {
         "prefix": ["post_comments_feed_link","pcfl"],
         "body": "post_comments_feed_link( ${1:\\$link_text:string}, ${2:\\$post_id:integer}, ${3:\\$feed:string} )",
@@ -13642,8 +14002,8 @@
 	},
 		"ƒ: random_bytes": {
         "prefix": ["random_bytes","rb"],
-        "body": "random_bytes( ${1:\\$length:mixed} )",
-        "description": "We don&#039;t have any more options, so let&#039;s throw an exception right now and hope the developer won&#039;t let it fail silently."
+        "body": "random_bytes( ${1:\\$bytes:integer} )",
+        "description": "Unless open_basedir is enabled, use /dev/urandom for random numbers in accordance with best practices"
 	},
 		"ƒ: random_int": {
         "prefix": ["random_int","ri"],
@@ -13693,7 +14053,7 @@
 		"ƒ: redirect_post": {
         "prefix": ["redirect_post","rp"],
         "body": "redirect_post( ${1:\\$post_id:integer} )",
-        "description": "Redirect to previous page."
+        "description": "Redirects to previous page."
 	},
 		"ƒ: redirect_this_site": {
         "prefix": ["redirect_this_site","rts"],
@@ -13750,6 +14110,16 @@
         "body": "register_block_core_file(  )",
         "description": "Registers the `core/file` block on server."
 	},
+		"ƒ: register_block_core_gallery": {
+        "prefix": ["register_block_core_gallery","rbcg"],
+        "body": "register_block_core_gallery(  )",
+        "description": "Registers the `core/gallery` block on server."
+	},
+		"ƒ: register_block_core_image": {
+        "prefix": ["register_block_core_image","rbci"],
+        "body": "register_block_core_image(  )",
+        "description": "Registers the `core/image` block on server."
+	},
 		"ƒ: register_block_core_latest_comments": {
         "prefix": ["register_block_core_latest_comments","rbclc"],
         "body": "register_block_core_latest_comments(  )",
@@ -13768,12 +14138,42 @@
 		"ƒ: register_block_core_loginout": {
         "prefix": ["register_block_core_loginout","rbcl"],
         "body": "register_block_core_loginout(  )",
-        "description": "Registers the `core/latest-posts` block on server."
+        "description": "Registers the `core/loginout` block on server."
+	},
+		"ƒ: register_block_core_navigation": {
+        "prefix": ["register_block_core_navigation","rbcn"],
+        "body": "register_block_core_navigation(  )",
+        "description": "Register the navigation block."
+	},
+		"ƒ: register_block_core_navigation_link": {
+        "prefix": ["register_block_core_navigation_link","rbcnl"],
+        "body": "register_block_core_navigation_link(  )",
+        "description": "Register the navigation link block."
+	},
+		"ƒ: register_block_core_navigation_submenu": {
+        "prefix": ["register_block_core_navigation_submenu","rbcns"],
+        "body": "register_block_core_navigation_submenu(  )",
+        "description": "Register the navigation submenu block."
 	},
 		"ƒ: register_block_core_page_list": {
         "prefix": ["register_block_core_page_list","rbcpl"],
         "body": "register_block_core_page_list(  )",
         "description": "Registers the `core/pages` block on server."
+	},
+		"ƒ: register_block_core_pattern": {
+        "prefix": ["register_block_core_pattern","rbcp"],
+        "body": "register_block_core_pattern(  )",
+        "description": "Registers the `core/pattern` block on the server."
+	},
+		"ƒ: register_block_core_post_author": {
+        "prefix": ["register_block_core_post_author","rbcpa"],
+        "body": "register_block_core_post_author(  )",
+        "description": "Registers the `core/post-author` block on the server."
+	},
+		"ƒ: register_block_core_post_comments": {
+        "prefix": ["register_block_core_post_comments","rbcpc"],
+        "body": "register_block_core_post_comments(  )",
+        "description": "Registers the `core/post-comments` block on the server."
 	},
 		"ƒ: register_block_core_post_content": {
         "prefix": ["register_block_core_post_content","rbcpc"],
@@ -13794,6 +14194,11 @@
         "prefix": ["register_block_core_post_featured_image","rbcpfi"],
         "body": "register_block_core_post_featured_image(  )",
         "description": "Registers the `core/post-featured-image` block on the server."
+	},
+		"ƒ: register_block_core_post_navigation_link": {
+        "prefix": ["register_block_core_post_navigation_link","rbcpnl"],
+        "body": "register_block_core_post_navigation_link(  )",
+        "description": "Registers the `core/post-navigation-link` block on the server."
 	},
 		"ƒ: register_block_core_post_template": {
         "prefix": ["register_block_core_post_template","rbcpt"],
@@ -13855,6 +14260,11 @@
         "body": "register_block_core_shortcode(  )",
         "description": "Registers the `core/shortcode` block on server."
 	},
+		"ƒ: register_block_core_site_icon_setting": {
+        "prefix": ["register_block_core_site_icon_setting","rbcsis"],
+        "body": "register_block_core_site_icon_setting(  )",
+        "description": "Register a core site setting for a site icon"
+	},
 		"ƒ: register_block_core_site_logo": {
         "prefix": ["register_block_core_site_logo","rbcsl"],
         "body": "register_block_core_site_logo(  )",
@@ -13885,10 +14295,25 @@
         "body": "register_block_core_tag_cloud(  )",
         "description": "Registers the `core/tag-cloud` block on server."
 	},
+		"ƒ: register_block_core_template_part": {
+        "prefix": ["register_block_core_template_part","rbctp"],
+        "body": "register_block_core_template_part(  )",
+        "description": "Registers the `core/template-part` block on the server."
+	},
+		"ƒ: register_block_core_term_description": {
+        "prefix": ["register_block_core_term_description","rbctd"],
+        "body": "register_block_core_term_description(  )",
+        "description": "Registers the `core/term-description` block on the server."
+	},
+		"ƒ: register_block_core_widget_group": {
+        "prefix": ["register_block_core_widget_group","rbcwg"],
+        "body": "register_block_core_widget_group(  )",
+        "description": "Registers the &#039;core/widget-group&#039; block."
+	},
 		"ƒ: register_block_pattern": {
         "prefix": ["register_block_pattern","rbp"],
         "body": "register_block_pattern( ${1:\\$pattern_name:string}, ${2:\\$pattern_properties:array} )",
-        "description": "Registers a new pattern."
+        "description": "Registers a new block pattern."
 	},
 		"ƒ: register_block_pattern_category": {
         "prefix": ["register_block_pattern_category","rbpc"],
@@ -14072,7 +14497,7 @@
 	},
 		"ƒ: remove_action": {
         "prefix": ["remove_action","ra"],
-        "body": "remove_action( ${1:\\$hook_name:string}, ${2:\\$callback:callable}, ${3:\\$priority:integer} )",
+        "body": "remove_action( ${1:\\$hook_name:string}, ${2:\\$callback:callable|string|array}, ${3:\\$priority:integer} )",
         "description": "Removes a callback function from an action hook."
 	},
 		"ƒ: remove_all_actions": {
@@ -14117,7 +14542,7 @@
 	},
 		"ƒ: remove_filter": {
         "prefix": ["remove_filter","rf"],
-        "body": "remove_filter( ${1:\\$hook_name:string}, ${2:\\$callback:callable}, ${3:\\$priority:integer} )",
+        "body": "remove_filter( ${1:\\$hook_name:string}, ${2:\\$callback:callable|string|array}, ${3:\\$priority:integer} )",
         "description": "Removes a callback function from a filter hook."
 	},
 		"ƒ: remove_image_size": {
@@ -14128,7 +14553,7 @@
 		"ƒ: remove_menu_page": {
         "prefix": ["remove_menu_page","rmp"],
         "body": "remove_menu_page( ${1:\\$menu_slug:string} )",
-        "description": "Remove a top-level admin menu."
+        "description": "Removes a top-level admin menu."
 	},
 		"ƒ: remove_meta_box": {
         "prefix": ["remove_meta_box","rmb"],
@@ -14178,7 +14603,7 @@
 		"ƒ: remove_submenu_page": {
         "prefix": ["remove_submenu_page","rsp"],
         "body": "remove_submenu_page( ${1:\\$menu_slug:string}, ${2:\\$submenu_slug:string} )",
-        "description": "Remove an admin submenu."
+        "description": "Removes an admin submenu."
 	},
 		"ƒ: remove_theme_mod": {
         "prefix": ["remove_theme_mod","rtm"],
@@ -14230,6 +14655,11 @@
         "body": "render_block_core_file( ${1:\\$attributes:array}, ${2:\\$content:array} )",
         "description": "When the `core/file` block is rendering, check if we need to enqueue the `&#039;wp-block-file-view` script."
 	},
+		"ƒ: render_block_core_image": {
+        "prefix": ["render_block_core_image","rbci"],
+        "body": "render_block_core_image( ${1:\\$attributes:array}, ${2:\\$content:array} )",
+        "description": "Renders the `core/image` block on the server, adding a data-id attribute to the element if core/gallery has added on pre-render."
+	},
 		"ƒ: render_block_core_latest_comments": {
         "prefix": ["render_block_core_latest_comments","rbclc"],
         "body": "render_block_core_latest_comments( ${1:\\$attributes:array} )",
@@ -14250,10 +14680,40 @@
         "body": "render_block_core_loginout( ${1:\\$attributes:array} )",
         "description": "Renders the `core/loginout` block on server."
 	},
+		"ƒ: render_block_core_navigation": {
+        "prefix": ["render_block_core_navigation","rbcn"],
+        "body": "render_block_core_navigation( ${1:\\$attributes:array}, ${2:\\$content:array}, ${3:\\$block:array} )",
+        "description": "Renders the `core/navigation` block on server."
+	},
+		"ƒ: render_block_core_navigation_link": {
+        "prefix": ["render_block_core_navigation_link","rbcnl"],
+        "body": "render_block_core_navigation_link( ${1:\\$attributes:array}, ${2:\\$content:array}, ${3:\\$block:array} )",
+        "description": "Renders the `core/navigation-link` block."
+	},
+		"ƒ: render_block_core_navigation_submenu": {
+        "prefix": ["render_block_core_navigation_submenu","rbcns"],
+        "body": "render_block_core_navigation_submenu( ${1:\\$attributes:array}, ${2:\\$content:string}, ${3:\\$block:object} )",
+        "description": "Renders the `core/navigation-submenu` block."
+	},
 		"ƒ: render_block_core_page_list": {
         "prefix": ["render_block_core_page_list","rbcpl"],
         "body": "render_block_core_page_list( ${1:\\$attributes:array}, ${2:\\$content:array}, ${3:\\$block:array} )",
         "description": "Renders the `core/page-list` block on server."
+	},
+		"ƒ: render_block_core_pattern": {
+        "prefix": ["render_block_core_pattern","rbcp"],
+        "body": "render_block_core_pattern( ${1:\\$attributes:array} )",
+        "description": "Renders the `core/pattern` block on the server."
+	},
+		"ƒ: render_block_core_post_author": {
+        "prefix": ["render_block_core_post_author","rbcpa"],
+        "body": "render_block_core_post_author( ${1:\\$attributes:array}, ${2:\\$content:string}, ${3:\\$block:WP_Block} )",
+        "description": "Renders the `core/post-author` block on the server."
+	},
+		"ƒ: render_block_core_post_comments": {
+        "prefix": ["render_block_core_post_comments","rbcpc"],
+        "body": "render_block_core_post_comments( ${1:\\$attributes:array}, ${2:\\$content:string}, ${3:\\$block:WP_Block} )",
+        "description": "Renders the `core/post-comments` block on the server."
 	},
 		"ƒ: render_block_core_post_content": {
         "prefix": ["render_block_core_post_content","rbcpc"],
@@ -14275,6 +14735,11 @@
         "body": "render_block_core_post_featured_image( ${1:\\$attributes:array}, ${2:\\$content:string}, ${3:\\$block:WP_Block} )",
         "description": "Renders the `core/post-featured-image` block on the server."
 	},
+		"ƒ: render_block_core_post_navigation_link": {
+        "prefix": ["render_block_core_post_navigation_link","rbcpnl"],
+        "body": "render_block_core_post_navigation_link( ${1:\\$attributes:array}, ${2:\\$content:string} )",
+        "description": "Renders the `core/post-navigation-link` block on the server."
+	},
 		"ƒ: render_block_core_post_template": {
         "prefix": ["render_block_core_post_template","rbcpt"],
         "body": "render_block_core_post_template( ${1:\\$attributes:array}, ${2:\\$content:string}, ${3:\\$block:WP_Block} )",
@@ -14289,6 +14754,11 @@
         "prefix": ["render_block_core_post_title","rbcpt"],
         "body": "render_block_core_post_title( ${1:\\$attributes:array}, ${2:\\$content:string}, ${3:\\$block:WP_Block} )",
         "description": "Renders the `core/post-title` block on the server."
+	},
+		"ƒ: render_block_core_query_pagination": {
+        "prefix": ["render_block_core_query_pagination","rbcqp"],
+        "body": "render_block_core_query_pagination( ${1:\\$attributes:array}, ${2:\\$content:string} )",
+        "description": "Renders the `core/query-pagination` block on the server."
 	},
 		"ƒ: render_block_core_query_pagination_next": {
         "prefix": ["render_block_core_query_pagination_next","rbcqpn"],
@@ -14350,6 +14820,21 @@
         "body": "render_block_core_tag_cloud( ${1:\\$attributes:array} )",
         "description": "Renders the `core/tag-cloud` block on server."
 	},
+		"ƒ: render_block_core_template_part": {
+        "prefix": ["render_block_core_template_part","rbctp"],
+        "body": "render_block_core_template_part( ${1:\\$attributes:array} )",
+        "description": "Renders the `core/template-part` block on the server."
+	},
+		"ƒ: render_block_core_term_description": {
+        "prefix": ["render_block_core_term_description","rbctd"],
+        "body": "render_block_core_term_description( ${1:\\$attributes:array} )",
+        "description": "Renders the `core/term-description` block on the server."
+	},
+		"ƒ: render_block_core_widget_group": {
+        "prefix": ["render_block_core_widget_group","rbcwg"],
+        "body": "render_block_core_widget_group( ${1:\\$attributes:array}, ${2:\\$content:string}, ${3:\\$block:WP_Block} )",
+        "description": "Renders the &#039;core/widget-group&#039; block."
+	},
 		"ƒ: request_filesystem_credentials": {
         "prefix": ["request_filesystem_credentials","rfc"],
         "body": "request_filesystem_credentials( ${1:\\$form_post:string}, ${2:\\$type:string}, ${3:\\$error:boolean|WP_Error}, ${4:\\$context:string}, ${5:\\$extra_fields:array|null}, ${6:\\$allow_relaxed_file_ownership:boolean} )",
@@ -14377,7 +14862,7 @@
 	},
 		"ƒ: resolve_block_template": {
         "prefix": ["resolve_block_template","rbt"],
-        "body": "resolve_block_template( ${1:\\$template_type:string}, ${2:\\$template_hierarchy:array} )",
+        "body": "resolve_block_template( ${1:\\$template_type:string}, ${2:\\$template_hierarchy:array}, ${3:\\$fallback_template:string} )",
         "description": "Return the correct &#039;wp_template&#039; to render for the request template type."
 	},
 		"ƒ: rest_add_application_passwords_to_index": {
@@ -14539,6 +15024,16 @@
         "prefix": ["rest_get_route_for_post","rgrfp"],
         "body": "rest_get_route_for_post( ${1:\\$post:integer|WP_Post} )",
         "description": "Gets the REST API route for a post."
+	},
+		"ƒ: rest_get_route_for_post_type_items": {
+        "prefix": ["rest_get_route_for_post_type_items","rgrfpti"],
+        "body": "rest_get_route_for_post_type_items( ${1:\\$post_type:string} )",
+        "description": "Gets the REST API route for a post type."
+	},
+		"ƒ: rest_get_route_for_taxonomy_items": {
+        "prefix": ["rest_get_route_for_taxonomy_items","rgrfti"],
+        "body": "rest_get_route_for_taxonomy_items( ${1:\\$taxonomy:string} )",
+        "description": "Gets the REST API route for a taxonomy."
 	},
 		"ƒ: rest_get_route_for_term": {
         "prefix": ["rest_get_route_for_term","rgrft"],
@@ -14788,7 +15283,7 @@
 		"ƒ: retrieve_widgets": {
         "prefix": ["retrieve_widgets","rw"],
         "body": "retrieve_widgets( ${1:\\$theme_changed:string|boolean} )",
-        "description": "Look for &quot;lost&quot; widgets, this has to run at least on each theme change."
+        "description": "Validates and remaps any &quot;orphaned&quot; widgets to wp_inactive_widgets sidebar, and saves the widget settings. This has to run at least on each theme change."
 	},
 		"ƒ: revoke_super_admin": {
         "prefix": ["revoke_super_admin","rsa"],
@@ -15183,7 +15678,7 @@
 		"ƒ: show_blog_form": {
         "prefix": ["show_blog_form","sbf"],
         "body": "show_blog_form( ${1:\\$blogname:string}, ${2:\\$blog_title:string}, ${3:\\$errors:WP_Error|string} )",
-        "description": "Generates and displays the Signup and Create Site forms"
+        "description": "Generates and displays the Sign-up and Create Site forms."
 	},
 		"ƒ: show_message": {
         "prefix": ["show_message","sm"],
@@ -15203,7 +15698,7 @@
 		"ƒ: signup_another_blog": {
         "prefix": ["signup_another_blog","sab"],
         "body": "signup_another_blog( ${1:\\$blogname:string}, ${2:\\$blog_title:string}, ${3:\\$errors:WP_Error|string} )",
-        "description": "Allow returning users to sign up for another site"
+        "description": "Shows a form for returning users to sign up for another site."
 	},
 		"ƒ: signup_blog": {
         "prefix": ["signup_blog","sb"],
@@ -15213,7 +15708,7 @@
 		"ƒ: signup_get_available_languages": {
         "prefix": ["signup_get_available_languages","sgal"],
         "body": "signup_get_available_languages(  )",
-        "description": "Retrieves languages available during the site/user signup process."
+        "description": "Retrieves languages available during the site/user sign-up process."
 	},
 		"ƒ: signup_nonce_check": {
         "prefix": ["signup_nonce_check","snc"],
@@ -15870,6 +16365,21 @@
         "body": "sticky_class( ${1:\\$post_id:integer|null} )",
         "description": "Display &quot;sticky&quot; CSS class, if a post is sticky."
 	},
+		"ƒ: str_contains": {
+        "prefix": ["str_contains","sc"],
+        "body": "str_contains( ${1:\\$haystack:string}, ${2:\\$needle:string} )",
+        "description": "Polyfill for `str_contains()` function added in PHP 8.0."
+	},
+		"ƒ: str_ends_with": {
+        "prefix": ["str_ends_with","sew"],
+        "body": "str_ends_with( ${1:\\$haystack:string}, ${2:\\$needle:string} )",
+        "description": "Polyfill for `str_ends_with()` function added in PHP 8.0."
+	},
+		"ƒ: str_starts_with": {
+        "prefix": ["str_starts_with","ssw"],
+        "body": "str_starts_with( ${1:\\$haystack:string}, ${2:\\$needle:string} )",
+        "description": "Polyfill for `str_starts_with()` function added in PHP 8.0."
+	},
 		"ƒ: stream_preview_image": {
         "prefix": ["stream_preview_image","spi"],
         "body": "stream_preview_image( ${1:\\$post_id:integer} )",
@@ -16103,7 +16613,7 @@
 		"ƒ: the_block_template_skip_link": {
         "prefix": ["the_block_template_skip_link","tbtsl"],
         "body": "the_block_template_skip_link(  )",
-        "description": "Print the skip-link script &amp; styles."
+        "description": "Prints the skip-link script &amp; styles."
 	},
 		"ƒ: the_category": {
         "prefix": ["the_category","tc"],
@@ -16445,6 +16955,11 @@
         "body": "translate_nooped_plural( ${1:\\$nooped_plural:array}, ${2:\\$count:integer}, ${3:\\$domain:string} )",
         "description": "Translates and retrieves the singular or plural form of a string that&#039;s been registered with _n_noop() or _nx_noop()."
 	},
+		"ƒ: translate_settings_using_i18n_schema": {
+        "prefix": ["translate_settings_using_i18n_schema","tsuis"],
+        "body": "translate_settings_using_i18n_schema( ${1:\\$i18n_schema:string|array|array|object}, ${2:\\$settings:string|array|array}, ${3:\\$textdomain:string} )",
+        "description": "Translates the provided settings value using its i18n schema."
+	},
 		"ƒ: translate_smiley": {
         "prefix": ["translate_smiley","ts"],
         "body": "translate_smiley( ${1:\\$matches:array} )",
@@ -16513,7 +17028,7 @@
 		"ƒ: unregister_block_pattern": {
         "prefix": ["unregister_block_pattern","ubp"],
         "body": "unregister_block_pattern( ${1:\\$pattern_name:string} )",
-        "description": "Unregisters a pattern."
+        "description": "Unregisters a block pattern."
 	},
 		"ƒ: unregister_block_pattern_category": {
         "prefix": ["unregister_block_pattern_category","ubpc"],
@@ -16557,7 +17072,7 @@
 	},
 		"ƒ: unregister_setting": {
         "prefix": ["unregister_setting","us"],
-        "body": "unregister_setting( ${1:\\$option_group:string}, ${2:\\$option_name:string}, ${3:\\$deprecated:callable|string} )",
+        "body": "unregister_setting( ${1:\\$option_group:string}, ${2:\\$option_name:string}, ${3:\\$deprecated:callable} )",
         "description": "Unregisters a setting."
 	},
 		"ƒ: unregister_sidebar": {
@@ -16673,7 +17188,7 @@
 		"ƒ: update_meta": {
         "prefix": ["update_meta","um"],
         "body": "update_meta( ${1:\\$meta_id:integer}, ${2:\\$meta_key:string}, ${3:\\$meta_value:string} )",
-        "description": "Update post meta data by meta ID."
+        "description": "Updates post meta data by meta ID."
 	},
 		"ƒ: update_meta_cache": {
         "prefix": ["update_meta_cache","umc"],
@@ -16763,7 +17278,7 @@
 		"ƒ: update_recently_edited": {
         "prefix": ["update_recently_edited","ure"],
         "body": "update_recently_edited( ${1:\\$file:string} )",
-        "description": "Update the &quot;recently-edited&quot; file for the plugin or theme editor."
+        "description": "Update the &quot;recently-edited&quot; file for the plugin or theme file editor."
 	},
 		"ƒ: update_right_now_message": {
         "prefix": ["update_right_now_message","urnm"],
@@ -16883,12 +17398,12 @@
 		"ƒ: use_block_editor_for_post": {
         "prefix": ["use_block_editor_for_post","ubefp"],
         "body": "use_block_editor_for_post( ${1:\\$post:integer|WP_Post} )",
-        "description": "Return whether the post can be edited in the block editor."
+        "description": "Returns whether the post can be edited in the block editor."
 	},
 		"ƒ: use_block_editor_for_post_type": {
         "prefix": ["use_block_editor_for_post_type","ubefpt"],
         "body": "use_block_editor_for_post_type( ${1:\\$post_type:string} )",
-        "description": "Return whether a post type is compatible with the block editor."
+        "description": "Returns whether a post type is compatible with the block editor."
 	},
 		"ƒ: use_codepress": {
         "prefix": ["use_codepress","uc"],
@@ -16987,7 +17502,7 @@
 	},
 		"ƒ: utf8_uri_encode": {
         "prefix": ["utf8_uri_encode","uue"],
-        "body": "utf8_uri_encode( ${1:\\$utf8_string:string}, ${2:\\$length:integer} )",
+        "body": "utf8_uri_encode( ${1:\\$utf8_string:string}, ${2:\\$length:integer}, ${3:\\$encode_ascii_characters:boolean} )",
         "description": "Encode the Unicode values to be used in the URI."
 	},
 		"ƒ: valid_unicode": {
@@ -17003,17 +17518,17 @@
 		"ƒ: validate_another_blog_signup": {
         "prefix": ["validate_another_blog_signup","vabs"],
         "body": "validate_another_blog_signup(  )",
-        "description": "Validate a new site signup for an existing user."
+        "description": "Validates a new site sign-up for an existing user."
 	},
 		"ƒ: validate_blog_form": {
         "prefix": ["validate_blog_form","vbf"],
         "body": "validate_blog_form(  )",
-        "description": "Validate the new site signup"
+        "description": "Validates the new site sign-up."
 	},
 		"ƒ: validate_blog_signup": {
         "prefix": ["validate_blog_signup","vbs"],
         "body": "validate_blog_signup(  )",
-        "description": "Validate new site signup"
+        "description": "Validates new site signup."
 	},
 		"ƒ: validate_current_theme": {
         "prefix": ["validate_current_theme","vct"],
@@ -17053,12 +17568,12 @@
 		"ƒ: validate_user_form": {
         "prefix": ["validate_user_form","vuf"],
         "body": "validate_user_form(  )",
-        "description": "Validate user signup name and email"
+        "description": "Validates user sign-up name and email."
 	},
 		"ƒ: validate_user_signup": {
         "prefix": ["validate_user_signup","vus"],
         "body": "validate_user_signup(  )",
-        "description": "Validate the new user signup"
+        "description": "Validates the new user sign-up."
 	},
 		"ƒ: validate_username": {
         "prefix": ["validate_username","vu"],
@@ -17178,17 +17693,17 @@
 		"ƒ: wp_admin_bar_add_secondary_groups": {
         "prefix": ["wp_admin_bar_add_secondary_groups","wabasg"],
         "body": "wp_admin_bar_add_secondary_groups( ${1:\\$wp_admin_bar:WP_Admin_Bar} )",
-        "description": "Add secondary menus."
+        "description": "Adds secondary menus."
 	},
 		"ƒ: wp_admin_bar_appearance_menu": {
         "prefix": ["wp_admin_bar_appearance_menu","wabam"],
         "body": "wp_admin_bar_appearance_menu( ${1:\\$wp_admin_bar:WP_Admin_Bar} )",
-        "description": "Add appearance submenu items to the &quot;Site Name&quot; menu."
+        "description": "Adds appearance submenu items to the &quot;Site Name&quot; menu."
 	},
 		"ƒ: wp_admin_bar_comments_menu": {
         "prefix": ["wp_admin_bar_comments_menu","wabcm"],
         "body": "wp_admin_bar_comments_menu( ${1:\\$wp_admin_bar:WP_Admin_Bar} )",
-        "description": "Add edit comments link with awaiting moderation count bubble."
+        "description": "Adds edit comments link with awaiting moderation count bubble."
 	},
 		"ƒ: wp_admin_bar_customize_menu": {
         "prefix": ["wp_admin_bar_customize_menu","wabcm"],
@@ -17203,37 +17718,42 @@
 		"ƒ: wp_admin_bar_edit_menu": {
         "prefix": ["wp_admin_bar_edit_menu","wabem"],
         "body": "wp_admin_bar_edit_menu( ${1:\\$wp_admin_bar:WP_Admin_Bar} )",
-        "description": "Provide an edit link for posts and terms."
+        "description": "Provides an edit link for posts and terms."
+	},
+		"ƒ: wp_admin_bar_edit_site_menu": {
+        "prefix": ["wp_admin_bar_edit_site_menu","wabesm"],
+        "body": "wp_admin_bar_edit_site_menu( ${1:\\$wp_admin_bar:WP_Admin_Bar} )",
+        "description": "Adds the &quot;Edit site&quot; link to the Toolbar."
 	},
 		"ƒ: wp_admin_bar_header": {
         "prefix": ["wp_admin_bar_header","wabh"],
         "body": "wp_admin_bar_header(  )",
-        "description": "Style and scripts for the admin bar."
+        "description": "Prints style and scripts for the admin bar."
 	},
 		"ƒ: wp_admin_bar_my_account_item": {
         "prefix": ["wp_admin_bar_my_account_item","wabmai"],
         "body": "wp_admin_bar_my_account_item( ${1:\\$wp_admin_bar:WP_Admin_Bar} )",
-        "description": "Add the &quot;My Account&quot; item."
+        "description": "Adds the &quot;My Account&quot; item."
 	},
 		"ƒ: wp_admin_bar_my_account_menu": {
         "prefix": ["wp_admin_bar_my_account_menu","wabmam"],
         "body": "wp_admin_bar_my_account_menu( ${1:\\$wp_admin_bar:WP_Admin_Bar} )",
-        "description": "Add the &quot;My Account&quot; submenu items."
+        "description": "Adds the &quot;My Account&quot; submenu items."
 	},
 		"ƒ: wp_admin_bar_my_sites_menu": {
         "prefix": ["wp_admin_bar_my_sites_menu","wabmsm"],
         "body": "wp_admin_bar_my_sites_menu( ${1:\\$wp_admin_bar:WP_Admin_Bar} )",
-        "description": "Add the &quot;My Sites/[Site Name]&quot; menu and all submenus."
+        "description": "Adds the &quot;My Sites/[Site Name]&quot; menu and all submenus."
 	},
 		"ƒ: wp_admin_bar_new_content_menu": {
         "prefix": ["wp_admin_bar_new_content_menu","wabncm"],
         "body": "wp_admin_bar_new_content_menu( ${1:\\$wp_admin_bar:WP_Admin_Bar} )",
-        "description": "Add &quot;Add New&quot; menu."
+        "description": "Adds &quot;Add New&quot; menu."
 	},
 		"ƒ: wp_admin_bar_recovery_mode_menu": {
         "prefix": ["wp_admin_bar_recovery_mode_menu","wabrmm"],
         "body": "wp_admin_bar_recovery_mode_menu( ${1:\\$wp_admin_bar:WP_Admin_Bar} )",
-        "description": "Add a link to exit recovery mode when Recovery Mode is active."
+        "description": "Adds a link to exit recovery mode when Recovery Mode is active."
 	},
 		"ƒ: wp_admin_bar_render": {
         "prefix": ["wp_admin_bar_render","wabr"],
@@ -17243,32 +17763,32 @@
 		"ƒ: wp_admin_bar_search_menu": {
         "prefix": ["wp_admin_bar_search_menu","wabsm"],
         "body": "wp_admin_bar_search_menu( ${1:\\$wp_admin_bar:WP_Admin_Bar} )",
-        "description": "Add search form."
+        "description": "Adds search form."
 	},
 		"ƒ: wp_admin_bar_shortlink_menu": {
         "prefix": ["wp_admin_bar_shortlink_menu","wabsm"],
         "body": "wp_admin_bar_shortlink_menu( ${1:\\$wp_admin_bar:WP_Admin_Bar} )",
-        "description": "Provide a shortlink."
+        "description": "Provides a shortlink."
 	},
 		"ƒ: wp_admin_bar_sidebar_toggle": {
         "prefix": ["wp_admin_bar_sidebar_toggle","wabst"],
         "body": "wp_admin_bar_sidebar_toggle( ${1:\\$wp_admin_bar:WP_Admin_Bar} )",
-        "description": "Add the sidebar toggle button."
+        "description": "Adds the sidebar toggle button."
 	},
 		"ƒ: wp_admin_bar_site_menu": {
         "prefix": ["wp_admin_bar_site_menu","wabsm"],
         "body": "wp_admin_bar_site_menu( ${1:\\$wp_admin_bar:WP_Admin_Bar} )",
-        "description": "Add the &quot;Site Name&quot; menu."
+        "description": "Adds the &quot;Site Name&quot; menu."
 	},
 		"ƒ: wp_admin_bar_updates_menu": {
         "prefix": ["wp_admin_bar_updates_menu","wabum"],
         "body": "wp_admin_bar_updates_menu( ${1:\\$wp_admin_bar:WP_Admin_Bar} )",
-        "description": "Provide an update link if theme/plugin/core updates are available."
+        "description": "Provides an update link if theme/plugin/core updates are available."
 	},
 		"ƒ: wp_admin_bar_wp_menu": {
         "prefix": ["wp_admin_bar_wp_menu","wabwm"],
         "body": "wp_admin_bar_wp_menu( ${1:\\$wp_admin_bar:WP_Admin_Bar} )",
-        "description": "Add the WordPress logo menu."
+        "description": "Adds the WordPress logo menu."
 	},
 		"ƒ: wp_admin_canonical_url": {
         "prefix": ["wp_admin_canonical_url","wacu"],
@@ -17793,7 +18313,7 @@
 		"ƒ: wp_apply_alignment_support": {
         "prefix": ["wp_apply_alignment_support","waas"],
         "body": "wp_apply_alignment_support( ${1:\\$block_type:WP_Block_Type}, ${2:\\$block_attributes:array} )",
-        "description": "Add CSS classes for block alignment to the incoming attributes array."
+        "description": "Adds CSS classes for block alignment to the incoming attributes array."
 	},
 		"ƒ: wp_apply_border_support": {
         "prefix": ["wp_apply_border_support","wabs"],
@@ -17810,6 +18330,11 @@
         "body": "wp_apply_custom_classname_support( ${1:\\$block_type:WP_Block_Type}, ${2:\\$block_attributes:array} )",
         "description": "Add the custom classnames to the output."
 	},
+		"ƒ: wp_apply_dimensions_support": {
+        "prefix": ["wp_apply_dimensions_support","wads"],
+        "body": "wp_apply_dimensions_support( ${1:\\$block_type:WP_Block_Type}, ${2:\\$block_attributes:array} )",
+        "description": "Adds CSS classes for block dimensions to the incoming attributes array."
+	},
 		"ƒ: wp_apply_generated_classname_support": {
         "prefix": ["wp_apply_generated_classname_support","wagcs"],
         "body": "wp_apply_generated_classname_support( ${1:\\$block_type:WP_Block_Type} )",
@@ -17823,7 +18348,7 @@
 		"ƒ: wp_apply_typography_support": {
         "prefix": ["wp_apply_typography_support","wats"],
         "body": "wp_apply_typography_support( ${1:\\$block_type:WP_Block_Type}, ${2:\\$block_attributes:array} )",
-        "description": "Add CSS classes and inline styles for typography features such as font sizes to the incoming attributes array. This will be applied to the block markup in the front-end."
+        "description": "Adds CSS classes and inline styles for typography features such as font sizes to the incoming attributes array. This will be applied to the block markup in the front-end."
 	},
 		"ƒ: wp_array_slice_assoc": {
         "prefix": ["wp_array_slice_assoc","wasa"],
@@ -17898,7 +18423,7 @@
 		"ƒ: wp_autosave": {
         "prefix": ["wp_autosave","wa"],
         "body": "wp_autosave( ${1:\\$post_data:array} )",
-        "description": "Save a post submitted with XHR"
+        "description": "Saves a post submitted with XHR."
 	},
 		"ƒ: wp_basename": {
         "prefix": ["wp_basename","wb"],
@@ -18123,7 +18648,7 @@
 		"ƒ: wp_check_post_lock": {
         "prefix": ["wp_check_post_lock","wcpl"],
         "body": "wp_check_post_lock( ${1:\\$post_id:integer|WP_Post} )",
-        "description": "Check to see if the post is currently being edited by another user."
+        "description": "Determines whether the post is currently being edited by another user."
 	},
 		"ƒ: wp_check_site_meta_support_prefilter": {
         "prefix": ["wp_check_site_meta_support_prefilter","wcsmsp"],
@@ -18293,7 +18818,7 @@
 		"ƒ: wp_create_post_autosave": {
         "prefix": ["wp_create_post_autosave","wcpa"],
         "body": "wp_create_post_autosave( ${1:\\$post_data:array|integer} )",
-        "description": "Creates autosave data for the specified post from $_POST data."
+        "description": "Creates autosave data for the specified post from `$_POST` data."
 	},
 		"ƒ: wp_create_tag": {
         "prefix": ["wp_create_tag","wct"],
@@ -18768,12 +19293,12 @@
 		"ƒ: wp_edit_attachments_query_vars": {
         "prefix": ["wp_edit_attachments_query_vars","weaqv"],
         "body": "wp_edit_attachments_query_vars( ${1:\\$q:array|false} )",
-        "description": "Get the query variables for the current attachments request."
+        "description": "Returns the query variables for the current attachments request."
 	},
 		"ƒ: wp_edit_posts_query": {
         "prefix": ["wp_edit_posts_query","wepq"],
         "body": "wp_edit_posts_query( ${1:\\$q:array|false} )",
-        "description": "Run the wp query to fetch the posts for listing on the edit posts page"
+        "description": "Runs the query to fetch the posts for listing on the edit posts page."
 	},
 		"ƒ: wp_edit_theme_plugin_file": {
         "prefix": ["wp_edit_theme_plugin_file","wetpf"],
@@ -18833,12 +19358,17 @@
 		"ƒ: wp_enable_block_templates": {
         "prefix": ["wp_enable_block_templates","webt"],
         "body": "wp_enable_block_templates(  )",
-        "description": "Enable the block templates (editor mode) for themes with theme.json by default."
+        "description": "Enables the block templates (editor mode) for themes with theme.json by default."
 	},
 		"ƒ: wp_encode_emoji": {
         "prefix": ["wp_encode_emoji","wee"],
         "body": "wp_encode_emoji( ${1:\\$content:string} )",
         "description": "Convert emoji characters to their equivalent HTML entity."
+	},
+		"ƒ: wp_enqueue_block_style": {
+        "prefix": ["wp_enqueue_block_style","webs"],
+        "body": "wp_enqueue_block_style( ${1:\\$block_name:string}, ${2:\\$args:array} )",
+        "description": "Enqueues a stylesheet for a specific block."
 	},
 		"ƒ: wp_enqueue_code_editor": {
         "prefix": ["wp_enqueue_code_editor","wece"],
@@ -18864,6 +19394,11 @@
         "prefix": ["wp_enqueue_global_styles","wegs"],
         "body": "wp_enqueue_global_styles(  )",
         "description": "Enqueues the global styles defined via theme.json."
+	},
+		"ƒ: wp_enqueue_global_styles_css_custom_properties": {
+        "prefix": ["wp_enqueue_global_styles_css_custom_properties","wegsccp"],
+        "body": "wp_enqueue_global_styles_css_custom_properties(  )",
+        "description": "Function that enqueues the CSS Custom Properties coming from theme.json."
 	},
 		"ƒ: wp_enqueue_media": {
         "prefix": ["wp_enqueue_media","wem"],
@@ -18939,6 +19474,11 @@
         "prefix": ["wp_filter_content_tags","wfct"],
         "body": "wp_filter_content_tags( ${1:\\$content:string}, ${2:\\$context:string|null} )",
         "description": "Filters specific tags in post content and modifies their markup."
+	},
+		"ƒ: wp_filter_global_styles_post": {
+        "prefix": ["wp_filter_global_styles_post","wfgsp"],
+        "body": "wp_filter_global_styles_post( ${1:\\$data:string} )",
+        "description": "Sanitizes global styles user content removing unsafe rules."
 	},
 		"ƒ: wp_filter_kses": {
         "prefix": ["wp_filter_kses","wfk"],
@@ -19034,6 +19574,11 @@
         "prefix": ["wp_generate_auth_cookie","wgac"],
         "body": "wp_generate_auth_cookie( ${1:\\$user_id:integer}, ${2:\\$expiration:integer}, ${3:\\$scheme:string}, ${4:\\$token:string} )",
         "description": "Generates authentication cookie contents."
+	},
+		"ƒ: wp_generate_block_templates_export_file": {
+        "prefix": ["wp_generate_block_templates_export_file","wgbtef"],
+        "body": "wp_generate_block_templates_export_file(  )",
+        "description": "Creates an export of the current templates and template parts from the site editor at the specified path in a ZIP file."
 	},
 		"ƒ: wp_generate_password": {
         "prefix": ["wp_generate_password","wgp"],
@@ -19225,6 +19770,11 @@
         "body": "wp_get_db_schema( ${1:\\$scope:string}, ${2:\\$blog_id:integer|null} )",
         "description": "Retrieve the SQL for creating database tables."
 	},
+		"ƒ: wp_get_default_extension_for_mime_type": {
+        "prefix": ["wp_get_default_extension_for_mime_type","wgdefmt"],
+        "body": "wp_get_default_extension_for_mime_type( ${1:\\$mime_type:string} )",
+        "description": "Returns first matched extension for the mime-type, as mapped from wp_get_mime_types()."
+	},
 		"ƒ: wp_get_default_update_https_url": {
         "prefix": ["wp_get_default_update_https_url","wgduhu"],
         "body": "wp_get_default_update_https_url(  )",
@@ -19265,6 +19815,21 @@
         "body": "wp_get_extension_error_description( ${1:\\$error:array} )",
         "description": "Get a human readable description of an extension&#039;s error."
 	},
+		"ƒ: wp_get_global_settings": {
+        "prefix": ["wp_get_global_settings","wggs"],
+        "body": "wp_get_global_settings( ${1:\\$path:array}, ${2:\\$context:array} )",
+        "description": "Function to get the settings resulting of merging core, theme, and user data."
+	},
+		"ƒ: wp_get_global_styles": {
+        "prefix": ["wp_get_global_styles","wggs"],
+        "body": "wp_get_global_styles( ${1:\\$path:array}, ${2:\\$context:array} )",
+        "description": "Function to get the styles resulting of merging core, theme, and user data."
+	},
+		"ƒ: wp_get_global_stylesheet": {
+        "prefix": ["wp_get_global_stylesheet","wggs"],
+        "body": "wp_get_global_stylesheet( ${1:\\$types:array} )",
+        "description": "Returns the stylesheet resulting of merging core, theme, and user data."
+	},
 		"ƒ: wp_get_http": {
         "prefix": ["wp_get_http","wgh"],
         "body": "wp_get_http( ${1:\\$url:string}, ${2:\\$file_path:string|boolean}, ${3:\\$red:integer} )",
@@ -19295,6 +19860,11 @@
         "body": "wp_get_installed_translations( ${1:\\$type:string} )",
         "description": "Get installed translations."
 	},
+		"ƒ: wp_get_layout_style": {
+        "prefix": ["wp_get_layout_style","wgls"],
+        "body": "wp_get_layout_style( ${1:\\$selector:string}, ${2:\\$layout:array}, ${3:\\$has_block_gap_support:boolean}, ${4:\\$gap_value:string|null} )",
+        "description": "Generates the CSS corresponding to the provided layout."
+	},
 		"ƒ: wp_get_link_cats": {
         "prefix": ["wp_get_link_cats","wglc"],
         "body": "wp_get_link_cats( ${1:\\$link_id:integer} )",
@@ -19309,6 +19879,11 @@
         "prefix": ["wp_get_linksbyname","wgl"],
         "body": "wp_get_linksbyname( ${1:\\$category:string}, ${2:\\$args:string} )",
         "description": "Gets the links associated with the named category."
+	},
+		"ƒ: wp_get_loading_attr_default": {
+        "prefix": ["wp_get_loading_attr_default","wglad"],
+        "body": "wp_get_loading_attr_default( ${1:\\$context:string} )",
+        "description": "Gets the default value to use for a `loading` attribute on an element."
 	},
 		"ƒ: wp_get_media_creation_timestamp": {
         "prefix": ["wp_get_media_creation_timestamp","wgmct"],
@@ -19422,7 +19997,7 @@
 	},
 		"ƒ: wp_get_post_parent_id": {
         "prefix": ["wp_get_post_parent_id","wgppi"],
-        "body": "wp_get_post_parent_id( ${1:\\$post:integer|WP_Post} )",
+        "body": "wp_get_post_parent_id( ${1:\\$post:integer|WP_Post|null} )",
         "description": "Returns the ID of the post&#039;s parent."
 	},
 		"ƒ: wp_get_post_revision": {
@@ -19434,6 +20009,11 @@
         "prefix": ["wp_get_post_revisions","wgpr"],
         "body": "wp_get_post_revisions( ${1:\\$post_id:integer|WP_Post}, ${2:\\$args:array|null} )",
         "description": "Returns all revisions of specified post."
+	},
+		"ƒ: wp_get_post_revisions_url": {
+        "prefix": ["wp_get_post_revisions_url","wgpru"],
+        "body": "wp_get_post_revisions_url( ${1:\\$post_id:integer|WP_Post} )",
+        "description": "Returns the url for viewing and potentially restoring revisions of a given post."
 	},
 		"ƒ: wp_get_post_tags": {
         "prefix": ["wp_get_post_tags","wgpt"],
@@ -19514,6 +20094,11 @@
         "prefix": ["wp_get_shortlink","wgs"],
         "body": "wp_get_shortlink( ${1:\\$id:integer}, ${2:\\$context:string}, ${3:\\$allow_slugs:boolean} )",
         "description": "Returns a shortlink for a post, page, attachment, or site."
+	},
+		"ƒ: wp_get_sidebar": {
+        "prefix": ["wp_get_sidebar","wgs"],
+        "body": "wp_get_sidebar( ${1:\\$id:string} )",
+        "description": "Retrieves the registered sidebar with the given ID."
 	},
 		"ƒ: wp_get_sidebars_widgets": {
         "prefix": ["wp_get_sidebars_widgets","wgsw"],
@@ -19633,7 +20218,7 @@
 		"ƒ: wp_get_webp_info": {
         "prefix": ["wp_get_webp_info","wgwi"],
         "body": "wp_get_webp_info( ${1:\\$filename:string} )",
-        "description": "Extracts meta information about a webp file: width, height and type."
+        "description": "Extracts meta information about a WebP file: width, height, and type."
 	},
 		"ƒ: wp_get_widget_defaults": {
         "prefix": ["wp_get_widget_defaults","wgwd"],
@@ -19674,11 +20259,6 @@
         "prefix": ["wp_has_border_feature_support","whbfs"],
         "body": "wp_has_border_feature_support( ${1:\\$block_type:WP_Block_Type}, ${2:\\$feature:string}, ${3:\\$default:mixed} )",
         "description": "Checks whether the current block type supports the border feature requested."
-	},
-		"ƒ: wp_has_spacing_feature_support": {
-        "prefix": ["wp_has_spacing_feature_support","whsfs"],
-        "body": "wp_has_spacing_feature_support( ${1:\\$block_type:WP_Block_Type}, ${2:\\$feature:string}, ${3:\\$default:mixed} )",
-        "description": "Checks whether the current block type supports the spacing feature requested."
 	},
 		"ƒ: wp_hash": {
         "prefix": ["wp_hash","wh"],
@@ -19805,6 +20385,11 @@
         "body": "wp_import_upload_form( ${1:\\$action:string} )",
         "description": "Outputs the form used by the importers to accept the data to be imported"
 	},
+		"ƒ: wp_increase_content_media_count": {
+        "prefix": ["wp_increase_content_media_count","wicmc"],
+        "body": "wp_increase_content_media_count( ${1:\\$amount:integer} )",
+        "description": "Increases an internal content media count variable."
+	},
 		"ƒ: wp_init_targeted_link_rel_filters": {
         "prefix": ["wp_init_targeted_link_rel_filters","witlrf"],
         "body": "wp_init_targeted_link_rel_filters(  )",
@@ -19900,6 +20485,11 @@
         "body": "wp_is_application_passwords_available_for_user( ${1:\\$user:integer|WP_User} )",
         "description": "Checks if Application Passwords is available for a specific user."
 	},
+		"ƒ: wp_is_application_passwords_supported": {
+        "prefix": ["wp_is_application_passwords_supported","wiaps"],
+        "body": "wp_is_application_passwords_supported(  )",
+        "description": "Checks if Application Passwords is supported."
+	},
 		"ƒ: wp_is_authorize_application_password_request_valid": {
         "prefix": ["wp_is_authorize_application_password_request_valid","wiaaprv"],
         "body": "wp_is_authorize_application_password_request_valid( ${1:\\$request:array}, ${2:\\$user:WP_User} )",
@@ -19914,6 +20504,11 @@
         "prefix": ["wp_is_auto_update_forced_for_item","wiauffi"],
         "body": "wp_is_auto_update_forced_for_item( ${1:\\$type:string}, ${2:\\$update:boolean|null}, ${3:\\$item:object} )",
         "description": "Checks whether auto-updates are forced for an item."
+	},
+		"ƒ: wp_is_block_theme": {
+        "prefix": ["wp_is_block_theme","wibt"],
+        "body": "wp_is_block_theme(  )",
+        "description": "Returns whether the current theme is a block-based theme or not."
 	},
 		"ƒ: wp_is_fatal_error_handler_enabled": {
         "prefix": ["wp_is_fatal_error_handler_enabled","wifehe"],
@@ -20044,6 +20639,11 @@
         "prefix": ["wp_json_encode","wje"],
         "body": "wp_json_encode( ${1:\\$data:mixed}, ${2:\\$options:integer}, ${3:\\$depth:integer} )",
         "description": "Encode a variable into JSON, with some sanity checks."
+	},
+		"ƒ: wp_json_file_decode": {
+        "prefix": ["wp_json_file_decode","wjfd"],
+        "body": "wp_json_file_decode( ${1:\\$filename:string}, ${2:\\$options:array} )",
+        "description": "Reads and decodes a JSON file."
 	},
 		"ƒ: wp_just_in_time_script_localization": {
         "prefix": ["wp_just_in_time_script_localization","wjitsl"],
@@ -20248,7 +20848,7 @@
 		"ƒ: wp_list_pluck": {
         "prefix": ["wp_list_pluck","wlp"],
         "body": "wp_list_pluck( ${1:\\$list:array}, ${2:\\$field:integer|string}, ${3:\\$index_key:integer|string|null} )",
-        "description": "Pluck a certain field out of each object in a list."
+        "description": "Plucks a certain field out of each object or array in an array."
 	},
 		"ƒ: wp_list_post_revisions": {
         "prefix": ["wp_list_post_revisions","wlpr"],
@@ -20258,7 +20858,12 @@
 		"ƒ: wp_list_sort": {
         "prefix": ["wp_list_sort","wls"],
         "body": "wp_list_sort( ${1:\\$list:array}, ${2:\\$orderby:string|array}, ${3:\\$order:string}, ${4:\\$preserve_keys:boolean} )",
-        "description": "Sorts a list of objects, based on one or more orderby arguments."
+        "description": "Sorts an array of objects or arrays based on one or more orderby arguments."
+	},
+		"ƒ: wp_list_users": {
+        "prefix": ["wp_list_users","wlu"],
+        "body": "wp_list_users( ${1:\\$args:string|array} )",
+        "description": "List all the users of the site, with several options available."
 	},
 		"ƒ: wp_list_widget_controls": {
         "prefix": ["wp_list_widget_controls","wlwc"],
@@ -20383,12 +20988,12 @@
 		"ƒ: wp_make_plugin_file_tree": {
         "prefix": ["wp_make_plugin_file_tree","wmpft"],
         "body": "wp_make_plugin_file_tree( ${1:\\$plugin_editable_files:array} )",
-        "description": "Makes a tree structure for the plugin editor&#039;s file list."
+        "description": "Makes a tree structure for the plugin file editor&#039;s file list."
 	},
 		"ƒ: wp_make_theme_file_tree": {
         "prefix": ["wp_make_theme_file_tree","wmtft"],
         "body": "wp_make_theme_file_tree( ${1:\\$allowed_files:array} )",
-        "description": "Makes a tree structure for the theme editor&#039;s file list."
+        "description": "Makes a tree structure for the theme file editor&#039;s file list."
 	},
 		"ƒ: wp_map_nav_menu_locations": {
         "prefix": ["wp_map_nav_menu_locations","wmnml"],
@@ -20424,6 +21029,11 @@
         "prefix": ["wp_maybe_decline_date","wmdd"],
         "body": "wp_maybe_decline_date( ${1:\\$date:string}, ${2:\\$format:string} )",
         "description": "Determines if the date should be declined."
+	},
+		"ƒ: wp_maybe_enqueue_oembed_host_js": {
+        "prefix": ["wp_maybe_enqueue_oembed_host_js","wmeohj"],
+        "body": "wp_maybe_enqueue_oembed_host_js( ${1:\\$html:string} )",
+        "description": "Enqueue the wp-embed script if the provided oEmbed HTML contains a post embed."
 	},
 		"ƒ: wp_maybe_generate_attachment_metadata": {
         "prefix": ["wp_maybe_generate_attachment_metadata","wmgam"],
@@ -20725,6 +21335,11 @@
         "body": "wp_old_slug_redirect(  )",
         "description": "Redirect old slugs to the correct permalink."
 	},
+		"ƒ: wp_omit_loading_attr_threshold": {
+        "prefix": ["wp_omit_loading_attr_threshold","wolat"],
+        "body": "wp_omit_loading_attr_threshold( ${1:\\$force:boolean} )",
+        "description": "Gets the threshold for how many of the first content media elements to not lazy-load."
+	},
 		"ƒ: wp_opcache_invalidate": {
         "prefix": ["wp_opcache_invalidate","woi"],
         "body": "wp_opcache_invalidate( ${1:\\$filepath:string}, ${2:\\$force:boolean} )",
@@ -20948,7 +21563,7 @@
 		"ƒ: wp_print_plugin_file_tree": {
         "prefix": ["wp_print_plugin_file_tree","wppft"],
         "body": "wp_print_plugin_file_tree( ${1:\\$tree:array|string}, ${2:\\$label:string}, ${3:\\$level:integer}, ${4:\\$size:integer}, ${5:\\$index:integer} )",
-        "description": "Outputs the formatted file list for the plugin editor."
+        "description": "Outputs the formatted file list for the plugin file editor."
 	},
 		"ƒ: wp_print_request_filesystem_credentials_modal": {
         "prefix": ["wp_print_request_filesystem_credentials_modal","wprfcm"],
@@ -20978,7 +21593,7 @@
 		"ƒ: wp_print_theme_file_tree": {
         "prefix": ["wp_print_theme_file_tree","wptft"],
         "body": "wp_print_theme_file_tree( ${1:\\$tree:array|string}, ${2:\\$level:integer}, ${3:\\$size:integer}, ${4:\\$index:integer} )",
-        "description": "Outputs the formatted file list for the theme editor."
+        "description": "Outputs the formatted file list for the theme file editor."
 	},
 		"ƒ: wp_print_update_row_templates": {
         "prefix": ["wp_print_update_row_templates","wpurt"],
@@ -21090,6 +21705,11 @@
         "body": "wp_read_video_metadata( ${1:\\$file:string} )",
         "description": "Retrieve metadata from a video file&#039;s ID3 tags"
 	},
+		"ƒ: wp_readonly": {
+        "prefix": ["wp_readonly","wr"],
+        "body": "wp_readonly( ${1:\\$readonly:mixed}, ${2:\\$current:mixed}, ${3:\\$echo:boolean} )",
+        "description": "Outputs the HTML readonly attribute."
+	},
 		"ƒ: wp_recovery_mode": {
         "prefix": ["wp_recovery_mode","wrm"],
         "body": "wp_recovery_mode(  )",
@@ -21164,6 +21784,11 @@
         "prefix": ["wp_register_custom_classname_support","wrccs"],
         "body": "wp_register_custom_classname_support( ${1:\\$block_type:WP_Block_Type} )",
         "description": "Registers the custom classname block attribute for block types that support it."
+	},
+		"ƒ: wp_register_dimensions_support": {
+        "prefix": ["wp_register_dimensions_support","wrds"],
+        "body": "wp_register_dimensions_support( ${1:\\$block_type:WP_Block_Type} )",
+        "description": "Registers the style block attribute for block types that support it."
 	},
 		"ƒ: wp_register_duotone_support": {
         "prefix": ["wp_register_duotone_support","wrds"],
@@ -21332,13 +21957,18 @@
 	},
 		"ƒ: wp_remove_object_terms": {
         "prefix": ["wp_remove_object_terms","wrot"],
-        "body": "wp_remove_object_terms( ${1:\\$object_id:integer}, ${2:\\$terms:string|integer|array}, ${3:\\$taxonomy:array|string} )",
+        "body": "wp_remove_object_terms( ${1:\\$object_id:integer}, ${2:\\$terms:string|integer|array}, ${3:\\$taxonomy:string} )",
         "description": "Remove term(s) associated with a given object."
 	},
 		"ƒ: wp_remove_targeted_link_rel_filters": {
         "prefix": ["wp_remove_targeted_link_rel_filters","wrtlrf"],
         "body": "wp_remove_targeted_link_rel_filters(  )",
         "description": "Removes all filters modifying the rel attribute of targeted links."
+	},
+		"ƒ: wp_render_duotone_filter_preset": {
+        "prefix": ["wp_render_duotone_filter_preset","wrdfp"],
+        "body": "wp_render_duotone_filter_preset( ${1:\\$preset:array} )",
+        "description": "Renders the duotone filter SVG and returns the CSS filter property to reference the rendered SVG."
 	},
 		"ƒ: wp_render_duotone_support": {
         "prefix": ["wp_render_duotone_support","wrds"],
@@ -21657,7 +22287,7 @@
 	},
 		"ƒ: wp_set_current_user": {
         "prefix": ["wp_set_current_user","wscu"],
-        "body": "wp_set_current_user( ${1:\\$id:integer}, ${2:\\$name:string} )",
+        "body": "wp_set_current_user( ${1:\\$id:integer|null}, ${2:\\$name:string} )",
         "description": "Changes the current user by ID or name."
 	},
 		"ƒ: wp_set_internal_encoding": {
@@ -21698,7 +22328,7 @@
 		"ƒ: wp_set_post_lock": {
         "prefix": ["wp_set_post_lock","wspl"],
         "body": "wp_set_post_lock( ${1:\\$post_id:integer|WP_Post} )",
-        "description": "Mark the post as currently being edited by the current user"
+        "description": "Marks the post as currently being edited by the current user."
 	},
 		"ƒ: wp_set_post_tags": {
         "prefix": ["wp_set_post_tags","wspt"],
@@ -21719,6 +22349,11 @@
         "prefix": ["wp_set_sidebars_widgets","wssw"],
         "body": "wp_set_sidebars_widgets( ${1:\\$sidebars_widgets:array} )",
         "description": "Set the sidebar widget option to update sidebars."
+	},
+		"ƒ: wp_set_unique_slug_on_create_template_part": {
+        "prefix": ["wp_set_unique_slug_on_create_template_part","wsusoctp"],
+        "body": "wp_set_unique_slug_on_create_template_part( ${1:\\$post_id:integer} )",
+        "description": "Sets a custom slug when creating auto-draft template parts."
 	},
 		"ƒ: wp_set_wpdb_vars": {
         "prefix": ["wp_set_wpdb_vars","wswv"],
@@ -21825,6 +22460,11 @@
         "body": "wp_skip_border_serialization( ${1:\\$block_type:WP_Block_Type} )",
         "description": "Checks whether serialization of the current block&#039;s border properties should occur."
 	},
+		"ƒ: wp_skip_dimensions_serialization": {
+        "prefix": ["wp_skip_dimensions_serialization","wsds"],
+        "body": "wp_skip_dimensions_serialization( ${1:\\$block_type:WP_Block_type} )",
+        "description": "Checks whether serialization of the current block&#039;s dimensions properties should occur."
+	},
 		"ƒ: wp_skip_paused_plugins": {
         "prefix": ["wp_skip_paused_plugins","wspp"],
         "body": "wp_skip_paused_plugins( ${1:\\$plugins:array} )",
@@ -21834,6 +22474,11 @@
         "prefix": ["wp_skip_paused_themes","wspt"],
         "body": "wp_skip_paused_themes( ${1:\\$themes:array} )",
         "description": "Filters a given list of themes, removing any paused themes from it."
+	},
+		"ƒ: wp_skip_spacing_serialization": {
+        "prefix": ["wp_skip_spacing_serialization","wsss"],
+        "body": "wp_skip_spacing_serialization( ${1:\\$block_type:WP_Block_Type} )",
+        "description": "Checks whether serialization of the current block&#039;s spacing properties should occur."
 	},
 		"ƒ: wp_slash": {
         "prefix": ["wp_slash","ws"],
@@ -22018,7 +22663,7 @@
 		"ƒ: wp_timezone": {
         "prefix": ["wp_timezone","wt"],
         "body": "wp_timezone(  )",
-        "description": "Retrieves the timezone from site settings as a `DateTimeZone` object."
+        "description": "Retrieves the timezone of the site as a `DateTimeZone` object."
 	},
 		"ƒ: wp_timezone_choice": {
         "prefix": ["wp_timezone_choice","wtc"],
@@ -22033,7 +22678,7 @@
 		"ƒ: wp_timezone_string": {
         "prefix": ["wp_timezone_string","wts"],
         "body": "wp_timezone_string(  )",
-        "description": "Retrieves the timezone from site settings as a string."
+        "description": "Retrieves the timezone of the site as a string."
 	},
 		"ƒ: wp_timezone_supported": {
         "prefix": ["wp_timezone_supported","wts"],
@@ -22053,7 +22698,7 @@
 		"ƒ: wp_tinycolor_hsl_to_rgb": {
         "prefix": ["wp_tinycolor_hsl_to_rgb","wthtr"],
         "body": "wp_tinycolor_hsl_to_rgb( ${1:\\$hsl_color:array} )",
-        "description": "Convert an HSL object to an RGB object with converted and rounded values."
+        "description": "Converts an HSL object to an RGB object with converted and rounded values."
 	},
 		"ƒ: wp_tinycolor_hue_to_rgb": {
         "prefix": ["wp_tinycolor_hue_to_rgb","wthtr"],
@@ -22063,12 +22708,12 @@
 		"ƒ: wp_tinycolor_rgb_to_rgb": {
         "prefix": ["wp_tinycolor_rgb_to_rgb","wtrtr"],
         "body": "wp_tinycolor_rgb_to_rgb( ${1:\\$rgb_color:array} )",
-        "description": "Round and convert values of an RGB object."
+        "description": "Rounds and converts values of an RGB object."
 	},
 		"ƒ: wp_tinycolor_string_to_rgb": {
         "prefix": ["wp_tinycolor_string_to_rgb","wtstr"],
         "body": "wp_tinycolor_string_to_rgb( ${1:\\$color_str:string} )",
-        "description": "Parses hex, hsl, and rgb CSS strings using the same regex as TinyColor v1.4.2 used in the JavaScript. Only colors output from react-color are implemented and the alpha value is ignored as it is not used in duotone."
+        "description": "Parses hex, hsl, and rgb CSS strings using the same regex as TinyColor v1.4.2 used in the JavaScript. Only colors output from react-color are implemented."
 	},
 		"ƒ: wp_tinymce_inline_scripts": {
         "prefix": ["wp_tinymce_inline_scripts","wtis"],
@@ -22287,7 +22932,7 @@
 	},
 		"ƒ: wp_update_nav_menu_item": {
         "prefix": ["wp_update_nav_menu_item","wunmi"],
-        "body": "wp_update_nav_menu_item( ${1:\\$menu_id:integer}, ${2:\\$menu_item_db_id:integer}, ${3:\\$menu_item_data:array} )",
+        "body": "wp_update_nav_menu_item( ${1:\\$menu_id:integer}, ${2:\\$menu_item_db_id:integer}, ${3:\\$menu_item_data:array}, ${4:\\$fire_after_hooks:boolean} )",
         "description": "Save the properties of a menu item or create a new one."
 	},
 		"ƒ: wp_update_nav_menu_object": {
@@ -22513,7 +23158,7 @@
 		"ƒ: wp_write_post": {
         "prefix": ["wp_write_post","wwp"],
         "body": "wp_write_post(  )",
-        "description": "Creates a new post from the &quot;Write Post&quot; form using $_POST information."
+        "description": "Creates a new post from the &quot;Write Post&quot; form using `$_POST` information."
 	},
 		"ƒ: wpautop": {
         "prefix": ["wpautop"],
@@ -22603,7 +23248,7 @@
 		"ƒ: wpmu_signup_stylesheet": {
         "prefix": ["wpmu_signup_stylesheet","wss"],
         "body": "wpmu_signup_stylesheet(  )",
-        "description": "Prints styles for front-end Multisite signup pages"
+        "description": "Prints styles for front-end Multisite Sign-up pages."
 	},
 		"ƒ: wpmu_signup_user": {
         "prefix": ["wpmu_signup_user","wsu"],
