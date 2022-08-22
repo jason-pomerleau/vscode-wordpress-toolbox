@@ -1,8 +1,8 @@
 {
     "name": "wordpress-toolbox",
     "displayName": "WordPress Snippets",
-    "description": "The ultimate WordPress snippet collection. WordPress 5.9",
-    "version": "1.3.12",
+    "description": "The ultimate WordPress snippet collection. WordPress 6.0",
+    "version": "1.3.13",
     "publisher": "wordpresstoolbox",
     "engines": {
         "vscode": "^1.19.0"

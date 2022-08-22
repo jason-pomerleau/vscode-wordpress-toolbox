@@ -1,5 +1,9 @@
 # Change Log
 
+## [1.3.13] - 2022-08-22
+### Updated
+- Updated snippets to WordPress 6.0.1 release.
+
 ## [1.3.12] - 2022-02-03
 ### Updated
 - Updated snippets to WordPress 5.9 release.
