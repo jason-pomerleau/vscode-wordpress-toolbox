@@ -1,5 +1,9 @@
 # Change Log
 
+## [1.3.14] - 2022-10-12
+### Updated
+- Fixed an issue with spacing in function snippets.
+
 ## [1.3.13] - 2022-08-22
 ### Updated
 - Updated snippets to WordPress 6.0.1 release.
