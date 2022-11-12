@@ -1,5 +1,9 @@
 # Change Log
 
+## [1.3.15] - 2022-11-12
+### Updated
+- Updated snippets to WordPress 6.1 release. Fixed an issue where several snippets prefix was set to "if", which was taking precedence over PHP's if statement in the editor.
+
 ## [1.3.14] - 2022-10-12
 ### Updated
 - Fixed an issue with spacing in function snippets.

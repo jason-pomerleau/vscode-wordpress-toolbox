@@ -2,15 +2,15 @@
 
 By [wpprotools.io](https://www.wpprotools.io/)
 
-*	Snippets for every WordPress function, class and constant.
-*	Easy auto-completion with type hints and tab stops in all the right places.
-*	Emmet-style abbreviations for all functions. For example, type `gti` for the `get_the_ID` function. (2 letter minimum)
-*	WordPress Release: **6.0**
-	-	**3,644** Functions
-	-	**498** Classes
-	-	**619** Constants
-*	[Extension Docs](https://wpprotools.io/vscode-snippets/)
-*	[WordPress Plugin Directory](https://wpprotools.io/plugins/)
+* Snippets for every WordPress function, class and constant.
+* Easy auto-completion with type hints and tab stops in all the right places.
+* Emmet-style abbreviations for all functions. For example, type `gti` for the `get_the_ID` function. (2 letter minimum)
+* WordPress Release: **6.1**
+	* **3,688** Functions
+	* **505** Classes
+	* **621** Constants
+* [Extension Docs](https://wpprotools.io/vscode-snippets/)
+* [WordPress Plugin Directory](https://wpprotools.io/plugins/)
 
 ## Requirements
 
