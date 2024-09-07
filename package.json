@@ -19,10 +19,10 @@
                 "language": "php",
                 "path": "./snippets/snippets.json"
             },
-			{
-				"language": "blade",
-				"path": "./snippets/snippets.json"
-			}
+            {
+                "language": "blade",
+                "path": "./snippets/snippets.json"
+            }
         ]
     },
     "icon": "images/wpprotools-icon.png",
