@@ -15,3 +15,5 @@ By [wpprotools.io](https://www.wpprotools.io/)
 ## Requirements
 
 These snippets are bound to the PHP language context. Your cursor will need to be inside a set of PHP tags.
+
+They also will work with the Blade language addev by the [laravel-blade](https://marketplace.visualstudio.com/items?itemName=cjhowe7.laravel-blade) extension.
