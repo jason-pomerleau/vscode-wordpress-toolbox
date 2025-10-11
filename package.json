@@ -1,8 +1,8 @@
 {
     "name": "wordpress-toolbox",
     "displayName": "WordPress Snippets",
-    "description": "The ultimate WordPress snippet collection. WordPress 6.0",
-    "version": "1.3.15",
+    "description": "The ultimate WordPress snippet collection. WordPress 6.8.3",
+    "version": "1.4.0-beta",
     "publisher": "wordpresstoolbox",
     "engines": {
         "vscode": "^1.19.0"
@@ -13,15 +13,41 @@
     "keywords": [
         "wordpress"
     ],
+    "activationEvents": [
+        "onLanguage:php",
+        "onStartupFinished"
+    ],
+    "main": "./extension.js",
     "contributes": {
+        "configuration": {
+            "title": "WordPress Snippets",
+            "properties": {
+                "wpSnippets.snippetSet": {
+                    "type": "string",
+                    "enum": ["Full", "Flat"],
+                    "default": "Full",
+                    "description": "Choose which snippet set to use. (Changing this setting will reload VSCode)",
+                    "enumDescriptions": [
+                        "Use Full WordPress Snippets (with arguments)",
+                        "Use Flat WordPress Snippets (no arguments)"
+                    ]
+                }
+            }
+        },
         "snippets": [
             {
                 "language": "php",
                 "path": "./snippets/snippets.json"
+            }
+        ],
+        "commands": [
+            {
+                "command": "extension.useFullSnippets",
+                "title": "Use Full WordPress Snippets (reloads VSCode)"
             },
             {
-                "language": "blade",
-                "path": "./snippets/snippets.json"
+                "command": "extension.useFlatSnippets",
+                "title": "Use Flat WordPress Snippets (reloads VSCode)"
             }
         ]
     },
@@ -37,5 +63,8 @@
     },
     "dependencies": {
         "vsce": "^1.75.0"
+    },
+    "devDependencies": {
+        "vscode": "^1.1.37"
     }
 }

@@ -1,5 +1,11 @@
 # Change Log
 
+## [1.4.0] - 2025-10-02
+### Updated
+- Updated snippets to WordPress 6.8.3 release.
+- Snippet library now excludes internal WordPress functions.
+- Added support for switching snippet sets between Full or Flat.
+
 ## [1.3.15] - 2022-11-12
 ### Updated
 - Updated snippets to WordPress 6.1 release. Fixed an issue where several snippets prefix was set to "if", which was taking precedence over PHP's if statement in the editor.
